@@ -38,7 +38,7 @@ saluti = [
 #---------------------------------------------------------------------------------------------------
 morning = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"]
 noon = ["12", "13", "14", "15", "16"]
-evening = ["17", "18", "19", "20"]
+evening = ["17", "18", "19", "20", "21"]
 
 bot_prefixes = ('-', '+', '*', '!', '?', '.', ':', ',', ';', '_', '£', '$', '%', '&', '=', '^', '>', '<', 'à', 'é', 'ì', 'ò', 'ù', '~', '`', '"')
 IVR_ID = os.getenv("IVR")
@@ -93,13 +93,15 @@ class Saluti(commands.Cog):
                     if ora_locale in noon:
                         saluto = "Buon pomeriggio"
                     if ora_locale in evening:
-                        saluto = "Buonanotte"
+                        saluto = "Buonasera"
                     await message.add_reaction(emoji_saluto)
-                    await channel.trigger_typing()
-                    await asyncio.sleep(0.5)
-                    await channel.send(embed = discord.Embed(
-                        description = f'{saluto} <@{message.author.id}>',
-                        colour = discord.Colour.blue()))
+                    
+                    if saluto:
+                        await channel.trigger_typing()
+                        await asyncio.sleep(0.5)
+                        await channel.send(embed = discord.Embed(
+                            description = f'{saluto} <@{message.author.id}>',
+                            colour = discord.Colour.blue()))
                     saluto_giorno = False
 
                 if saluto_notte is True:
