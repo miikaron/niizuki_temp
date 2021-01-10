@@ -89,7 +89,7 @@ class Saluti(commands.Cog):
                 
                 if saluto_giorno is True:
                     if ora_locale in morning:
-                            saluto = "Buongiorno"
+                        saluto = "Buongiorno"
                     if ora_locale in noon:
                         saluto = "Buon pomeriggio"
                     if ora_locale in evening:
