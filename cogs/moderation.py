@@ -34,7 +34,7 @@ class Moderation(commands.Cog):
             f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
-            f"Prefisso_bot + **blacklist_show** + __mostra canali nella blacklist__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_show** [mostra canali nella blacklist]\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **blacklist_add** + __ID canale da aggiungere__\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **blacklist_remove** + __ID canale da rimuovere__\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **aggiorna_database** [bot offline durante l'aggiornamento]\n> permessi richiesti: essere moderatore senior",
@@ -46,7 +46,7 @@ class Moderation(commands.Cog):
             f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
-            f"Prefisso_bot + **blacklist_show** + __mostra canali nella blacklist__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_show** [mostra canali nella blacklist]\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **blacklist_add** + __ID canale da aggiungere__\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **blacklist_remove** + __ID canale da rimuovere__\n> permessi richiesti: essere moderatore\n" +
             f"Prefisso_bot + **aggiorna_database** [bot offline durante l'aggiornamento]\n> permessi richiesti: essere moderatore senior\n" +
