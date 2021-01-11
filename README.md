@@ -1,14 +1,17 @@
-# niizuki_temp 
-< Repository Github pubblica di prova >
+![Community banner](https://cdn.discordapp.com/attachments/648862706258149396/723233824405979196/al_banner.png)
 
-- Progetto a cura di __watermelonTm__
-- tag Discord: **西瓜tm#6926**
+#### Server Discord: [link invito](https://discord.gg/DUQNWdu)  
 
-- Data di inizio progetto: 31 dicembre 2018
-- Bot responsabile: **Kaga#1416** -> Sostituita da **Niizuki#3761** il giorno 07/07/2019
+## < Repository Github pubblica di prova >  
 
-- Ringraziamenti: 
-**RLPG#1608**, **RedZero#2403** e la community italiana di Azur Lane
+#### Progetto a cura di __watermelonTm__
+###### Discord tag: **西瓜tm#6926**  
+  
+###### Data di inizio progetto: 31 dicembre 2018
+###### Bot responsabile: **Niizuki#3761** (dal giorno 07/07/2019)
+###### Bot precedente: **Kaga#1416**  
 
-- Link invito al server Discord:
-https://discord.gg/DUQNWdu
+##### Ringraziamenti: 
+> **RLPG#1608**  
+> **RedZero#2403**  
+> La community italiana di Azur Lane
