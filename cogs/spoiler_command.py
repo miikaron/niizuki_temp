@@ -2,9 +2,7 @@ import discord, os
 from discord.ext import commands
 from discord.ext.commands import Bot, Cog
 from os.path import join
-import asyncio, json, string, traceback
-from dotenv import load_dotenv
-load_dotenv()
+import asyncio
 
 SPOILER_PREFIX = 'spoiler!'
 sending = False
