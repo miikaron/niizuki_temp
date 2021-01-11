@@ -9,9 +9,9 @@
   
 ###### Data di inizio progetto: 31 dicembre 2018
 ###### Bot responsabile: Niizuki#3761 (dal giorno 07/07/2019)
-###### Bot precedente: Kaga#1416
-<br><br>
-##### Ringraziamenti: 
-> **RLPG#1608**  
-> **RedZero#2403**  
+###### Bot precedente: Kaga#1416  
+
+##### Ringraziamenti:  
+> RLPG#1608  
+> RedZero#2403  
 > La community italiana di Azur Lane
