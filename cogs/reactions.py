@@ -47,7 +47,7 @@ class Reaction(commands.Cog):
                     attachment_list = [attachment for attachment in reaction_message.attachments]
                     try:
                         # Folder path
-                        PATH = join('file_niizuki', 'spoiler')
+                        PATH = join('file_niizuki', 'spoiler_flag')
                         attachments_author_id = []
 
                         for attachment in attachment_list:
