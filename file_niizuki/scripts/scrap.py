@@ -6,6 +6,8 @@ import time
 import json
 import traceback
 
+FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"}
+
 def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     wiki = "https://azurlane.koumakan.jp"
@@ -15,11 +17,11 @@ def aggiorna_database():
             os.remove(join("file_niizuki", "mydatabase.json"))
         except Exception:
             print(traceback.format_exc())
+
     #----------------------------------------------------------------------------------------------------
     #List of Ships
     ship_list_url = wiki+"/List_of_Ships"
-    #Old version: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"}
+    headers = FIREFOX_AGENT
     shiplist_req = requests.get(ship_list_url, headers=headers)
     #BeautifulSoup object: Collect and Parse
     sl_soup = BeautifulSoup(shiplist_req.text, "html.parser")
@@ -63,17 +65,16 @@ def aggiorna_database():
     # print(collab_ships)
     # print(lista_navi)
     #----------------------------------------------------------------------------------------------------
-    # lista_navi2 = ["/Z28", "/Mogami"] # TEST
+    lista_navi2 = ["/Nürnberg"] # TEST
 
-    for nave in lista_navi:
+    for nave in lista_navi2:
         nome = nave
         try:
             time.sleep(0.5)
             #Pagina Wiki: Nave
             main_url = wiki+nome
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"}
+            headers = FIREFOX_AGENT
             req = requests.get(main_url, headers=headers)
-            #BeautifulSoup object: Collect and Parse
             soup = BeautifulSoup(req.text, "html.parser")
             #Body: Nave
             body = soup.body
@@ -398,7 +399,7 @@ def aggiorna_database():
                         skill_color.append(style)
                         raw_text = td_skill.find_next_sibling("td").text
     #----------------------------------------------------------------------------------------------------
-                        #Nowaki skill fix
+                        #Fix Nowaki's skill
                         target = "0% -"
                         res = [i for i in range(len(raw_text)) if raw_text.startswith(target, i)]
                         if res:
@@ -448,23 +449,23 @@ def aggiorna_database():
                 lb6 = " "
     #----------------------------------------------------------------------------------------------------
             try:
-                nome_skill1 = "**"+skill_name[0]+"** " if skill_name[0] and len(skill_name[0])>2 else "Non disponibile"
+                nome_skill1 = skill_name[0] if skill_name[0] and len(skill_name[0])>2 else "Non disponibile"
             except IndexError:
                 nome_skill1 = "Non disponibile"
             try:
-                nome_skill2 = "**"+skill_name[1]+"** " if skill_name[1] and len(skill_name[1])>2 else " "
+                nome_skill2 = skill_name[1] if skill_name[1] and len(skill_name[1])>2 else " "
             except IndexError:
                 nome_skill2 = " "
             try:
-                nome_skill3 = "**"+skill_name[2]+"** " if skill_name[2] and len(skill_name[2])>2 else " "
+                nome_skill3 = skill_name[2] if skill_name[2] and len(skill_name[2])>2 else " "
             except IndexError:
                 nome_skill3 = " "
             try:
-                nome_skill4 = "**"+skill_name[3]+"** " if skill_name[3] and len(skill_name[3])>2 else " "
+                nome_skill4 = skill_name[3] if skill_name[3] and len(skill_name[3])>2 else " "
             except IndexError:
                 nome_skill4 = " "
             try:
-                nome_skill5 = "**"+skill_name[4]+"** " if skill_name[4] and len(skill_name[4])>2 else " "
+                nome_skill5 = skill_name[4] if skill_name[4] and len(skill_name[4])>2 else " "
             except IndexError:
                 nome_skill5 = " "
     #----------------------------------------------------------------------------------------------------
@@ -553,7 +554,7 @@ def aggiorna_database():
                         "\n• 14% - Portable Repair Kit: Heals all ships in the fleet for 0.4% (2.4%) of Yuubari's maximum HP." + \
                         "\n• 10% - Value Bandages: Heals all ships in the fleet for 9 HP."
                 else:
-                    skill3 = "\n"+skill_text[2]
+                    skill3 = "\n"+skill_text[2] if skill_name[2] else " "
             except IndexError:
                 skill3 = " "
             try:
@@ -576,22 +577,21 @@ def aggiorna_database():
             gallery = "/Gallery"
     #----------------------------------------------------------------------------------------------------
             s_url = wiki+nome+gallery
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"}
+            headers = FIREFOX_AGENT
             skin_req = requests.get(s_url, headers=headers)
-            #BeautifulSoup object: Collect and Parse
             skin_soup = BeautifulSoup(skin_req.text, "html.parser")
             #Body (gallery)
             body2 = skin_soup.body
     #----------------------------------------------------------------------------------------------------
             nome_skin = []
             img_list = []
-            removed_title = ["Normal", "CN", "Censored"]
+            removed_title = ["Normal", "CN", "Censored", "Without Background"]
             divs = body2.find_all("div", {"class": "tabbertab"}, title = True)
             for div in divs:
                 #print(div)
                 title = div.get("title")
 
-                #Remove [ Normal] [CN (or CENSORED)] button
+                #Remove [ Normal], [CN (or CENSORED)], [Without Background] buttons
                 if title not in removed_title:
                     nome_skin.append(title)
                     a = div.find("a", {"class": "image"})
@@ -876,15 +876,15 @@ def aggiorna_database():
                     ],
                     "skill": [
                         #1
-                        nome_skill1 + colore1 + skill1,
+                        nome_skill1 + " " + colore1 + skill1,
                         #2
-                        nome_skill2 + colore2 + skill2,
+                        nome_skill2 + " " + colore2 + skill2,
                         #3
-                        nome_skill3 + colore3 + skill3,
+                        nome_skill3 + " " + colore3 + skill3,
                         #4
-                        nome_skill4 + colore4 + skill4,
+                        nome_skill4 + " " + colore4 + skill4,
                         #5
-                        nome_skill5 + colore5 + skill5,
+                        nome_skill5 + " " + colore5 + skill5,
                     ],
                     "skin": skin_list,
                 },
@@ -913,4 +913,8 @@ def aggiorna_database():
             f.write(line)
 
 if __name__ == '__main__':
+    from pathlib import Path
+    path = Path(__file__)
+    os.chdir(path.parents[2])
+
     aggiorna_database()

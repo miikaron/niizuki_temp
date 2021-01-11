@@ -15,12 +15,53 @@ CANALE_LOG = os.getenv("CANALE_LOG")
 MELONE_ID = int(MERON)
 ID_CANALE_LOG = int(CANALE_LOG)
 
+async def is_owner(ctx):
+    return ctx.author.id == MELONE_ID
+
 class Moderation(commands.Cog):
     def __init__(self, client):
         self.client = client
 
     @commands.command()
     @commands.guild_only()
+    @commands.bot_has_permissions(send_messages=True)
+    async def help(self, ctx):
+        channel = ctx.channel
+
+        default = discord.Embed(
+            title = "Comandi speciali disponibili:",
+            description = f"• Prefissi_bot disponibili:⠀**--**⠀⠀**-!**\n\n" +
+            f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
+            f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
+            f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
+            f"Prefisso_bot + **blacklist_show** + __mostra canali nella blacklist__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_add** + __ID canale da aggiungere__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_remove** + __ID canale da rimuovere__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **aggiorna_database** [bot offline durante l'aggiornamento]\n> permessi richiesti: essere moderatore senior",
+            colour = discord.Colour.blue())
+        
+        developer = discord.Embed(
+            title = "Comandi speciali disponibili [sviluppatori]:",
+            description = f"• Prefissi_bot disponibili:⠀**--**⠀⠀**-!**\n\n" +
+            f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
+            f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
+            f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
+            f"Prefisso_bot + **blacklist_show** + __mostra canali nella blacklist__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_add** + __ID canale da aggiungere__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **blacklist_remove** + __ID canale da rimuovere__\n> permessi richiesti: essere moderatore\n" +
+            f"Prefisso_bot + **aggiorna_database** [bot offline durante l'aggiornamento]\n> permessi richiesti: essere moderatore senior\n" +
+            f"Prefisso_bot + **get_blacklist**⠀|⠀[ file.txt ]\n> permessi richiesti: essere sviluppatore\n" +
+            f"Prefisso_bot + **get_database**⠀|⠀[ file.json ]\n> permessi richiesti: essere sviluppatore",
+            colour = discord.Colour.blue())
+
+        if ctx.message.author.id == MELONE_ID:
+            await channel.send(embed = developer)
+        else:
+            await channel.send(embed = default)
+
+    @commands.command()
+    @commands.guild_only()
+    @commands.bot_has_permissions(send_messages=True, manage_messages=True)
     @commands.has_permissions(manage_messages=True)
     async def say(self, ctx):
         channel = ctx.channel
@@ -33,13 +74,13 @@ class Moderation(commands.Cog):
         await asyncio.sleep(1)
         await channel.send(testo)
 
-        MELONE = self.client.get_user(MELONE_ID)
-        if not ctx.message.author.id == MELONE.id:
+        if not ctx.message.author.id == MELONE_ID:
             indirizzo_log = self.client.get_channel(ID_CANALE_LOG)
             await indirizzo_log.send(testo + f' (Inviato da: **{ctx.message.author}**, canale **#{channel}**, comando: **testo**)')
 
     @commands.command()
     @commands.guild_only()
+    @commands.bot_has_permissions(send_messages=True, manage_messages=True)
     @commands.has_permissions(manage_messages=True)
     async def embed(self, ctx):
         channel = ctx.channel
@@ -47,20 +88,53 @@ class Moderation(commands.Cog):
         await ctx.message.delete()
         args = ctx.message.content.split()
         embed = discord.Embed(description = " ".join(args[1:]),
-            colour = discord.Colour.green())
+            colour = discord.Colour.purple())
 
         await channel.trigger_typing()
         await asyncio.sleep(1)
         await channel.send(embed = embed)
 
-        MELONE = self.client.get_user(MELONE_ID)
-        if not ctx.message.author.id == MELONE.id:
+        if not ctx.message.author.id == MELONE_ID:
             indirizzo_log = self.client.get_channel(ID_CANALE_LOG)
             await indirizzo_log.send(embed + f' (Inviato da: **{ctx.message.author}**, canale **#{channel}**, comando: **embed**)')
     
     @commands.command()
     @commands.guild_only()
+    @commands.bot_has_permissions(send_messages=True, manage_messages=True, read_message_history=True)
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior")
+    async def clear(self, ctx):
+        channel = ctx.channel
+        args =  ctx.message.content.split(" ")
+
+        if args[1].isdigit():
+            valore = int(args[1])
+            if valore < 31:
+                await channel.purge(limit=valore+1)
+                text = "messaggio è stato mangiato da" if valore == 1 else "messaggi sono stati mangiati da"
+                msg = await channel.send(embed = discord.Embed(
+                    title = "Oh no!   >_<",
+                    description = f"**{valore}** {text} {ctx.message.author.mention}",
+                    colour = discord.Colour.purple()))
+                await msg.delete(delay=5)
+
+                if not ctx.message.author.id == MELONE_ID:
+                    indirizzo_log = self.client.get_channel(ID_CANALE_LOG)
+                    await indirizzo_log.send(f'**{ctx.message.author}** ha eliminato **{valore}** messaggio/i, canale **#{channel}**, comando: **clear**)')
+            else:
+                exceeded = await channel.send(embed = discord.Embed(
+                    description = "Puoi eliminare fino a un massimo di 30 messaggi per volta",
+                    colour = discord.Colour.purple()))
+                await exceeded.delete(delay=5)
+        else:
+            error = await channel.send(embed = discord.Embed(
+                description = "Inserisci un valore valido (max: 30)",
+                colour = discord.Colour.purple()))
+            await error.delete(delay=5)
+
+    @commands.command()
+    @commands.guild_only()
     @commands.has_permissions(manage_messages=True, manage_channels=True)
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator")
     async def blacklist_show(self, ctx):
         lista_id = []
         nomi_canali = [] 
@@ -74,7 +148,7 @@ class Moderation(commands.Cog):
             for id_canale in lista_id:
                 canale = self.client.get_channel(id_canale)
                 if canale and canale.guild == ctx.channel.guild:
-                    nomi_canali.append(f"**{canale.name}** | ID canale | *{id_canale}*")
+                    nomi_canali.append(f"**{canale.name}**\nID canale\n*{id_canale}*")
             descrizione_embed = "\n".join(nomi_canali)
 
         if not nomi_canali:
@@ -88,6 +162,7 @@ class Moderation(commands.Cog):
     @commands.command()
     @commands.guild_only()
     @commands.has_permissions(manage_messages=True, manage_channels=True)
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator")
     async def blacklist_add(self, ctx):
         channel = ctx.channel
         args = ctx.message.content.split()
@@ -138,6 +213,7 @@ class Moderation(commands.Cog):
     @commands.command()
     @commands.guild_only()
     @commands.has_permissions(manage_messages=True, manage_channels=True)
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator")
     async def blacklist_remove(self, ctx):
         channel = ctx.channel
         args = ctx.message.content.split()
@@ -183,27 +259,29 @@ class Moderation(commands.Cog):
     
     @commands.command()
     @commands.guild_only()
+    @commands.check(is_owner)
+    @commands.bot_has_permissions(send_messages=True, attach_files=True, manage_messages=True)
     async def get_blacklist(self, ctx):
         channel = ctx.channel
 
-        if ctx.author.id == MELONE_ID:
-            upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "blacklist.json")))
-            await ctx.message.delete(delay=3)
-            await upload_database.delete(delay=5)
+        upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "blacklist.json")))
+        await ctx.message.delete(delay=3)
+        await upload_database.delete(delay=5)
     
     @commands.command()
     @commands.guild_only()
+    @commands.check(is_owner)
+    @commands.bot_has_permissions(send_messages=True, attach_files=True, manage_messages=True)
     async def get_database(self, ctx):
         channel = ctx.channel
 
-        if ctx.author.id == MELONE_ID:
-            upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "mydatabase.json")))
-            await ctx.message.delete(delay=3)
-            await upload_database.delete(delay=5)
+        upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "mydatabase.json")))
+        await ctx.message.delete(delay=3)
+        await upload_database.delete(delay=5)
     
     @commands.command()
     @commands.guild_only()
-    @commands.has_any_role("Niizuki's database", "Admin", "Moderatore Senior")
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior")
     async def aggiorna_database(self, ctx):
         channel = ctx.channel
         
@@ -214,9 +292,12 @@ class Moderation(commands.Cog):
         update.set_footer(text = "Pronto tra circa 12 minuti...")
 
         await channel.send(embed = update)
-
         await channel.send("**Si prega di non usare il bot durante l'aggiornamento. Grazie per la comprensione**")
         print("Aggiornamento avviato da Melone")
+
+        if not ctx.message.author.id == MELONE_ID:
+            indirizzo_log = self.client.get_channel(ID_CANALE_LOG)
+            await indirizzo_log.send(f"**{ctx.message.author}** ha avviato l'aggiornamento del database, canale **#{channel}**")
 
         aggiorna_database() # Imported
         update_database() # Imported

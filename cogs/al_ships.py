@@ -134,6 +134,27 @@ class Ships(commands.Cog):
                 return
         MELONE = self.client.get_user(MELONE_ID)
 
+        #Comando .help
+        if msg.lower() == ".help":
+            info = discord.Embed(
+                title = "Elenco comandi disponibili:",
+                description =  "**!**nave⠀→⠀info nave\n" +
+                "> esempio: **!**Akashi\n \n" +
+                "**skin!**nave⠀→⠀elenco skin nave \n" +
+                "> esempio: **skin!**Akashi\n \n" +
+                "**cat!**meowfficer⠀→⠀info meowfficer\n" +
+                "> esempio: **cat!**Bishamaru\n \n" +
+                "**cap!**capitolo⠀→⠀info capitolo mappa\n" +
+                "> esempio: **cap!**9-4\n \n" +
+                "**%**tempo di costruzione | nome nave\n " +
+                "> esempio: **%**01:35:00⠀=⠀*Akashi*\n" +
+                "> esempio2: **%**Sandy⠀=⠀*01:10:00*\n \n" +
+                "**cat%**tempo⠀→⠀meowfficer\n" +
+                "> esempio: **cat%**10:24:00⠀=⠀*Justice*",
+                colour = discord.Colour.blue())
+
+            await channel.send(embed = info)
+
         # Invio embed navi
         if msg.startswith(SHIP_PREFIX):
             fetch = msg.lower().split(SHIP_PREFIX)

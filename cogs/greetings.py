@@ -40,7 +40,7 @@ morning = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11
 noon = ["12", "13", "14", "15", "16"]
 evening = ["17", "18", "19", "20", "21"]
 
-bot_prefixes = ('-', '+', '*', '!', '?', '.', ':', ',', ';', '_', '£', '$', '%', '&', '=', '^', '>', '<', 'à', 'é', 'ì', 'ò', 'ù', '~', '`', '"')
+bot_prefixes = ('-', '+', '*', '!', '?', '.', ',', ';', '_', '£', '$', '%', '&', '=', '^', '>', '<', 'à', 'é', 'ì', 'ò', 'ù', '~', '`', '"')
 IVR_ID = os.getenv("IVR")
 
 class Saluti(commands.Cog):
@@ -60,7 +60,7 @@ class Saluti(commands.Cog):
             emoji_saluto = "\U0001F44B"
 
         # Tutturu
-        if ":Tutturu:" in message.content and message.author.id == int(IVR_ID):
+        if ":tutturu:" in message.content.lower() and message.author.id == int(IVR_ID):
             await message.add_reaction(emoji_saluto)
 
         for word in message.content.lower().split():

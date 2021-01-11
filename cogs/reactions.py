@@ -153,7 +153,7 @@ class Reaction(commands.Cog):
                     for emb in embed_obj:
                         NAVE = emb.author.name.split(" (", 1)[0].lower()    #Fetch ship's name from embed
                         TEMPO = "**"+database[NAVE]["tempo"]+"**"           #Check
-            
+
                         # Check if page is "main page"
                         if emb.description != TEMPO:
                             new_embed = discord.Embed(description = TEMPO,
@@ -167,15 +167,25 @@ class Reaction(commands.Cog):
                             new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][2])
                             new_embed.set_image(url = database[NAVE]["wiki_nave"][3])
                             new_embed.set_footer(text = "Clicca 📖 per tornare indietro")
-                            #Skill (parte 1)
-                            new_embed.add_field(name = "Skill",
-                                value = database[NAVE]["skill"][0], inline = False)
-                            #Skill (parte 2)
-                            new_embed.add_field(name = "_ _",
-                                value = "_ _"+database[NAVE]["skill"][1] + '\n' +
-                                database[NAVE]["skill"][2] + '\n' +
-                                database[NAVE]["skill"][3] + '\n' +
-                                database[NAVE]["skill"][4], inline = False)
+                            #Skill 1 -> database[NAVE]["skill"][0].split("\n") [0]=title [1]=descritpion
+                            new_embed.add_field(name = database[NAVE]["skill"][0].split("\n")[0],
+                                value = database[NAVE]["skill"][0].split("\n")[1], inline = False)
+                            #Skill 2
+                            if database[NAVE]["skill"][1].isspace() == False:
+                                new_embed.add_field(name = database[NAVE]["skill"][1].split("\n")[0],
+                                    value = database[NAVE]["skill"][1].split("\n")[1], inline = False)
+                            #Skill 3
+                            if database[NAVE]["skill"][2].isspace() == False:
+                                new_embed.add_field(name = database[NAVE]["skill"][2].split("\n")[0],
+                                    value = database[NAVE]["skill"][2].split("\n")[1], inline = False)
+                            #Skill 4
+                            if database[NAVE]["skill"][3].isspace() == False:
+                                new_embed.add_field(name = database[NAVE]["skill"][3].split("\n")[0],
+                                    value = database[NAVE]["skill"][3].split("\n")[1], inline = False)
+                            #Skill 5
+                            if database[NAVE]["skill"][4].isspace() == False:
+                                new_embed.add_field(name = database[NAVE]["skill"][4].split("\n")[0],
+                                    value = database[NAVE]["skill"][4].split("\n")[1], inline = False)
                             new_embed.add_field(name = "Retrofit:",
                                 value = "Retrofit " + database[NAVE]["retrofit"], inline = False)  
                         else:

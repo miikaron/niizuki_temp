@@ -56,7 +56,6 @@ U = "(Unreleased)"
 rosso = "📕"
 blu = "📘"
 giallo = "📒"
-boh = " "
 #-------------------------------------------------------------------------------
 #Info
 none = "Non può essere costruita"
@@ -692,7 +691,7 @@ catdatabase = {
         ],
         "skill_gatta": [
             #1
-            tre_ast + "Faithful to Duty" + punti_ast_spazio + boh,
+            tre_ast + "Faithful to Duty" + punti_ast_spazio + blu,
         ],
         "condition": [
             "Staff Cat",

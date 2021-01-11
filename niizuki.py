@@ -85,4 +85,29 @@ async def on_ready():
     print("------------------------------")
     await client.loop.create_task(status_task())
 
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.MissingRequiredArgument):
+        await ctx.send(embed = discord.Embed(
+        title = "Parametri mancanti",
+        description = f'{error}',
+        colour = discord.Colour.red()))
+    elif isinstance(error, commands.BotMissingPermissions):
+        await ctx.send(embed = discord.Embed(
+        title = "Permessi mancanti",
+        description = f'{error}',
+        colour = discord.Colour.red()))
+    elif isinstance(error, commands.errors.CheckFailure):
+        await ctx.send(embed = discord.Embed(
+        title = "Accesso negato",
+        description = f'{error}',
+        colour = discord.Colour.red()))
+    elif isinstance(error, commands.errors.CommandNotFound):
+        pass
+    elif isinstance(error, Exception):
+        await ctx.send(embed = discord.Embed(
+        title = "Errore",
+        description = f'{error}',
+        colour = discord.Colour.red()))
+            
 client.run(os.getenv("CLIENT_TOKEN"))
