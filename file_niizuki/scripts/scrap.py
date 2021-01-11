@@ -65,9 +65,9 @@ def aggiorna_database():
     # print(collab_ships)
     # print(lista_navi)
     #----------------------------------------------------------------------------------------------------
-    lista_navi2 = ["/Nürnberg"] # TEST
+    #lista_navi2 = ["/Nürnberg"] # TEST
 
-    for nave in lista_navi2:
+    for nave in lista_navi:
         nome = nave
         try:
             time.sleep(0.5)
