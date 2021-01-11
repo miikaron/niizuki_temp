@@ -8,9 +8,9 @@
 ###### Discord tag: **西瓜tm#6926**  
   
 ###### Data di inizio progetto: 31 dicembre 2018
-###### Bot responsabile: **Niizuki#3761** (dal giorno 07/07/2019)
-###### Bot precedente: **Kaga#1416**  
-
+###### Bot responsabile: Niizuki#3761 (dal giorno 07/07/2019)
+###### Bot precedente: Kaga#1416
+<br><br>
 ##### Ringraziamenti: 
 > **RLPG#1608**  
 > **RedZero#2403**  
