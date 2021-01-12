@@ -72,12 +72,15 @@ class Saluti(commands.Cog):
         ora_locale = Checktime()
 
         def _check(msg):
-            return (msg.author == msg.author and (datetime.utcnow()-msg.created_at).seconds < 30)
+            giorno_triggered = any(word in buongiorno_ping for word in msg.content.lower().split())
+            notte_triggered = any(word in buonanotte_ping for word in msg.content.lower().split())
+            saluto_triggered = True if giorno_triggered or notte_triggered else False
+            return (saluto_triggered and msg.author == msg.author and (datetime.utcnow()-msg.created_at).seconds < 60)
 
         if not message.mentions:
             msg = message.content
             is_short = len([word for word in msg.split()]) < 5
-            spam = len(list(filter(lambda msg: _check(msg), self.client.cached_messages))) > 1 #allowed every 30s
+            spam = len(list(filter(lambda msg: _check(msg), self.client.cached_messages))) > 2 #allowed every 60s
             if is_short and not spam:
                 saluto_giorno = False
                 saluto_notte = False
