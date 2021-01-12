@@ -85,7 +85,7 @@ class Join(commands.Cog):
                 welcome_ita.add_field(name = FIELD_NAME, value = FIELD_VALUE)
 
                 img_path = os.path.join('file_niizuki', 'images')
-                benvenuto = await channel.send(file=discord.File(os.path.join(img_path, "ops.gif")), embed=welcome_ita)
+                benvenuto = await channel.send(file=discord.File(os.path.join(img_path, "welkum.png")), embed=welcome_ita)
                 await benvenuto.add_reaction(emoji="\U0001F530")
 
                 #Check reaction
