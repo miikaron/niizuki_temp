@@ -324,6 +324,15 @@ class Moderation(commands.Cog):
             sanity_limit = args[2]
             if sanity_limit.isdigit():
                 sanity_limit = int(sanity_limit)
+            if sanity_limit > 135:
+                raise ValueError(f"**Attenzione:** valore max **'sanity limit'** = 135")
+        except ValueError as e:
+            await channel.send(embed = discord.Embed(
+                description = f"{e}",
+                colour = discord.Colour.dark_blue()))
+            sanity_limit = 135
+            await channel.trigger_typing()
+            await asyncio.sleep(1)
         except IndexError:
             sanity_limit = 130
 
@@ -347,10 +356,8 @@ class Moderation(commands.Cog):
                     ore = int(tempo_refill / 60) + ore_now
 
                     if (tempo_refill / 60) > 1:
-                        print("Ok")
                         minuti = tempo_refill - int(tempo_refill) if tempo_refill % 60 != 0 else 00
                     else:
-                        print("Tempo refill")
                         minuti = tempo_refill
                     
                     minuti_totali = minuti + minuti_now
@@ -360,10 +367,11 @@ class Moderation(commands.Cog):
                         minuti_totali -= 60
                         ore += 1
 
-                    #Next day    
+                    #Next day
+                    domani = False   
                     if ore >= 24:
                         ore -= 24
-                        domani = f" [di domani]"
+                        domani = " [di domani]"
                     
                     #Add leading zero
                     if len(str(minuti_totali)) == 1:
@@ -374,7 +382,8 @@ class Moderation(commands.Cog):
                     descrizione = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{tempo_refill}min**\n\nLa tua sanity sarà piena alle **{ore}:{minuti_totali}**"
                     
                     #Descrizione next day
-                    descrizione  = descrizione + domani if domani else descrizione
+                    if domani:
+                        descrizione += domani
 
                     await channel.send(embed = discord.Embed(
                         description = descrizione,
