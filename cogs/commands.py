@@ -324,12 +324,12 @@ class Moderation(commands.Cog):
             sanity_limit = args[2]
             if sanity_limit.isdigit():
                 sanity_limit = int(sanity_limit)
-            if sanity_limit > 135:
-                raise ValueError(f"**Attenzione:** valore max **'sanity limit'** = 135")
+            if sanity_limit > 135 or sanity_limit < 82:
+                raise ValueError(f"**Attenzione:** valore **'sanity limit'** non valido\n[min=82, max=135, default=130]")
         except ValueError as e:
             await channel.send(embed = discord.Embed(
                 description = f"{e}",
-                colour = discord.Colour.dark_blue()))
+                colour = discord.Colour.purple()))
             sanity_limit = 135
             await channel.trigger_typing()
             await asyncio.sleep(1)
@@ -348,7 +348,7 @@ class Moderation(commands.Cog):
 
                 sanity = sanity_limit - sanity_now if sanity_now != sanity_limit else "full"
                 if sanity == "full":
-                    raise Exception(f"**Attenzione:** hai la sanity piena!")
+                    raise Exception(f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{tempo_refill}min**\n\n**Attenzione:** hai la sanity piena!")
                 
                 tempo_refill = sanity * 6
 
@@ -390,7 +390,7 @@ class Moderation(commands.Cog):
                         colour = discord.Colour.blue()))
                 else:
                     await channel.send(embed = discord.Embed(
-                        description = "**Attenzione:** avrai la sanity piena in meno di 1min!",
+                        description = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**]\n\n**Attenzione:** avrai la sanity piena in meno di **6min**!",
                         colour = discord.Colour.dark_blue()))
             else:
                 await channel.send(embed = discord.Embed(
