@@ -349,7 +349,7 @@ class Moderation(commands.Cog):
 
                 sanity = sanity_limit - sanity_now if sanity_now != sanity_limit else "full"
                 if sanity == "full":
-                    raise Exception(f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{tempo_refill}min**\n\n**Attenzione:** hai la sanity piena!")
+                    raise Exception(f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**]\n\n**Attenzione:** hai la sanity piena!")
                 
                 tempo_refill = sanity * 6
 
@@ -357,7 +357,7 @@ class Moderation(commands.Cog):
                     ore = int(tempo_refill / 60) + ore_now
 
                     if (tempo_refill / 60) > 1:
-                        minuti = tempo_refill - int(tempo_refill) if tempo_refill % 60 != 0 else 00
+                        minuti = int(((tempo_refill/60) - int(tempo_refill/60)) * 60) if tempo_refill % 60 != 0 else 00
                     else:
                         minuti = tempo_refill
                     
@@ -380,7 +380,7 @@ class Moderation(commands.Cog):
                     if len(str(ore)) == 1:
                         ore = str(ore).zfill(2)
 
-                    descrizione = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{tempo_refill}min**\n\nLa tua sanity sarà piena alle **{ore}:{minuti_totali}**"
+                    descrizione = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{int(tempo_refill/60)}h e {minuti}min**\n\nLa tua sanity sarà piena alle **{ore}:{minuti_totali}**"
                     
                     #Descrizione next day
                     if domani:
