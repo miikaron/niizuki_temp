@@ -2,7 +2,8 @@ import discord, os
 from discord.ext import commands
 from discord.ext.commands import Bot, Cog
 from os.path import join
-import asyncio, json, traceback
+import asyncio, json, traceback, pytz, time
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -31,6 +32,7 @@ class Moderation(commands.Cog):
         default = discord.Embed(
             title = "Comandi speciali disponibili:",
             description = f"• Prefissi_bot disponibili:⠀**--**⠀⠀**-!**\n\n" +
+            f"Prefisso_bot + **sanity** + [**sanity**] [**limite sanity** (facoltativo)]\n> permessi richiesti: avere il ruolo 'Arknights'\n" +
             f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
@@ -43,6 +45,8 @@ class Moderation(commands.Cog):
         developer = discord.Embed(
             title = "Comandi speciali disponibili [sviluppatori]:",
             description = f"• Prefissi_bot disponibili:⠀**--**⠀⠀**-!**\n\n" +
+            f"Prefisso_bot + **sanity** + [**sanity**] [**limite sanity** (facoltativo)]\n> permessi richiesti: avere il ruolo 'Arknights'\n" +
+            f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **say** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **embed** + __testo_da_inviare__\n> permessi richiesti: gestire i messaggi\n" +
             f"Prefisso_bot + **clear** + __numero messaggi da eliminare__ [max 30]\n> permessi richiesti: essere moderatore senior\n" +
@@ -305,6 +309,92 @@ class Moderation(commands.Cog):
         await channel.send(embed = discord.Embed(
             description = "Aggiornamento terminato",
             colour = discord.Colour.purple()))
+
+    # Arknights
+    @commands.command()
+    @commands.guild_only()
+    @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator", "Arknights")
+    async def sanity(self, ctx):
+        channel = ctx.channel
+
+        args = ctx.message.content.split()
+        sanity_now = args[1]
+
+        try:
+            sanity_limit = args[2]
+            if sanity_limit.isdigit():
+                sanity_limit = int(sanity_limit)
+        except IndexError:
+            sanity_limit = 130
+
+        try:
+            if sanity_now.isdigit():  
+                sanity_now = int(sanity_now)
+
+                if sanity_now > sanity_limit:
+                    raise Exception(f"La sanity inserita **'{sanity_now}'** non può superare il limite **'{sanity_limit}'**")
+                    
+                ore_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%H"))
+                minuti_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%M"))
+
+                sanity = sanity_limit - sanity_now if sanity_now != sanity_limit else "full"
+                if sanity == "full":
+                    raise Exception(f"**Attenzione:** hai la sanity piena!")
+                
+                tempo_refill = sanity * 6
+
+                if tempo_refill != 6:
+                    ore = int(tempo_refill / 60) + ore_now
+
+                    if (tempo_refill / 60) > 1:
+                        print("Ok")
+                        minuti = tempo_refill - int(tempo_refill) if tempo_refill % 60 != 0 else 00
+                    else:
+                        print("Tempo refill")
+                        minuti = tempo_refill
+                    
+                    minuti_totali = minuti + minuti_now
+
+                    #Carry over
+                    if minuti_totali / 60 >= 1:
+                        minuti_totali -= 60
+                        ore += 1
+
+                    #Next day    
+                    if ore >= 24:
+                        ore -= 24
+                        domani = f" [di domani]"
+                    
+                    #Add leading zero
+                    if len(str(minuti_totali)) == 1:
+                        minuti_totali = str(minuti_totali).zfill(2)
+                    if len(str(ore)) == 1:
+                        ore = str(ore).zfill(2)
+
+                    descrizione = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**] → Tempo refill: **{tempo_refill}min**\n\nLa tua sanity sarà piena alle **{ore}:{minuti_totali}**"
+                    
+                    #Descrizione next day
+                    descrizione  = descrizione + domani if domani else descrizione
+
+                    await channel.send(embed = discord.Embed(
+                        description = descrizione,
+                        colour = discord.Colour.blue()))
+                else:
+                    await channel.send(embed = discord.Embed(
+                        description = "**Attenzione:** avrai la sanity piena in meno di 1min!",
+                        colour = discord.Colour.dark_blue()))
+            else:
+                await channel.send(embed = discord.Embed(
+                    description = "Inserisci un valore della sanity valido",
+                    colour = discord.Colour.purple()))
+        except TypeError:
+            await channel.send(embed = discord.Embed(
+                description = "Inserisci un limite della sanity valido",
+                colour = discord.Colour.purple()))
+        except Exception as e:
+            await channel.send(embed = discord.Embed(
+                description = f"{e}",
+                colour = discord.Colour.dark_blue()))
 
 def setup(client):
     client.add_cog(Moderation(client))
