@@ -23,7 +23,7 @@ class Join(commands.Cog):
             #ITA
             "Benvenuto/a nel server",
             #EN
-            "We wish you a pleasant stay!",
+            "Welcome to",
         ]
 
         EMBED_FOOTER = [
@@ -61,7 +61,7 @@ class Join(commands.Cog):
 
         #Default embed: 'welcome'
         welcome = discord.Embed(
-            description=f'{member.mention} ||{member}||\n'+DESCRIPTION+f' **{member.guild.name}**',
+            description=f'{member.mention} ||{member}||\n{DESCRIPTION} **{member.guild.name}**',
             colour = discord.Colour.green())
         welcome.set_image(url = "attachment://welkum.png")
         welcome.set_footer(text = FOOTER)
@@ -78,7 +78,7 @@ class Join(commands.Cog):
                 
                 #Embed: welcome_ita
                 welcome_ita = discord.Embed(
-                    description=f'{member.mention} ||{member}||\n'+DESCRIPTION+f' **{member.guild.name}**',
+                    description=f'{member.mention} ||{member}||\n{DESCRIPTION} **{member.guild.name}**',
                     colour = discord.Colour.green())
                 welcome_ita.set_image(url = "attachment://welkum.png")
                 welcome_ita.set_footer(text = FOOTER)
@@ -98,7 +98,7 @@ class Join(commands.Cog):
                 FIELD_VALUE = EMBED_FIELD_VALUE[2]
 
                 welcome_en = discord.Embed(
-                    description=f'{member.mention} ||{member}||\n'+DESCRIPTION+f' **{member.guild.name}**',
+                    description=f'{member.mention} ||{member}||\n{DESCRIPTION} **{member.guild.name}**',
                     colour = discord.Colour.green())
                 welcome_en.set_image(url = "attachment://welkum.png")
                 welcome_en.set_footer(text = FOOTER)
