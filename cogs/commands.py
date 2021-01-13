@@ -316,9 +316,7 @@ class Moderation(commands.Cog):
     @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator", "Arknights")
     async def sanity(self, ctx):
         channel = ctx.channel
-
         args = ctx.message.content.split()
-        sanity_now = args[1]
 
         try:
             sanity_limit = args[2]
@@ -341,6 +339,7 @@ class Moderation(commands.Cog):
             sanity_limit = 130
 
         try:
+            sanity_now = args[1]
             if sanity_now.isdigit():  
                 sanity_now = int(sanity_now)
 
@@ -400,10 +399,10 @@ class Moderation(commands.Cog):
                 await channel.send(embed = discord.Embed(
                     description = "Inserisci un valore della sanity valido",
                     colour = discord.Colour.purple()))
+        except IndexError:
+            raise Exception(f"Inserisci un valore della sanity valido")
         except TypeError:
-            await channel.send(embed = discord.Embed(
-                description = "Inserisci un limite della sanity valido",
-                colour = discord.Colour.purple()))
+            raise Exception(f"Inserisci un limite della sanity valido")
         except Exception as e:
             await channel.send(embed = discord.Embed(
                 description = f"{e}",
