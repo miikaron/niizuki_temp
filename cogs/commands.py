@@ -344,7 +344,7 @@ class Moderation(commands.Cog):
                 if sanity_now > sanity_limit:
                     raise Exception(f"La sanity inserita **'{sanity_now}'** non può superare il limite **'{sanity_limit}'**")
                     
-                ore_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%H"))
+                ora_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%H"))
                 minuti_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%M"))
 
                 sanity = sanity_limit - sanity_now if sanity_now != sanity_limit else "full"
@@ -354,7 +354,7 @@ class Moderation(commands.Cog):
                 tempo_refill = sanity * 6
 
                 if tempo_refill != 6:
-                    ore = int(tempo_refill / 60) + ore_now
+                    ore = int(tempo_refill / 60) + ora_now
 
                     if (tempo_refill / 60) > 1:
                         minuti = int(((tempo_refill/60) - int(tempo_refill/60)) * 60) if tempo_refill % 60 != 0 else 00
