@@ -400,9 +400,13 @@ class Moderation(commands.Cog):
                     description = "Inserisci un valore della sanity valido",
                     colour = discord.Colour.purple()))
         except IndexError:
-            raise Exception(f"Inserisci un valore della sanity valido")
+            await channel.send(embed = discord.Embed(
+                description = "Inserisci un valore della sanity valido",
+                colour = discord.Colour.dark_blue()))
         except TypeError:
-            raise Exception(f"Inserisci un limite della sanity valido")
+            await channel.send(embed = discord.Embed(
+                description = "Inserisci un limite della sanity valido",
+                colour = discord.Colour.dark_blue()))
         except Exception as e:
             await channel.send(embed = discord.Embed(
                 description = f"{e}",
