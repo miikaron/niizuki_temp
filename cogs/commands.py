@@ -331,12 +331,10 @@ class Moderation(commands.Cog):
             sanity_limit = 135
             await channel.trigger_typing()
             await asyncio.sleep(1)
-        except TypeError:
-            await channel.send(embed = discord.Embed(
-                description = "Inserisci un limite della sanity valido",
-                colour = discord.Colour.purple()))
         except IndexError:
             sanity_limit = 130
+        except TypeError:
+            pass
 
         try:
             sanity_now = args[1]
