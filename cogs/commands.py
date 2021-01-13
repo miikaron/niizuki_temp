@@ -404,7 +404,7 @@ class Moderation(commands.Cog):
         except Exception as e:
             await channel.send(embed = discord.Embed(
                 description = f"{e}",
-                colour = discord.Colour.purple()))
+                colour = discord.Colour.dark_blue()))
 
 def setup(client):
     client.add_cog(Moderation(client))
