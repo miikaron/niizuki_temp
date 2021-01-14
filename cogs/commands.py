@@ -268,9 +268,9 @@ class Moderation(commands.Cog):
     async def get_blacklist(self, ctx):
         channel = ctx.channel
 
-        upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "blacklist.json")))
+        upload_blacklist = await channel.send(file=discord.File(os.path.join('file_niizuki', "blacklist.json")))
         await ctx.message.delete(delay=3)
-        await upload_database.delete(delay=5)
+        await upload_blacklist.delete(delay=5)
     
     @commands.command()
     @commands.guild_only()
