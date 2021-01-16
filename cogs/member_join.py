@@ -56,7 +56,7 @@ class Join(commands.Cog):
         #Default values
         DESCRIPTION = EMBED_DESCRIPTION[0]
         FOOTER = EMBED_FOOTER[0]
-        FIELD_NAME = EMBED_FIELD_NAME[0]
+        FIELD_NAME = EMBED_FIELD_NAME[1]
         FIELD_VALUE = EMBED_FIELD_VALUE[0]
 
         #Default embed: 'welcome'
