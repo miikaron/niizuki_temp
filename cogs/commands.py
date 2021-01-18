@@ -356,7 +356,7 @@ class Moderation(commands.Cog):
                 if tempo_refill != 6:
                     ore = int(tempo_refill / 60) + ora_now
 
-                    if (tempo_refill / 60) > 1:
+                    if (tempo_refill / 60) >= 1:
                         minuti = int(((tempo_refill/60) - int(tempo_refill/60)) * 60) if tempo_refill % 60 != 0 else 00
                     else:
                         minuti = tempo_refill
