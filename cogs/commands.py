@@ -315,6 +315,7 @@ class Moderation(commands.Cog):
     @commands.guild_only()
     @commands.has_any_role("Niizuki's database", "Admin", "Amministratore", "Moderator Senior", "Moderator", "Moderator", "Arknights")
     async def sanity(self, ctx):
+        weekday = datetime.today().weekday()
         channel = ctx.channel
         args = ctx.message.content.split()
 
@@ -344,7 +345,7 @@ class Moderation(commands.Cog):
                 if sanity_now > sanity_limit:
                     raise Exception(f"La sanity inserita **'{sanity_now}'** non può superare il limite **'{sanity_limit}'**")
                     
-                ora_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%H"))
+                ore_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%H"))
                 minuti_now = int(datetime.now(pytz.timezone('Europe/Berlin')).strftime("%M"))
 
                 sanity = sanity_limit - sanity_now if sanity_now != sanity_limit else "full"
@@ -354,7 +355,7 @@ class Moderation(commands.Cog):
                 tempo_refill = sanity * 6
 
                 if tempo_refill != 6:
-                    ore = int(tempo_refill / 60) + ora_now
+                    ore = int(tempo_refill / 60) + ore_now
 
                     if (tempo_refill / 60) >= 1:
                         minuti = int(((tempo_refill/60) - int(tempo_refill/60)) * 60) if tempo_refill % 60 != 0 else 00
@@ -386,13 +387,19 @@ class Moderation(commands.Cog):
                     if domani:
                         descrizione += domani
 
-                    await channel.send(embed = discord.Embed(
+                    my_sanity = discord.Embed(
                         description = descrizione,
-                        colour = discord.Colour.blue()))
+                        colour = discord.Colour.blue())
+                    if weekday == 0: #Monday
+                        my_sanity.set_footer(text = "Ricordati di fare l'annihilation")
+                    await channel.send(embed = my_sanity)
                 else:
-                    await channel.send(embed = discord.Embed(
+                    my_sanity = discord.Embed(
                         description = f"[sanity: **{sanity_now}**] [limite sanity: **{sanity_limit}**]\n\n**Attenzione:** avrai la sanity piena in meno di **6min**!",
-                        colour = discord.Colour.dark_blue()))
+                        colour = discord.Colour.dark_blue())
+                    if weekday == 0:
+                        my_sanity.set_footer(text = "Ricordati di fare l'annihilation")
+                    await channel.send(embed = my_sanity)
             else:
                 await channel.send(embed = discord.Embed(
                     description = "Inserisci un valore della sanity valido",
@@ -402,9 +409,12 @@ class Moderation(commands.Cog):
                 description = "Inserisci un valore valido",
                 colour = discord.Colour.purple()))
         except Exception as e:
-            await channel.send(embed = discord.Embed(
+            exception = discord.Embed(
                 description = f"{e}",
-                colour = discord.Colour.dark_blue()))
+                colour = discord.Colour.dark_blue())
+            if weekday == 0:
+                exception.set_footer(text = "Ricordati di fare l'annihilation")
+            await channel.send(embed = exception)
 
 def setup(client):
     client.add_cog(Moderation(client))
