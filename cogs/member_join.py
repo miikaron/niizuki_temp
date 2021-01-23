@@ -72,7 +72,7 @@ class Join(commands.Cog):
         if member.guild.id == int(SERV_ID): #C.I.I.
             try:
                 FOOTER = EMBED_FOOTER[1]
-                FIELD_NAME = EMBED_FIELD_NAME[1]
+                FIELD_NAME = EMBED_FIELD_NAME[0]
                 FIELD_VALUE = EMBED_FIELD_VALUE[1]
                 channel = self.client.get_channel(552571690589225017)  #ID canale: #generale
                 
