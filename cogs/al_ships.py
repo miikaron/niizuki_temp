@@ -18,8 +18,8 @@ def update_database():
         with open(join('file_niizuki', 'mydatabase.json'), 'r+') as f:
             global database
             database = json.load(f)
-            return database
             print("Refresh del database")
+            return database
     except FileNotFoundError:
         print("Errore: mydatabase.json... creazione file")
         f = open("mydatabase.json", "w")

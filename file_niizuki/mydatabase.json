@@ -507,7 +507,7 @@
         "tipo": "__[Destroyer]__",
         "id": "011",
         "colore_embed": 8900346,
-        "acquisizione": "Build: Light | \nDrop: \u2022 2-3 \u2022 3-4 \u2022 6-1 \u2022 7-1 \u2022 9-1 \u2022 11-1 \u2022 12-1",
+        "acquisizione": "Build: Light |  Exchange |\nDrop: \u2022 2-3 \u2022 3-4 \u2022 6-1 \u2022 7-1 \u2022 9-1 \u2022 11-1 \u2022 12-1",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -795,7 +795,7 @@
         "tipo": "__[Destroyer]__",
         "id": "018",
         "colore_embed": 8900346,
-        "acquisizione": "Build: Light | ",
+        "acquisizione": "",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -1265,7 +1265,7 @@
         "tipo": "__[Light Cruiser]__",
         "id": "033",
         "colore_embed": 16777069,
-        "acquisizione": "Build: Light | \nDrop: \u2022 5-1 \u2022 6-1 \u2022 9-4 \u2022 12-1",
+        "acquisizione": "\nDrop: \u2022 5-1 \u2022 6-1 \u2022 9-4 \u2022 12-1",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -1469,7 +1469,7 @@
         "tipo": "__[Light Cruiser]__",
         "id": "037",
         "colore_embed": 16777069,
-        "acquisizione": "Build: Light |  Exchange |\nDrop: \u2022 4-4 \u2022 5-3 \u2022 11-3 \u2022 12-2",
+        "acquisizione": " Exchange |\nDrop: \u2022 4-4 \u2022 5-3 \u2022 11-3 \u2022 12-2",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -3226,7 +3226,9 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/7/72/Hornet.png/530px-Hornet.png",
             "Bubbly Anniversary!",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5c/HornetParty.png/325px-HornetParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5c/HornetParty.png/325px-HornetParty.png",
+            "Freshly-Baked Bonding!",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/44/HornetPizza.png/459px-HornetPizza.png"
         ]
     },
     "wasp": {
@@ -4343,7 +4345,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Giant Hunter \ud83d\udcd5\nIncreases Eva and Torp by 5.0% (15.0%), increases own damage against medium armor enemies by 15% (25%). Slows enemy Heavy Cruisers by 15% (30%) for 5 seconds after hitting them 4 times.",
+            "(Retrofit) Giant Hunter \ud83d\udcd5\nIncreasesIn game description includes flavor text that imply further restrictions Eva and Torp by 5.0% (15.0%), increases own damage against medium armor enemies by 15% (25%). Slows enemy Heavy Cruisers by 15% (30%) for 5 seconds after hitting them 4 times.",
             "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main battery is fired, trigger Full Barrage - Leander Class I (II).",
             "    ",
             "    "
@@ -4671,6 +4673,8 @@
             "https://azurlane.koumakan.jp/w/images/thumb/9/91/BelfastCasual.png/411px-BelfastCasual.png",
             "Piping-Hot Perfection",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d8/BelfastPizza.png/534px-BelfastPizza.png",
+            "EN",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a4/BelfastPizzaEN.png/534px-BelfastPizzaEN.png",
             "Folded Fascination",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f1/BelfastNew_Year.png/515px-BelfastNew_Year.png"
         ]
@@ -6318,7 +6322,9 @@
             "Fubuki Halation!",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fc/FubukiIdol.png/485px-FubukiIdol.png",
             "Stormy Waitress-in-Training!",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/FubukiPizza.png/427px-FubukiPizza.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/FubukiPizza.png/427px-FubukiPizza.png",
+            "EN",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1a/FubukiPizzaEN.png/427px-FubukiPizzaEN.png"
         ]
     },
     "ayanami": {
@@ -10895,7 +10901,7 @@
         "tipo": "__[Destroyer]__",
         "id": "263",
         "colore_embed": 8900346,
-        "acquisizione": "Ricompensa login mensile | Build: Light | ",
+        "acquisizione": "Ricompensa login mensile |  Exchange |",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -14803,7 +14809,7 @@
         "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/7/72/Hazelwood_TitleScreen.ogg",
         "nome_nave": "Hazelwood",
         "rarit\u00e0": "Rare",
-        "tempo": "Rare",
+        "tempo": "00:28:00",
         "retrofit": "non disponibile",
         "nazionalit\u00e0": "Eagle Union",
         "abbreviazione": "__[USS]__",
@@ -20535,7 +20541,7 @@
     },
     "weser": {
         "artista": "\u7fbd\u7e54\u30a4\u30aa",
-        "doppiatrice": "",
+        "doppiatrice": "Rimi Nishimoto",
         "link_doppiatrice": " ",
         "nome_nave": "Weser",
         "rarit\u00e0": "Elite",
@@ -20733,6 +20739,102 @@
             "https://azurlane.koumakan.jp/w/images/thumb/8/85/Z28New_Year.png/512px-Z28New_Year.png"
         ]
     },
+    "pola": {
+        "artista": "\u4e91\u6851",
+        "doppiatrice": "Atsumi Tanezaki",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Atsumi_Tanezaki",
+        "nome_nave": "Pola",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:55:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Zara",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "489",
+        "colore_embed": 16777020,
+        "acquisizione": "Event Build: Available in Limited Construction during Empyreal Tragicomedy Rerun event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Pola",
+            "https://azurlane.koumakan.jp/w/images/d/de/PolaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/600px-Pola.png"
+        ],
+        "efficienza": [
+            "105% \u2192 125%: __CA Guns__",
+            "55% \u2192 60%: __DD Guns__",
+            "95% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Full Barrage I / Main Gun Efficiency +5%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +10%",
+            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Viola Spear \ud83d\udcd5\nWhen this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%.",
+            "Audacious Challenger \ud83d\udcd2\nIncrease this ship's EVA by 5.0% (15.0%) during the first 45 seconds of the battle. As long as this ship is afloat, increase FP by 1.0% (10.0%) and AA by 5.0% (15.0%) for all Sardegnia Empire vanguard ships, and decrease damage taken by all Zara-class ships by 6.0%.",
+            "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main battery is fired, triggers Full Barrage - Zara-class I (II)",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/600px-Pola.png"
+        ]
+    },
+    "vincenzo gioberti": {
+        "artista": "\u56e2\u5b50",
+        "doppiatrice": "",
+        "link_doppiatrice": " ",
+        "nome_nave": "Vincenzo Gioberti",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:32:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Alfredo Oriani",
+        "tipo": "__[Destroyer]__",
+        "id": "490",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during Empyreal Tragicomedy Rerun event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Vincenzo_Gioberti",
+            "https://azurlane.koumakan.jp/w/images/b/bf/Vincenzo_GiobertiIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/43/Vincenzo_Gioberti.png/568px-Vincenzo_Gioberti.png"
+        ],
+        "efficienza": [
+            "105% \u2192 125%: __DD Guns__",
+            "125% \u2192 130%: __Torpedoes__",
+            "100% \u2192 105%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gained Special Barrage I / Main Gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Main Gun Efficiency +10%",
+            "\u2022 Upgrades Special Barrage I\u2192II / All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Ontological Rudder \ud83d\udcd5\nWhen this ship takes DMG: increases this ship's FP and EVA by 1.0% (3.0%) (can be stacked up to 5 times). After reaching 5 stacks, this ship gains  5 Speed and fire a special barrage (30s cooldown when activated and DMG is based on the skill's level).",
+            "Protologia of Illumination \ud83d\udcd2\nEvery 15s: 20.0% (50.0%) chance to increase the Accuracy of your Vanguard by 10.0% (20.0%) for 10s.",
+            "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Alfredo Oriani-class I (II)",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/43/Vincenzo_Gioberti.png/521px-Vincenzo_Gioberti.png"
+        ]
+    },
     "tone": {
         "artista": "",
         "doppiatrice": "",
@@ -20828,51 +20930,6 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Chikuma.png/413px-Chikuma.png"
         ]
-    },
-    "pola": {
-        "artista": "\u4e91\u6851",
-        "doppiatrice": "",
-        "link_doppiatrice": " ",
-        "nome_nave": "Pola",
-        "rarit\u00e0": "Unreleased",
-        "tempo": "Unreleased",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Sardegna Empire",
-        "abbreviazione": "__[RN]__",
-        "classe": "Zara",
-        "tipo": "__[Heavy Cruiser]__",
-        "id": "9006",
-        "colore_embed": 16777020,
-        "acquisizione": "Non disponibile",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Pola",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/568px-Pola.png",
-            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/600px-Pola.png"
-        ],
-        "efficienza": [
-            "## \u00a0 ",
-            "## \u00a0 ",
-            "## \u00a0 "
-        ],
-        "rank": [
-            "Non disponibile",
-            " ",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Non disponibile   ",
-            "    ",
-            "    ",
-            "    ",
-            "    "
-        ],
-        "skin": []
     },
     "vittorio veneto": {
         "artista": "",
@@ -21614,7 +21671,7 @@
         "skill": [
             "Emotion Inhibition Module \ud83d\udcd8\nWhen Health falls below 50%: increases own Evasion by 15% (30%) and recovers 2% of max HP every 2 seconds for 8 seconds. Can only activate twice per battle.",
             "(Fate Simulation)Emotion Inhibition Module+ \ud83d\udcd8\nAt the start of battle, if this ship's HP is greater than 50.0%: increases this ship's AA by 4.5% (12.0%) and improves this ship's Precision Salvo Protocol barrage. Additionally, when this ship's HP falls below 50.0%: for 8s, increases this ship's EVA by 15% (30%) and restores a total of 8.0% of its max HP (this effect can only be triggered twice per battle). (replaces Emotion Inhibition Module)",
-            "Precision Salvo Protocol \ud83d\udcd5\nMain Gun can be fired twice per reload, and each salvo can be fired independently. All manually aimed salvos deal 25% (40%) more damage. Every 20 seconds after battle starts: 50% (100%) chance to fire a special barrage (damage is based on skill level)., Enhanced barrage preview (gif)",
+            "Precision Salvo Protocol \ud83d\udcd5\nMain Gun can be fired twice per reload, and each salvo can be fired independently. This ship's damage bonus with manually aimed salvos becomes 25% (40%). Every 20 seconds after battle starts: 50% (100%) chance to fire a special barrage (damage is based on skill level)., Enhanced barrage preview (gif)",
             "Siren Killer \ud83d\udcd5\nIncreases own damage dealt to Sirens by 5% (15%).",
             "    "
         ],
@@ -22174,9 +22231,9 @@
         ]
     },
     "monica": {
-        "artista": "",
+        "artista": "\u80a1\u95f4\u5c11\u5973",
         "doppiatrice": "Eri Yukimura",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://www.imdb.com/name/nm9806307/",
         "nome_nave": "Monica",
         "rarit\u00e0": "Monica",
         "tempo": "Monica",
