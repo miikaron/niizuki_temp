@@ -74,7 +74,6 @@ class Reaction(commands.Cog):
                                 sent = await channel.send(file=discord.File(os.path.join(PATH, image)))
                                 if sent:
                                     os.remove(os.path.join(PATH, image))
-
                     except Exception as e:
                         await channel.send(embed = discord.Embed(
                             description = f'Flag: {e}',
@@ -236,7 +235,9 @@ class Reaction(commands.Cog):
                             new_embed.add_field(name = "Retrofit:",
                                 value = "Retrofit " + database[NAVE]["retrofit"], inline = False)   
 
-                        await reaction_message.edit(embed=new_embed)                    
+                        await reaction_message.edit(embed=new_embed)
+                except IndexError:
+                    pass               
                 except Exception:
                     print(traceback.format_exc())
 
