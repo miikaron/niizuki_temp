@@ -80,7 +80,7 @@ class Saluti(commands.Cog):
         if not message.mentions:
             msg = message.content
             is_short = len([word for word in msg.split()]) < 5
-            spam = len(list(filter(lambda msg: _check(msg), self.client.cached_messages))) > 2 #allowed every 60s
+            spam = len(list(filter(lambda msg: _check(msg), self.client.cached_messages))) > 3 #allowed every 60s
             if is_short and not spam:
                 saluto_giorno = False
                 saluto_notte = False
@@ -108,6 +108,11 @@ class Saluti(commands.Cog):
                     saluto_giorno = False
 
                 if saluto_notte is True:
+                    #Check buonanotte
+                    message_content = [word for word in message.content.lower().split()]
+                    if "notte" in message_content and len(message_content) != 1:
+                        return
+
                     await message.add_reaction(emoji_saluto)
                     await channel.trigger_typing()
                     await asyncio.sleep(0.5)
@@ -115,6 +120,7 @@ class Saluti(commands.Cog):
                         description = f'Buonanotte <@{message.author.id}>',
                         colour = discord.Colour.blue()))
                     saluto_notte = False
+                        
                 
 def setup(client):
     client.add_cog(Saluti(client))
