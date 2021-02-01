@@ -445,11 +445,11 @@ altri_nomi = {
 "bad girl": "unicorn",
 "warui ko": "unicorn",
 #-------------------------------------------------------------------------------
-"vincenzina": "vincennes",
-"vince": "vincennes",
-#-------------------------------------------------------------------------------
 "vincenzo": "vincenzo gioberti",
 "gioberti": "vincenzo gioberti",
+#-------------------------------------------------------------------------------
+"vincenzina": "vincennes",
+"vince": "vincennes",
 #-------------------------------------------------------------------------------
 "victo": "victorious",
 "warsprite": "warspite",
