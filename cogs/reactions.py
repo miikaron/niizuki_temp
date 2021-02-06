@@ -18,9 +18,7 @@ def refresh_database():
     except json.decoder.JSONDecodeError:
         print("reaction.py: format error: 'mydatabase.json'")
 
-
-if os.path.exists(join("file_niizuki", "mydatabase.json")):
-    refresh_database()
+refresh_database()
 
 NII_ROLE = os.getenv("ROLE_NAME")
 MERON = os.getenv("MERON")
