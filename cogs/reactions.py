@@ -7,13 +7,20 @@ import asyncio, json, traceback
 database = None
 
 # Load database from 'mydatabase.json'
-try:
-    with open(join('file_niizuki', 'mydatabase.json'), 'r+') as f:
-        database = json.load(f)
-except FileNotFoundError:
-    print("File not found: 'mydatabase.json'")
-except json.decoder.JSONDecodeError:
-    print("Format error: 'mydatabase.json'")
+def refresh_database():
+    try:
+        with open(join('file_niizuki', 'mydatabase.json'), 'r+') as f:
+            global database
+            database = json.load(f)
+            return database
+    except FileNotFoundError:
+        print("reaction.py: file not found: 'mydatabase.json'")
+    except json.decoder.JSONDecodeError:
+        print("reaction.py: format error: 'mydatabase.json'")
+
+
+if os.path.exists(join("file_niizuki", "mydatabase.json")):
+    refresh_database()
 
 NII_ROLE = os.getenv("ROLE_NAME")
 MERON = os.getenv("MERON")
@@ -145,6 +152,7 @@ class Reaction(commands.Cog):
                                 await reaction_message.edit(embed=new_embed)
                 except Exception:
                     print(traceback.format_exc())
+                    refresh_database()
             
             #Change embed page (Limit Break | Skills)  
             if str(payload.emoji) == "📖":         
@@ -236,8 +244,8 @@ class Reaction(commands.Cog):
                                 value = "Retrofit " + database[NAVE]["retrofit"], inline = False)   
 
                         await reaction_message.edit(embed=new_embed)
-                except (IndexError, KeyError):
-                    await reaction_message.add_reaction(emoji = "❌")
+                except (IndexError, KeyError, TypeError):
+                    refresh_database()
                 except Exception:
                     print(traceback.format_exc())
 

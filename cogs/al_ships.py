@@ -15,19 +15,20 @@ database = None
 
 def update_database():
     try:
-        print("Refresh del database")
+        print("Refresh")
         with open(join('file_niizuki', 'mydatabase.json'), 'r+') as f:
             global database
             database = json.load(f)
             return database
     except FileNotFoundError:
-        print("Errore: mydatabase.json... creazione file")
-        f = open("mydatabase.json", "w")
+        print("al_ships.py: creazione file 'mydatabase.json'")
+        f = open(join('file_niizuki', 'mydatabase.json'), "w")
+        f.write("{\n}")
         f.close()
         database = {}
         return database
     except json.decoder.JSONDecodeError:
-        print("Errore formato json... eliminazione file")
+        print("al_ships.py: rimozione file 'mydatabase.json'")
         os.remove(join('file_niizuki', "mydatabase.json"))
         database = {}
         return database
@@ -166,13 +167,18 @@ class Ships(commands.Cog):
             nave = richiamo.nave
 
             if nave not in database:
-                await channel.send(embed = discord.Embed(
+                embed_nave = discord.Embed(
                     title = "Comunicazione:",
                     description = f"Niizuki non ha trovato questa nave nel database: __{nave}__\n" +
                     "𝐶-𝑐𝑜𝑚𝑎𝑛𝑑𝑎𝑛𝑡𝑒... 𝑛-𝑛𝑜𝑛 𝑡𝑖 𝑎𝑟𝑟𝑎𝑏𝑏𝑖𝑎𝑟𝑒, 𝑝𝑒𝑟 𝑓𝑎𝑣𝑜𝑟𝑒\n_ _\n" +
                     "Usa il comando **.help** se hai bisogno di aiuto (≧ ﹏ ≦)\n" +
                     f"Oppure, prova a contattare {MELONE.mention}",
-                    colour = discord.Colour.dark_green()))
+                    colour = discord.Colour.dark_green())
+                embed_nave.set_footer(text="Clicca l'emoji per ricaricare il database")
+
+                invio_embed = await channel.send(embed = embed_nave)
+                await invio_embed.add_reaction(emoji = "📥")
+                update_database()
             else:
                 try:
                     invio = Nave(nave)
@@ -204,13 +210,18 @@ class Ships(commands.Cog):
             nave = richiamo.nave
 
             if nave not in database:
-                await channel.send(embed = discord.Embed(
+                embed_skin = discord.Embed(
                     title = "Comunicazione:",
                     description = f"Non trovo nessuna skin di questa nave: __{nave}__\n" +
                     "N-non ho commesso errori, 𝑣𝑒𝑟𝑜?\n_ _\n" +
                     "Usa il comando **.help** se hai bisogno di aiuto (≧ ﹏ ≦)\n" +
                     f"Oppure, prova a contattare {MELONE.mention}",
-                    colour = discord.Colour.dark_green()))
+                    colour = discord.Colour.dark_green())
+                embed_skin.set_footer(text="Clicca l'emoji per ricaricare il database")
+
+                invio_embed = await channel.send(embed = embed_skin)
+                await invio_embed.add_reaction(emoji = "📥")
+                update_database()
             else:
                 try:
                     embed_skin = discord.Embed(description = database[nave]["skin"][0],

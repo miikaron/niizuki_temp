@@ -11,8 +11,7 @@ FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.
 lista_navi = []
 collab_ships = []
 
-def crea_lista():
-    wiki = "https://azurlane.koumakan.jp"
+def crea_lista(wiki):
     #----------------------------------------------------------------------------------------------------
     # List of Ships
     ship_list_url = wiki+"/List_of_Ships"
@@ -53,17 +52,23 @@ def crea_lista():
                     lista_navi.append(a["href"])
 
 def aggiorna_database():
+    #----------------------------------------------------------------------------------------------------
+    wiki = "https://azurlane.koumakan.jp"
+
+    crea_lista(wiki)
     if os.path.exists(join("file_niizuki", "mydatabase.json")):
         try:
             os.remove(join("file_niizuki", "mydatabase.json"))
+        except FileNotFoundError:
+            print("Scrap.py: creazione file 'mydatabase.json'")
+            f = open(join('file_niizuki', 'mydatabase.json'), "w")
+            f.close()
         except Exception:
             print(traceback.format_exc())
     #----------------------------------------------------------------------------------------------------
-    wiki = "https://azurlane.koumakan.jp"
-    #----------------------------------------------------------------------------------------------------
     #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
     #----------------------------------------------------------------------------------------------------
-    #lista_navi2 = ["/Nürnberg", "/Kaga", "/Stremitelny"] # TEST
+    #lista_navi = ["/Nürnberg", "/Kaga", "/Stremitelny"] # lista_navi2
 
     for nave in lista_navi:
         nome = nave
