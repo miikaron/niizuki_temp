@@ -15,10 +15,10 @@ database = None
 
 def update_database():
     try:
+        print("Refresh del database")
         with open(join('file_niizuki', 'mydatabase.json'), 'r+') as f:
             global database
             database = json.load(f)
-            print("Refresh del database")
             return database
     except FileNotFoundError:
         print("Errore: mydatabase.json... creazione file")

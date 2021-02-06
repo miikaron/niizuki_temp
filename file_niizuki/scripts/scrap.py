@@ -6,31 +6,23 @@ import time
 import json
 import traceback
 
-FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"}
+FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"}
 
-def aggiorna_database():
-    #----------------------------------------------------------------------------------------------------
+lista_navi = []
+collab_ships = []
+
+def crea_lista():
     wiki = "https://azurlane.koumakan.jp"
     #----------------------------------------------------------------------------------------------------
-    if os.path.exists(join("file_niizuki", "mydatabase.json")):
-        try:
-            os.remove(join("file_niizuki", "mydatabase.json"))
-        except Exception:
-            print(traceback.format_exc())
-
-    #----------------------------------------------------------------------------------------------------
-    #List of Ships
+    # List of Ships
     ship_list_url = wiki+"/List_of_Ships"
     headers = FIREFOX_AGENT
     shiplist_req = requests.get(ship_list_url, headers=headers)
     #BeautifulSoup object: Collect and Parse
     sl_soup = BeautifulSoup(shiplist_req.text, "html.parser")
     #----------------------------------------------------------------------------------------------------
-    lista_navi = []
-
     standard_list = []
     research_ships = []
-    collab_ships = []
     sl_table = sl_soup.find_all("table", {"class": "wikitable sortable jquery-tablesorter"})
     row_t1 = sl_table[0].find_all("tr")
     for row in row_t1:
@@ -59,18 +51,23 @@ def aggiorna_database():
                 if a.text.startswith(("Collab", "1006")):
                     collab_ships.append(a["href"])
                     lista_navi.append(a["href"])
+
+def aggiorna_database():
+    if os.path.exists(join("file_niizuki", "mydatabase.json")):
+        try:
+            os.remove(join("file_niizuki", "mydatabase.json"))
+        except Exception:
+            print(traceback.format_exc())
     #----------------------------------------------------------------------------------------------------
-    # print(standard_list)
-    # print(research_ships)
-    # print(collab_ships)
-    # print(lista_navi)
+    wiki = "https://azurlane.koumakan.jp"
     #----------------------------------------------------------------------------------------------------
-    #lista_navi2 = ["/Nürnberg"] # TEST
+    #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
+    #----------------------------------------------------------------------------------------------------
+    #lista_navi2 = ["/Nürnberg", "/Kaga", "/Stremitelny"] # TEST
 
     for nave in lista_navi:
         nome = nave
         try:
-            time.sleep(0.5)
             #Pagina Wiki: Nave
             main_url = wiki+nome
             headers = FIREFOX_AGENT
@@ -84,12 +81,11 @@ def aggiorna_database():
             nome_nave = title_name.get_text()
             nome_nave_low = nome_nave.lower()
             nome_link_nave = "/"+nome_nave.replace(" ", "_")
-
     #----------------------------------------------------------------------------------------------------
             #print(nome_nave)
-            #print(nome_nave_low, nome_link_nave)
+            #print(nome_nave, nome_nave_low, nome_link_nave, sep="---")
     #-------------------------------------------------------------------------------------------------s---
-            #Tabella parte 1
+            # Tabella parte 1
     #----------------------------------------------------------------------------------------------------
             content_list = []
             href_title = []
@@ -114,9 +110,9 @@ def aggiorna_database():
                 classe = content_list[0]
 
     #----------------------------------------------------------------------------------------------------        
-            #print(tempo, rarità, classe)
+            #print(tempo, rarità, classe, sep="---")
     #----------------------------------------------------------------------------------------------------
-            #Tabella parte 2
+            # Tabella parte 2
     #----------------------------------------------------------------------------------------------------
             tab2_list = []
             tab2_body = tables[1].find_all("td") #tables = body.find_all("table", {"style": "border-left:0; height:130px; margin:0; width:100%"})
@@ -131,11 +127,11 @@ def aggiorna_database():
                 tab2_list.append(info)
             #print(tab2_list)
             try:
-                id = tab2_list[0]
+                id_nave = tab2_list[0]
                 nazionalità = tab2_list[1]
                 tipo = tab2_list[2]
             except IndexError:
-                id = tab2_list[0]
+                id_nave = tab2_list[0]
                 nazionalità = tab2_list[1]
                 tipo = tab2_list[2]
             
@@ -159,7 +155,7 @@ def aggiorna_database():
                 abbreviazione = "__[KMS]__"
                 img_nazione = "https://azurlane.koumakan.jp/w/images/f/f5/Ironblood_edited.png"
 
-            if nazionalità == "Eastern Radiance":
+            if nazionalità == "Dragon Empery":
                 abbreviazione = "__[ROC]__"
                 img_nazione = "https://azurlane.koumakan.jp/w/images/3/3f/Azurlane-logo-1.png"
 
@@ -171,7 +167,7 @@ def aggiorna_database():
                 abbreviazione = "__[MNF]__"
                 img_nazione = "https://azurlane.koumakan.jp/w/images/a/a1/Vf_1.png"
 
-            if nazionalità == "North Union":
+            if nazionalità == "Northern Parliament":
                 abbreviazione = "__[SN]__"
                 img_nazione = "https://azurlane.koumakan.jp/w/images/b/b2/Northunion_orig.png"
 
@@ -204,9 +200,9 @@ def aggiorna_database():
                 img_nazione = "https://azurlane.koumakan.jp/w/images/5/5c/Bi_1.png"
 
     #----------------------------------------------------------------------------------------------------
-            #Colore_tipo: dd, cl, ca, cb, bb, bc, bm, bbv, cv, cvl, ar, ae, ss, ssv
+            # colore_tipo: dd, cl, ca, cb, bb, bc, bm, bbv, cv, cvl, ar, ae, ss, ssv
     #----------------------------------------------------------------------------------------------------
-            colore_tipo = [0x87CEFA, 0xffff6d, 0xffff3c, 0xff9980, 0xff3c3c, 0xf4676b, 0xffcccc, 0xDC143C, 0xb654f4, 0xc77cf6, 0x21cd8f, 0x7FFFD4, 0x4dff4d, 0x66ff66]
+            colore_tipo = [0x87cefa, 0xfff3ad, 0xffdead, 0xff9980, 0xff3c3c, 0xf4676b, 0xffcccc, 0xdc143c, 0xb654f4, 0xc77cf6, 0x21cd8f, 0x7fffd4, 0x4dff4d, 0x66ff66]
             colore_embed = 0x778899
 
             if tipo == "Destroyer":
@@ -239,13 +235,10 @@ def aggiorna_database():
                 colore_embed = colore_tipo[13]
             if tipo == "Light Cruiser → Heavy Cruiser":
                 colore_embed = colore_tipo[2]
-            else:
-                pass
-
     #----------------------------------------------------------------------------------------------------
-            #print(id, tipo, colore_embed, nazionalità, abbreviazione, img_nazione)
+            #print(id_nave, tipo, colore_embed, nazionalità, abbreviazione, img_nazione, sep="---")
     #----------------------------------------------------------------------------------------------------
-            #Check ship has retrofit
+            # Check if ship has retrofit
             div_content_list = []
             divs = body.find("div", {"id": "mw-normal-catlinks"})
             div_links = divs.find_all("a", href=True)
@@ -259,18 +252,20 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             # print(retrofit)
     #----------------------------------------------------------------------------------------------------
-            #Icona.png
+            # Icona.png
             ship_icon = body.find("img")
             icona_nave = wiki+ship_icon["src"]
-            #Immagine.png
-            div = body.find("div", {"class": "adaptiveratioimg"})
-            ship_img = div.find("img")
-            img_nave = wiki+ship_img["src"]
-
+            # Immagine.png
+            try:
+                div = body.find("div", {"class": "adaptiveratioimg"})
+                ship_img = div.find("img")
+                img_nave = wiki+ship_img["src"]
+            except TypeError:
+                img_nave = "https://azurlane.koumakan.jp/w/images/3/36/UnknownT1BP.png"
     #----------------------------------------------------------------------------------------------------
-            # print(icona_nave+"\n"+img_nave)
+            # print(icona_nave, img_nave, sep="\n")
     #----------------------------------------------------------------------------------------------------
-            #Tabella: Miscellaneous Info
+            # Tabella: Miscellaneous Info
     #----------------------------------------------------------------------------------------------------
             info = []
             info_link_list = []
@@ -289,8 +284,7 @@ def aggiorna_database():
             #print(no_play)
             if "Play" in no_play:
                 info[9] = " ".join(no_play[1:])
-            #print(info)
-            #print(info_link_list)
+            #print(info, info_link_list)
             try:
                 artista = info[1]
             except IndexError:
@@ -319,9 +313,9 @@ def aggiorna_database():
                 link_doppiatrice = " "
 
     #----------------------------------------------------------------------------------------------------
-            # print(artista, doppiatrice, web, pixiv, twitter, link_doppiatrice)
+            # print(artista, doppiatrice, web, pixiv, twitter, link_doppiatrice, sep="\n")
     #----------------------------------------------------------------------------------------------------
-            #Tabella: Equipment
+            # Tabella: Equipment
     #----------------------------------------------------------------------------------------------------
             equip_info = []
             equip_table = body.find("table", {"class": "wikitable", "style": "text-align:center; width:100%"})
@@ -347,7 +341,7 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             # print(efficienza1, efficienza2, efficienza3, sep="\n")
     #----------------------------------------------------------------------------------------------------
-            #Tabella: | Strengthen Level (Limit Break Ranks) | Skills |
+            # Tabella: | Strengthen Level (Limit Break Ranks) | Skills |
     #----------------------------------------------------------------------------------------------------
             lbs_table = body.find("table", {"class": "mw-collapsible wikitable"})
             rows = lbs_table.find_all("tr")
@@ -384,7 +378,7 @@ def aggiorna_database():
                         #print(lb_content)
                         lb_text_temp.clear()
                     else:
-                        #Testo caselle riga senza icone
+                        #Testo caselle "riga senza icone"
                         raw_lb_content = "• "+lb_td.text.replace("Gains", ", Gains").replace("Upgrades", ", Upgrades").replace("IM", "I, M").replace("%S", "%, S").strip()
                         lb_content = raw_lb_content.replace("• , ", "• ")
                         if lb_content != "• ":
@@ -399,7 +393,7 @@ def aggiorna_database():
                         skill_color.append(style)
                         raw_text = td_skill.find_next_sibling("td").text
     #----------------------------------------------------------------------------------------------------
-                        #Fix Nowaki's skill
+                        # Fix Nowaki's skill
                         target = "0% -"
                         res = [i for i in range(len(raw_text)) if raw_text.startswith(target, i)]
                         if res:
@@ -418,10 +412,8 @@ def aggiorna_database():
                         else:
                             text = raw_text.strip().replace("Barrage preview (gif)", "")
                             skill_text.append(text) 
-            #print(lb_text)
-            #print(skill_name)
-            #print(skill_color)
-            #print(skill_text)        
+
+            #print(lb_text, skill_name. skill_color. skill_text, sep="\n")    
     #----------------------------------------------------------------------------------------------------
             try:
                 lb1 = lb_text[0] if lb_text[0] else "Non disponibile"
@@ -469,7 +461,7 @@ def aggiorna_database():
             except IndexError:
                 nome_skill5 = " "
     #----------------------------------------------------------------------------------------------------
-            #Colori_skill: background-color: DeepSkyBlue, Gold, Pink
+            # colori_skill: background-color: DeepSkyBlue, Gold, Pink
     #----------------------------------------------------------------------------------------------------
             blu = "📘"
             giallo = "📒"
@@ -543,7 +535,7 @@ def aggiorna_database():
             except IndexError:
                 skill2 = " "
             try:
-                #Fix Yuubari's skill
+                # Fix Yuubari's skill
                 if len(skill_text[2]) > 900:
                     skill3 = "\nUse a random piece of prototype equipment with various effects every 12 seconds:" + \
                         "\n• 17% - Prototype Type-0 Main Gun: Fires an HE ammo barrage." + \
@@ -569,11 +561,11 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             # print(lb1, lb2, lb3, sep="\n")
             # print(nome_skill1, nome_skill2, nome_skill3, nome_skill4, sep="\n")
-            # print(colore1, colore2, colore3, colore4)
+            # print(colore1, colore2, colore3, colore4, sep="\n")
             # print(skill1, skill2, skill3, skill4, sep="\n")
     #----------------------------------------------------------------------------------------------------
             time.sleep(0.5)
-            #Wiki (Gallery)
+            # Wiki (Gallery)
             gallery = "/Gallery"
     #----------------------------------------------------------------------------------------------------
             s_url = wiki+nome+gallery
@@ -591,7 +583,7 @@ def aggiorna_database():
                 #print(div)
                 title = div.get("title")
 
-                #Remove [ Normal], [CN (or CENSORED)], [Without Background] buttons
+                # Remove [ Normal], [CN (or CENSORED)], [Without Background] buttons
                 if title not in removed_title:
                     nome_skin.append(title)
                     a = div.find("a", {"class": "image"})
@@ -748,7 +740,7 @@ def aggiorna_database():
 
             #print(add_info)
             #----------------------------------------------------------------------------------------------------
-            #Check ship is limited
+            # Check if ship is limited
             limited = "no"
 
             light = ""
@@ -835,7 +827,7 @@ def aggiorna_database():
             if nome in collab_ships:
                 collab = "sì"
     #----------------------------------------------------------------------------------------------------
-            #Creazione database
+            # Creazione database
     #----------------------------------------------------------------------------------------------------
             ship = {
                 nome_nave_low: {
@@ -850,7 +842,7 @@ def aggiorna_database():
                     "abbreviazione": abbreviazione,
                     "classe": classe,
                     "tipo": "__[%s]__"%tipo,
-                    "id": id,
+                    "id": id_nave,
                     "colore_embed": colore_embed,
                     "acquisizione": acquisizione,
                     "limited": limited,

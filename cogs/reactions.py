@@ -236,8 +236,8 @@ class Reaction(commands.Cog):
                                 value = "Retrofit " + database[NAVE]["retrofit"], inline = False)   
 
                         await reaction_message.edit(embed=new_embed)
-                except IndexError:
-                    pass               
+                except (IndexError, KeyError):
+                    await reaction_message.add_reaction(emoji = "❌")
                 except Exception:
                     print(traceback.format_exc())
 
