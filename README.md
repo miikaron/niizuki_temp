@@ -2,7 +2,7 @@
 
 #### Server Discord: [link invito](https://discord.gg/DUQNWdu)  
 
-## < Repository Github pubblica di prova >  
+## < Repository Github pubblica >  
 
 #### Progetto a cura di __watermelonTm__
 ###### Discord tag: **西瓜tm#6926**  
