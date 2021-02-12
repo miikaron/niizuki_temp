@@ -56,7 +56,7 @@ class Maps(commands.Cog):
                         icon_url = "https://azurlane.koumakan.jp/w/images/a/aa/Home_head_sortie.png")
                     #Immagini e footer
                     embed.set_thumbnail(url = campagna[mappa]["wiki_nave"][1])
-                    embed.set_image(url = f'attachment://{campagna[mappa]["wiki_nave"][0]}.png')
+                    embed.set_image(url = f'attachment://{campagna[mappa]["wiki_nave"][0]}.PNG')
                     embed.set_footer(text = testo)
                     #Informazioni
                     embed.add_field(name = "Infomazioni mappa", value =
