@@ -147,7 +147,7 @@ class Ships(commands.Cog):
                 "> esempio: **cat!**Bishamaru\n \n" +
                 "**cap!**capitolo⠀→⠀info capitolo mappa\n" +
                 "> esempio: **cap!**9-4\n \n" +
-                "**%**tempo di costruzione | nome nave\n " +
+                "**%**tempo di costruzione | nome nave\n" +
                 "> esempio: **%**01:35:00⠀=⠀*Akashi*\n" +
                 "> esempio2: **%**Sandy⠀=⠀*01:10:00*\n \n" +
                 "**cat%**tempo⠀→⠀meowfficer\n" +
