@@ -1,6 +1,7 @@
 import discord, os
 from discord.ext import commands
 from discord.ext.commands import Bot, Cog
+from pathlib import Path
 from os.path import join
 import asyncio, traceback
 from dotenv import load_dotenv
@@ -11,6 +12,9 @@ from file_niizuki.scripts.mappe import campagna
 MAP_PREFIX = 'cap!'
 MERON = os.getenv("MERON")
 MELONE_ID = int(MERON)
+
+path = Path(__file__)
+os.chdir(path.parents[1])
 
 class Maps(commands.Cog):
     def __init__(self, client):
@@ -66,7 +70,7 @@ class Maps(commands.Cog):
                         f'Run necessari per completare la mappa: {campagna[mappa]["battaglie"][1]}\n' +
                         f'\n**Ricompensa 3 stelle:**\n{campagna[mappa]["ricompensa"]}', inline = False)
 
-                    node_img_path = os.path.join('file_niizuki', 'al_node_map')
+                    node_img_path = os.path.join("file_niizuki", "al_node_map")
                     await channel.send(file=discord.File(os.path.join(node_img_path, f'{campagna[mappa]["wiki_nave"][0]}.png')), embed=embed)
                 except Exception as e:
                     embed_errore = discord.Embed(
@@ -77,7 +81,7 @@ class Maps(commands.Cog):
                     embed_errore.set_footer(text = MELONE.name+" arriverà fra breve, forse", icon_url = MELONE.avatar_url)
 
                     await channel.send(f'{MELONE.mention}')
-                    img_path = os.path.join('file_niizuki', 'images')
+                    img_path = os.path.join("file_niizuki", "images")
                     await channel.send(file=discord.File(os.path.join(img_path, "ops.gif")), embed=embed_errore)
                     print(traceback.format_exc())
 
