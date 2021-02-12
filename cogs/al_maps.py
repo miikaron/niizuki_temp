@@ -13,9 +13,6 @@ MAP_PREFIX = 'cap!'
 MERON = os.getenv("MERON")
 MELONE_ID = int(MERON)
 
-path = Path(__file__)
-os.chdir(path.parents[1])
-
 class Maps(commands.Cog):
     def __init__(self, client):
         self.client = client
@@ -71,7 +68,7 @@ class Maps(commands.Cog):
                         f'\n**Ricompensa 3 stelle:**\n{campagna[mappa]["ricompensa"]}', inline = False)
 
                     node_img_path = os.path.join("file_niizuki", "al_node_map")
-                    await channel.send(file=discord.File(os.path.join(node_img_path, f'{campagna[mappa]["wiki_nave"][0]}.png')), embed=embed)
+                    await channel.send(file=discord.File(os.path.join(node_img_path, f'{campagna[mappa]["wiki_nave"][0]}.PNG')), embed=embed)
                 except Exception as e:
                     embed_errore = discord.Embed(
                         title = "Ops...",
@@ -87,3 +84,8 @@ class Maps(commands.Cog):
 
 def setup(client):
     client.add_cog(Maps(client))
+
+if __name__ == "__main__":
+    path = Path(__file__)
+    os.chdir(path.parents[1])
+    print(os.getcwd())
