@@ -80,7 +80,7 @@ class Moderation(commands.Cog):
 
         if not ctx.message.author.id == MELONE_ID:
             indirizzo_log = self.client.get_channel(ID_CANALE_LOG)
-            await indirizzo_log.send(testo + f' (Inviato da: **{ctx.message.author}**, canale **#{channel}**, comando: **testo**)')
+            await indirizzo_log.send(testo + f' (Inviato da: **{ctx.message.author}**, canale **#{channel}**, comando: **say**)')
 
     @commands.command()
     @commands.guild_only()
