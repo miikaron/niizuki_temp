@@ -6,7 +6,7 @@ import time
 import json
 import traceback
 
-FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"}
+FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
 
 lista_navi = []
 collab_ships = []
@@ -68,7 +68,7 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Nürnberg", "/Kaga", "/Stremitelny"] # lista_navi2
+    #lista_navi = ["/Aurora"] # lista_navi2
 
     for nave in lista_navi:
         nome = nave
@@ -752,9 +752,7 @@ def aggiorna_database():
             heavy = ""
             special =""
             limited_text = ""
-            light2 = ""
-            heavy2 = ""
-            special2 = ""
+
             exchange = ""
             questline = ""
             collection = ""
@@ -764,44 +762,36 @@ def aggiorna_database():
                     limited = "sì"
             #----------------------------------------------------------------------------------------------------
 
-                if td_style_build[0] == "background-color:lightgreen":
+                if td_style_build[0] == "background-color:lightgreen" or "background-color:LemonChiffon":
                     light = "Build: Light | "
-                if td_style_build[1] == "background-color:lightgreen":
+                if td_style_build[1] == "background-color:lightgreen" or "background-color:LemonChiffon":
                     heavy = "Build: Heavy | " if light == "" else "Heavy | "
-                if td_style_build[2] == "background-color:lightgreen":
+                if td_style_build[2] == "background-color:lightgreen" or "background-color:LemonChiffon":
                     if light == "" and heavy == "":
                         special ="Build: Special | "
                     else:
                         special ="Special | "
-                if td_style_build[4] == "background-color:lightgreen":
+                if td_style_build[4] == "background-color:lightgreen" or "background-color:LemonChiffon":
                     exchange = " Exchange |"
 
-                if td_style_build[0] == "background-color:LemonChiffon":
-                    light2 = "Build: Light | "
-                if td_style_build[1] == "background-color:LemonChiffon":
-                    heavy2 = "Build: Heavy | " if light2 == "" else "Heavy | "
-                if td_style_build[2] == "background-color:LemonChiffon":
-                    if light2 == "" and heavy2 == "":
-                        special2 = "Build: Special | "
-                    else:
-                        special2 = "Special | "
 
-            normal_build = light+heavy+special
-            unlock_build = light2+heavy2+special2
+            build_info = light + heavy + special
             
+            # Collection
             raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion: ") \
                             if [s for s in add_info if "Collection" in s] else ""
+
             if raw_collection:
                 if raw_collection.startswith("Ricompensa"):
-                    r_collection_text = raw_collection.replace(" Collections goal is met by getting ", "")+"\nIn seguito sarà disponibile in "+unlock_build
-                    collection_text = r_collection_text.replace(" Collection goal is met by getting ", "")
+                    collection_text = raw_collection.replace(" Collections goal is met by getting ", "") + "\nIn seguito sarà disponibile in " + build_info
                 else:
-                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+"\nIn seguito sarà disponibile in "+unlock_build
-            if raw_collection:
+                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+"\nIn seguito sarà disponibile in "+build_info
+
+                #Remove "CN/EN"
                 collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
 
-            login_mensile = "Ricompensa login mensile | " if [s for s in add_info if "Monthly login reward" in s] else ""
 
+            login_mensile = "Ricompensa login mensile | " if [s for s in add_info if "Monthly login reward" in s] else ""
             bulin = "Ricompensa login | Missioni settimanali | Eventi | Shop | Exchange" if nazionalità == "Universal" else ""
             
             research_text = "Research" if tempo == "Research" else ""
@@ -811,15 +801,14 @@ def aggiorna_database():
             if unreleased_text:
                 limited_text = unreleased_text
             if limited == "sì" and add_info:
-                limited_text = "Event Build: "+ add_info[0]+" "
+                limited_text = "Event Build: " + add_info[0] + " "
 
-            testo_ac = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange + "\nDrop:"+cap_list
-            testo_ac2 = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange
+            info_text = bulin + login_mensile + collection + questline + limited_text + build_info + exchange
+            info_text_2 = info_text + "\nDrop:" + cap_list
 
-            acquisizione = testo_ac if len(cap_list) > 2 else testo_ac2
-            if acquisizione:
-                if len(acquisizione) == len(normal_build + exchange):
-                    acquisizione = normal_build+add_info[0] if add_info else normal_build
+            acquisizione = info_text_2 if len(cap_list) > 2 else info_text
+            if len(acquisizione) == len(build_info + exchange):
+                acquisizione = build_info + add_info[0] if add_info else build_info
             else:
                 try:
                     acquisizione = add_info[0]
