@@ -77,11 +77,11 @@ class Nave:
         embed = discord.Embed(
             title = database[nave]["tempo"],
             description = f'Artista: {database[nave]["artista"]}\n' +
-            f'Doppiatrice: {database[nave]["doppiatrice"]}\n_ _\n' +
+            f'Doppiatrice: {database[nave]["doppiatrice"]}\n\n' +
             #Info
             f'**Nazionalità:** {database[nave]["nazionalità"]} {database[nave]["abbreviazione"]}\n' +
             f'**Classe:** {database[nave]["classe"]} {database[nave]["tipo"]}\n' +
-            f'**Numero ID:** {database[nave]["id"]}\n_ _\n' +
+            f'**Numero ID:** {database[nave]["id"]}\n\n' +
             #Lista skin
             f'**Skin: **'+"\n".join(skin_list),
             colour = discord.Colour(database[nave]["colore_embed"]))
@@ -170,7 +170,7 @@ class Ships(commands.Cog):
                 embed_nave = discord.Embed(
                     title = "Comunicazione:",
                     description = f"Niizuki non ha trovato questa nave nel database: __{nave}__\n" +
-                    "𝐶-𝑐𝑜𝑚𝑎𝑛𝑑𝑎𝑛𝑡𝑒... 𝑛-𝑛𝑜𝑛 𝑡𝑖 𝑎𝑟𝑟𝑎𝑏𝑏𝑖𝑎𝑟𝑒, 𝑝𝑒𝑟 𝑓𝑎𝑣𝑜𝑟𝑒\n_ _\n" +
+                    "𝐶-𝑐𝑜𝑚𝑎𝑛𝑑𝑎𝑛𝑡𝑒... 𝑛-𝑛𝑜𝑛 𝑡𝑖 𝑎𝑟𝑟𝑎𝑏𝑏𝑖𝑎𝑟𝑒, 𝑝𝑒𝑟 𝑓𝑎𝑣𝑜𝑟𝑒\n\n" +
                     "Usa il comando **.help** se hai bisogno di aiuto (≧ ﹏ ≦)\n" +
                     f"Oppure, prova a contattare {MELONE.mention}",
                     colour = discord.Colour.dark_green())
@@ -213,7 +213,7 @@ class Ships(commands.Cog):
                 embed_skin = discord.Embed(
                     title = "Comunicazione:",
                     description = f"Non trovo nessuna skin di questa nave: __{nave}__\n" +
-                    "N-non ho commesso errori, 𝑣𝑒𝑟𝑜?\n_ _\n" +
+                    "N-non ho commesso errori, 𝑣𝑒𝑟𝑜?\n\n" +
                     "Usa il comando **.help** se hai bisogno di aiuto (≧ ﹏ ≦)\n" +
                     f"Oppure, prova a contattare {MELONE.mention}",
                     colour = discord.Colour.dark_green())
@@ -303,7 +303,7 @@ class Ships(commands.Cog):
                         await channel.send(embed = discord.Embed(
                             title = "Comunicazione:",
                             description = f"Niizuki non ha trovato questa nave nel database: __{time_or_name}__\n" +
-                            "𝐶-𝑐𝑜𝑚𝑎𝑛𝑑𝑎𝑛𝑡𝑒... 𝑛-𝑛𝑜𝑛 𝑡𝑖 𝑎𝑟𝑟𝑎𝑏𝑏𝑖𝑎𝑟𝑒, 𝑝𝑒𝑟 𝑓𝑎𝑣𝑜𝑟𝑒\n_ _\n" +
+                            "𝐶-𝑐𝑜𝑚𝑎𝑛𝑑𝑎𝑛𝑡𝑒... 𝑛-𝑛𝑜𝑛 𝑡𝑖 𝑎𝑟𝑟𝑎𝑏𝑏𝑖𝑎𝑟𝑒, 𝑝𝑒𝑟 𝑓𝑎𝑣𝑜𝑟𝑒\n\n" +
                             "Usa il comando **.help** se hai bisogno di aiuto (≧ ﹏ ≦)\n" +
                             f"Oppure, prova a contattare {MELONE.mention}",
                             colour = discord.Colour.dark_green()))
