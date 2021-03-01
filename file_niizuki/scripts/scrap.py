@@ -6,7 +6,7 @@ import time
 import json
 import traceback
 
-FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
+FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"}
 
 lista_navi = []
 collab_ships = []
@@ -22,9 +22,10 @@ def crea_lista(wiki):
     #----------------------------------------------------------------------------------------------------
     standard_list = []
     research_ships = []
+
     sl_table = sl_soup.find_all("table", {"class": "wikitable sortable jquery-tablesorter"})
-    row_t1 = sl_table[0].find_all("tr")
-    for row in row_t1:
+    row_tab1 = sl_table[0].find_all("tr")
+    for row in row_tab1:
         cols = row.find_all("td")
         for td in cols:
             a = td.find("a")
@@ -32,8 +33,8 @@ def crea_lista(wiki):
                 if a.text.isnumeric():
                     standard_list.append(a["href"])
                     lista_navi.append(a["href"])
-    row_t2 = sl_table[1].find_all("tr")
-    for row in row_t2:
+    row_tab2 = sl_table[1].find_all("tr")
+    for row in row_tab2:
         cols = row.find_all("td")
         for td in cols:
             a = td.find("a")
@@ -41,8 +42,8 @@ def crea_lista(wiki):
                 if a.text.startswith("Plan"):
                     research_ships.append(a["href"])
                     lista_navi.append(a["href"]) 
-    row_t3 = sl_table[2].find_all("tr")
-    for row in row_t3:
+    row_tab3 = sl_table[2].find_all("tr")
+    for row in row_tab3:
         cols = row.find_all("td")
         for td in cols:
             a = td.find("a")
@@ -54,8 +55,8 @@ def crea_lista(wiki):
 def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     wiki = "https://azurlane.koumakan.jp"
-
     crea_lista(wiki)
+
     if os.path.exists(join("file_niizuki", "mydatabase.json")):
         try:
             os.remove(join("file_niizuki", "mydatabase.json"))
@@ -68,7 +69,7 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Aurora"] # lista_navi2
+    #lista_navi = ["/Aurora", "/Stremitelny"] # (lista_navi2 -- debug)
 
     for nave in lista_navi:
         nome = nave
@@ -82,63 +83,70 @@ def aggiorna_database():
             body = soup.body
     #----------------------------------------------------------------------------------------------------
             #Main title = Nome della nave
-            title_name = body.find("h1", {"id": "firstHeading"})
-            nome_nave = title_name.get_text()
-            nome_nave_low = nome_nave.lower()
-            nome_link_nave = "/"+nome_nave.replace(" ", "_")
+            h1_ship_name = body.find("h1", {"id": "firstHeading"})
+            #print(h1_ship_name)
+            
+            if h1_ship_name:
+                nome_nave = h1_ship_name.get_text()
+                nome_nave_lower = nome_nave.lower()
+                nome_nave_url = "/"+nome_nave.replace(" ", "_")
     #----------------------------------------------------------------------------------------------------
-            #print(nome_nave)
-            #print(nome_nave, nome_nave_low, nome_link_nave, sep="---")
+            #print(nome_nave, nome_nave_lower, nome_nave_url, sep="---")
     #-------------------------------------------------------------------------------------------------s---
             # Tabella parte 1
     #----------------------------------------------------------------------------------------------------
-            content_list = []
+            table_content_p1 = []
             href_title = []
-            tables = body.find_all("table", {"style": "border-left:0; height:130px; margin:0; width:100%"})
 
+            tables = body.find_all("table", {"style": "border-left:0; height:130px; margin:0; width:100%"})
             a_href = tables[0].find_all("a", href=True)
             for href in a_href:
                 #print(href)
-                a_title = href.get("title")
-                href_title.append(a_title)
+                anchor_with_title = href.get("title")
+                href_title.append(anchor_with_title)
                 for string in href.strings:
                     string = repr(string) if string else print("No string found")
-                    content_list.append(string.strip("'"))
-            #print(href_title, "-", content_list)
+                    table_content_p1.append(string.strip("'"))
+            
+            #print(href_title, "-", table_content_p1)
             try:
                 rarità = href_title[1]
-                tempo = content_list[0] if content_list[0] != "Cannot Be Constructed" else "Non può essere costruita"
-                classe = content_list[1]
+                tempo = table_content_p1[0] if table_content_p1[0] != "Cannot Be Constructed" else "Non può essere costruita"
+                classe = table_content_p1[1]
             except IndexError:
                 rarità = href_title[0]
                 tempo = href_title[0]
-                classe = content_list[0]
+                classe = table_content_p1[0]
 
     #----------------------------------------------------------------------------------------------------        
             #print(tempo, rarità, classe, sep="---")
     #----------------------------------------------------------------------------------------------------
             # Tabella parte 2
     #----------------------------------------------------------------------------------------------------
-            tab2_list = []
-            tab2_body = tables[1].find_all("td") #tables = body.find_all("table", {"style": "border-left:0; height:130px; margin:0; width:100%"})
-            for td in tab2_body:
+            table_content_p2 = []
+
+            tab_p2_td = tables[1].find_all("td")
+            for td in tab_p2_td:
                 raw_info = td.text[:-1]
                 info = raw_info.strip("\n  ")
-                #print(info)
+
+                #Fix info
                 if info == "Battleship →  Aviation Battleship":
                     info = "Battleship → Aviation Battleship"
                 if info == "Light Cruiser →  Heavy Cruiser":
                     info = "Light Cruiser → Heavy Cruiser"
-                tab2_list.append(info)
-            #print(tab2_list)
+
+                table_content_p2.append(info)
+            #print(table_content_p2)
+
             try:
-                id_nave = tab2_list[0]
-                nazionalità = tab2_list[1]
-                tipo = tab2_list[2]
+                id_nave = table_content_p2[0]
+                nazionalità = table_content_p2[1]
+                tipo = table_content_p2[2]
             except IndexError:
-                id_nave = tab2_list[0]
-                nazionalità = tab2_list[1]
-                tipo = tab2_list[2]
+                id_nave = table_content_p2[0]
+                nazionalità = table_content_p2[1]
+                tipo = table_content_p2[2]
             
             if nazionalità == "Universal":
                 abbreviazione = "__[UNIV]__"
@@ -207,8 +215,9 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             # colore_tipo: dd, cl, ca, cb, bb, bc, bm, bbv, cv, cvl, ar, ae, ss, ssv
     #----------------------------------------------------------------------------------------------------
-            colore_tipo = [0x87cefa, 0xfff3ad, 0xffdead, 0xff9980, 0xff3c3c, 0xf4676b, 0xffcccc, 0xdc143c, 0xb654f4, 0xc77cf6, 0x21cd8f, 0x7fffd4, 0x4dff4d, 0x66ff66]
+
             colore_embed = 0x778899
+            colore_tipo = [0x87cefa, 0xfff3ad, 0xffdead, 0xff9980, 0xff3c3c, 0xf4676b, 0xffcccc, 0xdc143c, 0xb654f4, 0xc77cf6, 0x21cd8f, 0x7fffd4, 0x4dff4d, 0x66ff66]
 
             if tipo == "Destroyer":
                 colore_embed = colore_tipo[0] 
@@ -240,40 +249,46 @@ def aggiorna_database():
                 colore_embed = colore_tipo[13]
             if tipo == "Light Cruiser → Heavy Cruiser":
                 colore_embed = colore_tipo[2]
-    #----------------------------------------------------------------------------------------------------
+
             #print(id_nave, tipo, colore_embed, nazionalità, abbreviazione, img_nazione, sep="---")
+
     #----------------------------------------------------------------------------------------------------
             # Check if ship has retrofit
             div_content_list = []
+
             divs = body.find("div", {"id": "mw-normal-catlinks"})
             div_links = divs.find_all("a", href=True)
             #print(div_links)
+
             for dv_link in div_links:
                 content = dv_link.get("title")
                 div_content_list.append(content)
-                category = "Category:Ships with retrofit"
-            retrofit = "disponibile" if category in div_content_list else "non disponibile"
+                with_retrofit = "Category:Ships with retrofit"
 
-    #----------------------------------------------------------------------------------------------------
-            # print(retrofit)
+            retrofit = "disponibile" if with_retrofit in div_content_list else "non disponibile"
+            #print(retrofit)
+
     #----------------------------------------------------------------------------------------------------
             # Icona.png
             ship_icon = body.find("img")
             icona_nave = wiki+ship_icon["src"]
             # Immagine.png
+
             try:
                 div = body.find("div", {"class": "adaptiveratioimg"})
                 ship_img = div.find("img")
                 img_nave = wiki+ship_img["src"]
             except TypeError:
                 img_nave = "https://azurlane.koumakan.jp/w/images/3/36/UnknownT1BP.png"
-    #----------------------------------------------------------------------------------------------------
-            # print(icona_nave, img_nave, sep="\n")
+            
+            #print(icona_nave, img_nave, sep="\n")
+
     #----------------------------------------------------------------------------------------------------
             # Tabella: Miscellaneous Info
     #----------------------------------------------------------------------------------------------------
             info = []
             info_link_list = []
+
             info_table = body.find("table", {"class": "wikitable", "style": "margin:0; width:100%"})
             for a in info_table.find_all("a", href=True):
                 info_link = a["href"]
@@ -287,9 +302,12 @@ def aggiorna_database():
             #Remove "Play" from <Play (Name)>
             no_play = info[9].split(" ")
             #print(no_play)
+
             if "Play" in no_play:
                 info[9] = " ".join(no_play[1:])
             #print(info, info_link_list)
+
+    #----------------------------------------------------------------------------------------------------        
             try:
                 artista = info[1]
             except IndexError:
@@ -317,46 +335,51 @@ def aggiorna_database():
             except IndexError:
                 link_doppiatrice = " "
 
-    #----------------------------------------------------------------------------------------------------
-            # print(artista, doppiatrice, web, pixiv, twitter, link_doppiatrice, sep="\n")
+            #print(artista, doppiatrice, web, pixiv, twitter, link_doppiatrice, sep="\n")
+
     #----------------------------------------------------------------------------------------------------
             # Tabella: Equipment
     #----------------------------------------------------------------------------------------------------
             equip_info = []
+
             equip_table = body.find("table", {"class": "wikitable", "style": "text-align:center; width:100%"})
             for td in equip_table.find_all("td"): 
                 span_info = td.text[:-1] if td.text[:-1] != " → " else "##"
-                #print(span_info)
                 equip_info.append(span_info)
-            part1 = ": __" if "##" not in equip_info else " "
-            part2 = "__" if "##" not in equip_info else " "
+                #print(span_info)
+
+            leading_text = ": __" if "##" not in equip_info else " "
+            trailing_text = "__" if "##" not in equip_info else " "
+
             try:
-                efficienza1 = equip_info[1]+part1+equip_info[2]+part2
+                efficienza1 = equip_info[1] + leading_text+equip_info[2] + trailing_text
             except IndexError:
                 efficienza1 = " "
             try:
-                efficienza2 = equip_info[5]+part1+equip_info[6]+part2
+                efficienza2 = equip_info[5] + leading_text+equip_info[6] + trailing_text
             except IndexError:
                 efficienza2 = " "
             try:
-                efficienza3 = equip_info[9]+part1+equip_info[10]+part2
+                efficienza3 = equip_info[9] + leading_text+equip_info[10] + trailing_text
             except IndexError:
                 efficienza3 = " "
 
-    #----------------------------------------------------------------------------------------------------
-            # print(efficienza1, efficienza2, efficienza3, sep="\n")
+            #print(efficienza1, efficienza2, efficienza3, sep="\n")
+
     #----------------------------------------------------------------------------------------------------
             # Tabella: | Strengthen Level (Limit Break Ranks) | Skills |
     #----------------------------------------------------------------------------------------------------
             lbs_table = body.find("table", {"class": "mw-collapsible wikitable"})
             rows = lbs_table.find_all("tr")
             #print(rows)
+
             skill_name = []
             skill_color = []
             skill_text = []
             lb_text = []
             lb_part_temp = []
             lb_text_temp = []
+            
             for row in rows:
                 lb_td = row.td
                 if lb_td:
@@ -365,8 +388,8 @@ def aggiorna_database():
                         #style1 = row.find("th")
                         #level = style1.text
                         for img in td_img:
-                            a_title = img.get("title")
-                            lb_part_raw = a_title+" "+img.next_sibling.strip()
+                            anchor_with_title = img.get("title")
+                            lb_part_raw = anchor_with_title+" "+img.next_sibling.strip()
                             lb_part_temp.append(lb_part_raw)
                         lb_part = " ".join(lb_part_temp)    #Unisci testo icone
                         lb_part_temp.clear()
@@ -752,7 +775,9 @@ def aggiorna_database():
             heavy = ""
             special =""
             limited_text = ""
-
+            light2 = ""
+            heavy2 = ""
+            special2 = ""
             exchange = ""
             questline = ""
             collection = ""
@@ -762,36 +787,44 @@ def aggiorna_database():
                     limited = "sì"
             #----------------------------------------------------------------------------------------------------
 
-                if td_style_build[0] == "background-color:lightgreen" or "background-color:LemonChiffon":
+                if td_style_build[0] == "background-color:lightgreen":
                     light = "Build: Light | "
-                if td_style_build[1] == "background-color:lightgreen" or "background-color:LemonChiffon":
+                if td_style_build[1] == "background-color:lightgreen":
                     heavy = "Build: Heavy | " if light == "" else "Heavy | "
-                if td_style_build[2] == "background-color:lightgreen" or "background-color:LemonChiffon":
+                if td_style_build[2] == "background-color:lightgreen":
                     if light == "" and heavy == "":
                         special ="Build: Special | "
                     else:
                         special ="Special | "
-                if td_style_build[4] == "background-color:lightgreen" or "background-color:LemonChiffon":
+                if td_style_build[4] == "background-color:lightgreen":
                     exchange = " Exchange |"
 
+                if td_style_build[0] == "background-color:LemonChiffon":
+                    light2 = "Build: Light | "
+                if td_style_build[1] == "background-color:LemonChiffon":
+                    heavy2 = "Build: Heavy | " if light2 == "" else "Heavy | "
+                if td_style_build[2] == "background-color:LemonChiffon":
+                    if light2 == "" and heavy2 == "":
+                        special2 = "Build: Special | "
+                    else:
+                        special2 = "Special | "
 
-            build_info = light + heavy + special
+            normal_build = light + heavy + special
+            unlock_build = light2 + heavy2 + special2
             
-            # Collection
             raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion: ") \
                             if [s for s in add_info if "Collection" in s] else ""
-
             if raw_collection:
                 if raw_collection.startswith("Ricompensa"):
-                    collection_text = raw_collection.replace(" Collections goal is met by getting ", "") + "\nIn seguito sarà disponibile in " + build_info
+                    r_collection_text = raw_collection.replace(" Collections goal is met by getting ", "")+"\nIn seguito sarà disponibile in "+unlock_build
+                    collection_text = r_collection_text.replace(" Collection goal is met by getting ", "")
                 else:
-                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+"\nIn seguito sarà disponibile in "+build_info
-
-                #Remove "CN/EN"
+                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+"\nIn seguito sarà disponibile in "+unlock_build
+            if raw_collection:
                 collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
 
-
             login_mensile = "Ricompensa login mensile | " if [s for s in add_info if "Monthly login reward" in s] else ""
+
             bulin = "Ricompensa login | Missioni settimanali | Eventi | Shop | Exchange" if nazionalità == "Universal" else ""
             
             research_text = "Research" if tempo == "Research" else ""
@@ -801,14 +834,15 @@ def aggiorna_database():
             if unreleased_text:
                 limited_text = unreleased_text
             if limited == "sì" and add_info:
-                limited_text = "Event Build: " + add_info[0] + " "
+                limited_text = "Event Build: "+ add_info[0]+" "
 
-            info_text = bulin + login_mensile + collection + questline + limited_text + build_info + exchange
-            info_text_2 = info_text + "\nDrop:" + cap_list
+            testo_ac = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange + "\nDrop:"+cap_list
+            testo_ac2 = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange
 
-            acquisizione = info_text_2 if len(cap_list) > 2 else info_text
-            if len(acquisizione) == len(build_info + exchange):
-                acquisizione = build_info + add_info[0] if add_info else build_info
+            acquisizione = testo_ac if len(cap_list) > 2 else testo_ac2
+            if acquisizione:
+                if len(acquisizione) == len(normal_build + exchange):
+                    acquisizione = normal_build+add_info[0] if add_info else normal_build
             else:
                 try:
                     acquisizione = add_info[0]
@@ -824,7 +858,7 @@ def aggiorna_database():
             # Creazione database
     #----------------------------------------------------------------------------------------------------
             ship = {
-                nome_nave_low: {
+                nome_nave_lower: {
                     "artista": artista,
                     "doppiatrice": doppiatrice,
                     "link_doppiatrice": link_doppiatrice,
@@ -842,7 +876,7 @@ def aggiorna_database():
                     "limited": limited,
                     "collab": collab,
                     "wiki_nave": [
-                        wiki + nome_link_nave, #wiki
+                        wiki + nome_nave_url, #wiki
                         icona_nave, #icona
                         img_nazione, #nazione
                         img_nave, #immagine
@@ -883,7 +917,7 @@ def aggiorna_database():
                 outfile.write(json_object)
     #----------------------------------------------------------------------------------------------------
         except Exception:
-            print(traceback.format_exc())
+            print(traceback.format_exc(), main_url, sep="\n")
 
     lines = []
     replacements = {"    }": "    },", "}{":     ""}
