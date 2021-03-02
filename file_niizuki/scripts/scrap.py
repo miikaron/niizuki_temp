@@ -800,16 +800,17 @@ def aggiorna_database():
             
             if nome != "/Akashi":
                 raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n") \
-                                if [s for s in add_info if "Collection" in s] else ""
+                                if [s for s in add_info if "Collection" in s] else None
 
-                if raw_collection and raw_collection.startswith("Ricompensa"):
-                    # Remove 'Collections...' or 'Collection...'
-                    collection_text = raw_collection.replace(" Collections goal is met by getting ", "").replace(" Collection goal is met by getting ", "")+"\nIn seguito sarà disponibile in " # + build_info
-                else:
-                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+".\nIn seguito sarà disponibile in " # + build_info
+                if raw_collection:
+                    if raw_collection.startswith("Ricompensa"):
+                        # Remove 'Collections...' or 'Collection...'
+                        collection_text = raw_collection.replace(" Collections goal is met by getting ", "").replace(" Collection goal is met by getting ", "")+"\nIn seguito sarà disponibile in " # + build_info
+                    else:
+                        collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+".\nIn seguito sarà disponibile in " # + build_info
                 
-                # Clean 'collection_text'
-                collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
+                    # Clean 'collection_text'
+                    collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
             else:
                 collection = "Ricompensa per aver completato la Questline di Akashi.\nIn seguito sarà disponibile in " # + build_info
 
