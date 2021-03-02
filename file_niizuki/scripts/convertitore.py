@@ -96,6 +96,9 @@ altri_nomi = {
 "chang": "chang chun",
 "charles": "charles ausburne",
 "chao": "chao ho",
+# Chapayev
+"chapa": "chapayev",
+"chap": "chapayev",
 # Cleveland (Muse)
 "cleveland muse": "cleveland µ",
 "cleveland (muse)": "cleveland µ",
@@ -144,6 +147,11 @@ altri_nomi = {
 "taste my wrath": "zeppy",
 #-------------------------------------------------------------------------------
 "gren": "grenville",
+# Gremyashchy
+"gremya": "gremyashchy",
+"gremy": "gremyashchy",
+#-------------------------------------------------------------------------------
+"grom": "gromky",
 "halsey": "halsey powell",
 # Vampire
 "baka hentai lolicon": "vampire",
@@ -289,6 +297,9 @@ altri_nomi = {
 "mont": "montpelier",
 "musk": "musketeer",
 "candy": "mutsuki",
+# Murmansk
+"murman": "murmansk",
+"murm": "murmansk",
 # Myoukou
 "myou": "myoukou",
 "myo": "myoukou",
@@ -393,8 +404,15 @@ altri_nomi = {
 #-------------------------------------------------------------------------------
 "loli south": "southampton",
 # Sovetskaya Rossiya
-"sovetskaya": "sovetskaya rossiya",
+"sovetskaya r": "sovetskaya rossiya",
 "rossiya": "sovetskaya rossiya",
+# Sovetskaya Belorussiya
+"sovetskaya b": "sovetskaya belorussiya",
+"belorussiya": "sovetskaya belorussiya",
+# Sovetsky Soyuz
+"sovetsky s": "sovetsky soyuz",
+"soyuz": "sovetsky soyuz",
+"sovetsky": "sovetsky soyuz",
 # South Dakota
 "south": "south dakota",
 "sd": "south dakota",
@@ -418,6 +436,7 @@ altri_nomi = {
 "tashkent muse": "tashkent µ",
 "tashkent (muse)": "tashkent µ",
 #-------------------------------------------------------------------------------
+"tallin": "tallinn",
 "blue": "bluegill",
 "tirp": "tirpitz",
 #-------------------------------------------------------------------------------
