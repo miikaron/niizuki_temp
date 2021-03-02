@@ -232,7 +232,6 @@ altri_nomi = {
 "karl": "karlsruhe",
 "hey shikikan": "kent",
 "tensa zangetsu": "kawakaze",
-"konig": "konigsberg",
 # King George V
 "king george": "king george v",
 "king": "king george v",
@@ -245,7 +244,10 @@ altri_nomi = {
 "air raid": "kiyonami",
 #-------------------------------------------------------------------------------
 "koln": "köln",
+#Konigsberg
 "konigsberg": "königsberg",
+"konig": "konigsberg",
+#-------------------------------------------------------------------------------
 "laffy": "laffey",
 "lea": "leander",
 "leip": "leipzig",
