@@ -69,7 +69,7 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Aurora", "/Akashi", "/Maury", "/Wichita", "/Ayanami"] # (lista_navi2 -- debug)
+    #lista_navi = ["/Hanazuki", "/Z23", "/Akashi", "/Maury", "/Wichita", "/Ayanami", "/Leipzig"] # (lista_navi2 -- debug)
 
     for nave in lista_navi:
         nome = nave
@@ -630,6 +630,8 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             td_style = []
             td_style_build = []
+            td_style_build_text = []
+
             map1 = []
             map2 = []
             map3 = []
@@ -638,10 +640,14 @@ def aggiorna_database():
             count = 0
             text_check = ["⚪JP/KR only", "⚪CN only"]
             for td in divs.find_all("td", style=lambda stile: stile and stile.startswith("background-color:")):
+                build_info_rspan = td.get("rowspan")
                 style = td.get("style")
-                rspan = td.get("rowspan")
-                if rspan == "2":
+                # Build Light | Heavy | Special: text 'CN/JP/KR only'
+                style_text = td.text.strip().lower() if td.text.strip() != "-" else "Empty"
+                if build_info_rspan == "2":
                     td_style_build.append(style)
+                    if len(td_style_build_text) < 3:
+                        td_style_build_text.append(style_text)
                 else:
                     count += 1
                     td_style.append(style)
@@ -654,6 +660,8 @@ def aggiorna_database():
                     if count < 53 and count > 39:
                         map4.append(style) if td.text.strip() not in text_check else map4.append("None")
             #print(map1, map2, map3, map4, sep="\n")
+
+            #print(td_style_build_text) #debugging_purpose
 
             map_row1 = []
             for idx, cap1 in enumerate(map1):
@@ -783,39 +791,52 @@ def aggiorna_database():
                     limited = "sì"
             #----------------------------------------------------------------------------------------------------
                 # Build: Light | Heavy | Special
+            #----------------------------------------------------------------------------------------------------
+                #Light
                 if td_style_build[0] in ("background-color:lightgreen", "background-color:LemonChiffon"):
-                    light = "Build: Light | "
+                    if not td_style_build_text[0].startswith(("⚪cn/jp", "⚪jp/kr")):
+                        light = "Build: Light | "
+                #Heavy
                 if td_style_build[1] in ("background-color:lightgreen", "background-color:LemonChiffon"):
-                    heavy = "Build: Heavy | " if light == "" else "Heavy | "
+                    if not td_style_build_text[1].startswith(("⚪cn/jp", "⚪jp/kr")):
+                        heavy = "Build: Heavy | " if light == "" else "Heavy | "
+                #Special
                 if td_style_build[2] in ("background-color:lightgreen", "background-color:LemonChiffon"):
-                    if light == "" and heavy == "":
-                        special ="Build: Special | "
-                    else:
-                        special ="Special | "
-                # Exchange
+                    if not td_style_build_text[2].startswith(("⚪cn/jp", "⚪jp/kr")):
+                        if light == "" and heavy == "":
+                            special ="Build: Special | "
+                        else:
+                            special ="Special | "
+                #Exchange
                 if td_style_build[4] == "background-color:lightgreen":
                     exchange = " Exchange |"
 
             build_info = light + heavy + special
+            #print(add_info) #debugging_purpose
             
-            if nome != "/Akashi":
+            skip_ship = ["/Akashi", "/Z23"]
+            if nome not in skip_ship:
                 raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n") \
                                 if [s for s in add_info if "Collection" in s] else None
 
                 if raw_collection:
                     if raw_collection.startswith("Ricompensa"):
                         # Remove 'Collections...' or 'Collection...'
-                        collection_text = raw_collection.replace(" Collections goal is met by getting ", "").replace(" Collection goal is met by getting ", "")+"\nIn seguito sarà disponibile in " # + build_info
+                        refine = raw_collection.replace(" Collections goal is met by getting ", "").replace(" Collection goal is met by getting ", "").replace(".", "")
+                        collection_text = refine + ".\nIn seguito sarà disponibile in " # + build_info
                     else:
+                        #Ayanami
                         collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+".\nIn seguito sarà disponibile in " # + build_info
                 
                     # Clean 'collection_text'
                     collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
-            else:
+            elif nome == skip_ship[0]:
+                #Akashi
                 collection = "Ricompensa per aver completato la Questline di Akashi.\nIn seguito sarà disponibile in " # + build_info
-
-
-
+            else:
+                #Z23
+                collection = "Disponibile come *starter ship.*"
+                
             # Monthly Login Reward
             login_mensile = "Ricompensa login mensile | " if [s for s in add_info if "Monthly login reward" in s] else ""
             
@@ -833,7 +854,7 @@ def aggiorna_database():
             if unreleased_text:
                 limited_build = unreleased_text
             if limited == "sì" and add_info:
-                limited_build = f"Event Build: {add_info[0]} "
+                limited_build = "Event Build: "+add_info[0].replace("Event", "")+" "
 
             # Obtainment text
             acquisizione = bulin + login_mensile + collection + limited_build + build_info + exchange
