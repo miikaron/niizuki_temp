@@ -69,7 +69,7 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
     #print(standard_list, research_ships, collab_ships, lista_navi, sep="---")
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Aurora", "/Stremitelny"] # (lista_navi2 -- debug)
+    #lista_navi = ["/Aurora", "/Akashi", "/Maury", "/Wichita", "/Ayanami"] # (lista_navi2 -- debug)
 
     for nave in lista_navi:
         nome = nave
@@ -774,75 +774,77 @@ def aggiorna_database():
             light = ""
             heavy = ""
             special =""
-            limited_text = ""
-            light2 = ""
-            heavy2 = ""
-            special2 = ""
             exchange = ""
-            questline = ""
             collection = ""
+            limited_build = ""
 
             if td_style_build:
                 if td_style_build[3] == "background-color:LemonChiffon":
                     limited = "sì"
             #----------------------------------------------------------------------------------------------------
-
-                if td_style_build[0] == "background-color:lightgreen":
+                # Build: Light | Heavy | Special
+                if td_style_build[0] in ("background-color:lightgreen", "background-color:LemonChiffon"):
                     light = "Build: Light | "
-                if td_style_build[1] == "background-color:lightgreen":
+                if td_style_build[1] in ("background-color:lightgreen", "background-color:LemonChiffon"):
                     heavy = "Build: Heavy | " if light == "" else "Heavy | "
-                if td_style_build[2] == "background-color:lightgreen":
+                if td_style_build[2] in ("background-color:lightgreen", "background-color:LemonChiffon"):
                     if light == "" and heavy == "":
                         special ="Build: Special | "
                     else:
                         special ="Special | "
+                # Exchange
                 if td_style_build[4] == "background-color:lightgreen":
                     exchange = " Exchange |"
 
-                if td_style_build[0] == "background-color:LemonChiffon":
-                    light2 = "Build: Light | "
-                if td_style_build[1] == "background-color:LemonChiffon":
-                    heavy2 = "Build: Heavy | " if light2 == "" else "Heavy | "
-                if td_style_build[2] == "background-color:LemonChiffon":
-                    if light2 == "" and heavy2 == "":
-                        special2 = "Build: Special | "
-                    else:
-                        special2 = "Special | "
-
-            normal_build = light + heavy + special
-            unlock_build = light2 + heavy2 + special2
+            build_info = light + heavy + special
             
-            raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion: ") \
-                            if [s for s in add_info if "Collection" in s] else ""
-            if raw_collection:
-                if raw_collection.startswith("Ricompensa"):
-                    r_collection_text = raw_collection.replace(" Collections goal is met by getting ", "")+"\nIn seguito sarà disponibile in "+unlock_build
-                    collection_text = r_collection_text.replace(" Collection goal is met by getting ", "")
+            if nome != "/Akashi":
+                raw_collection = add_info[0].replace("Awarded and unlocked in construction when", "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n") \
+                                if [s for s in add_info if "Collection" in s] else ""
+
+                if raw_collection and raw_collection.startswith("Ricompensa"):
+                    # Remove 'Collections...' or 'Collection...'
+                    collection_text = raw_collection.replace(" Collections goal is met by getting ", "").replace(" Collection goal is met by getting ", "")+"\nIn seguito sarà disponibile in " # + build_info
                 else:
-                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+"\nIn seguito sarà disponibile in "+unlock_build
-            if raw_collection:
+                    collection_text = raw_collection.replace(" Collection goal is met using the following ships: ", "max limit-break di ")+".\nIn seguito sarà disponibile in " # + build_info
+                
+                # Clean 'collection_text'
                 collection = collection_text.replace("CN/EN: ", "") if collection_text.startswith("CN/EN") else collection_text.replace(" star rating in ", " ottenute facendo il limit-break alle ")
+            else:
+                collection = "Ricompensa per aver completato la Questline di Akashi.\nIn seguito sarà disponibile in " # + build_info
 
+
+
+            # Monthly Login Reward
             login_mensile = "Ricompensa login mensile | " if [s for s in add_info if "Monthly login reward" in s] else ""
-
+            
+            # Check if ship 'Faction' is 'Universal'
             bulin = "Ricompensa login | Missioni settimanali | Eventi | Shop | Exchange" if nazionalità == "Universal" else ""
             
+            # Check if ship 'Construction Time' is 'Research'
             research_text = "Research" if tempo == "Research" else ""
+
+            # Check if ship is 'Unreleased'
             unreleased_text = "Non disponibile" if tempo == "Unreleased" else ""
+
             if research_text:
-                limited_text = research_text
+                limited_build = research_text
             if unreleased_text:
-                limited_text = unreleased_text
+                limited_build = unreleased_text
             if limited == "sì" and add_info:
-                limited_text = "Event Build: "+ add_info[0]+" "
+                limited_build = f"Event Build: {add_info[0]} "
 
-            testo_ac = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange + "\nDrop:"+cap_list
-            testo_ac2 = bulin + login_mensile + collection + questline + limited_text + normal_build + exchange
+            # Obtainment text
+            acquisizione = bulin + login_mensile + collection + limited_build + build_info + exchange
+            acquisizione__drop = acquisizione + "\nDrop:"+cap_list
 
-            acquisizione = testo_ac if len(cap_list) > 2 else testo_ac2
+            # Check if ship drop is available
+            acquisizione = acquisizione__drop if len(cap_list) > 2 else acquisizione
+
             if acquisizione:
-                if len(acquisizione) == len(normal_build + exchange):
-                    acquisizione = normal_build+add_info[0] if add_info else normal_build
+                # Fetch more info
+                if len(acquisizione) == len(build_info + exchange):
+                    acquisizione = build_info + add_info[0] if add_info else build_info
             else:
                 try:
                     acquisizione = add_info[0]
@@ -919,6 +921,7 @@ def aggiorna_database():
         except Exception:
             print(traceback.format_exc(), main_url, sep="\n")
 
+    # Fix data format
     lines = []
     replacements = {"    }": "    },", "}{":     ""}
     with open((join("file_niizuki", "mydatabase.json"))) as infile:
