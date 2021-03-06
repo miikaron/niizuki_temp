@@ -71,21 +71,22 @@ class Saluti(commands.Cog):
 
         ora_locale = Checktime()
 
-        def _check(msg):
-            giorno_triggered = any(word in buongiorno_ping for word in msg.content.lower().split())
-            notte_triggered = any(word in buonanotte_ping for word in msg.content.lower().split())
+        def _check(filtered_msg):
+            giorno_triggered = any(word in buongiorno_ping for word in filtered_msg.content.lower().split())
+            notte_triggered = any(word in buonanotte_ping for word in filtered_msg.content.lower().split())
             saluto_triggered = True if giorno_triggered or notte_triggered else False
-            return (saluto_triggered and msg.author == msg.author and (datetime.utcnow()-msg.created_at).seconds < 60)
+            is_reply = filtered_msg.reference or filtered_msg.mentions
+            recent_msg = (datetime.utcnow()-filtered_msg.created_at).seconds < 60
+            return saluto_triggered and not is_reply and recent_msg and message.author.id == filtered_msg.author.id
 
-        if not message.mentions:
-            msg = message.content
-            is_short = len([word for word in msg.split()]) < 5
-            spam = len(list(filter(lambda msg: _check(msg), self.client.cached_messages))) > 3 #allowed every 60s
+        if not message.mentions and not message.reference:
+            is_short = len([word for word in message.content.split()]) < 5
+            spam = len(list(filter(lambda filtered_msg: _check(filtered_msg), self.client.cached_messages))) >= 2 #allowed every 60s
             if is_short and not spam:
                 saluto_giorno = False
                 saluto_notte = False
-                for word in msg.lower().split():
-                    if word in buongiorno_ping and not any(word in buonanotte_ping for word in msg.lower().split()):
+                for word in message.content.lower().split():
+                    if word in buongiorno_ping and not any(word in buonanotte_ping for word in message.content.lower().split()):
                         saluto_giorno = True
                     elif word in buonanotte_ping:
                         saluto_notte = True
