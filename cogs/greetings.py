@@ -81,7 +81,7 @@ class Saluti(commands.Cog):
 
         if not message.mentions and not message.reference:
             is_short = len([word for word in message.content.split()]) < 5
-            spam = len(list(filter(lambda filtered_msg: _check(filtered_msg), self.client.cached_messages))) >= 2 #allowed every 60s
+            spam = len(list(filter(lambda filtered_msg: _check(filtered_msg), self.client.cached_messages))) > 2 #messages allowed every 60s
             if is_short and not spam:
                 saluto_giorno = False
                 saluto_notte = False
