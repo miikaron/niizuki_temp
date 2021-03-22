@@ -889,6 +889,7 @@ def aggiorna_database():
             #print(acquisizione)
 
     #----------------------------------------------------------------------------------------------------
+            collab = "no"
             # Check if ship is a collab ship
             if nome in collab_ships:
                 collab = "sì" if nome in collab_ships else "no"
