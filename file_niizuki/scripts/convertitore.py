@@ -11,6 +11,10 @@ altri_nomi = {
 "purin": "trial bulin mkii",
 "aber": "abercrombie",
 "ala": "alabama",
+#-------------------------------------------------------------------------------
+# Allen M. Sumner
+"allen": "allen m. sumner",
+"summer": "allen m. sumner",
 # Admiral Graf Spee
 "graf spee": "admiral graf spee",
 "spee": "admiral graf spee",
@@ -423,6 +427,7 @@ altri_nomi = {
 "stremy": "stremitelny",
 "strem": "stremitelny",
 #-------------------------------------------------------------------------------
+"stephen": "stephen potter",
 "swift": "swiftsure",
 # Sussex
 "eriri spencer sawamura": "sussex",

@@ -5,7 +5,7 @@
 ## < Repository Github pubblica >  
 
 #### Progetto a cura di __watermelonTm__
-###### Discord tag: **西瓜tm#6926**  
+###### Discord tag: **Minakami Meron#6926**  
   
 ###### Data di inizio progetto: 31 dicembre 2018
 ###### Bot responsabile: Niizuki#3761 (dal giorno 07/07/2019)

@@ -818,7 +818,7 @@
             " "
         ],
         "skill": [
-            "Air Raid Assistance \ud83d\udcd2\nWhile alive in fleet, increases airstrike damage dealt by all CVs/CVLs by 5% (15%). Does not stacks with same skill.",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Benson Class I (II)",
             "    ",
             "    ",
@@ -1817,7 +1817,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "044",
         "colore_embed": 16768685,
-        "acquisizione": "Build: Heavy | Special |  Exchange |\nDrop: \u2022 3-4 \u2022 4-1 \u2022 4-3 \u2022 5-4 \u2022 10-3 \u2022 11-4 \u2022 12-4",
+        "acquisizione": "Build: Heavy | Special |  Exchange |\nDrop: \u2022 3-4 (Boss node) \u2022 4-1 (Boss node) \u2022 4-3 (Boss node) \u2022 5-4 (Boss node) \u2022 10-3 (Boss node) \u2022 11-4 (Boss node) \u2022 12-4 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -1956,7 +1956,9 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d2/Astoria.png/465px-Astoria.png",
             "Pure \"Gurl?\"",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/AstoriaSchool.png/168px-AstoriaSchool.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/AstoriaSchool.png/168px-AstoriaSchool.png",
+            "Black Bunny Carnival",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/AstoriaBunny.png/438px-AstoriaBunny.png"
         ]
     },
     "quincy": {
@@ -2075,7 +2077,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "049",
         "colore_embed": 16768685,
-        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n12\u2605 ottenute facendo il limit-break alle Brooklyn class: Brooklyn, Phoenix, Helena.\nIn seguito sar\u00e0 disponibile in Build: Heavy | Special | ",
+        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n12\u2605 ottenute facendo il limit-break alle Brooklyn class: Brooklyn, Phoenix, HelenaNot available in CN server.\nIn seguito sar\u00e0 disponibile in Build: Heavy | Special | ",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -2721,7 +2723,7 @@
         "tipo": "__[Battleship]__",
         "id": "065",
         "colore_embed": 16727100,
-        "acquisizione": "Available in Munitions Shop for 20000 Merit.",
+        "acquisizione": "Available in Munitions Shop for 20000 Merit.Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -3476,9 +3478,9 @@
             " "
         ],
         "skill": [
-            "Carrier Escort \ud83d\udcd8\nWhile alive in fleet, reduce damage taken by allied CVs/CVLs by 5% (15%). Does not stack with the same skill.",
+            "Carrier Escort \ud83d\udcd8\nAs long as this ship is afloat, decrease all damage taken by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "Interference \ud83d\udcd2\nEvery 20 seconds: 25% chance to reduce a random enemy's Reload by 30% and damage by 15% for 5 (10) seconds. Effect prioritizes elite (human-form) enemies. Does not stack with the same skill.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nWhile alive in fleet, increases airstrike damage dealt by all CVs/CVLs by 5% (15%). Does not stacks with same skill.",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - A-Class I (II)",
             "    "
         ],
@@ -4637,7 +4639,7 @@
         "tipo": "__[Light Cruiser]__",
         "id": "115",
         "colore_embed": 16774061,
-        "acquisizione": "Build: Light | Available in Medal Exchange for 80.",
+        "acquisizione": "Build: Light | Available in Medal Exchange for 80. Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5031,8 +5033,6 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e8/Suffolk.png/308px-Suffolk.png",
-            "CN Story",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/03/SuffolkCN.png/308px-SuffolkCN.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d1/SuffolkKai.png/485px-SuffolkKai.png"
         ]
@@ -5201,7 +5201,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "126",
         "colore_embed": 16768685,
-        "acquisizione": "Build: Heavy | \nDrop: \u2022 6-2 \u2022 8-1 \u2022 8-4 \u2022 11-2",
+        "acquisizione": "Build: Heavy | \nDrop: \u2022 6-2 (Boss node) \u2022 8-1 (Boss node) \u2022 8-4 (Boss node) \u2022 11-2 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5561,7 +5561,7 @@
         "tipo": "__[Battleship]__",
         "id": "133",
         "colore_embed": 16727100,
-        "acquisizione": "Build: Heavy |  Exchange |\nDrop: \u2022 2-4 \u2022 5-4 \u2022 10-3",
+        "acquisizione": "Build: Heavy |  Exchange |\nDrop: \u2022 2-4 (Boss node) \u2022 5-4 (Boss node) \u2022 10-3 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5931,7 +5931,7 @@
         "tipo": "__[Aircraft Carrier]__",
         "id": "144",
         "colore_embed": 11949300,
-        "acquisizione": "Build: Special | \nDrop: \u2022 6-3",
+        "acquisizione": "Build: Special | \nDrop: \u2022 6-3 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5985,7 +5985,7 @@
         "tipo": "__[Aircraft Carrier]__",
         "id": "145",
         "colore_embed": 11949300,
-        "acquisizione": "Build: Special | Available in Medal Exchange for 80.",
+        "acquisizione": "Build: Special | Available in Medal Exchange for 80.Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -7185,7 +7185,7 @@
         ],
         "skill": [
             "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nWhile this ship is afloat: increases the DMG of all Carriers in your fleet by 5% (15%). Does not stack with the same skill.",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
             "    "
@@ -7236,8 +7236,8 @@
             " "
         ],
         "skill": [
-            "Carrier Escort \ud83d\udcd8\nWhen alive in fleet, reduce damage taken by allied CV/L by 5% (15%). Does not stack with the same skill.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nWhile alive in fleet, increases airstrike damage dealt by all CVs/CVLs by 5% (15%). Does not stack with the same skill.",
+            "Carrier Escort \ud83d\udcd8\nAs long as this ship is afloat, decrease all damage taken by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
             "    "
@@ -7365,7 +7365,7 @@
         "tipo": "__[Light Cruiser]__",
         "id": "179",
         "colore_embed": 16774061,
-        "acquisizione": "Build: Light | EN: Available as a reward during 1 Year Anniversary.",
+        "acquisizione": "Build: Light | EN: Available as a reward during 1 Year Anniversary.Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8503,7 +8503,7 @@
         "tipo": "__[Battleship\u00a0\u2192\u00a0Aviation Battleship]__",
         "id": "208",
         "colore_embed": 14423100,
-        "acquisizione": "\nDrop: \u2022 6-2 \u2022 6-3 \u2022 6-4",
+        "acquisizione": "\nDrop: \u2022 6-2 (Boss node) \u2022 6-3 (Boss node) \u2022 6-4 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8671,7 +8671,7 @@
         "tipo": "__[Battleship\u00a0\u2192\u00a0Aviation Battleship]__",
         "id": "211",
         "colore_embed": 14423100,
-        "acquisizione": "Build: Heavy | Available during \"Visitors Dyed in Red\". Added to Exchange for all servers on May 14th, 2020.",
+        "acquisizione": "Build: Heavy | Available during \"Visitors Dyed in Red\". Added to Exchange for all servers on May 14th, 2020.Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8721,7 +8721,7 @@
         "tipo": "__[Battleship]__",
         "id": "212",
         "colore_embed": 16727100,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-Stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-Stained Steel Sakura\" . Build: Heavy | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -9505,7 +9505,7 @@
         "tipo": "__[Aircraft Carrier]__",
         "id": "230",
         "colore_embed": 11949300,
-        "acquisizione": "Event Build: Available in Limited Construction during \"1 Year Anniversary\" . Build: Special | ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"1 Year Anniversary\" .Not available in CN server. Build: Special | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -10251,7 +10251,7 @@
         "tipo": "__[Battlecruiser]__",
         "id": "248",
         "colore_embed": 16017259,
-        "acquisizione": "Available in the Scherzo of Iron and Blood, Scherzo of Iron and Blood Rerun (B1, B3, D1, D3, SP) and Aurora Noctis (B3, D3, SP) events. Available in the Core Data Shop for 1200 .",
+        "acquisizione": "Available in the Scherzo of Iron and Blood, Scherzo of Iron and Blood Rerun (B1, B3, D1, D3, SP) and Aurora Noctis (B3, D3, SP) events. Available in the Core Data Shop for 1200 .Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -10455,7 +10455,7 @@
         "tipo": "__[Aircraft Carrier]__",
         "id": "252",
         "colore_embed": 11949300,
-        "acquisizione": "Build: Special | Available in Limited Construction during \"Divergent Chessboard\" event.",
+        "acquisizione": "Build: Special | Available in Limited Construction during \"Divergent Chessboard\" event.Not available in CN server.",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -14880,7 +14880,7 @@
             " "
         ],
         "skill": [
-            "Air Raid Assistance \ud83d\udcd2\nWhile alive in fleet, increases airstrike damage dealt by all CVs/CVLs by 5% (15%). Does not stacks with same skill.",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Fletcher Class I (II)",
             "    ",
             "    ",
@@ -15153,7 +15153,7 @@
         "tipo": "__[Light Cruiser]__",
         "id": "371",
         "colore_embed": 16774061,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Winter's Crown Rerun\" event. Build: Light | Special | ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Winter's Crown Rerun\" event. Not available in CN server. Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -15283,7 +15283,7 @@
         ],
         "skill": [
             "Aerial Support \ud83d\udcd5\nWhen enemy planes are shot down within own AA range: increases own Firepower and Anti-Air by 5% (25%) for 8 seconds. If skill is activated again during said 8 seconds, refreshes the buff duration.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nWhile alive in fleet, increases airstrike damage dealt by all CVs/CVLs by 5% (15%). Does not stack with same skill.",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 24 (16) times the main gun is fired, triggers Full Barrage - Ceres-class I (II).",
             "    ",
             "    "
@@ -15650,7 +15650,9 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Bunker_Hill.png/776px-Bunker_Hill.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Bunker_Hill.png/776px-Bunker_Hill.png",
+            "Mission Relaxation",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/Bunker_HillCasual.png/978px-Bunker_HillCasual.png"
         ]
     },
     "i-13": {
@@ -15715,7 +15717,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "382",
         "colore_embed": 16768685,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura Rerun\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura Rerun\" . Build: Heavy | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -15738,9 +15740,9 @@
             " "
         ],
         "skill": [
-            "The Dark-Dispelling Flame \ud83d\udcd5\nWhen own main battery hit 8 times, increases own Firepower by 1.5% (5%) and Reload by 10% (25%). Can be stacked 3 times. When effect is stacked 3 times, enhances barrage pattern.",
-            "AP Protection \ud83d\udcd8\nReduces AP damage taken by self by 10% (20%).",
-            "All Out Assault \ud83d\udcd5\nEvery 9 (6) times the main battery is fired, trigger Full Barrage - Suzuya-class I (II)",
+            "The Dark-Dispelling Flame \ud83d\udcd5\nEvery 8 times this ship's main guns hit an enemy, increase this ship's FP by 1.5% (5.0%) and RLD by 10.0% (25.0%). This buff may be stacked up to 3 times. When fully stacked, enhance this ship's All Out Assault pattern.",
+            "AP Protection \ud83d\udcd8\nDecrease AP damage received on self by 10.0% (20.0%).",
+            "All Out Assault \ud83d\udcd5\nEvery 9 (6) times this ship fires its main guns, trigger Full Barrage - Suzuya-class I (II).",
             "    ",
             "    "
         ],
@@ -17046,7 +17048,7 @@
     "stanly": {
         "artista": "Amoeba\u539f\u866b",
         "doppiatrice": "Yoshie Sakai",
-        "link_doppiatrice": "http://www.rme.jp/talent/women/yoshie-sakai.html",
+        "link_doppiatrice": "http://www.ftrm.co.jp/voice/?sakaiyoshie",
         "nome_nave": "Stanly",
         "rarit\u00e0": "Rare",
         "tempo": "00:28:00",
@@ -18492,7 +18494,7 @@
             " "
         ],
         "skill": [
-            "Curtain of Rime \ud83d\udcd5\nWhen this ship fires its main guns, 45% (75%) chance to fire a special barrage. If this barrage fails to trigger, increase this ship's AA by 50.0% until the next time this ship fires its main guns.",
+            "Curtain of Rime \ud83d\udcd5\nWhen this ship fires its main guns, 45% (75%) chance to fire a special barrage (barrage damage scales with skill level). This barrage slows enemies it hits by 40.0% for 4 seconds. If this barrage fails to trigger, increase this ship's AA by 50.0% until the next time this ship fires its main guns.",
             "Ingenious Tactician \ud83d\udcd8\nAs long as this ship's HP is above 60.0%, increase this ship's FP by 10.0% (20.0%), and decrease the duration of burns on self by 3 seconds. Twice per battle, when this ship's HP falls below 50.0%, heal self for 12%in-game description says 9% of its maximum HP over the next 8 seconds. During the 2ndin-game description says 3rd battle and onward of each sortie, decrease all damage your vanguard receives by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
             "    ",
             "    ",
@@ -18859,6 +18861,58 @@
             "https://azurlane.koumakan.jp/w/images/thumb/1/1c/Casablanca.png/741px-Casablanca.png",
             "Cheer Squad on Break",
             "https://azurlane.koumakan.jp/w/images/thumb/8/87/CasablancaSport.png/539px-CasablancaSport.png"
+        ]
+    },
+    "marblehead": {
+        "artista": "\u9280SilveRoid",
+        "doppiatrice": "Larissa Tago Takeda",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/c3/Marblehead_TitleScreen.ogg",
+        "nome_nave": "Marblehead",
+        "rarit\u00e0": "Rare",
+        "tempo": "01:05:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Omaha",
+        "tipo": "__[Light Cruiser]__",
+        "id": "448",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in Limited Construction during Microlayer Medley. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Marblehead",
+            "https://azurlane.koumakan.jp/w/images/4/44/MarbleheadIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Marblehead.png/600px-Marblehead.png"
+        ],
+        "efficienza": [
+            "115% \u2192 125%: __CL Guns__",
+            "140% \u2192 150%: __Torpedoes__",
+            "120% \u2192 130%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault \u2160/All weapons' efficiency +2%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+            "\u2022 Improve All Out Assault/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Quick Reload \ud83d\udcd5\nEvery 20s: 30.0% (60.0%) chance to increase this ship's RLD by 20.0% (40.0%) for 10s.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault \u2161: Omaha Class once every 8 times the Main Guns are fired.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Marblehead.png/557px-Marblehead.png",
+            "Boxing Girl!",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4d/MarbleheadSport.png/557px-MarbleheadSport.png",
+            "Charmer in the Snowy Reflection",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b2/MarbleheadChristmas.png/515px-MarbleheadChristmas.png"
         ]
     },
     "hanazuki": {
@@ -19403,7 +19457,7 @@
         ],
         "skill": [
             "Take Off! \ud83d\udcd5\nWhen this ship launches an airstrike, 40.0% (70.0%) chance to launch a special Lv.1 (Lv.10) Swordfish airstrike. Special airstrike damage is based on the skill's level.",
-            "Prayer for Love and Peace \ud83d\udcd2\n12 seconds after the battle begins and 40.0% (70.0%) chance every 20s after that: Summon an air wing that carries out a special Lv.1 (Lv.10) airstrike (special airstrike damage scales with skill level), and decrease the hit rate of all of your ships by 30.0%it is supposed to decrease the enemy's hit rate, but it is bugged.",
+            "Prayer for Love and Peace \ud83d\udcd2\nTwelve seconds after the battle begins, and 40.0% (70.0%) chance every 20 seconds after that, summon an air wing that carries out a special Lv.1 (Lv.10) airstrike (special airstrike damage scales with skill level), and decrease the hit rate of all of your ships by 30.0%it is supposed to decrease the enemy's hit rate, but it is bugged. This debuff will gradually decrease in magnitude over 4 seconds until it is gone.",
             "    ",
             "    ",
             "    "
@@ -20953,7 +21007,7 @@
     },
     "stremitelny": {
         "artista": "",
-        "doppiatrice": "",
+        "doppiatrice": "Momoki Kakimura",
         "link_doppiatrice": " ",
         "nome_nave": "Stremitelny",
         "rarit\u00e0": "Elite",
@@ -21402,9 +21456,9 @@
         ]
     },
     "allen m. sumner": {
-        "artista": "",
+        "artista": "Nagu",
         "doppiatrice": "Hazuki Ogino",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=171",
         "nome_nave": "Allen M. Sumner",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:29:00",
@@ -21438,8 +21492,8 @@
             " "
         ],
         "skill": [
-            "Shooting Gun-Star \ud83d\udcd5\nDecreases the Burn duration inflicted on this ship by 3s and increases DMG dealt to Light Armor enemies by 5.0% (15.0%). Every 20s: 70.0% chance to fire a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level) and increase your fleet's AA by 10.0% (20.0%) for 8s.",
-            "Bang for Your Buck \ud83d\udcd2\nWhen there is at least 1 more Eagle Union ship in the same fleet as this ship or when this ship has sunk 2 or more enemies: increases this ship's TRP and AA by 5.0% (15.0%) until the end of the battle. When this ship equips Eagle Union gear: in battle, this ship additionally equips a special Lv.1 (Lv.10) AA gun (Special AA gun DMG is based on the skill's level).",
+            "Shooting Gun-Star \ud83d\udcd5\nDecrease the duration of burns inflicted on this ship by 3 seconds. Increase damage this ship deals dealt to Light Armor enemies by 5.0% (15.0%). Every 20 seconds after the battle begins, 70.0% chance to fire a special barrage (damage scales with skill level) and increase your entire fleet's AA stat by 10.0% (20.0%) for 8 seconds.",
+            "Bang for Your Buck \ud83d\udcd2\nIf this ship is sortied with another Eagle Union ship, or when this ship sinks its second enemy this battle, increase this ship's TRP and AA stats by 5.0% (15.0%) until the end of the battle.  If this ship is equipped with any Eagle Union gear, this ship gains an extra ghost AA gun. The extra AA gun has 30 range, 1.038-second cooldown, and deals 65 (142) damage per shot.",
             "All Out Assault \ud83d\udcd5\nActivates All-Out Assault: Allen M. Sumner-class every 10 times the Main Guns are fired.",
             "    ",
             "    "
@@ -21450,7 +21504,7 @@
         ]
     },
     "stephen potter": {
-        "artista": "",
+        "artista": "Shnva",
         "doppiatrice": "Shiori Sugiura",
         "link_doppiatrice": " ",
         "nome_nave": "Stephen Potter",
@@ -21487,7 +21541,7 @@
         ],
         "skill": [
             "Whimsical Protector \ud83d\udcd2\nAt the start of the battle: increases this ship's AA and EVA by 5.0% (15.0%) for 60s. While there are 3 ships in your Vanguard and this ship is in the middle position: decreases DMG taken by your Vanguard's frontmost ship by 4.0% (10.0%) for 50s, and increases DMG dealt by your Vanguard's backmost ship by 4.0% (10.0%) for 50s.",
-            "Air Raid Assistance \ud83d\udcd2\nWhile this ship is afloat: increases the DMG of all Carriers in your fleet by 5.0% (15.0%). Does not stack with the same skill.",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault \u2161: Fletcher Class once every 10 times the Main Guns are fired.",
             "    ",
             "    "
