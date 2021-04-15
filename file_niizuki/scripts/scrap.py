@@ -44,8 +44,8 @@ def crea_lista(wiki):
                 if a.text.startswith("Plan"):
                     research_ships.append(a["href"])
                     lista_navi.append(a["href"]) 
-    row_tab3 = all_tables[2].find_all("tr")
     #Collab Ships
+    row_tab3 = all_tables[3].find_all("tr")
     for row in row_tab3:
         cols = row.find_all("td")
         for td in cols:
@@ -982,4 +982,7 @@ if __name__ == '__main__':
     path = Path(__file__)
     os.chdir(path.parents[2])
 
-    aggiorna_database()
+    wiki = "https://azurlane.koumakan.jp"
+    crea_lista(wiki)
+    # print(collab_ships, lista_navi, sep="---")
+    # aggiorna_database()
