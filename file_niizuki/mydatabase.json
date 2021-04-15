@@ -42,12 +42,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/Universal_Bulin.png/360px-Universal_Bulin.png",
-            "Universal Enhanced Rigging (Experimental) +\u03b1",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/bd/Universal_BulinEvent.png/531px-Universal_BulinEvent.png"
-        ]
+        "skin": []
     },
     "prototype bulin mkii": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -874,26 +869,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/2a/Laffey.png/409px-Laffey.png",
-            "Retrofit",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/33/LaffeyKai.png/571px-LaffeyKai.png",
-            "Oath",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/53/LaffeyWedding.png/548px-LaffeyWedding.png",
-            "Bili Girl 33",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/dc/LaffeyBilibili.png/310px-LaffeyBilibili.png",
-            "Snow Rabbit and Candy Apple",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/47/LaffeyNew_Year.png/408px-LaffeyNew_Year.png",
-            "White Rabbit Welcomes the Spring",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/94/LaffeySpring.png/509px-LaffeySpring.png",
-            "Bunny Clerk?",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/LaffeyCoCo.png/558px-LaffeyCoCo.png",
-            "Picnic Adventure?",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/LaffeyBluray.png/524px-LaffeyBluray.png",
-            "Bunny Idol @Unmotivated",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/01/LaffeyIdol.png/478px-LaffeyIdol.png"
-        ]
+        "skin": []
     },
     "sims": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -3168,22 +3144,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/40/Enterprise.png/404px-Enterprise.png",
-            "Oath",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/07/EnterpriseWedding.png/365px-EnterpriseWedding.png",
-            "Reindeer Master",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/EnterpriseChristmas.png/525px-EnterpriseChristmas.png",
-            "Blooming Peony",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/66/EnterpriseSpring.png/369px-EnterpriseSpring.png",
-            "Anniversary Ride",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d7/EnterpriseRoadtrip.png/427px-EnterpriseRoadtrip.png",
-            "Soaring Wings of Freedom",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/de/EnterpriseBluray.png/506px-EnterpriseBluray.png",
-            "Heroic Finery",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/EnterpriseParty.png/604px-EnterpriseParty.png"
-        ]
+        "skin": []
     },
     "hornet": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -3328,12 +3289,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/14/Vestal.png/429px-Vestal.png",
-            "Revigorating Hestia",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/VestalSummer.png/384px-VestalSummer.png"
-        ]
+        "skin": []
     },
     "amazon": {
         "artista": "\u65f6\u8fb0",
@@ -4353,7 +4309,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Giant Hunter \ud83d\udcd5\nAt the start of battle: Increases Eva and Torp by 5.0% (15.0%), increases own damage against medium armor enemies by 15% (25%). Slows enemy Heavy Cruisers by 15% (30%) for 5 seconds after hitting them 4 times.",
+            "(Retrofit) Giant Hunter \ud83d\udcd5\nAt the start of battle: Increases Eva and TorpIn game description incorrectly says torpedo DMG by 5.0% (15.0%), increases own damage against medium armor enemies by 15% (25%). Slows enemy Heavy Cruisers by 15% (30%) for 5 seconds after hitting them 4 times.",
             "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main battery is fired, trigger Full Barrage - Leander Class I (II).",
             "    ",
             "    "
@@ -4412,12 +4368,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/9c/Dido.png/508px-Dido.png",
-            "Anxious Bisque Doll",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/DidoParty.png/612px-DidoParty.png"
-        ]
+        "skin": []
     },
     "southampton": {
         "artista": "Vilor",
@@ -8279,7 +8230,7 @@
         "tipo": "__[Battlecruiser]__",
         "id": "204",
         "colore_embed": 16017259,
-        "acquisizione": "Available (JP/CN only) in the Core Data Shop for 1200 .",
+        "acquisizione": "Available in the Core Data Shop for 1200 .",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8362,18 +8313,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/ac/Hiei.png/484px-Hiei.png",
-            "Original Art",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/HieiOriginal.png/441px-HieiOriginal.png",
-            "Moonlit Cruise",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/HieiSleepy.png/482px-HieiSleepy.png",
-            "Fragrant Red Plum",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/12/HieiSpring.png/523px-HieiSpring.png",
-            "Beauty of the White Sands",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/64/HieiSummer.png/581px-HieiSummer.png"
-        ]
+        "skin": []
     },
     "haruna": {
         "artista": "Criin",
@@ -8389,7 +8329,7 @@
         "tipo": "__[Battlecruiser]__",
         "id": "206",
         "colore_embed": 16017259,
-        "acquisizione": "Available in point shop during \"Ink-stained Steel Sakura\" Event. Available (JP/CN only) in the Core Data Shop for 1200 .",
+        "acquisizione": "Available in point shop during \"Ink-stained Steel Sakura\" Event. Available in the Core Data Shop for 1200 .",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8779,7 +8719,7 @@
         "tipo": "__[Battleship]__",
         "id": "213",
         "colore_embed": 16727100,
-        "acquisizione": "Available as Sakura Amulets reward (10,000 total Sakura Amulets) during \"Ink-stained Steel Sakura\" Event. Available (JP/CN only) in the Core Data Shop for 1200 .",
+        "acquisizione": "Available as Sakura Amulets reward (10,000 total Sakura Amulets) during \"Ink-stained Steel Sakura\" Event. Available in the Core Data Shop for 1200 .",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -8858,12 +8798,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Kii.png/799px-Kii.png",
-            "Poolside Persuasion",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/40/KiiSummer.png/537px-KiiSummer.png"
-        ]
+        "skin": []
     },
     "tosa": {
         "artista": "Liduke",
@@ -9208,18 +9143,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Akagi.png/553px-Akagi.png",
-            "Oath",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/65/AkagiPledge.png/347px-AkagiPledge.png",
-            "Paradise Amaryllis",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/39/AkagiSummer.png/508px-AkagiSummer.png",
-            "Plum and Snow",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/AkagiNew_Year.png/367px-AkagiNew_Year.png",
-            "Ruby-Laced Beauty",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/53/AkagiParty.png/468px-AkagiParty.png"
-        ]
+        "skin": []
     },
     "kaga": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -9583,17 +9507,12 @@
         ],
         "skill": [
             "Hope's Tempest \ud83d\udcd5\nThree seconds after the start of the battle, launch a Saiun barrage. When this ship launches an airstrike, launch an additional Shiden Kai 2, Ryuusei, andIngame states or, and is incorrect Saiun barrage (damage scales with skill level). Saiun barrages do not do damage; instead, they decrease the FP, TRP, AVI, and AA of one random enemy (humanoids prioritized) by 3.0% and increase the damage they receive by 3.0%, until the end of the battle. This debuff may stack up to three times.",
-            "Dreamwaker's Bow \ud83d\udcd2\n[Regular]Increase own AVI stat by 5.0% (15.0%) during her first two battles of each sortie. Every 15 seconds after the start of the battle, fire a special barrage (barrage damage scales with skill level). If this ship is afloat and ANOTHER fleet in the same sortie engages in its third, fourth, or fifth battle, fire a special barrage 15 seconds into the start of that battle (damage scales with skill level and the AVI stat of that fleet's flagship).[Operation Siren]Every 15s: fires a Lv.1 (Lv.10) special barrage. During the 1st and 2nd battles this ship fights in during a sortie: increases this ship's AVI by 5.0% (15.0%). When a fleet this ship is NOT in starts its 3rd and 4th battles of a sortie: fires a Lv.1 (Lv.10) barrage (DMG is based on the skill's level) 15s after the battle starts. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "Dreamwaker's Bow \ud83d\udcd2\nIncrease own AVI stat by 5.0% (15.0%) during her first two battles of each sortie. Every 15 seconds after the start of the battle, fire a special barrage (barrage damage scales with skill level). If this ship is afloat and ANOTHER fleet in the same sortie engages in its third, fourth, or fifth battle, fire a special barrage 15 seconds into the start of that battle (damage scales with skill level and the AVI stat of that fleet's flagship). In Operation Siren, this barrage is limited to the third and fourth battle instead (not the fifth). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
             "Protector of the New Moon \ud83d\udcd8\nAs long as this ship is afloat, increase FP, EVA, and ASW stats for all DDs in your fleet by 5.0% (15.0%). At the beginning of the battle, if there are at least three Sakura Empire ships in your fleet (including this ship), decrease incoming gun and plane damage received on self by 10.0% (20.0%), and increase AVI and Accuracy for all Sakura Empire CVs and CVLs by 5.0% (15.0%) for the rest of the battle.",
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/a9/Shinano.png/561px-Shinano.png",
-            "Dreams of the Hazy Moon",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b3/ShinanoParty.png/665px-ShinanoParty.png"
-        ]
+        "skin": []
     },
     "akashi": {
         "artista": "Saru(\u7334\u5988)",
@@ -10168,18 +10087,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/8/84/Deutschland.png/522px-Deutschland.png",
-            "Dark Demon Princess",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/09/DeutschlandEvent.png/519px-DeutschlandEvent.png",
-            "Service Time?!",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/ec/DeutschlandSummer.png/590px-DeutschlandSummer.png",
-            "Demon Princess' Dark Hour Banquet",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/DeutschlandParty.png/598px-DeutschlandParty.png",
-            "Lantern-Lit Ruler",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/af/DeutschlandSpring.png/627px-DeutschlandSpring.png"
-        ]
+        "skin": []
     },
     "admiral graf spee": {
         "artista": "RAN",
@@ -11485,7 +11393,7 @@
         "tipo": "__[Destroyer]__",
         "id": "277",
         "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -11514,12 +11422,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/Fumizuki.png/390px-Fumizuki.png",
-            "Sleepy Fairy",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/FumizukiSleepy.png/292px-FumizukiSleepy.png"
-        ]
+        "skin": []
     },
     "nagatsuki": {
         "artista": "\u3057\u3089\u305f\u307e",
@@ -11635,7 +11538,7 @@
         "tipo": "__[Destroyer]__",
         "id": "288",
         "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction and as a drop during \"Ink-Stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction and as a drop during \"Ink-Stained Steel Sakura\" . Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -11785,7 +11688,7 @@
         "tipo": "__[Destroyer]__",
         "id": "296",
         "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -11835,7 +11738,7 @@
         "tipo": "__[Destroyer]__",
         "id": "297",
         "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-stained Steel Sakura\" . Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -11864,12 +11767,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/Yoizuki.png/588px-Yoizuki.png",
-            "Sports Festival Preparations",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b4/YoizukiSchool.png/866px-YoizukiSchool.png"
-        ]
+        "skin": []
     },
     "radford": {
         "artista": "\u56e2\u5b50",
@@ -12010,7 +11908,7 @@
         "skill": [
             "The Nick \ud83d\udcd8\nWhen firing main gun, 5% chance to increase own Evasion stat by 16% (40%) and decrease air damage taken by 16% (40%) for 8 seconds.",
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Battle of Kula Gulf \ud83d\udcd8\nEvery 20 seconds, 40% (70%) chance to increase own Firepower, Torpedo, and Reload by 20% (40%) for 10 seconds. Once per battle, if an escort ship's Health falls below 20%, decrease the damage it takes by 5% (15%); If the ship is Helena, additionally heal 8% of Helena's max Health.",
+            "(Retrofit) Battle of Kula Gulf \ud83d\udcd8\nEvery 20 seconds, 40% (70%) chance to increase own Firepower, Torpedo, and Reload by 20% (40%) for 10 seconds. Once per battle, if an escort ship's Health falls below 20%, decrease the damage it takes by 5% (15%); If the ship is Helena or Lena, additionally heal 8% of their max Health.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) shots from the main battery, trigger Full Barrage - Fletcher Class I (II)",
             "    "
         ],
@@ -13119,7 +13017,7 @@
         "tipo": "__[Destroyer]__",
         "id": "331",
         "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-Stained Steel Sakura\" . ",
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ink-Stained Steel Sakura\" . Build: Light | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -13302,10 +13200,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Arashio.png/355px-Arashio.png"
-        ]
+        "skin": []
     },
     "little bel": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -14986,12 +14881,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Amagi.png/569px-Amagi.png",
-            "Wending Waters, Serene Lotus",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e2/AmagiSummer.png/519px-AmagiSummer.png"
-        ]
+        "skin": []
     },
     "kaga (battleship)": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -15182,16 +15072,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/18/Sirius.png/486px-Sirius.png",
-            "White Rose",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/SiriusParty.png/385px-SiriusParty.png",
-            "Scorching-Hot Seirios",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/SiriusSummer.png/516px-SiriusSummer.png",
-            "Azure Horizons",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/95/SiriusSpring.png/738px-SiriusSpring.png"
-        ]
+        "skin": []
     },
     "curacoa": {
         "artista": "\u3082\u306d\u3066\u3043",
@@ -15669,7 +15550,7 @@
         "tipo": "__[Submarine Carrier]__",
         "id": "381",
         "colore_embed": 6750054,
-        "acquisizione": "Event Build: Available in Limited Construction during the Ink-Stained Steel Sakura Rerun event. ",
+        "acquisizione": "Event Build: Available in Limited Construction during the Ink-Stained Steel Sakura Rerun event. Build: Special | ",
         "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
@@ -17136,14 +17017,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/36/Littorio.png/641px-Littorio.png",
-            "The Glory of Naples",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/39/LittorioSummer.png/630px-LittorioSummer.png",
-            "Calabria Aurea",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/LittorioParty.png/788px-LittorioParty.png"
-        ]
+        "skin": []
     },
     "conte di cavour": {
         "artista": "Alisa",
@@ -17832,12 +17706,7 @@
             "    ",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/6b/Kasumi.png/731px-Kasumi.png",
-            "New Year's Comfort",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/38/KasumiNew_Year.png/661px-KasumiNew_Year.png"
-        ]
+        "skin": []
     },
     "suruga": {
         "artista": "fuzichoco",
@@ -22246,12 +22115,7 @@
             "Siren Killer \ud83d\udcd5\nIncreases own damage dealt to Sirens by 5% (15%).",
             "    "
         ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/42/Azuma.png/978px-Azuma.png",
-            "Soft Voice of Spring",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5c/AzumaSpring.png/649px-AzumaSpring.png"
-        ]
+        "skin": []
     },
     "friedrich der gro\u00dfe": {
         "artista": "",
@@ -22603,5 +22467,1682 @@
             "https://azurlane.koumakan.jp/w/images/thumb/0/05/Champagne.png/824px-Champagne.png",
             "Lapis Lazuli's First Dream",
             "https://azurlane.koumakan.jp/w/images/thumb/6/69/ChampagneNew_Year.png/483px-ChampagneNew_Year.png"
+        ]
+    },
+    "marie rose": {
+        "artista": "\u4e91\u6851",
+        "doppiatrice": "Mai Aizawa",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Mai_Aizawa",
+        "nome_nave": "Marie Rose",
+        "rarit\u00e0": "Marie Rose",
+        "tempo": "Marie Rose",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:40:06",
+        "tipo": "__[Destroyer]__",
+        "id": "10061",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Marie_Rose",
+            "https://azurlane.koumakan.jp/w/images/3/36/Marie_RoseIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/Marie_Rose.png/547px-Marie_Rose.png"
+        ],
+        "efficienza": [
+            "120% \u2192 125%: __DD Guns__",
+            "120% \u2192 140%: __Torpedoes__",
+            "110% \u2192 115%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Torpedo efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Rose's Thorns \ud83d\udcd5\nAfter the battle starts: for 60s, increases this ship's FP and TRP by 5.0% (15.0%). When this ship takes DMG: 4.0% (10.0%) chance to fire a Lv.1 (Lv.10) special barrage that always deals critical damage (DMG is based on the skill's level; 10s cooldown between activations).",
+            "Vibrant Minuet \ud83d\udcd8\nIncreases the DMG of this ship's first 3 torpedo launches of each battle by 30.0% (50.0%). When this ship fires its Torpedoes: for 8s, increases your Vanguard's Speed by 3 and EVA by 5.0% (15.0%) for the ship in the frontmost position of your Vanguard.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": []
+    },
+    "honoka": {
+        "artista": "\u4e91\u6851",
+        "doppiatrice": "Ai Nonaka",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Ai_Nonaka",
+        "nome_nave": "Honoka",
+        "rarit\u00e0": "Honoka",
+        "tempo": "Honoka",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:35:25",
+        "tipo": "__[Battleship]__",
+        "id": "10062",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Honoka",
+            "https://azurlane.koumakan.jp/w/images/f/f3/HonokaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/Honoka.png/600px-Honoka.png"
+        ],
+        "efficienza": [
+            "105% \u2192 135%: __BB Guns__",
+            "200% \u2192 200%: __CL/DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun base +1/Main gun efficiency +5%",
+            "\u2022 Auxiliary gun base +2/Main gun efficiency +10%",
+            "\u2022 Main gun base +1/Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Rock-Paper-Cannon Salvo \ud83d\udcd5\nIncreases this ship's FP by 5.0% (15.0%) and its armor modifier against Light Armor enemies by 4.5% (12.0%). 5s after this ship fires its Main Guns: fires a randomly chosen Lv.1 (Lv.10) barrage using special ammo.",
+            "Super Mega Explosion \ud83d\udcd8\nWhen this ship fires its Main Guns: heals 2 random ships in your fleet for 5.0% of their max HP and, with a 45.0% (75.0%) chance, fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). The barrage has a 70% chance to inflict a special burn DoT, which reduces Firepower, Torpedo, and Aviation stats by 5% for burning enemies. The burn lasts for 30 seconds.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/Honoka.png/576px-Honoka.png",
+            "Summer Angel on the Shore",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/95/HonokaSummer.png/546px-HonokaSummer.png"
+        ]
+    },
+    "kasumi (doa)": {
+        "artista": "",
+        "doppiatrice": "Houko Kuwashima",
+        "link_doppiatrice": " ",
+        "nome_nave": "Kasumi (DOA)",
+        "rarit\u00e0": "Kasumi (DOA)",
+        "tempo": "Kasumi (DOA)",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:33:43",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "10063",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Kasumi_(DOA)",
+            "https://azurlane.koumakan.jp/w/images/0/08/Kasumi_%28DOA%29Icon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0d/Kasumi_%28DOA%29.png/473px-Kasumi_%28DOA%29.png"
+        ],
+        "efficienza": [
+            "130% \u2192 135%: __CA Guns__",
+            "140% \u2192 165%: __Torpedoes__",
+            "105% \u2192 105%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 Torpedo efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Sakura Petal Dance \ud83d\udcd5\nEvery 15s after the start of the battle, and every time this ship lands 6 hits with its Torpedoes: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level).",
+            "Misty Mirror Flower \ud83d\udcd2\nWhen this ship sinks an enemy: increases this ship's FP and RLD by 1.0% (5.0%) (can be stacked up to 3 times). Additionally, after this ship sinks 3 enemies: increases this ship's Accuracy by 5.0% (15.0%) for the rest of the battle.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0d/Kasumi_%28DOA%29.png/433px-Kasumi_%28DOA%29.png",
+            "Springside Mist",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/37/Kasumi_%28DOA%29Summer.png/687px-Kasumi_%28DOA%29Summer.png"
+        ]
+    },
+    "misaki": {
+        "artista": "",
+        "doppiatrice": "Minami Tsuda",
+        "link_doppiatrice": " ",
+        "nome_nave": "Misaki",
+        "rarit\u00e0": "Misaki",
+        "tempo": "Misaki",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:41:47",
+        "tipo": "__[Light Cruiser]__",
+        "id": "10064",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in Limited Construction,  Store and as Map Drop during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Misaki",
+            "https://azurlane.koumakan.jp/w/images/1/1b/MisakiIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ae/Misaki.png/600px-Misaki.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __CL Guns__",
+            "70% \u2192 70%: __DD Guns__",
+            "110% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun efficiency +5%",
+            "\u2022 Main gun base +1/Main gun efficiency +10%",
+            "\u2022 Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Humble Part-Timer \ud83d\udcd2\nAfter the battle starts: for 60s, increases this ship's FP and its armor modifier against Light Armor enemies by 5.0% (15.0%). If there are other Venus Vacation characters in the same fleet: increases this ship's AA by 5.0% (15.0%) and decreases its DMG taken from guns by 4.5% (12.0%).",
+            "Venus Friends \ud83d\udcd5\nEvery 20s after the start of the battle: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). Enemies hit by this barrage take 5.0% (15.0%) more DMG from Venus Vacation characters for 8s.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ae/Misaki.png/561px-Misaki.png",
+            "Golden Photoshoot",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/54/MisakiSummer.png/512px-MisakiSummer.png"
+        ]
+    },
+    "nagisa": {
+        "artista": "",
+        "doppiatrice": "Maaya Uchida",
+        "link_doppiatrice": " ",
+        "nome_nave": "Nagisa",
+        "rarit\u00e0": "Nagisa",
+        "tempo": "Nagisa",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:38:25",
+        "tipo": "__[Battleship]__",
+        "id": "10065",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Nagisa",
+            "https://azurlane.koumakan.jp/w/images/7/7f/NagisaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Nagisa.png/570px-Nagisa.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __BB Guns__",
+            "200% \u2192 200%: __CL/DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun base +1/Main gun efficiency +5%",
+            "\u2022 Auxiliary gun base +2/Main gun efficiency +10%",
+            "\u2022 Main gun base +1/Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Not-So-Gentle Sister \ud83d\udcd5\nEvery 18s after the start of the battle: 40.0% (70.0%) chance to fire a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). Enemies hit by this barrage take 4.5% (12.0%) more DMG from Misaki and Nagisa for 8s.",
+            "Venus' Unpredictability \ud83d\udcd8\nDecreases the DMG this ship takes by 5.0% (15.0%). When this ship fires its Main Guns: decreases the Speed of a random enemy by 15.0% (30.0%) for 8s.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Nagisa.png/523px-Nagisa.png",
+            "Blue Skies, Good Vibes",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9e/NagisaSummer.png/485px-NagisaSummer.png"
+        ]
+    },
+    "nyotengu": {
+        "artista": "",
+        "doppiatrice": "Akemi Satou",
+        "link_doppiatrice": " ",
+        "nome_nave": "Nyotengu",
+        "rarit\u00e0": "Nyotengu",
+        "tempo": "Nyotengu",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "Cannot Be Constructed",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "10066",
+        "colore_embed": 11949300,
+        "acquisizione": "Available as Milestone Reward during \"Vacation Lane\" Event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Nyotengu",
+            "https://azurlane.koumakan.jp/w/images/9/93/NyotenguIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/Nyotengu.png/600px-Nyotengu.png"
+        ],
+        "efficienza": [
+            "114% \u2192 120%: __Fighters__",
+            "110% \u2192 125%: __Dive Bombers__",
+            "125% \u2192 135%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Hangar Capacity +1 / Number of Dive Bombers +1 / Torpedo Bomber Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Torpedo Bombers +1 / Dive Bomber Efficiency +10%",
+            "\u2022 Number of All Planes +1 / All Plane Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Dance of the Heavens \ud83d\udcd5\n5s after this ship finishes loading its Airstrike: launches a Lv.1 (Lv.10) special airstrike (DMG is based on the skill's level).",
+            "Hanakagura \ud83d\udcd2\nIncreases this ship's DMG against BBs by 4.0% (10.0%). When this ship launches an Airstrike: 40.0% (70.0%) chance to decrease DMG taken for 8s by a random ship in your Vanguard.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/Nyotengu.png/607px-Nyotengu.png",
+            "Scarlet-Tinged Hot Spring Vacation",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/NyotenguSummer.png/622px-NyotenguSummer.png"
+        ]
+    },
+    "monica": {
+        "artista": "\u80a1\u95f4\u5c11\u5973",
+        "doppiatrice": "Eri Yukimura",
+        "link_doppiatrice": "https://www.imdb.com/name/nm9806307/",
+        "nome_nave": "Monica",
+        "rarit\u00e0": "Monica",
+        "tempo": "Monica",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Venus Vacation",
+        "abbreviazione": " ",
+        "classe": "02:31:40",
+        "tipo": "__[Light Cruiser]__",
+        "id": "10067",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Vacation Lane\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Monica",
+            "https://azurlane.koumakan.jp/w/images/2/2d/MonicaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Monica.png/600px-Monica.png"
+        ],
+        "efficienza": [
+            "114% \u2192 135%: __CL Guns__",
+            "150% \u2192 160%: __Torpedoes__",
+            "110% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Joker Card \ud83d\udcd5\nEvery 15s after the start of the battle: fires a Lv.1 (Lv.10) barrage using special ammo and poker ammo (DMG is based on the skill's level). Enemies hit by the special ammo take 10.0% increased DMG for 6s.",
+            "Royal Flush \ud83d\udcd2\nIncreases the Shell Velocity of this ship's equipped Main Gun by 10.0%. When 5 enemy aircraft are shot down within the fleet's AA range: increases this ship's TRP and AA by 4.5% (12.0%).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Monica.png/585px-Monica.png",
+            "The Ace of Hearts",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0a/MonicaSummer.png/461px-MonicaSummer.png"
+        ]
+    },
+    "hdn neptune": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Rie Tanaka",
+        "link_doppiatrice": " ",
+        "nome_nave": "HDN Neptune",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Light Cruiser]__",
+        "id": "Collab001",
+        "colore_embed": 16774061,
+        "acquisizione": "Available as a task reward in the Visitors from Another Dimension event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/HDN_Neptune",
+            "https://azurlane.koumakan.jp/w/images/f/f0/HDN_NeptuneIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e5/HDN_Neptune.png/600px-HDN_Neptune.png"
+        ],
+        "efficienza": [
+            "120% \u2192 140%: __CL Guns__",
+            "140% \u2192 150%: __Torpedoes__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 /  Torpedo Efficiency +10%",
+            "\u2022 Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Protagonist Aura \ud83d\udcd2\nIf a Neptunia ship is present in the fleet, increase own damage by 3% (10%) and decrease damage received by 6%. Also increases own damage by 1% (2%), and decreases damage received by 1% for each Neptunia ship, excluding herself.",
+            "    ",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e5/HDN_Neptune.png/632px-HDN_Neptune.png"
+        ]
+    },
+    "noire": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Asami Imai",
+        "link_doppiatrice": " ",
+        "nome_nave": "Noire",
+        "rarit\u00e0": "Elite",
+        "tempo": "02:38:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "Collab002",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Visitors from Another Dimension\"  ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Noire",
+            "https://azurlane.koumakan.jp/w/images/4/41/NoireIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/67/Noire.png/486px-Noire.png"
+        ],
+        "efficienza": [
+            "120% \u2192 125%: __CA Guns__",
+            "140% \u2192 165%: __Torpedoes__",
+            "110% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Medistation S \ud83d\udcd5\nWhen being attacked, 3.5% (8%) chance to increase own damage by 10% (25%) for 8 seconds.",
+            "    ",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/67/Noire.png/446px-Noire.png"
+        ]
+    },
+    "blanc": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Kana Asumi",
+        "link_doppiatrice": " ",
+        "nome_nave": "Blanc",
+        "rarit\u00e0": "Elite",
+        "tempo": "02:24:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab003",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in limited construction during \"Visitors from Another Dimension\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Blanc",
+            "https://azurlane.koumakan.jp/w/images/1/1c/BlancIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fb/Blanc.png/476px-Blanc.png"
+        ],
+        "efficienza": [
+            "70% \u2192 75%: __DD Guns__",
+            "130% \u2192 150%: __Torpedoes__",
+            "70% \u2192 75%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Power Break \ud83d\udcd2\nIf in same fleet with Vert/Green Heart, increase own damage dealt by 10% (25%) and damage received by 10% (15%). Otherwise, decrease damage received by 10% (25%) and damage dealt by 10% (15%).",
+            "    ",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fb/Blanc.png/437px-Blanc.png"
+        ]
+    },
+    "vert": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Rina Satou",
+        "link_doppiatrice": " ",
+        "nome_nave": "Vert",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab004",
+        "colore_embed": 11949300,
+        "acquisizione": "Reward for completing \"Visitors from Another Dimension\" Event Questline.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Vert",
+            "https://azurlane.koumakan.jp/w/images/1/1f/VertIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Vert.png/600px-Vert.png"
+        ],
+        "efficienza": [
+            "120% \u2192 120%: __Fighters__",
+            "110% \u2192 125%: __Dive Bombers__",
+            "110% \u2192 125%: __Dive Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Fighters +1 / Dive Bombers Efficiency +3%",
+            "\u2022 Hangar Capacity +1 / Number of Dive Bombers +1 / Dive Bombers Efficiency +5%",
+            "\u2022 Number of Fighters +1 / Dive Bombers Efficiency +7%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Assam Link \ud83d\udcd8\nIncreases own Reload by 1.5% (5%) and reduces damage taken from shelling by self by 1.5% (5%) per Destroyer in the fleet.",
+            "    ",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Vert.png/605px-Vert.png"
+        ]
+    },
+    "purple heart": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Rie Tanaka",
+        "link_doppiatrice": " ",
+        "nome_nave": "Purple Heart",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "02:44:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Light Cruiser]__",
+        "id": "Collab005",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Visitors from Another Dimension\"  ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Purple_Heart",
+            "https://azurlane.koumakan.jp/w/images/c/c8/Purple_HeartIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Purple_Heart.png/600px-Purple_Heart.png"
+        ],
+        "efficienza": [
+            "125% \u2192 145%: __CL Guns__",
+            "140% \u2192 150%: __Torpedoes__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Blaze Break Lv.1 / Main Gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Cross Combination \ud83d\udcd5\nAfter every 15 (6) shots from the main gun, the next shot deals a critical hit.",
+            "Victory Slash \ud83d\udcd5\n115 seconds after the battle starts, releases a powerful barrage (damage depends on skill level). Can occur only once per battle.",
+            "Blaze Break \ud83d\udcd5\n20% (40%) chance to activate every 20 seconds: releases a powerful barrage (damage depends on skill level) that has a low chance to set enemies on fire for 12 seconds.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Purple_Heart.png/550px-Purple_Heart.png",
+            "Goddesses' Promise",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/31/Purple_HeartCollab.png/550px-Purple_HeartCollab.png"
+        ]
+    },
+    "black heart": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Asami Imai",
+        "link_doppiatrice": " ",
+        "nome_nave": "Black Heart",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "02:40:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "Collab006",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Visitors from Another Dimension\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Black_Heart",
+            "https://azurlane.koumakan.jp/w/images/1/16/Black_HeartIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/46/Black_Heart.png/600px-Black_Heart.png"
+        ],
+        "efficienza": [
+            "125% \u2192 130%: __CA Guns__",
+            "140% \u2192 165%: __Torpedoes__",
+            "110% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Lace Dance Lv.1 / Main Gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Tricolor Order \ud83d\udcd2\nMain gun damage is not affected by armor type (armor modifier is always 100%). Additionally, increase main gun damage by 5% (15%).",
+            "Lacy Dance \ud83d\udcd5\nEvery 20 seconds: 20% (40%) chance to release a powerful barrage (damage depends on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/46/Black_Heart.png/550px-Black_Heart.png",
+            "Goddesses' Smile",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9d/Black_HeartCollab.png/454px-Black_HeartCollab.png"
+        ]
+    },
+    "white heart": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Kana Asumi",
+        "link_doppiatrice": " ",
+        "nome_nave": "White Heart",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "02:26:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab007",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Visitors from Another Dimension\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/White_Heart",
+            "https://azurlane.koumakan.jp/w/images/7/71/White_HeartIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/White_Heart.png/600px-White_Heart.png"
+        ],
+        "efficienza": [
+            "75% \u2192 80%: __DD Guns__",
+            "130% \u2192 150%: __Torpedoes__",
+            "70% \u2192 75%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Getter Ravine Lv.1 / Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "T\u00e4nzerin Trombe \ud83d\udcd5\nEach hit with the main gun increases own torpedoes' critical strike chance by 0.6% (1.5%) (stacks up to 20 times, effect resets after torpedo lauch).",
+            "Getter Ravine \ud83d\udcd5\nEvery 20 seconds, 20% (40%) chance to release a powerful barrage (damage depends on skill level) that has a low chance to slow enemies for 8 seconds.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/White_Heart.png/577px-White_Heart.png",
+            "Goddesses' Humility",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/95/White_HeartCollab.png/495px-White_HeartCollab.png"
+        ]
+    },
+    "green heart": {
+        "artista": "\u3064\u306a\u3053",
+        "doppiatrice": "Rina Satou",
+        "link_doppiatrice": " ",
+        "nome_nave": "Green Heart",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "02:47:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Neptunia",
+        "abbreviazione": "__[HDN]__",
+        "classe": "Neptunia",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab008",
+        "colore_embed": 11949300,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Visitors from Another Dimension\"  ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Green_Heart",
+            "https://azurlane.koumakan.jp/w/images/1/16/Green_HeartIcon.png",
+            "https://azurlane.koumakan.jp/w/images/e/e0/Neptune_nation.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2f/Green_Heart.png/600px-Green_Heart.png"
+        ],
+        "efficienza": [
+            "120% \u2192 120%: __Fighters__",
+            "110% \u2192 125%: __Dive Bombers__",
+            "110% \u2192 125%: __Dive Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Fighters +1 / Dive Bombers Efficiency +3%",
+            "\u2022 Hangar Capacity +1 / Number of Dive Bombers +1 / Dive Bombers Efficiency +5%",
+            "\u2022 Number of Dive Bombers +1 / Dive Bombers Efficiency +7%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Darjeeling Rotation \ud83d\udcd2\nEvery 15 seconds switch between following effects:\nReduces damage taken by 6% (20%)\nIncreases damage dealt by 6% (20%)\nEvery 3 seconds restore 6 (15) HP",
+            "Rainy Ratnapura \ud83d\udcd5\n20% (40%) chance to activate every 20 seconds: perform an airstrike with a special aviation.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2f/Green_Heart.png/589px-Green_Heart.png",
+            "Goddesses' Moment",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7a/Green_HeartCollab.png/550px-Green_HeartCollab.png"
+        ]
+    },
+    "22": {
+        "artista": "\u548c\u8336",
+        "doppiatrice": "yorukiyama",
+        "link_doppiatrice": " ",
+        "nome_nave": "22",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Bilibili",
+        "abbreviazione": " ",
+        "classe": "Bilibili",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab021",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Task reward during the \"Battery Support Plan\" event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/22",
+            "https://azurlane.koumakan.jp/w/images/2/2b/22Icon.png",
+            "https://azurlane.koumakan.jp/w/images/5/5c/Bi_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/75/22.png/503px-22.png"
+        ],
+        "efficienza": [
+            "115% \u2192 135%: __DD Guns__",
+            "110% \u2192 115%: __Torpedoes__",
+            "90% \u2192 95%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Full Barrage I / Main gun Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main gun Efficiency +10%",
+            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Bilibili Mascot Girl - 22 \ud83d\udcd2\nWhen sortied as the Vanguard Fleet Leader (First Slot) and paired with 33, increase Firepower, Reload by 10% (30%) and Evasion by 15% (35%) for both 22 and 33.",
+            "All Out Assault \ud83d\udcd5\nEvery 15 (10) shots from the main battery, trigger Full Barrage - 22 Class I (II)",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/75/22.png/461px-22.png"
+        ]
+    },
+    "33": {
+        "artista": "\u548c\u8336",
+        "doppiatrice": "_Hanser_",
+        "link_doppiatrice": "https://weibo.com/p/1005051782536741",
+        "nome_nave": "33",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Bilibili",
+        "abbreviazione": " ",
+        "classe": "Bilibili",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab022",
+        "colore_embed": 8900346,
+        "acquisizione": "Available in event shop during the \"Battery Support Plan\" event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/33",
+            "https://azurlane.koumakan.jp/w/images/7/7f/33Icon.png",
+            "https://azurlane.koumakan.jp/w/images/5/5c/Bi_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9c/33.png/486px-33.png"
+        ],
+        "efficienza": [
+            "110% \u2192 115%: __DD Guns__",
+            "110% \u2192 130%: __Torpedoes__",
+            "90% \u2192 95%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Full Barrage I / Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Bilibili Mascot Girl - 33 \ud83d\udcd2\nWhen sortied as the Vanguard Fleet Leader (First Slot) and paired with 22, increase Torpedo stat by 15% (35%) for both 22 and 33.",
+            "All Out Assault \ud83d\udcd5\nEvery 15 (10) shots from the main battery, trigger Full Barrage - Class 33 I (II)",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9c/33.png/446px-33.png"
+        ]
+    },
+    "kuon": {
+        "artista": "\u7518\u9732\u6a39",
+        "doppiatrice": "Risa Taneda",
+        "link_doppiatrice": " ",
+        "nome_nave": "Kuon",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "02:05:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "Collab031",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available in Point Shop and Limited Construction during \"Utawarerumono Collab\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Kuon",
+            "https://azurlane.koumakan.jp/w/images/9/9a/KuonIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Kuon.png/597px-Kuon.png"
+        ],
+        "efficienza": [
+            "100% \u2192 110%: __CA Guns__",
+            "85% \u2192 105%: __Torpedoes__",
+            "75% \u2192 75%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Ten Sisters Lv.1 / Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main Gun Efficiency +10%",
+            "\u2022 Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Four Gods Convert \ud83d\udcd2\nDepending on main battery shell type, increase same shell type damage by 10% (20%), decrease damage received from same shell type by 10% (20%).",
+            "Ten Sisters \ud83d\udcd5\nWhen taking damage, 4% (10%) chance to fire a special barrage; 5 seconds cool down after activation. The skill can be activated up to 6 times each battle.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Kuon.png/547px-Kuon.png",
+            "Kuon (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e2/KuonCollab.png/492px-KuonCollab.png"
+        ]
+    },
+    "nekone": {
+        "artista": "\u7518\u9732\u6a39",
+        "doppiatrice": "Inori Minase",
+        "link_doppiatrice": " ",
+        "nome_nave": "Nekone",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "00:23:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab032",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Utawarerumono Collab\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Nekone",
+            "https://azurlane.koumakan.jp/w/images/c/c5/NekoneIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/50/Nekone.png/571px-Nekone.png"
+        ],
+        "efficienza": [
+            "75% \u2192 85%: __DD Guns__",
+            "100% \u2192 120%: __Torpedoes__",
+            "65% \u2192 65%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Evening Star Lv.1 / Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main Gun Efficiency +10%",
+            "\u2022 Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "White Rainbow \ud83d\udcd8\n100 seconds after battle starts: increases Evasion of all ships in Vanguard Fleet by 3.5% (8%) and recovers HP of all ships in Vanguard Fleet by 4.5% (12%) of Nekone's total HP.",
+            "Evening Star \ud83d\udcd5\nEvery 10 seconds, 50% (100%) chance to release a special barrage, which has chance to ignite (special barrage damage and form depend on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/50/Nekone.png/523px-Nekone.png",
+            "Nekone (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/83/NekoneCollab.png/569px-NekoneCollab.png"
+        ]
+    },
+    "rurutie": {
+        "artista": "\u307f\u3064\u307f\u7f8e\u91cc",
+        "doppiatrice": "Ai Kakuma",
+        "link_doppiatrice": " ",
+        "nome_nave": "Rurutie",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:48:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Light Cruiser]__",
+        "id": "Collab033",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Utawarerumono Collab\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Rurutie",
+            "https://azurlane.koumakan.jp/w/images/0/0f/RurutieIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/14/Rurutie.png/524px-Rurutie.png"
+        ],
+        "efficienza": [
+            "100% \u2192 110%: __CL Guns__",
+            "120% \u2192 140%: __Torpedoes__",
+            "60% \u2192 60%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Gains Lily Root Lv.1 / Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main Gun Efficiency +10%",
+            "\u2022 Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Pulse of Life \ud83d\udcd8\nEvery 10 seconds, 5% (25%) chance to heal Rurutie for 2% of her max Health. The skill can be activated for maximum 6 times each battle.",
+            "Lily Root \ud83d\udcd5\nEvery 22 seconds after the start of a battle, fire a special barrage. Every time the barrage is fired, increases the damage of the subsequent barrage. The skill can be activated for maximum 4 times each battle (damage based on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/14/Rurutie.png/480px-Rurutie.png",
+            "Rurutie (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/30/RurutieCollab.png/590px-RurutieCollab.png"
+        ]
+    },
+    "uruuru": {
+        "artista": "\u307f\u3064\u307f\u7f8e\u91cc",
+        "doppiatrice": "Ayane Sakura",
+        "link_doppiatrice": " ",
+        "nome_nave": "Uruuru",
+        "rarit\u00e0": "Elite",
+        "tempo": "02:25:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Light Aircraft Carrier]__",
+        "id": "Collab034",
+        "colore_embed": 13073654,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Utawarerumono Collab\" . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Uruuru",
+            "https://azurlane.koumakan.jp/w/images/9/95/UruuruIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Uruuru.png/600px-Uruuru.png"
+        ],
+        "efficienza": [
+            "115% \u2192 130%: __Fighters__",
+            "115% \u2192 125%: __Dive Bombers__",
+            "80% \u2192 80%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Number of Dive Bombers +1 / Fighters Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Fighters +1 / Fighers Efficiency +10%",
+            "\u2022 Number of All Planes +1 / Dive Bombers Efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Shrine Maiden of Chains (Uruuru) \ud83d\udcd2\nWhen paired with Saraana, increases own Air Power by 15% (35%), and Reload and Accuracy by 10% (20%).",
+            "Twin Shadow Musou (Uruuru) \ud83d\udcd5\nWhen paired with Saraana, every 55 seconds after battle starts: activates a special barrage. The skill can be activated for maximum 2 times each battle (damage based on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Uruuru.png/653px-Uruuru.png",
+            "Uruuru (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8e/UruuruCollab.png/660px-UruuruCollab.png"
+        ]
+    },
+    "saraana": {
+        "artista": "\u307f\u3064\u307f\u7f8e\u91cc",
+        "doppiatrice": "Ayane Sakura",
+        "link_doppiatrice": " ",
+        "nome_nave": "Saraana",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Light Aircraft Carrier]__",
+        "id": "Collab035",
+        "colore_embed": 13073654,
+        "acquisizione": "Reward for completing \"Utawarerumono Collab\" Event Questline.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Saraana",
+            "https://azurlane.koumakan.jp/w/images/e/e0/SaraanaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fc/Saraana.png/600px-Saraana.png"
+        ],
+        "efficienza": [
+            "115% \u2192 130%: __Fighters__",
+            "115% \u2192 125%: __Torpedo Bombers__",
+            "80% \u2192 80%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Number of Torpedo Bombers +1 / Fighters Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Fighters +1 / Fighers Efficiency +10%",
+            "\u2022 Number of All Planes +1 / Torpedo Bombers Efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Shrine Maiden of Chains (Saraana) \ud83d\udcd2\nWhen paired with Uruuru, increase own Air Power by 15% (35%), and Reload and Accuracy by 10% (20%).",
+            "Twin Shadow Musou (Saraana) \ud83d\udcd5\nWhen paired with Uruuru, every 55 seconds after battle starts: activates a special barrage. The skill can be activated for maximum 2 times each battle (damage based on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fc/Saraana.png/579px-Saraana.png",
+            "Saraana (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/23/SaraanaCollab.png/652px-SaraanaCollab.png"
+        ]
+    },
+    "fumiruiru": {
+        "artista": "\u7518\u9732\u6a39",
+        "doppiatrice": "Yuuko Gibu",
+        "link_doppiatrice": " ",
+        "nome_nave": "Fumiruiru",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Utawarerumono",
+        "abbreviazione": " ",
+        "classe": "Utawarerumono",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab036",
+        "colore_embed": 11949300,
+        "acquisizione": "Reward for Obtaining 1,500 Friendship Point during \"Utawarerumono Collab\" Event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Fumiruiru",
+            "https://azurlane.koumakan.jp/w/images/1/1e/FumiruiruIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Fumiruiru.png/600px-Fumiruiru.png"
+        ],
+        "efficienza": [
+            "90% \u2192 105%: __Fighters__",
+            "90% \u2192 105%: __Torpedo Bombers__",
+            "90% \u2192 105%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Fighters +1 / All Plane Efficiency +3%",
+            "\u2022 Hangar Capacity +1 / Number of Torpedo Bombers +1 / All Plane Efficiency +5%",
+            "\u2022 Number of Torpedo Bombers +1 / All Plane Efficiency +7%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Hundred Honey \ud83d\udcd8\nWhen this ship launches an Airstrike: 30% (60%) chance to heal the ship with the lowest HP for 2% (10%) of her max Health.",
+            "Honey Moon \ud83d\udcd5\n20 (10) seconds after battle begins, and every 30 (20) seconds after that: activate a special barrage (damage based on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Fumiruiru.png/718px-Fumiruiru.png",
+            "Fumiruiru (Utawarerumono)",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a2/FumiruiruCollab.png/576px-FumiruiruCollab.png"
+        ]
+    },
+    "kizuna ai": {
+        "artista": "Morikura En",
+        "doppiatrice": "Kasuga Nozomi",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/6/6d/Kizuna_AI_TitleScreen.ogg",
+        "nome_nave": "Kizuna AI",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "KizunaAI",
+        "abbreviazione": "DOAXVV",
+        "classe": "KizunaAI",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab041",
+        "colore_embed": 8900346,
+        "acquisizione": "Available as Kizuna Point reward during Virtual Connection Synchronicity Event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Kizuna_AI",
+            "https://azurlane.koumakan.jp/w/images/0/0b/Kizuna_AIIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Kizuna_AI.png/600px-Kizuna_AI.png"
+        ],
+        "efficienza": [
+            "70% \u2192 75%: __DD Guns__",
+            "140% \u2192 160%: __Torpedoes__",
+            "100% \u2192 105%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Torpedo Efficiency +5%",
+            "\u2022 Torpedo Base +1 / Torpedo Preload +1 / Torpedo Efficiency +10%",
+            "\u2022 All Weapons' Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Kizuna Beam \ud83d\udcd2\nEvery 20 seconds: performs super A.I. hacking to decrease all enemies' Firepower, Torpedo stat, and Air Power by a large amount (up to 4.0% (8.0%)) for 8 seconds\u2026 Also has a small chance to accidentally increase the stats of all enemies instead. Average effect is 2.4% (5.14%). Chances at max skill level:\n12%: Increases all enemies' Firepower, Torpedo, and Aviation by 4%.\n18%: Decreases all enemies' Firepower, Torpedo, and Aviation by 4%.\n35%: Decreases all enemies' Firepower, Torpedo, and Aviation by 6%.\n35%: Decreases all enemies' Firepower, Torpedo, and Aviation by 8%.",
+            "Crisis Prevention! \ud83d\udcd8\nUpon taking damage: 4.5% (12.0%) chance to fire a special torpedo barrage and avoid all enemy attacks for 3 seconds. Once the effect ends: increases own Evasion by 20% (40%) for 3 seconds.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Kizuna_AI.png/567px-Kizuna_AI.png",
+            "Festive Kizuna AI",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/44/Kizuna_AIKizuna.png/631px-Kizuna_AIKizuna.png"
+        ]
+    },
+    "elegant kizuna ai": {
+        "artista": "Morikura En",
+        "doppiatrice": "Kizuna AI",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Kizuna_AI",
+        "nome_nave": "Elegant Kizuna AI",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:55:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "KizunaAI",
+        "abbreviazione": "DOAXVV",
+        "classe": "KizunaAI",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "Collab042",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Can be obtained for 8000 from Virtual Connection Synchronicity event shop. Also available in Limited Construction during the event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Elegant_Kizuna_AI",
+            "https://azurlane.koumakan.jp/w/images/5/5b/Elegant_Kizuna_AIIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dc/Elegant_Kizuna_AI.png/460px-Elegant_Kizuna_AI.png"
+        ],
+        "efficienza": [
+            "90% \u2192 110%: __CA Guns__",
+            "50% \u2192 55%: __DD Guns__",
+            "120% \u2192 125%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Efficiency +5%",
+            "\u2022 Main Gun Efficiency +10%",
+            "\u2022 Main Gun Mount +1 / All Weapons' Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Connected \ud83d\udcd2\nAt the start of the battle: increases own Firepower by 1.5% (6%) per Kizuna AI ships other than self (can be stacked up to 4 times). If there are no other Kizuna AIs in your fleet: decreases damage taken by 5% (15%) for 30 seconds after battle starts.",
+            "Everything Is In Order \ud83d\udcd8\nDecreases Burn duration by 3 seconds and decreases HE damage taken by 5% (15%).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dc/Elegant_Kizuna_AI.png/422px-Elegant_Kizuna_AI.png"
+        ]
+    },
+    "anniversary kizuna ai": {
+        "artista": "Morikura En",
+        "doppiatrice": "Kizuna AI",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Kizuna_AI",
+        "nome_nave": "Anniversary Kizuna AI",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "04:30:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "KizunaAI",
+        "abbreviazione": "DOAXVV",
+        "classe": "KizunaAI",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab043",
+        "colore_embed": 11949300,
+        "acquisizione": "Event Build: Available in Limited Construction during Virtual Connection Synchronicity event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Anniversary_Kizuna_AI",
+            "https://azurlane.koumakan.jp/w/images/3/3d/Anniversary_Kizuna_AIIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/28/Anniversary_Kizuna_AI.png/600px-Anniversary_Kizuna_AI.png"
+        ],
+        "efficienza": [
+            "105% \u2192 110%: __Fighters__",
+            "120% \u2192 135%: __Dive Bombers__",
+            "125% \u2192 135%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Hangar Capacity +1 / All Dive Bombers +1 / Torpedo Bomber Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / All Torpedo Bombers +1 / Dive Bomber Efficiency +10%",
+            "\u2022 All Planes +1 / Aircraft Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Future Base \ud83d\udcd5\n30s, 45s, and 60s after the start of the battle: launches a Lv.1 (Lv.10) special airstrike (damage is based on skill level).",
+            "Melty World \ud83d\udcd5\nIf sortied with another Kizuna AI ship, when launching an airstrike: 15% (25%) chance for the Airstrike to deal double damage.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/28/Anniversary_Kizuna_AI.png/600px-Anniversary_Kizuna_AI.png"
+        ]
+    },
+    "super gamer kizuna ai": {
+        "artista": "Morikura En",
+        "doppiatrice": "Kizuna AI",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Kizuna_AI",
+        "nome_nave": "Super Gamer Kizuna AI",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "04:50:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "KizunaAI",
+        "abbreviazione": "DOAXVV",
+        "classe": "KizunaAI",
+        "tipo": "__[Battleship]__",
+        "id": "Collab044",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available in Limited Construction during Virtual Connection Synchronicity . ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Super_Gamer_Kizuna_AI",
+            "https://azurlane.koumakan.jp/w/images/2/27/Super_Gamer_Kizuna_AIIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/Super_Gamer_Kizuna_AI.png/558px-Super_Gamer_Kizuna_AI.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __BB Guns__",
+            "200% \u2192 200%: __CL/DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +5%",
+            "\u2022 Secondary Gun Mount +2 / Main Gun Efficiency +10%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Super AIming Adjustments \ud83d\udcd5\nIncreases Main Gun critical rate by 15% (30%), but increases its Spread Range by 1. Every 16 seconds after the start of the battle: 40% (70%) chance to fire a special barrage (damage is based on skill level).",
+            "Coercion Assistance Mode \ud83d\udcd8\nIncrease own Accuracy and Evasion by 10% (25%) through the use of advanced super A.I. tracking.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/Super_Gamer_Kizuna_AI.png/511px-Super_Gamer_Kizuna_AI.png"
+        ]
+    },
+    "shirakami fubuki": {
+        "artista": "\u51ea\u767d\u307f\u3068",
+        "doppiatrice": "Shirakami Fubuki",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/4/46/Shirakami_Fubuki_TitleScreen.ogg",
+        "nome_nave": "Shirakami Fubuki",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "00:17:30",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab051",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Looking Glass of Fact and Fiction\" event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Shirakami_Fubuki",
+            "https://azurlane.koumakan.jp/w/images/3/3b/Shirakami_FubukiIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0c/Shirakami_Fubuki.png/600px-Shirakami_Fubuki.png"
+        ],
+        "efficienza": [
+            "80% \u2192 85%: __DD Guns__",
+            "130% \u2192 150%: __Torpedoes__",
+            "75% \u2192 80%: __Dive Bombers__"
+        ],
+        "rank": [
+            "\u2022 Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 All Weapon Efficiency +5% / Number of All Planes +1",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Mach 2.42 Blossom \ud83d\udcd5\nDive Bomber slot is equipped with \"Mach 2.42 Bermbew Sprawt\" skin. Airstrike spawning time is increased by 100% (this effect is unaffected by your ship's damage status in Operation Siren). Every 20 seconds, calls in air support plane (damage scales with Torpedo stat and skill level).",
+            "Two-Faced Fox \ud83d\udcd2\nDuring battle, increases own Firepower stat by 5% (15%). After defeating 3 enemy nodes in a sortie, increases own Torpedo stat by 4.5% (12%). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0c/Shirakami_Fubuki.png/669px-Shirakami_Fubuki.png",
+            "Beachside Fox",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/00/Shirakami_FubukiSummer.png/555px-Shirakami_FubukiSummer.png"
+        ]
+    },
+    "tokino sora": {
+        "artista": "Ordan",
+        "doppiatrice": "Tokino Sora",
+        "link_doppiatrice": " ",
+        "nome_nave": "Tokino Sora",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:25:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab052",
+        "colore_embed": 11949300,
+        "acquisizione": "Event Build: Available in Limited Construction and in event shop during \"Looking Glass of Fact and Fiction\" event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Tokino_Sora",
+            "https://azurlane.koumakan.jp/w/images/9/97/Tokino_SoraIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/Tokino_Sora.png/600px-Tokino_Sora.png"
+        ],
+        "efficienza": [
+            "125% \u2192 130%: __Fighters__",
+            "110% \u2192 125%: __Dive Bombers__",
+            "115% \u2192 125%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Dive Bombers +1 / Torpedo Bomber Efficiency +5%",
+            "\u2022 Hanger Capacity +1 / Number of Torpedo Bombers +1 / Dive Bombers Efficiency +10%",
+            "\u2022 Number of All Planes +1 / All Planes Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Dream\u2606Story \ud83d\udcd5\nWhen launching an airstrike: 70% (100%) chance to launch a barrage that can cause burning, damage scales with skill level.",
+            "Beneath the Deep Blue Sky \ud83d\udcd8\nDuring battle, decrease damage received by all Hololive ships by 2.5% (7%). Every 20 seconds, decreases Speed of all enemies by 5% (10%), increases Accuracy stat of all friendly ships by 5% (10%), and increases Speed of all friendly Hololive ships by 5% (10%) for 8 seconds.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/Tokino_Sora.png/565px-Tokino_Sora.png",
+            "Under the Clear Sky",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/Tokino_SoraSummer.png/516px-Tokino_SoraSummer.png"
+        ]
+    },
+    "minato aqua": {
+        "artista": "Gaou",
+        "doppiatrice": "Minato Aqua",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/50/Minato_Aqua_TitleScreen.ogg",
+        "nome_nave": "Minato Aqua",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "00:20:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Submarine]__",
+        "id": "Collab053",
+        "colore_embed": 5111629,
+        "acquisizione": "Event Build: Available in Limited Construction during the Looking Glass of Fact and Fiction event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Minato_Aqua",
+            "https://azurlane.koumakan.jp/w/images/7/79/Minato_AquaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/Minato_Aqua.png/600px-Minato_Aqua.png"
+        ],
+        "efficienza": [
+            "110% \u2192 125%: __Submarine Torpedoes__",
+            "110% \u2192 125%: __Submarine Torpedoes__",
+            "85% \u2192 85%: __DD Guns__"
+        ],
+        "rank": [
+            "\u2022 Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Hunting Radius Increase",
+            "\u2022 Torpedo Efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Shut-in Maid \ud83d\udcd5\nDecreases own Oxygen stat by 150 (60). For 20 seconds after entering battle, increases own damage dealt by 15% (30%). When retreating: increases Speed by 100% during the retreat.",
+            "Failen Angel \ud83d\udcd2\nWhen entering battle, gives all allied ships a random buff. Allied Hololive ships will receive 1.5x buff effect. Possible effects (20% chance each) are:\nOffense: Increases damage dealt by 1% (2%).\nDefense: Decreases damage taken by 1% (2%).\nEvasion: Increases Evasion by 1% (4%).\nAccuracy: Increases Accuracy by 1% (4%).\nHealing: Heals 5 hit points per second for 2 seconds.",
+            "Promise to the Sunflower \ud83d\udcd5\nWhen entering battle: fires a special barrage with 100% critical hit chance (damage scales with skill level). If fleet consists of at least 2 other Hololive ships, improves the barrage.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/Minato_Aqua.png/596px-Minato_Aqua.png",
+            "Marine Maid",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b9/Minato_AquaMaid.png/638px-Minato_AquaMaid.png"
+        ]
+    },
+    "natsuiro matsuri": {
+        "artista": "Minamura Haruki",
+        "doppiatrice": "Natsuiro Matsuri",
+        "link_doppiatrice": " ",
+        "nome_nave": "Natsuiro Matsuri",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:12:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Destroyer]__",
+        "id": "Collab054",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Looking Glass of Fact and Fiction\" event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Natsuiro_Matsuri",
+            "https://azurlane.koumakan.jp/w/images/f/fa/Natsuiro_MatsuriIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/Natsuiro_Matsuri.png/585px-Natsuiro_Matsuri.png"
+        ],
+        "efficienza": [
+            "70% \u2192 75%: __DD Guns__",
+            "105% \u2192 125%: __Torpedoes__",
+            "100% \u2192 105%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Torpedo Efficiency +5%",
+            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+            "\u2022 All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Summer Flower We Watch \ud83d\udcd5\nEvery 25 seconds, 40% (70%) to fire a special barrage.",
+            "The Third Day of Flirting \ud83d\udcd2\nDuring battle, if the number of Hololive ships in the fleet is odd: increases own damage dealt with Main Gun by 4.5% (12%); otherwise decreases damage taken from bullets by self by 1% (5%). Every 20 seconds after battle starts, reduces damage taken by a random allied ship by 1% (5%) for 10 seconds.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/Natsuiro_Matsuri.png/536px-Natsuiro_Matsuri.png",
+            "Matsuri's Day Off",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d7/Natsuiro_MatsuriSummer.png/533px-Natsuiro_MatsuriSummer.png"
+        ]
+    },
+    "nakiri ayame": {
+        "artista": "Kagura Nana",
+        "doppiatrice": "Nakiri Ayame",
+        "link_doppiatrice": " ",
+        "nome_nave": "Nakiri Ayame",
+        "rarit\u00e0": "Elite",
+        "tempo": "03:22:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "Collab055",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Looking Glass of Fact and Fiction\" event. ",
+        "limited": "s\u00ec",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Nakiri_Ayame",
+            "https://azurlane.koumakan.jp/w/images/a/aa/Nakiri_AyameIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Nakiri_Ayame.png/600px-Nakiri_Ayame.png"
+        ],
+        "efficienza": [
+            "90% \u2192 110%: __CA Guns__",
+            "50% \u2192 55%: __DD Guns__",
+            "100% \u2192 105%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Efficiency +5%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +10%",
+            "\u2022 All Weapon Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Oni Goddess\u2606Nakiri \ud83d\udcd2\nEvery 20 seconds, Ayame would attempt to enhance herself with her spirits, which has 40% (70%) chance to increase damage dealt by her by 3.5% (8%); effect can stack up to 3 times.",
+            "Demon Cutter Asura-Rakshasa \ud83d\udcd5\nEvery 20 (15) seconds, triggers a special Ashura-Rakshasa slash that has 50% chance to inflict Armor Break on hit enemies, lasting for 6 seconds. Damage is based on skill level.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Nakiri_Ayame.png/635px-Nakiri_Ayame.png",
+            "Summertime Nakiri",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/Nakiri_AyameSummer.png/700px-Nakiri_AyameSummer.png"
+        ]
+    },
+    "murasaki shion": {
+        "artista": "Tam-U",
+        "doppiatrice": "Murasaki Shion",
+        "link_doppiatrice": " ",
+        "nome_nave": "Murasaki Shion",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Light Aircraft Carrier]__",
+        "id": "Collab056",
+        "colore_embed": 13073654,
+        "acquisizione": "Available as Point Accumulation reward during \"Looking Glass of Fact and Fiction\" event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Murasaki_Shion",
+            "https://azurlane.koumakan.jp/w/images/5/52/Murasaki_ShionIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e5/Murasaki_Shion.png/600px-Murasaki_Shion.png"
+        ],
+        "efficienza": [
+            "115% \u2192 130%: __Fighters__",
+            "115% \u2192 125%: __Torpedo Bombers__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Number of Torpedo Bombers +1 / Fighter Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Fighters +1 / Fighter Efficiency +10%",
+            "\u2022 Number of All Planes +1 / Torpedo Bombers Efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Wave of a Pleasant Dream \ud83d\udcd2\nWhen launching an airstrike: fires a wave of light that reduces damage dealt by enemy ships by 1% (5%) for 8 seconds.",
+            "MP Burst - Explosion \ud83d\udcd5\nEvery 8 seconds, gains 1 MP. If Shion has 3 MP: fires a special barrage and resets MP to 0 (damage is based on skill level).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e5/Murasaki_Shion.png/562px-Murasaki_Shion.png",
+            "Virtual Magician",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6f/Murasaki_ShionMagician.png/562px-Murasaki_ShionMagician.png"
+        ]
+    },
+    "ookami mio": {
+        "artista": "Izumi Sai",
+        "doppiatrice": "Ookami Mio",
+        "link_doppiatrice": " ",
+        "nome_nave": "Ookami Mio",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Hololive",
+        "abbreviazione": " ",
+        "classe": "Hololive",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "Collab057",
+        "colore_embed": 11949300,
+        "acquisizione": "Reward for obtaining 1,000 Friendship Points during \"Looking Glass of Fact and Fiction\" event.",
+        "limited": "no",
+        "collab": "s\u00ec",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Ookami_Mio",
+            "https://azurlane.koumakan.jp/w/images/4/44/Ookami_MioIcon.png",
+            "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8f/Ookami_Mio.png/511px-Ookami_Mio.png"
+        ],
+        "efficienza": [
+            "120% \u2192 140%: __Fighters__",
+            "110% \u2192 115%: __Dive Bombers__",
+            "110% \u2192 115%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Fighters +1 / Fighter Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Torpedo Bombers +1 / Fighter Efficiency +10%",
+            "\u2022 Number of All Planes +1 / All Planes Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Wild Dualism \ud83d\udcd5\nWhen launching an odd-numbered airstrike: launches extra torpedo bombers. When launching an even-numbered airstrike: launches extra dive bombers. Damage is based on skill level.",
+            "Tarot Card Divination \ud83d\udcd2\nWhen battle starts: makes a divination that will apply a random buff to self. Possible buffs (25% chance each):\nAA INCREASED!: Increases Anti-Air by 4.5% (12.0%).\nRLD INCREASED!: Increases Reload by 4.5% (12.0%).\nATK INCREASED!: Increases Aviation by 4.5% (12.0%).\nBOOST!: Reduces cooldown of first airstrike by 10% (20%).",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8f/Ookami_Mio.png/468px-Ookami_Mio.png",
+            "Summer Vacation",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/34/Ookami_MioSummer.png/566px-Ookami_MioSummer.png"
         ]
     }}
