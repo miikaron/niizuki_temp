@@ -42,7 +42,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/Universal_Bulin.png/360px-Universal_Bulin.png",
+            "Universal Enhanced Rigging (Experimental) +\u03b1",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/bd/Universal_BulinEvent.png/531px-Universal_BulinEvent.png"
+        ]
     },
     "prototype bulin mkii": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -869,7 +874,26 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2a/Laffey.png/409px-Laffey.png",
+            "Retrofit",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/33/LaffeyKai.png/571px-LaffeyKai.png",
+            "Oath",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/53/LaffeyWedding.png/548px-LaffeyWedding.png",
+            "Bili Girl 33",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dc/LaffeyBilibili.png/310px-LaffeyBilibili.png",
+            "Snow Rabbit and Candy Apple",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/47/LaffeyNew_Year.png/408px-LaffeyNew_Year.png",
+            "White Rabbit Welcomes the Spring",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/94/LaffeySpring.png/509px-LaffeySpring.png",
+            "Bunny Clerk?",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/LaffeyCoCo.png/558px-LaffeyCoCo.png",
+            "Picnic Adventure?",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/LaffeyBluray.png/524px-LaffeyBluray.png",
+            "Bunny Idol @Unmotivated",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/01/LaffeyIdol.png/478px-LaffeyIdol.png"
+        ]
     },
     "sims": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -3144,7 +3168,22 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/40/Enterprise.png/404px-Enterprise.png",
+            "Oath",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/07/EnterpriseWedding.png/365px-EnterpriseWedding.png",
+            "Reindeer Master",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/EnterpriseChristmas.png/525px-EnterpriseChristmas.png",
+            "Blooming Peony",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/66/EnterpriseSpring.png/369px-EnterpriseSpring.png",
+            "Anniversary Ride",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d7/EnterpriseRoadtrip.png/427px-EnterpriseRoadtrip.png",
+            "Soaring Wings of Freedom",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/de/EnterpriseBluray.png/506px-EnterpriseBluray.png",
+            "Heroic Finery",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/EnterpriseParty.png/604px-EnterpriseParty.png"
+        ]
     },
     "hornet": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -3289,7 +3328,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/14/Vestal.png/429px-Vestal.png",
+            "Revigorating Hestia",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/VestalSummer.png/384px-VestalSummer.png"
+        ]
     },
     "amazon": {
         "artista": "\u65f6\u8fb0",
@@ -4368,7 +4412,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9c/Dido.png/508px-Dido.png",
+            "Anxious Bisque Doll",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/DidoParty.png/612px-DidoParty.png"
+        ]
     },
     "southampton": {
         "artista": "Vilor",
@@ -4941,7 +4990,7 @@
     "suffolk": {
         "artista": "\u68a6\u54b2\u67ab",
         "doppiatrice": "Akari Uehara",
-        "link_doppiatrice": "https://www.imdb.com/name/nm8801539/",
+        "link_doppiatrice": "http://quatrestella.co.jp/tarent/akari_uehara/",
         "nome_nave": "Suffolk",
         "rarit\u00e0": "Rare",
         "tempo": "01:30:00",
@@ -5335,7 +5384,9 @@
             "Oath",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a9/HoodPledge.png/515px-HoodPledge.png",
             "Lady of the Shining Sun",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/57/HoodSummer.png/630px-HoodSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/57/HoodSummer.png/630px-HoodSummer.png",
+            "Porcelain Grace",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/HoodNew_Year.png/477px-HoodNew_Year.png"
         ]
     },
     "queen elizabeth": {
@@ -5820,8 +5871,8 @@
     },
     "eagle": {
         "artista": "\u6d3b\u65ad\u5c64",
-        "doppiatrice": "Fumie Mizusawa",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Fumie_Mizusawa",
+        "doppiatrice": "Play Fumie Mizusawa",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/7/70/Eagle_TitleScreenJP.ogg",
         "nome_nave": "Eagle",
         "rarit\u00e0": "Elite",
         "tempo": "02:00:00",
@@ -8313,7 +8364,18 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ac/Hiei.png/484px-Hiei.png",
+            "Original Art",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/HieiOriginal.png/441px-HieiOriginal.png",
+            "Moonlit Cruise",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/HieiSleepy.png/482px-HieiSleepy.png",
+            "Fragrant Red Plum",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/12/HieiSpring.png/523px-HieiSpring.png",
+            "Beauty of the White Sands",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/64/HieiSummer.png/581px-HieiSummer.png"
+        ]
     },
     "haruna": {
         "artista": "Criin",
@@ -8798,7 +8860,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Kii.png/799px-Kii.png",
+            "Poolside Persuasion",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/40/KiiSummer.png/537px-KiiSummer.png"
+        ]
     },
     "tosa": {
         "artista": "Liduke",
@@ -9143,7 +9210,18 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Akagi.png/553px-Akagi.png",
+            "Oath",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/65/AkagiPledge.png/347px-AkagiPledge.png",
+            "Paradise Amaryllis",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/AkagiSummer.png/508px-AkagiSummer.png",
+            "Plum and Snow",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/AkagiNew_Year.png/367px-AkagiNew_Year.png",
+            "Ruby-Laced Beauty",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/53/AkagiParty.png/468px-AkagiParty.png"
+        ]
     },
     "kaga": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -9198,7 +9276,9 @@
             "White Fox's New Year",
             "https://azurlane.koumakan.jp/w/images/thumb/b/ba/KagaNew_Year.png/367px-KagaNew_Year.png",
             "Exalted White Wings",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/61/KagaParty.png/464px-KagaParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/61/KagaParty.png/464px-KagaParty.png",
+            "Gentle Blossom's Sigh",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/94/KagaNew_Year2.png/481px-KagaNew_Year2.png"
         ]
     },
     "souryuu": {
@@ -9512,7 +9592,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a9/Shinano.png/561px-Shinano.png",
+            "Dreams of the Hazy Moon",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b3/ShinanoParty.png/665px-ShinanoParty.png"
+        ]
     },
     "akashi": {
         "artista": "Saru(\u7334\u5988)",
@@ -10087,7 +10172,18 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/84/Deutschland.png/522px-Deutschland.png",
+            "Dark Demon Princess",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/DeutschlandEvent.png/519px-DeutschlandEvent.png",
+            "Service Time?!",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ec/DeutschlandSummer.png/590px-DeutschlandSummer.png",
+            "Demon Princess' Dark Hour Banquet",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/DeutschlandParty.png/598px-DeutschlandParty.png",
+            "Lantern-Lit Ruler",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/DeutschlandSpring.png/627px-DeutschlandSpring.png"
+        ]
     },
     "admiral graf spee": {
         "artista": "RAN",
@@ -11422,7 +11518,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/Fumizuki.png/390px-Fumizuki.png",
+            "Sleepy Fairy",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/FumizukiSleepy.png/292px-FumizukiSleepy.png"
+        ]
     },
     "nagatsuki": {
         "artista": "\u3057\u3089\u305f\u307e",
@@ -11767,7 +11868,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/Yoizuki.png/588px-Yoizuki.png",
+            "Sports Festival Preparations",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b4/YoizukiSchool.png/866px-YoizukiSchool.png"
+        ]
     },
     "radford": {
         "artista": "\u56e2\u5b50",
@@ -12137,8 +12243,8 @@
     },
     "jersey": {
         "artista": "6\u97f3",
-        "doppiatrice": "Miho Takauma",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Miho Takauma",
+        "link_doppiatrice": "http://www.rme.jp/talent/women/miho-takauma.html",
         "nome_nave": "Jersey",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -13200,7 +13306,10 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Arashio.png/355px-Arashio.png"
+        ]
     },
     "little bel": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -13458,8 +13567,8 @@
     },
     "i-58": {
         "artista": "\u54c8\u8def\u5361",
-        "doppiatrice": "Tomori Kusunoki",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Tomori Kusunoki",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Tomori_Kusunoki",
         "nome_nave": "I-58",
         "rarit\u00e0": "Elite",
         "tempo": "00:30:00",
@@ -14881,7 +14990,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Amagi.png/569px-Amagi.png",
+            "Wending Waters, Serene Lotus",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e2/AmagiSummer.png/519px-AmagiSummer.png"
+        ]
     },
     "kaga (battleship)": {
         "artista": "\u516b\u624d\u63d0\u7763",
@@ -15072,12 +15186,21 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/18/Sirius.png/486px-Sirius.png",
+            "White Rose",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/SiriusParty.png/385px-SiriusParty.png",
+            "Scorching-Hot Seirios",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/SiriusSummer.png/516px-SiriusSummer.png",
+            "Azure Horizons",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/95/SiriusSpring.png/738px-SiriusSpring.png"
+        ]
     },
     "curacoa": {
         "artista": "\u3082\u306d\u3066\u3043",
-        "doppiatrice": "Fujisawa Reika",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/ja:%E8%97%A4%E6%B2%A2%E7%8E%B2%E8%8A%B1",
+        "doppiatrice": "Play Fujisawa Reika",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/c3/Curacoa_TitleScreenJP.ogg",
         "nome_nave": "Curacoa",
         "rarit\u00e0": "Rare",
         "tempo": "01:07:00",
@@ -15128,8 +15251,8 @@
     },
     "curlew": {
         "artista": "\u3082\u306d\u3066\u3043",
-        "doppiatrice": "Fujisawa Reika",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/ja:%E8%97%A4%E6%B2%A2%E7%8E%B2%E8%8A%B1",
+        "doppiatrice": "Play Fujisawa Reika",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/7/76/Curlew_TitleScreenJP.ogg",
         "nome_nave": "Curlew",
         "rarit\u00e0": "Rare",
         "tempo": "01:07:00",
@@ -16522,54 +16645,6 @@
             "https://azurlane.koumakan.jp/w/images/thumb/1/1a/U-522.png/531px-U-522.png"
         ]
     },
-    "alabama": {
-        "artista": "Enka",
-        "doppiatrice": "Hibiku Yamamura",
-        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/2/2f/Alabama_TitleScreen.ogg",
-        "nome_nave": "Alabama",
-        "rarit\u00e0": "Super Rare",
-        "tempo": "05:00:00",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Eagle Union",
-        "abbreviazione": "__[USS]__",
-        "classe": "South Dakota",
-        "tipo": "__[Battleship]__",
-        "id": "401",
-        "colore_embed": 16727100,
-        "acquisizione": "Event Build: Available in Limited Construction during \"Ashen Simulacrum\" event. ",
-        "limited": "s\u00ec",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Alabama",
-            "https://azurlane.koumakan.jp/w/images/7/7f/AlabamaIcon.png",
-            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/0f/Alabama.png/600px-Alabama.png"
-        ],
-        "efficienza": [
-            "100% \u2192 130%: __BB Guns__",
-            "200% \u2192 200%: __DD Guns__",
-            "100% \u2192 100%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +5%",
-            "\u2022 Secondary Gun Mount +2 / Main Gun Efficiency +10%",
-            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +15%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Lucky A \ud83d\udcd5\nIncreases own Evasion by 3 (12), and reduces torpedo damage taken by self by 5% (20%). Every 20 seconds: 45% (75%) chance to fire a barrage, damage scales with skill level.",
-            "Just Gettin' Fired Up \ud83d\udcd5\n[Regular]During a sortie, increases own Firepower by 1% (2.5%) for every enemy node sunk by the fleet Alabama is in. Also, increases own firepower by 1% (2.5%) for every enemy ship sunk during any given battle. This skill can only boost firepower by up to 7% (17.5%). After defeating 5 enemy nodes, reduces damage taken by the Main Fleet by 3.5% (8%).[Operation Siren]Every time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by 1% (2.5%); also, for every enemy this ship sinks during a battle: increases this ship's FP by 1% (2.5%) until the battle ends (this skill's FP buffs stack up to a total of 7 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by 3.5% (8%). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
-            "    ",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/0f/Alabama.png/651px-Alabama.png"
-        ]
-    },
     "cavalla": {
         "artista": "",
         "doppiatrice": "Yurika Kubo",
@@ -16984,7 +17059,7 @@
         "retrofit": "non disponibile",
         "nazionalit\u00e0": "Sardegna Empire",
         "abbreviazione": "__[RN]__",
-        "classe": "Littorio",
+        "classe": "Vittorio Veneto",
         "tipo": "__[Battleship]__",
         "id": "410",
         "colore_embed": 16727100,
@@ -17017,7 +17092,14 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/36/Littorio.png/641px-Littorio.png",
+            "The Glory of Naples",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/LittorioSummer.png/630px-LittorioSummer.png",
+            "Calabria Aurea",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/LittorioParty.png/788px-LittorioParty.png"
+        ]
     },
     "conte di cavour": {
         "artista": "Alisa",
@@ -17064,7 +17146,9 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/58/Conte_di_Cavour.png/612px-Conte_di_Cavour.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/58/Conte_di_Cavour.png/612px-Conte_di_Cavour.png",
+            "Fierce Beachside Battle",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Conte_di_CavourSummer.png/662px-Conte_di_CavourSummer.png"
         ]
     },
     "giulio cesare": {
@@ -17114,7 +17198,9 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Giulio_Cesare.png/613px-Giulio_Cesare.png",
             "Fitness Master",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/21/Giulio_CesareCasual.png/624px-Giulio_CesareCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/21/Giulio_CesareCasual.png/624px-Giulio_CesareCasual.png",
+            "High Tide Under the Sunlight",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/da/Giulio_CesareSummer.png/658px-Giulio_CesareSummer.png"
         ]
     },
     "zara": {
@@ -17706,7 +17792,12 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6b/Kasumi.png/731px-Kasumi.png",
+            "New Year's Comfort",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/38/KasumiNew_Year.png/661px-KasumiNew_Year.png"
+        ]
     },
     "suruga": {
         "artista": "fuzichoco",
@@ -17810,8 +17901,8 @@
     },
     "halsey powell": {
         "artista": "Rain Lan",
-        "doppiatrice": "Rika Momokawa",
-        "link_doppiatrice": "http://earlywing.co.jp/talent_w/momokawarika.php",
+        "doppiatrice": "Play Rika Momokawa",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/f/f6/Halsey_Powell_TitleScreenJP.ogg",
         "nome_nave": "Halsey Powell",
         "rarit\u00e0": "Rare",
         "tempo": "00:28:00",
@@ -18172,7 +18263,7 @@
     },
     "kirov": {
         "artista": "",
-        "doppiatrice": "Sumire Uesaka",
+        "doppiatrice": "Play Sumire Uesaka",
         "link_doppiatrice": " ",
         "nome_nave": "Kirov",
         "rarit\u00e0": "Super Rare",
@@ -18617,7 +18708,7 @@
             " "
         ],
         "skill": [
-            "Vigilant Supporter \ud83d\udcd5\n[Regular]At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Main Gun Crit Rate by 20.0% (35.0%). For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by 4.0% (10.0%). For the first four battles of each sortie that this ship takes part in: decreases DMG taken by 5.0% (10.0%) for all CVs and CVLs in the same fleet.[Operation Siren]At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by 20.0% (35.0%). For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by 4.0% (10.0%). For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by 5.0% (10.0%) for all CVs and CVLs in the same fleet. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "Vigilant Supporter \ud83d\udcd5\n[Regular]At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Main Gun Crit Rate by 20.0% (35.0%). For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by 4.0% (10.0%). For the first four battles of each sortie that this ship takes part in: decreases DMG taken by 5.0% (10.0%) for all CVs and CVLs in the same fleet and selfunlisted ingame.[Operation Siren]At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by 20.0% (35.0%). For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by 4.0% (10.0%). For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by 5.0% (10.0%) for all CVs and CVLs in the same fleet. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
             "Reno Reactor \ud83d\udcd2\nAt the start of the battle: increases this ship's AA by 5.0% (15.0%) and FP by 5.0% (15.0%). Every second time a ship in your Main Fleet takes DMG: increases this ship's AA and FP by 1.5% (6.0%) (can be stacked up to 2 times) until the end of the battle.",
             "Reno Barrage \ud83d\udcd5\nWhile equipping a DD Main Gun: increases this ship's Main Gun efficiency by 10.0%. Activates Reno Barrage \u2161 once every 10 times (8 if equipping a CL Main Gun) the Main Guns are fired.",
             "    ",
@@ -19240,8 +19331,8 @@
     },
     "b\u00e9arn": {
         "artista": "\u80a1\u95f4\u5c11\u5973",
-        "doppiatrice": "Asami Takano",
-        "link_doppiatrice": "https://www.imdb.com/name/nm6728132/",
+        "doppiatrice": "Play Asami Takano",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/4/4e/B%C3%A9arn_TitleScreenJP.ogg",
         "nome_nave": "B\u00e9arn",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -19338,8 +19429,8 @@
     },
     "eskimo": {
         "artista": "shisantian",
-        "doppiatrice": "Haruka Takahashi",
-        "link_doppiatrice": "http://www.rme.jp/talent/women/haruka-takahashi.html",
+        "doppiatrice": "Play Haruka Takahashi",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/c8/Eskimo_TitleScreenJP.ogg",
         "nome_nave": "Eskimo",
         "rarit\u00e0": "Elite",
         "tempo": "00:29:00",
@@ -19388,8 +19479,8 @@
     },
     "howe": {
         "artista": "Snow is",
-        "doppiatrice": "M\u30fbA\u30fbO",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Mao_Ichimichi",
+        "doppiatrice": "Play M\u30fbA\u30fbO",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/0/0c/Howe_TitleScreenJP.ogg",
         "nome_nave": "Howe",
         "rarit\u00e0": "Super Rare",
         "tempo": "04:50:00",
@@ -19438,8 +19529,8 @@
     },
     "perseus": {
         "artista": "Kincora",
-        "doppiatrice": "Naomi Oozora",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Naomi_%C5%8Czora",
+        "doppiatrice": "Play Naomi Oozora",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/cf/Perseus_TitleScreenJP.ogg",
         "nome_nave": "Perseus",
         "rarit\u00e0": "Super Rare",
         "tempo": "02:30:00",
@@ -19488,8 +19579,8 @@
     },
     "hermione": {
         "artista": "\u7fbd\u7e54\u30a4\u30aa",
-        "doppiatrice": "Hiroko Taguchi",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Hiroko Taguchi",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Hiroko_Taguchi",
         "nome_nave": "Hermione",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:55:00",
@@ -19590,8 +19681,8 @@
     },
     "icarus": {
         "artista": "ALLENES",
-        "doppiatrice": "Yuuki Takada",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Y%C5%ABki_Takada",
+        "doppiatrice": "Play Yuuki Takada",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/a/a9/Icarus_TitleScreenJP.ogg",
         "nome_nave": "Icarus",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -19794,8 +19885,8 @@
     },
     "kumano": {
         "artista": "\u3074\u3087\u3093\u5409",
-        "doppiatrice": "Azumi Waki",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Azumi Waki",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Azumi_Waki",
         "nome_nave": "Kumano",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -19844,7 +19935,7 @@
     },
     "chitose": {
         "artista": "yuui\uff08\u3086\u3046\u3044)",
-        "doppiatrice": "Hitomi Sekine",
+        "doppiatrice": "Play Hitomi Sekine",
         "link_doppiatrice": " ",
         "nome_nave": "Chitose",
         "rarit\u00e0": "Elite",
@@ -19894,7 +19985,7 @@
     },
     "chiyoda": {
         "artista": "yuui\uff08\u3086\u3046\u3044)",
-        "doppiatrice": "Hitomi Sekine",
+        "doppiatrice": "Play Hitomi Sekine",
         "link_doppiatrice": " ",
         "nome_nave": "Chiyoda",
         "rarit\u00e0": "Elite",
@@ -20580,8 +20671,8 @@
     },
     "weser": {
         "artista": "\u7fbd\u7e54\u30a4\u30aa",
-        "doppiatrice": "Rimi Nishimoto",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Rimi Nishimoto",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Rimi_Nishimoto",
         "nome_nave": "Weser",
         "rarit\u00e0": "Elite",
         "tempo": "02:22:00",
@@ -20615,7 +20706,7 @@
             " "
         ],
         "skill": [
-            "The Lonesome Lookout \ud83d\udcd5\nWhen this ship launches an Airstrike: 40.0% (70.0%) chance to launch an additional special airstrike (DMG is based on the skill's level). At the start of the battle, if there are 3 or more Iron Blood ships in the same fleet: increases this ship's Crit DMG by 5.0% (20.0%); if there are no other Iron Blood ships: instead increases this ship's RLD by 1.0% (10.0%) and AA by 5.0% (15.0%) and further increases the proc chance of this ship's special airstrike by 30.0%.",
+            "The Lonesome Lookout \ud83d\udcd5\nWhen this ship launches an Airstrike: 40.0% (70.0%) chance to launch an additional special airstrike (DMG is based on the skill's level). At the start of the battle, if there are 3 or more Iron Blood ships in the same fleet: increases this ship's Crit DMG by 5.0% (20.0%); if there are no other Iron Blood ships: instead increases this ship's RLD by 1.0% (10.0%) and AA by 5.0% (15.0%) and further increases the proc chance of this ship's special airstrike by 30.0% and enhances it.",
             "Galvanizing Shield \ud83d\udcd8\nEvery 20s after the battle starts: deploys a shield that lasts for 6 (8)s and can block 6 shells on a randomly chosen ship in your Vanguard; if the shield is deployed on an Iron Blood ship: also increases that ship's FP by 5.0% (15.0%) for 8s and heals Weser for 1.0% (5.0%) HP.",
             "    ",
             "    ",
@@ -20780,8 +20871,8 @@
     },
     "pola": {
         "artista": "\u4e91\u6851",
-        "doppiatrice": "Atsumi Tanezaki",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Atsumi_Tanezaki",
+        "doppiatrice": "Play Atsumi Tanezaki",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/e/e5/Pola_TitleScreenJP.ogg",
         "nome_nave": "Pola",
         "rarit\u00e0": "Super Rare",
         "tempo": "01:55:00",
@@ -20823,13 +20914,15 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/600px-Pola.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Pola.png/600px-Pola.png",
+            "Seaside Coincidence",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/34/PolaSummer.png/697px-PolaSummer.png"
         ]
     },
     "vincenzo gioberti": {
         "artista": "\u56e2\u5b50",
-        "doppiatrice": "Misaki Yoshioka",
-        "link_doppiatrice": "http://mand-i.jp/talent/yoshioka-misaki/",
+        "doppiatrice": "Play Misaki Yoshioka",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/b/bf/Vincenzo_Gioberti_TitleScreenJP.ogg",
         "nome_nave": "Vincenzo Gioberti",
         "rarit\u00e0": "Elite",
         "tempo": "00:32:00",
@@ -20875,7 +20968,7 @@
         ]
     },
     "stremitelny": {
-        "artista": "",
+        "artista": "\u6216\u4e00",
         "doppiatrice": "Momoki Kakimura",
         "link_doppiatrice": " ",
         "nome_nave": "Stremitelny",
@@ -21026,8 +21119,8 @@
     },
     "chao ho": {
         "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
-        "doppiatrice": "Yuuka Morishima",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Yuuka Morishima",
+        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=320",
         "nome_nave": "Chao Ho",
         "rarit\u00e0": "Elite",
         "tempo": "00:38:00",
@@ -21176,8 +21269,8 @@
     },
     "gremyashchy": {
         "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
-        "doppiatrice": "Marina Yamada",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Marina Yamada",
+        "link_doppiatrice": "https://www.crocodile-ltd.com/talent/yamada-marina",
         "nome_nave": "Gremyashchy",
         "rarit\u00e0": "Elite",
         "tempo": "00:32:00",
@@ -21226,8 +21319,8 @@
     },
     "murmansk": {
         "artista": "Byulzzi",
-        "doppiatrice": "Konomi Kohara",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Konomi Kohara",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Konomi_Kohara",
         "nome_nave": "Murmansk",
         "rarit\u00e0": "Elite",
         "tempo": "01:05:00",
@@ -21276,8 +21369,8 @@
     },
     "gromky": {
         "artista": "\u5fb7\u610f\u5fd7\u7684\u79d1\u5b66",
-        "doppiatrice": "Yurie Kozakai",
-        "link_doppiatrice": "https://www.crocodile-ltd.com/talent/kozakai-yurie",
+        "doppiatrice": "Play Yurie Kozakai",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/6/60/Gromky_TitleScreenJP.ogg",
         "nome_nave": "Gromky",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21324,10 +21417,410 @@
             "https://azurlane.koumakan.jp/w/images/thumb/b/bf/GromkyCasual.png/843px-GromkyCasual.png"
         ]
     },
+    "vittorio veneto": {
+        "artista": "\u4e91\u6851",
+        "doppiatrice": "Play Mamiko Noto",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/56/Vittorio_Veneto_TitleScreenJP.ogg",
+        "nome_nave": "Vittorio Veneto",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "05:15:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Vittorio Veneto",
+        "tipo": "__[Battleship]__",
+        "id": "500",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Daedalian Hymn\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Vittorio_Veneto",
+            "https://azurlane.koumakan.jp/w/images/9/9b/Vittorio_VenetoIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/600px-Vittorio_Veneto.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __BB Guns__",
+            "200% \u2192 200%: __CL/DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +5%",
+            "\u2022 Secondary Gun Mount +2 / Main Gun Efficiency +10%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Eternal Flagship \ud83d\udcd5\nEvery 15s: 45% (75%) chance to fire a special barrage (DMG is based on the skill's level). If this barrage fails to activate, instead targets 1 random enemy and increases its DMG taken by 1% (10%) for 8s.",
+            "Eternal Light of Sardegna \ud83d\udcd2\nAt the start of the battle: increases FP, TRP, and EVA by 5% (15%) for all Sardegna ships in your Vanguard, and increases FP, AVI, and Accuracy by 4.5% (12%) for all Sardegna ships in your Main Fleet. For each additional Sardegna ship in the same fleet (up to 2 at most): decreases the loading time of this ship's first salvo by 40%.",
+            "Banner of Splendor \ud83d\udcd5\nAt the start of the battle, if your fleet contains at least one other Sardegna ship, or if this ship has an AP Main Gun equipped: increases this ship's FP by 4.5% (12%). Additionally, for the first 3 battles of a sortie: the fleet this ship is in takes 5% (20%) less DMG from torpedoes.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/632px-Vittorio_Veneto.png",
+            "The Flower of La Spezia",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Vittorio_VenetoSummer.png/597px-Vittorio_VenetoSummer.png"
+        ]
+    },
+    "duca degli abruzzi": {
+        "artista": "\u304a\u4e45\u3057\u3076\u308a",
+        "doppiatrice": "Play Hiromi Hirata",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Hiromi_Hirata",
+        "nome_nave": "Duca degli Abruzzi",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:26:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Duca degli Abruzzi",
+        "tipo": "__[Light Cruiser]__",
+        "id": "501",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available in point shop, in Limited Construction, and as a drop during Daedalian Hymn event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Duca_degli_Abruzzi",
+            "https://azurlane.koumakan.jp/w/images/0/0f/Duca_degli_AbruzziIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Duca_degli_Abruzzi.png/600px-Duca_degli_Abruzzi.png"
+        ],
+        "efficienza": [
+            "120% \u2192 125%: __CL Guns__",
+            "135% \u2192 160%: __Torpedoes__",
+            "110% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault I / Main Gun Efficiency +5%",
+            "\u2022 Torpedo Base +1 / Torpedo Preload +1 / Torpedo Efficiency +10%",
+            "\u2022 Upgrade All Out Assault I\u2192II / Torpedo Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Halo of Flames \ud83d\udcd5\nAt the start of the battle: increases this ship's AA, EVA, and Accuracy by 5% (15%) for 60s. When this ship fires her Torpedoes: 40% (70%) chance to fire a special barrage (DMG is based on this skill's level).",
+            "Solemn Zealotry \ud83d\udcd2\nReduces the speed of torpedoes fired by this ship by 1, increases Torpedo Crit Rate by 20% (40%), Torpedo Crit DMG by 20% (40%), and decreases the loading time of the first Torpedo salvo by 50%.",
+            "Just a Scratch \ud83d\udcd8\nReduces the AP DMG this ship takes by 10% (20%) and the Torp DMG taken by the frontmost ship in your Vanguard by 3.5% (8%). Once per battle, when this ship falls under 30% HP as a result of DMG taken: creates a shield, and restores 1% (3%) of max HP every 3s for the next 10s. The shield blocks up to 5 torpedoes and lasts for up to 10s.",
+            "All-Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Duca degli Abruzzi once every 12 (8) times the Main Guns are fired.",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Duca_degli_Abruzzi.png/569px-Duca_degli_Abruzzi.png",
+            "Lustrous Onyx Sirenetta",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Duca_degli_AbruzziSummer.png/627px-Duca_degli_AbruzziSummer.png"
+        ]
+    },
+    "aquila": {
+        "artista": "Necomi",
+        "doppiatrice": "Play Rei Mochizuki",
+        "link_doppiatrice": "http://across-ent.com/talent/women/rei_mochizuki.html",
+        "nome_nave": "Aquila",
+        "rarit\u00e0": "Aquila",
+        "tempo": "Aquila",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "04:35:00",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "502",
+        "colore_embed": 11949300,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Daedalian Hymn\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Aquila",
+            "https://azurlane.koumakan.jp/w/images/d/d2/AquilaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Aquila.png/546px-Aquila.png"
+        ],
+        "efficienza": [
+            "110% \u2192 120%: __Fighters__",
+            "110% \u2192 120%: __Fighters / Dive Bombers (MLB)__",
+            "110% \u2192 130%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 Number of Torpedo Bombers +1 / Torpedo Bomber Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Fighters +1 / Fighter Efficiency +10%",
+            "\u2022 Number of Torpedo Bombers +2 / Torpedo Bomber Efficiency +15% / Can Equip Dive Bombers in the Second slot",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Freccia dell'Aquila \ud83d\udcd5\nWhen this ship launches an Airstrike, 45.0% (75.0%) chance to launch an aerial barrage (damage increases and pattern improves with skill level).",
+            "Rain of Starlight \ud83d\udcd2\nIf this ship has a Fighter equipped in her second gear slot, whenever this ship launches an airstrike:\nHeal the ship in the vanguard and the ship in main fleet who have the lowest percentage of remaining HP. Both ships are healed by 3.5% (8.0%) of their maximum HP.\nGive each of those two ships an HP barrier. The barrier can block up to 1.5% (6.0%) of those ships' maximum HP and lasts for up to 5 seconds.\nIf this ship has a Dive Bomber equipped in her second gear slot:\n\nStart the battle with one airstrike pre-loaded.\nDecrease the load time for all this ship's airstrikes by 10.0%.\nIncrease all damage this ship deals by 3.5% (8.0%).",
+            "Disarming but Deadly \ud83d\udcd8\nDecrease all damage this ship receives by 4.5% (12.0%). For every 3 enemy aircraft shot down by this ship's aircraft, increases your whole fleet's AA stat by 1.0% (5.0%). This buff may be stacked up to 3 times.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Aquila.png/501px-Aquila.png",
+            "Sardegnian Shallows and Sunshine",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4d/AquilaSummer.png/594px-AquilaSummer.png"
+        ]
+    },
+    "torricelli": {
+        "artista": "",
+        "doppiatrice": "",
+        "link_doppiatrice": " ",
+        "nome_nave": "Torricelli",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Brin",
+        "tipo": "__[Submarine]__",
+        "id": "503",
+        "colore_embed": 5111629,
+        "acquisizione": "Available as Point Accumulation Reward during Daedalian Hymn event.",
+        "limited": "no",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Torricelli",
+            "https://azurlane.koumakan.jp/w/images/a/a3/TorricelliIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/02/Torricelli.png/600px-Torricelli.png"
+        ],
+        "efficienza": [
+            "110% \u2192 125%: __Submarine Torpedoes__",
+            "105% \u2192 120%: __Submarine Torpedoes__",
+            "85% \u2192 85%: __DD Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock EX Barrage \u2160 / Torpedo Efficiency +5%",
+            "\u2022 Torpedo base +1 / Improve Hunting range",
+            "\u2022 Improve EX Barrage / Torpedo efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Turn the Tide \ud83d\udcd5\nIncreases this boat's DMG dealt to enemy DDs by 5% (15%). When this boat resurfaces: decreases her DMG taken by 15% (30%) and fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level).",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault \u2161: Brin Class immediately after entering the battle.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/02/Torricelli.png/592px-Torricelli.png",
+            "Shady Seaside",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/TorricelliSummer.png/600px-TorricelliSummer.png"
+        ]
+    },
+    "maestrale": {
+        "artista": "Byulzzi",
+        "doppiatrice": "Play Airi Eino",
+        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=165",
+        "nome_nave": "Maestrale",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:30:40",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Maestrale",
+        "tipo": "__[Destroyer]__",
+        "id": "504",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Daedalian Hymn\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Maestrale",
+            "https://azurlane.koumakan.jp/w/images/4/42/MaestraleIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0a/Maestrale.png/600px-Maestrale.png"
+        ],
+        "efficienza": [
+            "120% \u2192 140%: __DD Guns__",
+            "125% \u2192 130%: __Torpedoes__",
+            "105% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault I / Main Gun Efficiency +5%",
+            "\u2022 Torpedo Base +1 / Torpedo Preload +1 / Main Gun Efficiency +10%",
+            "\u2022 Upgrade All Out Assault I\u2192II / All Weapons' Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Northwesterly Wind \ud83d\udcd8\nWhen any ship in your fleet (other than this one) takes DMG: 30% chance to increase EVA by 5% (15%) for 5s for your Sardegna ships and deploy a smokescreen that increases Evasion Rate by 20% (40%) for 5s for ships inside it. Smokescreen has a 15s cooldown and does not stack with other smokescreen skills.",
+            "Northwesterly Ace Student \ud83d\udcd5\nIncreases this ship's Speed by 5 and also increases her FP and TRP by 5% (15%) if there are any other Sardegna ships in the same fleet.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Maestrale Class once every 15 (10) times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0a/Maestrale.png/582px-Maestrale.png",
+            "Lonesome Beachfarer",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/47/MaestraleSummer.png/551px-MaestraleSummer.png"
+        ]
+    },
+    "libeccio": {
+        "artista": "Byulzzi",
+        "doppiatrice": "Play Airi Eino",
+        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=165",
+        "nome_nave": "Libeccio",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:30:40",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Maestrale",
+        "tipo": "__[Destroyer]__",
+        "id": "505",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Daedalian Hymn\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Libeccio",
+            "https://azurlane.koumakan.jp/w/images/d/d2/LibeccioIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/32/Libeccio.png/600px-Libeccio.png"
+        ],
+        "efficienza": [
+            "120% \u2192 140%: __DD Guns__",
+            "125% \u2192 130%: __Torpedoes__",
+            "105% \u2192 110%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault I / Main Gun Efficiency +5%",
+            "\u2022 Torpedo Base +1 / Torpedo Preload +1 / Main Gun Efficiency +10%",
+            "\u2022 Upgrade All Out Assault I\u2192II / All Weapons' Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Southwesterly Wind \ud83d\udcd5\nWhen any ship in your fleet (other than this one) takes DMG: 30% chance to deploy a Lv.1 (Lv.10) smokescreen (15s cooldown). Smokescreen strength is based on the skill's level.",
+            "Southwesterly Sailor \ud83d\udcd8\nIncreases this ship's Speed by 5 and also increases her AA and EVA by 5% (15%) if there are any other Sardegna ships in the same fleet.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Maestrale Class once every 15 (10) times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/32/Libeccio.png/571px-Libeccio.png",
+            "Beachbound Southwestern Wind!",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/LibeccioSummer.png/613px-LibeccioSummer.png"
+        ]
+    },
+    "nicoloso da recco": {
+        "artista": "",
+        "doppiatrice": "Play Aoi Koga",
+        "link_doppiatrice": " ",
+        "nome_nave": "Nicoloso da Recco",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:29:40",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sardegna Empire",
+        "abbreviazione": "__[RN]__",
+        "classe": "Navigatori",
+        "tipo": "__[Destroyer]__",
+        "id": "506",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Daedalian Hymn\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Nicoloso_da_Recco",
+            "https://azurlane.koumakan.jp/w/images/4/40/Nicoloso_da_ReccoIcon.png",
+            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Nicoloso_da_Recco.png/598px-Nicoloso_da_Recco.png"
+        ],
+        "efficienza": [
+            "130% \u2192 150%: __DD Guns__",
+            "115% \u2192 120%: __Torpedoes__",
+            "80% \u2192 85%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault I / Main Gun Efficiency +5%",
+            "\u2022 Torpedo Base +1 / Torpedo Preload +1 / Main Gun Efficiency +10%",
+            "\u2022 Upgrade All Out Assault I\u2192II / All Weapons' Efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Exploration Sensation \ud83d\udcd8\nFor the first 3 battles of a sortie: increases this ship's AA and EVA by 5% (15%) and Speed by 5. When the fleet this ship is in defeats an enemy fleet: increases this ship's FP, TRP, and RLD by 0.5% (5%) (can be stacked up to 3 times).",
+            "Navigator's Intrepidity \ud83d\udcd2\nIncreases DMG taken by enemy CLs by 3.5% (8%) while this ship is afloat, but also increases this ship's DMG taken by 1%.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Navigatori Class once every 15 (10) times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Nicoloso_da_Recco.png/548px-Nicoloso_da_Recco.png",
+            "To a Smashing Voyage!",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Nicoloso_da_ReccoSummer.png/647px-Nicoloso_da_ReccoSummer.png"
+        ]
+    },
+    "oite": {
+        "artista": "Vilor",
+        "doppiatrice": "Takako Tanaka",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Takako_Tanaka",
+        "nome_nave": "Oite",
+        "rarit\u00e0": "Rare",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sakura Empire",
+        "abbreviazione": "__[IJN]__",
+        "classe": "Kamikaze",
+        "tipo": "__[Destroyer]__",
+        "id": "507",
+        "colore_embed": 8900346,
+        "acquisizione": "April 2021 login reward.",
+        "limited": "no",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Oite",
+            "https://azurlane.koumakan.jp/w/images/a/af/OiteIcon.png",
+            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f4/Oite.png/600px-Oite.png"
+        ],
+        "efficienza": [
+            "70% \u2192 75%: __DD Guns__",
+            "120% \u2192 140%: __Torpedoes__",
+            "70% \u2192 75%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault \u2160/Torpedo Efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 Improve All Out Assault/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Dutiful Support \ud83d\udcd8\nWhile this ship is afloat: reduces the torpedo DMG taken by the Vanguard fleet by 5% (10%) and the airstrike DMG taken by the Main fleet by 5% (10%); During battle: increases this ship's TRP by 5% (10%), and then by an additional 5% (10%) if Agano is in the same fleet.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Kamikaze Class once every 15 (10) times the Main Guns are fired.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f4/Oite.png/667px-Oite.png",
+            "Summer Dedication",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c1/OiteSummer.png/552px-OiteSummer.png"
+        ]
+    },
     "allen m. sumner": {
         "artista": "Nagu",
-        "doppiatrice": "Hazuki Ogino",
-        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=171",
+        "doppiatrice": "Play Hazuki Ogino",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/2/25/Allen_M._Sumner_TitleScreenJP.ogg",
         "nome_nave": "Allen M. Sumner",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:29:00",
@@ -21418,6 +21911,54 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/55/Stephen_Potter.png/511px-Stephen_Potter.png"
+        ]
+    },
+    "amagi-chan": {
+        "artista": "\u8c46\u82bd\u83dc",
+        "doppiatrice": "Play Miyuki Sawashiro",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/6/6d/Amagi-chan_TitleScreenJP.ogg",
+        "nome_nave": "Amagi-chan",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sakura Empire",
+        "abbreviazione": "__[IJN]__",
+        "classe": "Amagi",
+        "tipo": "__[Battlecruiser]__",
+        "id": "510",
+        "colore_embed": 16017259,
+        "acquisizione": "Reward from the Young Tactician's Learning Log event.",
+        "limited": "no",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Amagi-chan",
+            "https://azurlane.koumakan.jp/w/images/6/62/Amagi-chanIcon.png",
+            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fb/Amagi-chan.png/600px-Amagi-chan.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __BB Guns__",
+            "150% \u2192 150%: __CL/DD Guns__",
+            "85% \u2192 85%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +5%",
+            "\u2022 Secondary Gun Mount +2 / Main Gun Efficiency +10%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Absolute Adaptability \ud83d\udcd5\nOn main gun firing, if all ships in Vanguard are above 50% HP, fire a barrage, Otherwise, Vanguard gains a shield that blocks 6 bullets.",
+            "Prescient Planning \ud83d\udcd2\nIf equipped with HE ammo main gun, fires caused by this ship deals 1% (10%) more damage; If equipped with AP ammo main gun, fire a torp barrage every 20s in battle.",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fb/Amagi-chan.png/749px-Amagi-chan.png"
         ]
     },
     "tone": {
@@ -21515,51 +22056,6 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Chikuma.png/413px-Chikuma.png"
         ]
-    },
-    "vittorio veneto": {
-        "artista": "",
-        "doppiatrice": "",
-        "link_doppiatrice": " ",
-        "nome_nave": "Vittorio Veneto",
-        "rarit\u00e0": "Unreleased",
-        "tempo": "Unreleased",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Sardegna Empire",
-        "abbreviazione": "__[RN]__",
-        "classe": "Littorio",
-        "tipo": "__[Battleship]__",
-        "id": "9007",
-        "colore_embed": 16727100,
-        "acquisizione": "Non disponibile",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Vittorio_Veneto",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/572px-Vittorio_Veneto.png",
-            "https://azurlane.koumakan.jp/w/images/f/f1/Rn_1.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/600px-Vittorio_Veneto.png"
-        ],
-        "efficienza": [
-            "## \u00a0 ",
-            "## \u00a0 ",
-            "## \u00a0 "
-        ],
-        "rank": [
-            "Non disponibile",
-            " ",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Non disponibile   ",
-            "    ",
-            "    ",
-            "    ",
-            "    "
-        ],
-        "skin": []
     },
     "sovetsky soyuz": {
         "artista": "",
@@ -22115,7 +22611,12 @@
             "Siren Killer \ud83d\udcd5\nIncreases own damage dealt to Sirens by 5% (15%).",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/42/Azuma.png/978px-Azuma.png",
+            "Soft Voice of Spring",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5c/AzumaSpring.png/649px-AzumaSpring.png"
+        ]
     },
     "friedrich der gro\u00dfe": {
         "artista": "",
@@ -22273,7 +22774,7 @@
     },
     "drake": {
         "artista": "",
-        "doppiatrice": "Asami Imai",
+        "doppiatrice": "Play Asami Imai",
         "link_doppiatrice": " ",
         "nome_nave": "Drake",
         "rarit\u00e0": "Decisive",
@@ -22323,8 +22824,8 @@
     },
     "mainz": {
         "artista": "Liduke",
-        "doppiatrice": "Yuuko Kaida",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Y%C5%ABko_Kaida",
+        "doppiatrice": "Play Yuuko Kaida",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/7/73/Mainz_TitleScreenJP.ogg",
         "nome_nave": "Mainz",
         "rarit\u00e0": "Priority",
         "tempo": "Research",
@@ -22371,8 +22872,8 @@
     },
     "odin": {
         "artista": "RAN",
-        "doppiatrice": "Matsuoka Yuki",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yuki_Matsuoka",
+        "doppiatrice": "Play Matsuoka Yuki",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/4/4f/Odin_TitleScreenJP.ogg",
         "nome_nave": "Odin",
         "rarit\u00e0": "Priority",
         "tempo": "Research",
@@ -22421,8 +22922,8 @@
     },
     "champagne": {
         "artista": "nineo",
-        "doppiatrice": "Lynn",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Lynn_(voice_actress)",
+        "doppiatrice": "Play Lynn",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/d/da/Champagne_TitleScreenJP.ogg",
         "nome_nave": "Champagne",
         "rarit\u00e0": "Priority",
         "tempo": "Research",
@@ -22471,8 +22972,8 @@
     },
     "marie rose": {
         "artista": "\u4e91\u6851",
-        "doppiatrice": "Mai Aizawa",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Mai_Aizawa",
+        "doppiatrice": "Play Mai Aizawa",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/3/30/Marie_Rose_TitleScreenJP.ogg",
         "nome_nave": "Marie Rose",
         "rarit\u00e0": "Marie Rose",
         "tempo": "Marie Rose",
@@ -22512,12 +23013,17 @@
             "    ",
             "    "
         ],
-        "skin": []
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/Marie_Rose.png/501px-Marie_Rose.png",
+            "Devilish Servant Against the Splashing Waves",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/84/Marie_RoseSummer.png/481px-Marie_RoseSummer.png"
+        ]
     },
     "honoka": {
         "artista": "\u4e91\u6851",
-        "doppiatrice": "Ai Nonaka",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Ai_Nonaka",
+        "doppiatrice": "Play Ai Nonaka",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/e/e8/Honoka_TitleScreenJP.ogg",
         "nome_nave": "Honoka",
         "rarit\u00e0": "Honoka",
         "tempo": "Honoka",
@@ -22565,9 +23071,9 @@
         ]
     },
     "kasumi (doa)": {
-        "artista": "",
-        "doppiatrice": "Houko Kuwashima",
-        "link_doppiatrice": " ",
+        "artista": "\u6d3b\u65ad\u5c64",
+        "doppiatrice": "Play Houko Kuwashima",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/8/84/Kasumi_%28DOA%29_TitleScreenJP.ogg",
         "nome_nave": "Kasumi (DOA)",
         "rarit\u00e0": "Kasumi (DOA)",
         "tempo": "Kasumi (DOA)",
@@ -22615,9 +23121,9 @@
         ]
     },
     "misaki": {
-        "artista": "",
+        "artista": "\u6d3b\u65ad\u5c64",
         "doppiatrice": "Minami Tsuda",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Minami_Tsuda",
         "nome_nave": "Misaki",
         "rarit\u00e0": "Misaki",
         "tempo": "Misaki",
@@ -22665,9 +23171,9 @@
         ]
     },
     "nagisa": {
-        "artista": "",
+        "artista": "\u6d3b\u65ad\u5c64",
         "doppiatrice": "Maaya Uchida",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Maaya_Uchida",
         "nome_nave": "Nagisa",
         "rarit\u00e0": "Nagisa",
         "tempo": "Nagisa",
@@ -22715,9 +23221,9 @@
         ]
     },
     "nyotengu": {
-        "artista": "",
+        "artista": "kurumi\u666e\u62c9\u65af",
         "doppiatrice": "Akemi Satou",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Akemi_Sat%C5%8D_(singer)",
         "nome_nave": "Nyotengu",
         "rarit\u00e0": "Nyotengu",
         "tempo": "Nyotengu",
@@ -22752,7 +23258,7 @@
         ],
         "skill": [
             "Dance of the Heavens \ud83d\udcd5\n5s after this ship finishes loading its Airstrike: launches a Lv.1 (Lv.10) special airstrike (DMG is based on the skill's level).",
-            "Hanakagura \ud83d\udcd2\nIncreases this ship's DMG against BBs by 4.0% (10.0%). When this ship launches an Airstrike: 40.0% (70.0%) chance to decrease DMG taken for 8s by a random ship in your Vanguard.",
+            "Hanakagura \ud83d\udcd2\nIncreases this ship's DMG against BBs by 4.0% (10.0%). When this ship launches an Airstrike: 40.0% (70.0%) chance to decrease DMG taken by 4.5% (12.0%) for 8s by a random ship in your Vanguard.",
             "    ",
             "    ",
             "    "
