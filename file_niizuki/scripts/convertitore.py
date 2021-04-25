@@ -120,6 +120,9 @@ altri_nomi = {
 "dido (muse)": "dido µ",
 #-------------------------------------------------------------------------------
 "dors": "dorsetshire",
+# Duca degli Abruzzi
+"duca": "duca degli abruzzi",
+"abruzzi": "duca degli abruzzi",
 # Duke of York
 "duke": "duke of york",
 "doy": "duke of york",
@@ -318,6 +321,9 @@ altri_nomi = {
 "kuu-chan": "kuon",
 #-------------------------------------------------------------------------------
 "nico": "nicholas",
+# Nicoloso da Recco
+"nicoloso": "nicoloso da recco",
+"recco": "nicoloso da recco",
 # Niizuki
 "cute fox": "niizuki",
 "nii": "niizuki",
@@ -480,6 +486,8 @@ altri_nomi = {
 # Vincennes
 "vincenzina": "vincennes",
 "vince": "vincennes",
+# Vittorio Veneto
+"vittorio": "vittorio veneto",
 #-------------------------------------------------------------------------------
 "victo": "victorious",
 "warsprite": "warspite",
