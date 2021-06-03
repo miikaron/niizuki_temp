@@ -12,12 +12,14 @@ from cogs.al_ships import load_blacklist
 from file_niizuki.scripts.scrap import aggiorna_database
 
 MERON = os.getenv("MERON")
+NAEGI = os.getenv("NAEGI")
 CANALE_LOG = os.getenv("CANALE_LOG")
 MELONE_ID = int(MERON)
+NAEGI_ID = int(NAEGI)
 ID_CANALE_LOG = int(CANALE_LOG)
 
 async def is_owner(ctx):
-    return ctx.author.id == MELONE_ID
+    return ctx.author.id == MELONE_ID or ctx.author.id == NAEGI_ID
 
 class Moderation(commands.Cog):
     def __init__(self, client):
