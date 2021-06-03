@@ -282,8 +282,8 @@ class Moderation(commands.Cog):
         channel = ctx.channel
 
         upload_database = await channel.send(file=discord.File(os.path.join('file_niizuki', "mydatabase.json")))
-        await ctx.message.delete(delay=3)
-        await upload_database.delete(delay=5)
+        await ctx.message.delete(delay=5)
+        await upload_database.delete(delay=30)
     
     @commands.command()
     @commands.guild_only()

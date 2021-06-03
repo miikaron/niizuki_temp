@@ -335,7 +335,7 @@
         ],
         "skill": [
             "Torpedo Command: Destroyers \ud83d\udcd2\nIncrease Torpedo stat of Destroyers in the fleet by 5% (15%). Does not stack with other command skills that have similar effect.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Gridley Class I (II)",
             "    ",
             "    "
@@ -384,7 +384,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main gun is fired, trigger Full Barrage - Gridley Class I (II).",
             "    ",
             "    ",
@@ -434,7 +434,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main gun is fired, triggers Full Barrage - Gridley Class I (II).",
             "    ",
             "    ",
@@ -483,7 +483,7 @@
         ],
         "skill": [
             "Aquatic Vortex \ud83d\udcd8\nEvery 10 seconds, 20% (40%) chance to increase own Evasion by 30% (60%) for 8 seconds.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Gridley Class I (II)",
             "    ",
             "    "
@@ -603,7 +603,7 @@
         "tipo": "__[Destroyer]__",
         "id": "014",
         "colore_embed": 8900346,
-        "acquisizione": "\nDrop: \u2022 2-3 \u2022 3-4 \u2022 4-2 \u2022 6-1 \u2022 9-1 \u2022 10-4 \u2022 12-1",
+        "acquisizione": " Exchange |\nDrop: \u2022 2-3 \u2022 3-4 \u2022 4-2 \u2022 6-1 \u2022 9-1 \u2022 10-4 \u2022 12-1",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -868,7 +868,7 @@
             " "
         ],
         "skill": [
-            "Wargod of Solomon \ud83d\udcd5\nWhen firing main gun, 5% chance to increase own Firepower, Reload, and Evasion by 20% (40%) for 8 seconds.",
+            "Wargod of Solomon \ud83d\udcd5\nWhen firing main gun, 5% chance to increase own Firepower, Reload, and Evasion by 20% (40%) for 8 seconds. (5s cooldown, starts on cooldown)",
             "(Retrofit) Annihilation Mode \ud83d\udcd5\nEvery 20 seconds, 40% (70%) chance to increase own Reload stat by 200% for 10 seconds and release a powerful barrage, while firing a machine-gun burst of fast torpedoes.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Laffey I (II)",
             "    ",
@@ -909,7 +909,7 @@
         "tipo": "__[Destroyer]__",
         "id": "026",
         "colore_embed": 8900346,
-        "acquisizione": "\nDrop: \u2022 3-2 \u2022 4-1 \u2022 7-3 \u2022 7-4 \u2022 10-3 \u2022 11-1 \u2022 12-2",
+        "acquisizione": " Exchange |\nDrop: \u2022 3-2 \u2022 4-1 \u2022 7-3 \u2022 7-4 \u2022 10-3 \u2022 11-1 \u2022 12-2",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -2759,6 +2759,56 @@
             "https://azurlane.koumakan.jp/w/images/thumb/4/46/South_DakotaParty.png/557px-South_DakotaParty.png"
         ]
     },
+    "new jersey": {
+        "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
+        "doppiatrice": "Miyu Tomita",
+        "link_doppiatrice": " ",
+        "nome_nave": "New Jersey",
+        "rarit\u00e0": "Ultra Rare",
+        "tempo": "06:30:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Iowa",
+        "tipo": "__[Battleship]__",
+        "id": "068",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available during \"Mirror Involution\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/New_Jersey",
+            "https://azurlane.koumakan.jp/w/images/d/d5/New_JerseyIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9e/New_Jersey.png/600px-New_Jersey.png"
+        ],
+        "efficienza": [
+            "120% \u2192 150%: __BB Guns__",
+            "210% \u2192 210%: __DD Guns__",
+            "130% \u2192 130%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main gun base +1/Main gun efficiency +5%",
+            "\u2022 Auxiliary gun base +2/Main gun efficiency +10%",
+            "\u2022 Main gun base +1/Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Dragon's Breath \ud83d\udcd5\nWhen this ship fires its main guns, 50.0% (100.0%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). The barrage pattern is independent of this ship's position in the main fleet. Additionally, 10 seconds into the start of the battle, fire this barrage.",
+            "Freedom Through Firepower \ud83d\udcd2\nDecrease the spread range of this ship's main guns by 0.5 (5.0). Whenever ANOTHER fleet in the same sortie engages in battle, if this ship is afloat, fire a special barrage 20 seconds into the start of that battle (damage scales with skill level and the FP stat of that fleet's flagship). At the start of that battle, if that fleet's flagship is an Eagle Union ship, increase the AVI stat of all Eagle Union CVs and CVLs in that fleet by 5.0% (15.0%).",
+            "Don'tcha Just Love It? \ud83d\udcd2\nIncreases this ship's FP by 5.0% (15.0%) and RLD by 1.0% (10.0%). If this ship is sortied with another Eagle Union ship, increase the AA stat by 5.0% (15.0%) for all Eagle Union ships in your fleet, decrease their damage taken by 5.0%, and increase the FP stat by 4.0% (10.0%) for all Eagle Union BBs and BCs in your fleet.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9e/New_Jersey.png/636px-New_Jersey.png",
+            "Exhilarating Steps!",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/New_JerseyBunny.png/520px-New_JerseyBunny.png"
+        ]
+    },
     "long island": {
         "artista": "\u54c8\u8def\u5361",
         "doppiatrice": "Sachiyo Yoshida",
@@ -3022,7 +3072,9 @@
             "Silent Night Songstress",
             "https://azurlane.koumakan.jp/w/images/thumb/a/ad/SaratogaChristmas.png/557px-SaratogaChristmas.png",
             "Spring's Opening Act!",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/a3/SaratogaSpring.png/589px-SaratogaSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a3/SaratogaSpring.png/589px-SaratogaSpring.png",
+            "The Sweetest Picnic!",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/19/SaratogaCasual.png/684px-SaratogaCasual.png"
         ]
     },
     "ranger": {
@@ -3438,7 +3490,9 @@
             "Fashionable Outing",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7b/AcastaSchool.png/351px-AcastaSchool.png",
             "Lights of the Lantern Festival",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/68/AcastaSpring.png/589px-AcastaSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/68/AcastaSpring.png/589px-AcastaSpring.png",
+            "Monochromatic Marvel",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/67/AcastaBunny.png/563px-AcastaBunny.png"
         ]
     },
     "ardent": {
@@ -4953,7 +5007,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "121",
         "colore_embed": 16768685,
-        "acquisizione": "Build: Heavy | Special | \nDrop: \u2022 2-4 \u2022 4-3 \u2022 7-1 \u2022 8-1 \u2022 8-4 \u2022 10-4 \u2022 12-4",
+        "acquisizione": "Build: Heavy | Special |  Exchange |\nDrop: \u2022 2-4 \u2022 4-3 \u2022 7-1 \u2022 8-1 \u2022 8-4 \u2022 10-4 \u2022 12-4",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5051,7 +5105,7 @@
         "tipo": "__[Heavy Cruiser]__",
         "id": "123",
         "colore_embed": 16768685,
-        "acquisizione": "Build: Heavy | Special | \nDrop: \u2022 2-3 \u2022 4-2 \u2022 6-1 \u2022 8-2 \u2022 8-4 \u2022 10-4 \u2022 12-4",
+        "acquisizione": "Build: Heavy | Special |  Exchange |\nDrop: \u2022 2-3 \u2022 4-2 \u2022 6-1 \u2022 8-2 \u2022 8-4 \u2022 10-4 \u2022 12-4",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -5866,7 +5920,9 @@
             "Prayer of Plum and Snow",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a3/UnicornNew_Year.png/585px-UnicornNew_Year.png",
             "Angelic Night",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/28/UnicornIdol.png/734px-UnicornIdol.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/28/UnicornIdol.png/734px-UnicornIdol.png",
+            "Icy-Sweet Storytime",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c1/UnicornCasual2.png/595px-UnicornCasual2.png"
         ]
     },
     "eagle": {
@@ -6414,7 +6470,9 @@
             "Pulse of the New Year",
             "https://azurlane.koumakan.jp/w/images/thumb/a/ab/AyanamiNew_Year.png/575px-AyanamiNew_Year.png",
             "Nightfall Raiment",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/16/AyanamiParty.png/662px-AyanamiParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/16/AyanamiParty.png/662px-AyanamiParty.png",
+            "Off-Duty Battle Station Gear",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/AyanamiBluray2.png/492px-AyanamiBluray2.png"
         ]
     },
     "akatsuki": {
@@ -6881,7 +6939,7 @@
         ],
         "skill": [
             "Torpedo Command: Vanguard \ud83d\udcd2\nIncrease Torpedo stat of all ships in the Escort fleet by 5% (15%). Does not stack with other command skills that have similar effect.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "(Retrofit) Interference \ud83d\udcd2\nEvery 20 seconds: 25% chance to reduce a random enemy's Reload by 30% and damage by 15% for 5 (10) seconds. Effect prioritizes elite (human-form) enemies. Does not stack with the same skill.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Kagerou Class I (II)",
             "    "
@@ -6932,7 +6990,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "(Retrofit) Carrier Escort \ud83d\udcd8\nWhen alive in fleet, reduce damage taken by allied aircraft carriers and light aircraft carriers by 5% (15%). Does not stack with the same skill.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Kagerou Class I (II).",
             "    ",
@@ -7032,7 +7090,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15.0% (30.0%) chance to launch a second wave of Torpedoes.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "(Retrofit) Torpedo Command: Destroyers \ud83d\udcd2\nIncreases the TRP of all DDs in your fleet by 5% (15%). Does not stack with the same skill.",
             "All Out Assault \ud83d\udcd5\nActivates All Out Assault \u2161: Hatsuharu Class once every 10 times the Main Guns are fired.",
             "    ",
@@ -7084,7 +7142,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
             "    ",
@@ -7134,7 +7192,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "(Retrofit) Flank Defense \ud83d\udcd8\nWhile this ship is afloat: decreases the DMG your Main Fleet takes by 5% (15%). Does not stack with the same skill.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
@@ -7186,7 +7244,7 @@
             " "
         ],
         "skill": [
-            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
@@ -7295,7 +7353,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Kagerou Class I (II)",
             "    ",
             "    "
@@ -7343,7 +7401,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Kagerou Class I (II)",
             "    ",
             "    "
@@ -7556,7 +7614,9 @@
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3c/KinuKai.png/606px-KinuKai.png",
             "New Year's Blade Demon",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/16/KinuNew_Year.png/563px-KinuNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/16/KinuNew_Year.png/563px-KinuNew_Year.png",
+            "Token and Ghost",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/KinuBunny.png/530px-KinuBunny.png"
         ]
     },
     "abukuma": {
@@ -7597,7 +7657,7 @@
         ],
         "skill": [
             "Torpedo Command: Destroyers \ud83d\udcd2\nIncrease Torpedo stat of Destroyers in the fleet by 5% (15%). Does not stack with other command skills that have similar effect.",
-            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main battery is fired, trigger Full Barrage - Nagara Class I (II)",
             "    ",
             "    "
@@ -7749,7 +7809,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 9 (6) shots from the main guns, triggers Full Barrage - Furutaka Class I(II)",
             "    ",
             "    "
@@ -7799,7 +7859,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 9 (6) shots from the main guns, triggers Full Barrage - Furutaka Class I(II)",
             "    ",
             "    "
@@ -8093,7 +8153,7 @@
         ],
         "skill": [
             "Focused Assault \ud83d\udcd5\nWhen firing main gun, 15% (30%) chance to inflict double damage.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 6 (4) shots from the main gun, triggers Full Barrage - Takao Class I (II).  The first time this ship fires its All Out Assault, increases this ship's Evasion Rate by 10%, activating only once.",
             "    ",
             "    "
@@ -8151,7 +8211,7 @@
         ],
         "skill": [
             "Arsonist \ud83d\udcd5\nIncreases damage dealt with HE ammo by 5% (15%), Burn damage by 20% (50%), and chance to ignite with HE ammo by 4.5% (12%).",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 6 (4) shots from the main gun, triggers Full Barrage - Takao Class I (II).  The first time this ship fires its All Out Assault, increases this ship's Evasion Rate by 10%, activating only once.",
             "    ",
             "    "
@@ -8904,8 +8964,8 @@
             " "
         ],
         "skill": [
-            "Accomplish Any Feat! \ud83d\udcd5\nWhen this ship fires a Salvo: 45% (75%) chance to fire a special barrage; the barrage is unaffected by this ship's position in your Main Fleet.",
-            "Crush Any Contender! \ud83d\udcd2\n[Regular]1) When: a) this ship is afloat, b) the fleet this ship is NOT in has a BB as its Flagship, and c) said fleet is engaging in its 3rd, 4th, or 5th battle: launches a special barrage 20s after the other fleet's battle begins.2) When this ship is in combat and takes DMG or when an enemy comes within close range of this ship: fires a special Lv.1 (Lv.10) barrage. Has a cooldown of 15s between activations.[Operation Siren]1) When: a) this ship is afloat, b) a fleet this ship is NOT in has a BB as its Flagship, and c) said fleet is engaging in its 3rd or 4th battle: your Tosa fires a covering barrage 20s after said fleet's battle begins.2) When this ship is in combat and takes DMG or when an enemy comes within close range of this ship: fires a special Lv.1 (Lv.10) barrage. Barrage DMG is based on the skill's level and has a cooldown of 15s between activations. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "Accomplish Any Feat! \ud83d\udcd5\nWhen this ship fires its main guns, 45.0% (75.0%) chance to fire a special barrage (damage scales with skill level). The barrage always fires from the flagship spot, regardless of where this ship is located in the main fleet.",
+            "Crush Any Contender! \ud83d\udcd2\nAs long as this ship is afloat:\nWhen this ship take damage, or when an enemy comes within close range of this ship, fire a special barrage (damage scales with skill level). This barrage has a 15-second cooldown between activations.\nWhen ANOTHER fleet in the same sortie engages in its third, fourth, or fifth battle, if that fleet has a BB as its flagship (BC, BBV, and BM do not count), then fire a special barrage 20 seconds into the start of that battle (damage scales with skill level and the FP stat of that fleet's flagship). In Operation Siren, this barrage is limited to the third and fourth battle instead (not the fifth).\n[This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
             "    ",
             "    ",
             "    "
@@ -9100,7 +9160,7 @@
             " "
         ],
         "skill": [
-            "Support Carrier \ud83d\udcd2\nWhen launching an airstrike: heals the Escort Fleet for 3.5% (8%) of their max HP.",
+            "Support Carrier \ud83d\udcd2\nWhen this ship launches an Airstrike: heals your entire Vanguard for 3.5% (8%) of its max HP.",
             "(Retrofit) Air Support \ud83d\udcd2\nWhen this ship launches an airstrike, increase the AVI stat of each CV and CVL in your fleet by 5.0% (15.0%) for 8 seconds. This buff does not apply to the airstrike that triggered it.",
             "    ",
             "    ",
@@ -9212,7 +9272,7 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Akagi.png/553px-Akagi.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/Akagi.png/554px-Akagi.png",
             "Oath",
             "https://azurlane.koumakan.jp/w/images/thumb/6/65/AkagiPledge.png/347px-AkagiPledge.png",
             "Paradise Amaryllis",
@@ -9479,7 +9539,7 @@
         ],
         "skill": [
             "Fifth Carrier Division (Zuikaku) \ud83d\udcd2\nIf sortied with Shoukaku, increase own AVI stat by 8.0% (20.0%) and decrease own damage received by 8.0% (20.0%).",
-            "Crane's Endeavor \ud83d\udcd5\nIf there are three or more Sakura Empire ships in your fleet, increase own damage dealt by 8.0% (20.0%). When this ship launches an airstrike, increase the damage dealt by all subsequent airstrikes by 8.0% (20.0%). This buff may stack up to three times.",
+            "Crane's Endeavor \ud83d\udcd5\nIf there are three or more Sakura Empire ships in your fleet (including this ship), increase own damage dealt by 8.0% (20.0%). When this ship launches an airstrike, increase the damage dealt by all subsequent airstrikes by 8.0% (20.0%). This buff may stack up to three times.",
             "    ",
             "    ",
             "    "
@@ -9746,7 +9806,7 @@
             " "
         ],
         "skill": [
-            "Iron Blood Vanguard \ud83d\udcd5\nWhen firing main gun, 5% chance to increase own Firepower by 30% (60%) for 8 seconds.",
+            "Iron Blood Vanguard \ud83d\udcd5\nWhen firing main gun, 5% chance to increase own Firepower by 30% (60%) for 8 seconds. (5s cooldown, starts on cooldown)",
             "(Retrofit) Destruction Mode \ud83d\udcd5\nEvery 20 seconds, 40% (70%) chance to release a powerful barrage and spawn 2 rotating shields that can block 5 enemy shells each while launching a wave of 4 slow homing torpedoes; own main gun's critical rate becomes 100% for 10 seconds.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Z23 I (II).",
             "    ",
@@ -11363,7 +11423,7 @@
         ],
         "skill": [
             "Quick Reload \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Reload by 20% (40%) for 10 seconds.",
-            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "(Retrofit) Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) shots from the main guns, trigger Full Barrage - Mutsuki-Class I (II)",
             "    ",
             "    "
@@ -13510,7 +13570,9 @@
             "Departure's Gentle Breeze",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/I-19School.png/396px-I-19School.png",
             "Pillowy Paradise",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/aa/I-19Sleepy.png/554px-I-19Sleepy.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/a/aa/I-19Sleepy.png/554px-I-19Sleepy.png",
+            "Blossoming Bunny",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/df/I-19Bunny.png/484px-I-19Bunny.png"
         ]
     },
     "i-26": {
@@ -14262,8 +14324,8 @@
             " "
         ],
         "skill": [
-            "Pirate's Soul \ud83d\udcd5\nDuring battle: First main gun volley of each salvo deals 40% (60%) more damage. Manual aim damage bonus increased to 40% (60%).",
-            "Final Shot \ud83d\udcd5\nIf equipped with the Quadruple 380mm (Mle 1935) gun, main gun critical rate is increased by 10% (30%) and main gun critical damage is increased by 20% (50%).",
+            "Pirate's Soul \ud83d\udcd5\nThis ship deals 40.0% (60.0%) more damage with each aimed shot from its main guns. Additionally, for each aimed shot that is manually aimed, the manual aim bonus becomes 40.0% (60.0%). (These two bonuses stack additively with each other. Aimed shots are the first salvo round of each main gun volley, regardless of whether auto-mode or the player aimed them. They get a \u201cslow-down\u201d effect outside of exercises.)",
+            "Final Shot \ud83d\udcd5\nIf this ship is equipped with the Quadruple 380mm (Mle 1935) gun, increase this ship's main gun critical rate by 10.0% (30.0%) and main gun critical damage by 20.0% (50.0%).",
             "    ",
             "    ",
             "    "
@@ -15131,7 +15193,7 @@
         ],
         "skill": [
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "Double Torpedo \ud83d\udcd5\nWhen launching a wave of torpedoes: 15% (30%) chance to launch another wave.",
+            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Yuugumo Class I (II)",
             "    ",
             "    "
@@ -15460,14 +15522,14 @@
         "nome_nave": "Independence",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
-        "retrofit": "non disponibile",
+        "retrofit": "disponibile",
         "nazionalit\u00e0": "Eagle Union",
         "abbreviazione": "__[USS]__",
         "classe": "Independence",
         "tipo": "__[Light Aircraft Carrier]__",
         "id": "377",
         "colore_embed": 13073654,
-        "acquisizione": "Available as a reward during \"Air Raid Drills with Essex\" Event.",
+        "acquisizione": "Available in the Core Data Shop for 1200 .",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
@@ -15477,9 +15539,9 @@
             "https://azurlane.koumakan.jp/w/images/thumb/4/49/Independence.png/600px-Independence.png"
         ],
         "efficienza": [
-            "115% \u2192 130%: __Fighters__",
-            "130% \u2192 145%: __Torpedo Bombers__",
-            "80% \u2192 80%: __Anti-Air Guns__"
+            "115% \u2192 130% \u2192 145%: __Fighters__",
+            "130% \u2192 145% \u2192 150%: __Torpedo Bombers__",
+            "80% \u2192 80% \u2192 80%: __Anti-Air Guns__"
         ],
         "rank": [
             "\u2022 Number of Fighters +1 / Fighter Efficiency +5%",
@@ -15490,15 +15552,17 @@
             " "
         ],
         "skill": [
-            "Eagle Sky \ud83d\udcd5\nEagle Union airplanes in use gain 5% (15%) additional Efficiency.",
-            "Knight of the Sky \ud83d\udcd2\nWhen launching an airstrike: launches an additional Lv.1 (Lv.10) TBF Avenger squadron. If sortied with any Cleveland-class cruisers: increases their Firepower by 3.5% (8.0%), increases own Air Power and Accuracy by 5% (15%), and enhances TBF Avenger squadron barrage pattern.",
-            "    ",
+            "Eagle Sky \ud83d\udcd5\nEagle Union airplanes in use gain 5.0% (15.0%) additional efficiency.",
+            "Knight of the Sky \ud83d\udcd2\nWhen this ship launches an airstrike, launch a TBF avenger aerial barrage (barrage damage scales with skill level). If this ship is sortied with any Cleveland-class cruisers, then increase their FP by 3.5% (8.0%), increase this ship's AVI and Accuracy by 5.0% (15.0%), and enhance the TBF Avenger barrage.",
+            "(Retrofit) Supporting Wings - Independence \ud83d\udcd2\nImproves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, as long as this ship is afloat:\nIncrease AVI by 4.5% (12.0%) and RLD by 5.0% (10.0%) for all CVs and CVLs in your fleet (including this ship). Decrease the load time of this ship's first airstrike by 10.0% (25.0%).\nIncrease AVI and RLD by 3.5% (8.0%) for all CVs and CVLs in each fleet this ship is NOT in. [In Operation Siren, increase these stats by 2.0% (4.0%) instead.]\n(This skill does not stack with itself or other Supporting Wings skills in any way. The same-fleet buff takes priority over the cross-fleet buff, if applicable.)",
             "    ",
             "    "
         ],
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/49/Independence.png/575px-Independence.png",
+            "Retrofit",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a4/IndependenceKai.png/533px-IndependenceKai.png",
             "Transfer Student From Afar",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e5/IndependenceSchool.png/455px-IndependenceSchool.png",
             "The Independent Line",
@@ -15605,7 +15669,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Z2.png/763px-Z2.png",
-            "Daily Scenery in Foreign Colours",
+            "High-Rise, High-Style",
             "https://azurlane.koumakan.jp/w/images/thumb/9/91/Z2Casual.png/589px-Z2Casual.png"
         ]
     },
@@ -16643,6 +16707,54 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1a/U-522.png/531px-U-522.png"
+        ]
+    },
+    "alabama": {
+        "artista": "Enka",
+        "doppiatrice": "Hibiku Yamamura",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/2/2f/Alabama_TitleScreen.ogg",
+        "nome_nave": "Alabama",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "05:00:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "South Dakota",
+        "tipo": "__[Battleship]__",
+        "id": "401",
+        "colore_embed": 16727100,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Ashen Simulacrum\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Alabama",
+            "https://azurlane.koumakan.jp/w/images/7/7f/AlabamaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0f/Alabama.png/600px-Alabama.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __BB Guns__",
+            "200% \u2192 200%: __DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +5%",
+            "\u2022 Secondary Gun Mount +2 / Main Gun Efficiency +10%",
+            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Lucky A \ud83d\udcd5\nIncreases own Evasion by 3 (12), and reduces torpedo damage taken by self by 5% (20%). Every 20 seconds: 45% (75%) chance to fire a barrage, damage scales with skill level.",
+            "Just Gettin' Fired Up \ud83d\udcd5\n[Regular]During a sortie, increases own Firepower by 1% (2.5%) for every enemy node sunk by the fleet Alabama is in. Also, increases own firepower by 1% (2.5%) for every enemy ship sunk during any given battle. This skill can only boost firepower by up to 7% (17.5%). After defeating 5 enemy nodes, reduces damage taken by the Main Fleet by 3.5% (8%).[Operation Siren]Every time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by 1% (2.5%); also, for every enemy this ship sinks during a battle: increases this ship's FP by 1% (2.5%) until the battle ends (this skill's FP buffs stack up to a total of 7 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by 3.5% (8%). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "    ",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0f/Alabama.png/651px-Alabama.png"
         ]
     },
     "cavalla": {
@@ -18811,7 +18923,7 @@
         ],
         "skill": [
             "Quick Takeoff \ud83d\udcd5\nWhen this ship launches an airstrike, 5.0% (15.0%) chance for the next airstrike to be available immediately.",
-            "Supporting Wings \ud83d\udcd2\nThe following buffs are active as long as this ship is afloat:\nAt the start of the battle, increases AVI by 4.5% (12.0%) and RLD by 5.0% (10.0%) for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by 10.0% (25.0%).\nAt the start of the battle, increases RLD and AVI by 3.5% (8.0%) (Regular play) / 2.0% (4.0%) (Operation Siren) for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
+            "Supporting Wings \ud83d\udcd2\nAs long as this ship is afloat:\nIncrease AVI by 4.5% (12.0%) and RLD by 5.0% (10.0%) for all CVs and CVLs in your fleet (including this ship). Decrease the load time of this ship's first airstrike by 10.0% (25.0%).\nIncrease AVI and RLD by 3.5% (8.0%) for all CVs and CVLs in each fleet this ship is NOT in. [In Operation Siren, increase these stats by 2.0% (4.0%) instead.]\n(This skill does not stack with itself or other Supporting Wings skills in any way. The same-fleet buff takes priority over the cross-fleet buff, if applicable.)",
             "    ",
             "    ",
             "    "
@@ -18928,7 +19040,7 @@
     "naganami": {
         "artista": "\u6c34\u4e4c\u9f9fXD",
         "doppiatrice": "Yomogi Ashitaba",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://yomogiashitaba.wixsite.com/mysite",
         "nome_nave": "Naganami",
         "rarit\u00e0": "Elite",
         "tempo": "00:27:00",
@@ -19012,8 +19124,8 @@
             " "
         ],
         "skill": [
-            "Knight's Shooting Training \ud83d\udcd5\nDecreases the loading time of this ship's first 3 Salvos by 40.0%, but DMG dealt will be changed to 40.0%, 60.0% (80.0%), and 100.0% (120.0%) each. From the 4th Salvo onwards: this ship deals 100.0% (120.0%) DMG with its Salvoes.",
-            "Knight's Formation Drill \ud83d\udcd2\nAt the start of the battle: increases this ship's FP, RLD, and Accuracy by 1.0% (5.0%) for every Royal Navy ship in the same fleet. Can be stacked up to 4 times.",
+            "Knight's Shooting Training \ud83d\udcd5\nDecreases the loading time of this ship's first 3 salvos by 40.0%, and change their damage dealt by -60.0%, -40.0% (-20.0%), and +0.0% (+20.0%) respectively. From the 4th salvo onward, this ship deals 0.0% (20.0%) more damage with its salvos.",
+            "Knight's Formation Drill \ud83d\udcd2\nAt the start of the battle, increases this ship's FP, RLD, and Accuracy by 1.0% (5.0%) for each Royal Navy ship in your fleet (including this ship), up to a maximum of four stacks.",
             "    ",
             "    ",
             "    "
@@ -19229,8 +19341,8 @@
     },
     "la galissonni\u00e8re": {
         "artista": "\u6c34\u4e4c\u9f9fXD",
-        "doppiatrice": "Yui Makino",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yui_Makino",
+        "doppiatrice": "Play Yui Makino",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/0/0d/La_Galissonni%C3%A8re_TitleScreenJP.ogg",
         "nome_nave": "La Galissonni\u00e8re",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -19566,7 +19678,7 @@
         "skill": [
             "Mercury's Talaria \ud83d\udcd8\nWhen the battle starts, 1 (2) airstrikes are available immediately. Airstrike cooldown time is increased by 90%. After launching an airstrike, heal the vanguard fleet for 1.5% (7.0%) of their max HP and the main fleet for 1.0% (3.5%) of their max HP.",
             "Athena's Catapult \ud83d\udcd5\nEvery 12 seconds after the start of the battle, launch a special airstrike of a random choice of Sea Hornet, TBF Avengers, or Fairey Firefly. Damage depends on skill level.",
-            "Waters of Styx \ud83d\udcd2\n[Regular]Increase hangar size to 3. All ships in this fleet recover 1.0% of their max HP every 40 (20) seconds. When the fleet this ship is NOT in engages in battle, 20 seconds after that battle starts, heal all vanguard ships in that fleet by 1.0% (3.0%) of their max HP.[Operation Siren]Increases this ship's max Airstrike capacity to 3 (this effect is unaffected by your ship's damage status) and restores 1.0% HP to all ships in the same fleet as this ship once every 40 (20) seconds. 20s after a fleet this ship is NOT in starts a battle: heals said fleet's Vanguard for 0.5% (1.5%) HP.",
+            "Waters of Styx \ud83d\udcd2\nIncrease this ship's hangar size to 3. Every 40.0 (20.0) seconds after the start of the battle, heal all ships in your fleet by 1.0% of their maximum HP. When ANOTHER fleet in the same sortie engages in battle, heal all ships in that fleet by 1.5% (3.0%) of their maximum HP, 20 seconds into the start of that battle. (In Operation Siren, cross-fleet healing received from this skill is halved. The hangar size increase still applies when experiencing Toll of War in Operation Siren, although the rest of the skill does not.)",
             "    ",
             "    "
         ],
@@ -19922,7 +20034,7 @@
         "skill": [
             "Veil of Night \ud83d\udcd8\nAfter taking damage three times, reduce own damage taken by 3.5% (8.0%) for the rest of the battle. On the 2nd, 4th, and 6th battle of each sortie, 60 seconds after the battle starts, heal this ship for 4.0% (10.0%) of its max HP. If there is at least one other Sakura Empire ship in the same fleet as this ship: improve this ship's All Out Assault. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
             "AP Protection \ud83d\udcd8\nReduce AP damage taken by self by 10.0% (20.0%).",
-            "All-Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Suzuya-class once every 9 (6) times the Main Guns are fired.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Suzuya-class once every 9 (6) times the Main Guns are fired.",
             "    ",
             "    "
         ],
@@ -19936,7 +20048,7 @@
     "chitose": {
         "artista": "yuui\uff08\u3086\u3046\u3044)",
         "doppiatrice": "Play Hitomi Sekine",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "http://www.imenterprise.jp/profile.php?id=43",
         "nome_nave": "Chitose",
         "rarit\u00e0": "Elite",
         "tempo": "02:15:00",
@@ -19986,7 +20098,7 @@
     "chiyoda": {
         "artista": "yuui\uff08\u3086\u3046\u3044)",
         "doppiatrice": "Play Hitomi Sekine",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "http://www.imenterprise.jp/profile.php?id=43",
         "nome_nave": "Chiyoda",
         "rarit\u00e0": "Elite",
         "tempo": "02:15:00",
@@ -20608,7 +20720,7 @@
         "skill": [
             "Sic 'em, Eisen! \ud83d\udcd5\nIf there is at least 1 other Iron Blood ship in the same fleet: increases this ship's RLD and EVA by 5.0% (15.0%). When this ship fires its Main Guns, 20.0% (50.0%) chance to increase this ship's Main Gun DMG by 25.0% for 5sIn game description is 3s (7s cooldown between activations).",
             "Heinrich's Hunch Punch \ud83d\udcd8\nEvery 20s after the battle starts: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level) and deploys one of the following 2 types of shields, both lasting for 5 (10)s, chosen at random: 1) blocks 2 torpedoes, 2) blocks 10 shells.",
-            "All-Out Assault \ud83d\udcd5\nActivates All Out Assault I (II) (P-class) once every 9 (6) times the main guns are fired.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II) (P-class) once every 9 (6) times the main guns are fired.",
             "    ",
             "    "
         ],
@@ -21507,7 +21619,7 @@
             "Halo of Flames \ud83d\udcd5\nAt the start of the battle: increases this ship's AA, EVA, and Accuracy by 5% (15%) for 60s. When this ship fires her Torpedoes: 40% (70%) chance to fire a special barrage (DMG is based on this skill's level).",
             "Solemn Zealotry \ud83d\udcd2\nReduces the speed of torpedoes fired by this ship by 1, increases Torpedo Crit Rate by 20% (40%), Torpedo Crit DMG by 20% (40%), and decreases the loading time of the first Torpedo salvo by 50%.",
             "Just a Scratch \ud83d\udcd8\nReduces the AP DMG this ship takes by 10% (20%) and the Torp DMG taken by the frontmost ship in your Vanguard by 3.5% (8%). Once per battle, when this ship falls under 30% HP as a result of DMG taken: creates a shield, and restores 1% (3%) of max HP every 3s for the next 10s. The shield blocks up to 5 torpedoes and lasts for up to 10s.",
-            "All-Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Duca degli Abruzzi once every 12 (8) times the Main Guns are fired.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Duca degli Abruzzi once every 12 (8) times the Main Guns are fired.",
             "    "
         ],
         "skin": [
@@ -21568,8 +21680,8 @@
         ]
     },
     "torricelli": {
-        "artista": "",
-        "doppiatrice": "",
+        "artista": "Byulzzi",
+        "doppiatrice": "Kaede Hondo",
         "link_doppiatrice": " ",
         "nome_nave": "Torricelli",
         "rarit\u00e0": "Elite",
@@ -21704,7 +21816,7 @@
             " "
         ],
         "skill": [
-            "The Southwesterly Wind \ud83d\udcd5\nWhen any ship in your fleet (other than this one) takes DMG: 30% chance to deploy a Lv.1 (Lv.10) smokescreen (15s cooldown). Smokescreen strength is based on the skill's level.",
+            "The Southwesterly Wind \ud83d\udcd5\nWhen any ship in your fleet (other than this one) takes DMG: 30% chance to fire a Lv.1 (Lv.10) barrageIncorrectly listed as smokebomb ingame (15s cooldown). Damage is based on the skill's level.",
             "Southwesterly Sailor \ud83d\udcd8\nIncreases this ship's Speed by 5 and also increases her AA and EVA by 5% (15%) if there are any other Sardegna ships in the same fleet.",
             "All Out Assault \ud83d\udcd5\nActivates All Out Assault I (II): Maestrale Class once every 15 (10) times the Main Guns are fired.",
             "    ",
@@ -21718,9 +21830,9 @@
         ]
     },
     "nicoloso da recco": {
-        "artista": "",
+        "artista": "\u5fb7\u610f\u5fd7\u7684\u79d1\u5b66",
         "doppiatrice": "Play Aoi Koga",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/d/d0/Nicoloso_da_Recco_TitleScreenJP.ogg",
         "nome_nave": "Nicoloso da Recco",
         "rarit\u00e0": "Elite",
         "tempo": "00:29:40",
@@ -21862,7 +21974,9 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/0d/Allen_M._Sumner.png/543px-Allen_M._Sumner.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0d/Allen_M._Sumner.png/543px-Allen_M._Sumner.png",
+            "Charming Rabbit",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/61/Allen_M._SumnerBunny.png/537px-Allen_M._SumnerBunny.png"
         ]
     },
     "stephen potter": {
@@ -21910,7 +22024,9 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/55/Stephen_Potter.png/511px-Stephen_Potter.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/55/Stephen_Potter.png/511px-Stephen_Potter.png",
+            "Chillaxation Station",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Stephen_PotterBunny.png/507px-Stephen_PotterBunny.png"
         ]
     },
     "amagi-chan": {
@@ -21961,44 +22077,294 @@
             "https://azurlane.koumakan.jp/w/images/thumb/f/fb/Amagi-chan.png/749px-Amagi-chan.png"
         ]
     },
-    "tone": {
-        "artista": "",
-        "doppiatrice": "",
+    "ticonderoga": {
+        "artista": "\u667a\u5f18\u30ab\u30a4",
+        "doppiatrice": "Kana Ichinose",
         "link_doppiatrice": " ",
-        "nome_nave": "Tone",
-        "rarit\u00e0": "Unreleased",
-        "tempo": "Unreleased",
+        "nome_nave": "Ticonderoga",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "04:25:00",
         "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Sakura Empire",
-        "abbreviazione": "__[IJN]__",
-        "classe": "Tone",
-        "tipo": "__[Heavy Cruiser]__",
-        "id": "9001",
-        "colore_embed": 16768685,
-        "acquisizione": "Non disponibile",
-        "limited": "no",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Essex",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "511",
+        "colore_embed": 11949300,
+        "acquisizione": "Event Build: Available during \"Mirror Involution\" event. ",
+        "limited": "s\u00ec",
         "collab": "no",
         "wiki_nave": [
-            "https://azurlane.koumakan.jp/Tone",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Tone.png/367px-Tone.png",
-            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Tone.png/423px-Tone.png"
+            "https://azurlane.koumakan.jp/Ticonderoga",
+            "https://azurlane.koumakan.jp/w/images/7/71/TiconderogaIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cd/Ticonderoga.png/600px-Ticonderoga.png"
         ],
         "efficienza": [
-            "## \u00a0 ",
-            "## \u00a0 ",
-            "## \u00a0 "
+            "125% \u2192 140%: __Fighters__",
+            "114% \u2192 130%: __Dive Bombers__",
+            "105% \u2192 120%: __Torpedo Bombers__"
         ],
         "rank": [
-            "Non disponibile",
-            " ",
-            " ",
+            "\u2022 All fighters +1/Aircraft efficiency +3%",
+            "\u2022 Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+            "\u2022 All aircraft +1/Aircraft efficiency +7%",
             " ",
             " ",
             " "
         ],
         "skill": [
-            "Non disponibile   ",
+            "Wings of Soaring Flames \ud83d\udcd5\nWhen this ship launches an Airstrike: launches an additional Lv.1 (Lv.10) special airstrike that has a chance to Burn enemies hit by it (Airstrike DMG is based on the skill's level; Burn DMG is based on this ship's AVI stat).",
+            "Shielded Advance \ud83d\udcd8\nDecreases this ship's first 2 (4) instances of DMG taken by 30.0% (60.0%) every battle. At the start of the battle and every 20s after that: targets the ship in the frontmost position of your Vanguard and gives that ship a shield that blocks up to 6 shots, lasting for up to 8 seconds.",
+            "Advanced Support Formation \ud83d\udcd2\nIncreases this ship's AVI by 4.0% (10.0%). When sortied in a fleet with at least 2 CVs/CVLs: decreases your Flagship's DMG taken by 5.0% (15.0%).",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cd/Ticonderoga.png/642px-Ticonderoga.png",
+            "Show Stopper!",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/30/TiconderogaBunny.png/644px-TiconderogaBunny.png"
+        ]
+    },
+    "san francisco": {
+        "artista": "",
+        "doppiatrice": "Tomomi Mineuchi",
+        "link_doppiatrice": " ",
+        "nome_nave": "San Francisco",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "01:56:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "New Orleans",
+        "tipo": "__[Heavy Cruiser]__",
+        "id": "512",
+        "colore_embed": 16768685,
+        "acquisizione": "Event Build: Available during \"Mirror Involution\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/San_Francisco",
+            "https://azurlane.koumakan.jp/w/images/9/92/San_FranciscoIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/36/San_Francisco.png/586px-San_Francisco.png"
+        ],
+        "efficienza": [
+            "105% \u2192 125%: __CA Guns__",
+            "70% \u2192 75%: __DD Guns__",
+            "120% \u2192 125%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock EX Barrage \u2160/Main gun efficiency +5%",
+            "\u2022 Main gun base +1/Main gun efficiency +10%",
+            "\u2022 Improve EX Barrage/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Get Starstruck! \ud83d\udcd5\nEvery 10s after the start of the battle: 45.0% (75.0%) chance to fire a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). If this barrage fails to activate, instead increases this ship's AA and Accuracy by 1.0% (10.0%) for 5s.",
+            "Right Place at the Right Time \ud83d\udcd2\nIncreases this ship's EVA and AA by 1.0% (10.0%). Activates one of the following effects based on this ship's position in your Vanguard during battle:\nFront (and also when this ship is your last afloat Vanguard ship): increases this ship's EVA and AA by 1.0% (5.0%), and decreases her DMG taken by 5.0% (15.0%).\nMiddle: heals all ships in your Vanguard for 5.0% (10.0%) of their max HP 20s after the battle starts.\nRear: increases this ship's FP by 5.0% (15.0%) and AA by 1.0% (10.0%), and also increases your whole Vanguard's DMG dealt to enemies by 5.0%.",
+            "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault II: San Francisco once every 8 times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/36/San_Francisco.png/537px-San_Francisco.png",
+            "Funny Bunny!",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/90/San_FranciscoBunny.png/571px-San_FranciscoBunny.png"
+        ]
+    },
+    "archerfish": {
+        "artista": "\u304b\u306b\u30d3\u30fc\u30e0",
+        "doppiatrice": "Hikaru Akao",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Hikaru_Akao",
+        "nome_nave": "Archerfish",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "00:25:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Balao",
+        "tipo": "__[Submarine]__",
+        "id": "513",
+        "colore_embed": 5111629,
+        "acquisizione": "Event Build: Available during \"Mirror Involution\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Archerfish",
+            "https://azurlane.koumakan.jp/w/images/8/8e/ArcherfishIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/Archerfish.png/562px-Archerfish.png"
+        ],
+        "efficienza": [
+            "114% \u2192 130%: __Submarine Torpedoes__",
+            "114% \u2192 130%: __Submarine Torpedoes__",
+            "85% \u2192 85%: __DD Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock EX Barrage \u2160/Torpedo efficiency +5%",
+            "\u2022 Torpedo base +1/Improve Hunting range",
+            "\u2022 Improve EX Barrage/Torpedo efficiency +10%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Hottie Hunters \ud83d\udcd2\nIncreases this boat's DMG to Heavy Armor enemies by 5.0% (15.0%). When sortied with at least 1 other Eagle Union submarine: increases Crit DMG by 5.0% (15.0%) and increases TRP and Accuracy by 3.5% (8.0%) for all your Eagle Union submarines.",
+            "Parting Gift \ud83d\udcd5\nIncreases this boat's OXY by 2 (20). When this boat resurfaces, and again when she leaves the battle: fires a Lv.1 (Lv.10) torpedo barrage (DMG is based on the skill's level).",
+            "All-Out Assault: II \ud83d\udcd5\nActivates All Out Assault II: Archerfish immediately after entering the battle.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/Archerfish.png/515px-Archerfish.png",
+            "Coquettish Bunny",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/ArcherfishBunny.png/502px-ArcherfishBunny.png"
+        ]
+    },
+    "boise": {
+        "artista": "\u7fbd\u7e54\u30a4\u30aa",
+        "doppiatrice": "Yuu Sasahara",
+        "link_doppiatrice": " ",
+        "nome_nave": "Boise",
+        "rarit\u00e0": "Elite",
+        "tempo": "01:15:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Brooklyn",
+        "tipo": "__[Light Cruiser]__",
+        "id": "514",
+        "colore_embed": 16774061,
+        "acquisizione": "Event Build: Available during \"Mirror Involution\" event. ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Boise",
+            "https://azurlane.koumakan.jp/w/images/6/6d/BoiseIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Boise.png/600px-Boise.png"
+        ],
+        "efficienza": [
+            "100% \u2192 130%: __CL Guns__",
+            "65% \u2192 65%: __DD Guns__",
+            "100% \u2192 100%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault \u2160/Main gun efficiency +5%",
+            "\u2022 Main gun base +1/Main gun efficiency +10%",
+            "\u2022 Improve All Out Assault/Main gun efficiency +15%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "The Bigger They Are... \ud83d\udcd5\nEvery 15s during battle: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). Additionally, increases this ship's Crit Rate by 1.0% (10.0%), and increases her DMG to Heavy Armor enemies by 5.0% (15.0%).",
+            "Breathe In, Breathe Out \ud83d\udcd2\nWhile this ship has 45.0% or more HP remaining: increases this ship's FP and AA by 5.0% (15.0%). When this ship's HP falls below 45.0% as a result of DMG taken: decreases this ship's Burn DMG taken by 5.0% (15.0%) while below this threshold. Once per battle, when this ship's HP falls below 30.0%: heals this ship for 4.0% (10.0%) of her max HP.",
+            "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault \u2161: Brooklyn Class once every 10 times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Boise.png/618px-Boise.png",
+            "Sheepish Sapphire",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/BoiseBunny.png/608px-BoiseBunny.png"
+        ]
+    },
+    "morrison": {
+        "artista": "\u6c34\u4e4c\u9f9fXD",
+        "doppiatrice": "Sakura Namiki",
+        "link_doppiatrice": "https://sigma7.co.jp/actors/namiki_sakura",
+        "nome_nave": "Morrison",
+        "rarit\u00e0": "Elite",
+        "tempo": "Elite",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Fletcher",
+        "tipo": "__[Destroyer]__",
+        "id": "515",
+        "colore_embed": 8900346,
+        "acquisizione": "Nulla di particolare",
+        "limited": "no",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Morrison",
+            "https://azurlane.koumakan.jp/w/images/1/12/MorrisonIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Morrison.png/600px-Morrison.png"
+        ],
+        "efficienza": [
+            "114% \u2192 125%: __DD Guns__",
+            "120% \u2192 130%: __Torpedoes__",
+            "120% \u2192 130%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault \u2160/All weapons' efficiency +2%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+            "\u2022 Improve All Out Assault/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Emergency Beardrop \ud83d\udcd8\nDecreases the duration of Burns inflicted on this ship by 1.0% (4.0%). When this ship sinks an enemy: until the end of the battle, increases this ship's AA by 1.5% (6.0%) and FP by 1.0% (5.0%), and also increases the ASW of your fleet by 1.0% (4.0%). This buff can be stacked up to 5 times.",
+            "Flagship Cover \ud83d\udcd2\nWhile this ship is afloat: decreases the DMG your Flagship takes by 15.0% (25.0%).",
+            "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault \u2161: Fletcher Class once every 10 times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Morrison.png/564px-Morrison.png",
+            "Sleeping Bunny",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cb/MorrisonBunny.png/571px-MorrisonBunny.png"
+        ]
+    },
+    "little enterprise": {
+        "artista": "\u8c46\u82bd\u83dc",
+        "doppiatrice": "Yui Ishikawa",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yui_Ishikawa",
+        "nome_nave": "Little Enterprise",
+        "rarit\u00e0": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Eagle Union",
+        "abbreviazione": "__[USS]__",
+        "classe": "Yorktown",
+        "tipo": "__[Aircraft Carrier]__",
+        "id": "516",
+        "colore_embed": 11949300,
+        "acquisizione": "Reward from the Soar Fledgling Wings! event.",
+        "limited": "no",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Little_Enterprise",
+            "https://azurlane.koumakan.jp/w/images/e/ee/Little_EnterpriseIcon.png",
+            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3e/Little_Enterprise.png/545px-Little_Enterprise.png"
+        ],
+        "efficienza": [
+            "110% \u2192 125%: __Fighters__",
+            "110% \u2192 125%: __Dive Bombers__",
+            "110% \u2192 125%: __Torpedo Bombers__"
+        ],
+        "rank": [
+            "\u2022 All fighters +1/Aircraft efficiency +3%",
+            "\u2022 Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+            "\u2022 All aircraft +1/Aircraft efficiency +7%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Lucky Little E \ud83d\udcd5\n70.0% (100.%) chance to activate one of the following effects (chosen at random) when this ship launches an Airstrike:\nDoubles this ship's DMG dealt to all enemies for 6s.\nGrants this ship 100% Evasion Rate for 5s.\nDecreases the Speed of all enemies by 15.0% (30.0%) for 4s.",
             "    ",
             "    ",
             "    ",
@@ -22006,101 +22372,8 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Tone.png/388px-Tone.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3e/Little_Enterprise.png/499px-Little_Enterprise.png"
         ]
-    },
-    "chikuma": {
-        "artista": "",
-        "doppiatrice": "",
-        "link_doppiatrice": " ",
-        "nome_nave": "Chikuma",
-        "rarit\u00e0": "Unreleased",
-        "tempo": "Unreleased",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Sakura Empire",
-        "abbreviazione": "__[IJN]__",
-        "classe": "Tone",
-        "tipo": "__[Heavy Cruiser]__",
-        "id": "9002",
-        "colore_embed": 16768685,
-        "acquisizione": "Non disponibile",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Chikuma",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Chikuma.png/391px-Chikuma.png",
-            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Chikuma.png/451px-Chikuma.png"
-        ],
-        "efficienza": [
-            "## \u00a0 ",
-            "## \u00a0 ",
-            "## \u00a0 "
-        ],
-        "rank": [
-            "Non disponibile",
-            " ",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Non disponibile   ",
-            "    ",
-            "    ",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Chikuma.png/413px-Chikuma.png"
-        ]
-    },
-    "sovetsky soyuz": {
-        "artista": "",
-        "doppiatrice": "Seto Asami",
-        "link_doppiatrice": " ",
-        "nome_nave": "Sovetsky Soyuz",
-        "rarit\u00e0": "Unreleased",
-        "tempo": "Unreleased",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Northern Parliament",
-        "abbreviazione": "__[SN]__",
-        "classe": "Sovetsky Soyuz",
-        "tipo": "__[Battleship]__",
-        "id": "9009",
-        "colore_embed": 16727100,
-        "acquisizione": "Non disponibile",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Sovetsky_Soyuz",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f0/Sovetsky_Soyuz.png/556px-Sovetsky_Soyuz.png",
-            "https://azurlane.koumakan.jp/w/images/b/b2/Northunion_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f0/Sovetsky_Soyuz.png/600px-Sovetsky_Soyuz.png"
-        ],
-        "efficienza": [
-            "## \u00a0 ",
-            "## \u00a0 ",
-            "## \u00a0 "
-        ],
-        "rank": [
-            "Non disponibile",
-            " ",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Non disponibile   ",
-            "    ",
-            "    ",
-            "    ",
-            "    "
-        ],
-        "skin": []
     },
     "hms neptune": {
         "artista": "\u68a6\u54b2\u67ab",
@@ -22709,7 +22982,7 @@
         "skill": [
             "Emotion Inhibition Module \ud83d\udcd8\nWhen Health falls below 50%: increases own Evasion by 15% (30%) and recovers 2% of max HP every 2 seconds for 8 seconds. Can only activate twice per battle.",
             "(Fate Simulation)Emotion Inhibition Module+ \ud83d\udcd8\nAt the start of battle, if this ship's HP is greater than 50%: increases this ship's AA by 4.5% (12%) and improves this ship's Precision Salvo Protocol barrage. Additionally, when this ship's HP falls below 50%: for 8s, increases this ship's EVA by 15% (30%) and restores a total of 8% of its max HP (this effect can only be triggered twice per battle). (replaces Emotion Inhibition Module)",
-            "Precision Salvo Protocol \ud83d\udcd5\n[Regular]Main Gun can be fired twice per reload, and each salvo can be fired independently. This ship's damage bonus with manually aimed salvos becomes 25% (40%). Every 20 seconds after battle starts: 50% (100%) chance to fire a special barrage (damage is based on skill level)., Enhanced barrage preview (gif)[Operation Siren]Each Main Gun reload gives this ship 2 Salvoes that can be fired independently (this effect is unaffected by your ship's damage status). This ship's DMG bonus with manually aimed Salvoes becomes 25% (40%). Every 20s: 50% (100%) chance to fire a special barrage (barrage DMG is based on the skill's level). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+            "Precision Salvo Protocol \ud83d\udcd5\nThis ship's main gun can be fired twice per reload cycle, and each salvo can be fired independently. This ship's damage bonus with manually-aimed salvos becomes 25.0% (40.0%). Every 20 seconds after battle starts, 50.0% (100.0%) chance to fire a special barrage (damage scales with skill level)., Enhanced barrage preview (gif)(The change to her main gun firing characteristics still applies when experiencing Toll of War in Operation Siren, although the rest of the skill does not.)",
             "Siren Killer \ud83d\udcd5\nIncreases own damage dealt to Sirens by 5% (15%).",
             "    "
         ],
@@ -23157,8 +23430,8 @@
             " "
         ],
         "skill": [
-            "Humble Part-Timer \ud83d\udcd2\nAfter the battle starts: for 60s, increases this ship's FP and its armor modifier against Light Armor enemies by 5.0% (15.0%). If there are other Venus Vacation characters in the same fleet: increases this ship's AA by 5.0% (15.0%) and decreases its DMG taken from guns by 4.5% (12.0%).",
-            "Venus Friends \ud83d\udcd5\nEvery 20s after the start of the battle: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). Enemies hit by this barrage take 5.0% (15.0%) more DMG from Venus Vacation characters for 8s.",
+            "Humble Part-Timer \ud83d\udcd2\nFor the first 60 seconds of the battle, increase this ship's FP stat and its armor modifier against Light Armor enemies by 5.0% (15.0%). If there is another Venus Vacation character in the same fleet as this ship, increase this ship's AA stat by 5.0% (15.0%) and decrease this ship's damage taken from shelling by 4.5% (12.0%).",
+            "Venus Friends \ud83d\udcd5\nEvery 20 seconds after the start of the battle, fire a special barrage (damage scales with skill level). Enemies hit by this barrage take 5.0% (15.0%) more damage from Venus Vacation ships (including this ship) for 8 seconds.",
             "    ",
             "    ",
             "    "
