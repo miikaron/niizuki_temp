@@ -6,7 +6,7 @@ import time
 import json
 import traceback
 
-FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"}
+FIREFOX_AGENT = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"}
 
 lista_navi = []
 collab_ships = []
@@ -23,7 +23,7 @@ def crea_lista(wiki):
     standard_list = []
     research_ships = []
 
-    all_tables = sl_soup.find_all("table", {"class": "wikitable sortable jquery-tablesorter"})
+    all_tables = sl_soup.find_all("table", {"class": "wikitable"})
     #Standard List
     row_tab1 = all_tables[0].find_all("tr")
     for row in row_tab1:
@@ -92,7 +92,7 @@ def aggiorna_database():
                 nome_nave = h1_ship_name.get_text()
                 nome_nave_lower = nome_nave.lower()
                 nome_nave_url = "/"+nome_nave.replace(" ", "_")
-            #print(nome_nave, nome_nave_lower, nome_nave_url, sep="---")
+            print(nome_nave, nome_nave_lower, nome_nave_url, sep="---")
 
     #-------------------------------------------------------------------------------------------------s---
             # Tabella parte 1
