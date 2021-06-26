@@ -244,7 +244,13 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c9/Cassin.png/332px-Cassin.png",
             "Retrofit",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/41/CassinKai.png/441px-CassinKai.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/41/CassinKai.png/441px-CassinKai.png",
+            "Shopping Carte Blanche",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b2/CassinSchool.png/565px-CassinSchool.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b2/CassinSchool.png/565px-CassinSchool.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/17/CassinSchoolWithoutBG.png/715px-CassinSchoolWithoutBG.png"
         ]
     },
     "downes": {
@@ -294,7 +300,13 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Downes.png/418px-Downes.png",
             "Retrofit",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e2/DownesKai.png/454px-DownesKai.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e2/DownesKai.png/454px-DownesKai.png",
+            "Part-Time Bomber",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/DownesSchool.png/586px-DownesSchool.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/DownesSchool.png/586px-DownesSchool.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/DownesSchoolWithoutBG.png/987px-DownesSchoolWithoutBG.png"
         ]
     },
     "gridley": {
@@ -818,7 +830,7 @@
             " "
         ],
         "skill": [
-            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Benson Class I (II)",
             "    ",
             "    ",
@@ -879,7 +891,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2a/Laffey.png/409px-Laffey.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/3/33/LaffeyKai.png/571px-LaffeyKai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/5/53/LaffeyWedding.png/548px-LaffeyWedding.png",
             "Bili Girl 33",
             "https://azurlane.koumakan.jp/w/images/thumb/d/dc/LaffeyBilibili.png/310px-LaffeyBilibili.png",
@@ -997,6 +1009,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/3/31/HammannSummer.png/314px-HammannSummer.png",
             "Prideful Fairy of the Ballroom",
             "https://azurlane.koumakan.jp/w/images/thumb/1/18/HammannParty.png/541px-HammannParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/18/HammannParty.png/541px-HammannParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e7/HammannPartyWithoutBG.png/593px-HammannPartyWithoutBG.png",
             "Hammanyan Pawnch!",
             "https://azurlane.koumakan.jp/w/images/thumb/6/69/HammannIdol.png/604px-HammannIdol.png",
             "Holy Night Surprise!",
@@ -1449,7 +1465,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/d/d8/San_Diego.png/362px-San_Diego.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/0/08/San_DiegoKai.png/621px-San_DiegoKai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/7/74/San_DiegoWedding.png/579px-San_DiegoWedding.png",
             "Sandy Claus",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7d/San_DiegoChristmas.png/517px-San_DiegoChristmas.png"
@@ -1501,7 +1517,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1f/Cleveland.png/405px-Cleveland.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8d/ClevelandWedding.png/582px-ClevelandWedding.png",
             "Reaper Fever",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9d/ClevelandHalloween.png/525px-ClevelandHalloween.png",
@@ -1849,6 +1865,8 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fc/Portland.png/547px-Portland.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fc/Portland.png/547px-Portland.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7a/PortlandKai.png/560px-PortlandKai.png",
             "At School With Indy!",
@@ -1906,7 +1924,11 @@
             "At School With My Sister...",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a0/IndianapolisSchool.png/492px-IndianapolisSchool.png",
             "The Light of Circle City",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c6/IndianapolisParty.png/513px-IndianapolisParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c6/IndianapolisParty.png/513px-IndianapolisParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c6/IndianapolisParty.png/513px-IndianapolisParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b7/IndianapolisPartyWithoutBG.png/532px-IndianapolisPartyWithoutBG.png"
         ]
     },
     "astoria": {
@@ -1958,7 +1980,11 @@
             "Pure \"Gurl?\"",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f8/AstoriaSchool.png/168px-AstoriaSchool.png",
             "Black Bunny Carnival",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/AstoriaBunny.png/438px-AstoriaBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/AstoriaBunny.png/438px-AstoriaBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/AstoriaBunny.png/438px-AstoriaBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/91/AstoriaBunnyWithoutBG.png/376px-AstoriaBunnyWithoutBG.png"
         ]
     },
     "quincy": {
@@ -2111,6 +2137,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/6/65/Wichita.png/595px-Wichita.png",
             "The General's Banquet",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/WichitaParty.png/596px-WichitaParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/20/WichitaParty.png/596px-WichitaParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6c/WichitaPartyWithoutBG.png/529px-WichitaPartyWithoutBG.png",
             "Domineering Witchita",
             "https://azurlane.koumakan.jp/w/images/thumb/9/99/WichitaHalloween.png/585px-WichitaHalloween.png"
         ]
@@ -2152,7 +2182,7 @@
             " "
         ],
         "skill": [
-            "APsolute Ammunition \ud83d\udcd5\nChange the ammo type of this ship's main gun to AP, with 75/110/75 (85/120/85) modifiers. Starting from level 8 of this skill, each shell has 3.5% chance to inflict Armor Break to enemies with Heavy armor. (Armor-broken enemies take 8.0% more damage from shelling. Armor Break lasts 6 seconds and does not stack with any other source of armor break.)",
+            "APsolute Ammunition \ud83d\udcd5\nChange the ammo type of this ship's main gun to AP, with 75/110/75 (85/120/85) modifiers. Starting from level 8 of this skill, each shell has 3.5% chance to inflict Standard Armor Break to enemies with Heavy armor. (Standard Armor-broken enemies take 8.0% more damage from shelling. Standard Armor Break lasts 6 seconds and does not stack with other sources of Standard Armor Break.)",
             "Adaptive Tactics \ud83d\udcd2\nIf your fleet contains at least one Eagle Union CV or CVL, increase your entire fleet's AA stat by 2.5% (7.0%), and increase the AVI stat for each Eagle Union CV and CVL in your fleet by 5.0% (15.0%). If your fleet contains no Eagle Union CVs or CVLs, increase this ship's FP stat by 4.5% (12.0%) and EVA stat by 5.0% (15.0%).",
             "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main gun is fired, trigger Full Barrage - Baltimore-class I (II).",
             "    ",
@@ -2168,7 +2198,11 @@
             "Evening Breeze Minuet",
             "https://azurlane.koumakan.jp/w/images/thumb/8/85/BaltimoreParty.png/407px-BaltimoreParty.png",
             "Ace's Travel Journal",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c2/BaltimoreNew_Year.png/566px-BaltimoreNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c2/BaltimoreNew_Year.png/566px-BaltimoreNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c2/BaltimoreNew_Year.png/566px-BaltimoreNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/19/BaltimoreNew_YearWithoutBG.png/537px-BaltimoreNew_YearWithoutBG.png"
         ]
     },
     "nevada": {
@@ -2315,6 +2349,8 @@
             "    "
         ],
         "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/Pennsylvania.png/388px-Pennsylvania.png",
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/a/af/Pennsylvania.png/388px-Pennsylvania.png"
         ]
@@ -2761,8 +2797,8 @@
     },
     "new jersey": {
         "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
-        "doppiatrice": "Miyu Tomita",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Miyu Tomita",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Miyu_Tomita",
         "nome_nave": "New Jersey",
         "rarit\u00e0": "Ultra Rare",
         "tempo": "06:30:00",
@@ -2796,7 +2832,7 @@
             " "
         ],
         "skill": [
-            "Dragon's Breath \ud83d\udcd5\nWhen this ship fires its main guns, 50.0% (100.0%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). The barrage pattern is independent of this ship's position in the main fleet. Additionally, 10 seconds into the start of the battle, fire this barrage.",
+            "Dragon's Breath \ud83d\udcd5\nWhen this ship fires its main guns, 50.0% (100.0%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). Additionally, 10 seconds into the start of the battle, fire this same barrage. The barrage pattern is independent of this ship's position in the main fleet. The barrage inflicts Armor Break to enemies it hits. (Armor-Broken enemies take 5.0% more damage for 8.0 seconds. This Armor Break stacks with other sources of Armor Break.)",
             "Freedom Through Firepower \ud83d\udcd2\nDecrease the spread range of this ship's main guns by 0.5 (5.0). Whenever ANOTHER fleet in the same sortie engages in battle, if this ship is afloat, fire a special barrage 20 seconds into the start of that battle (damage scales with skill level and the FP stat of that fleet's flagship). At the start of that battle, if that fleet's flagship is an Eagle Union ship, increase the AVI stat of all Eagle Union CVs and CVLs in that fleet by 5.0% (15.0%).",
             "Don'tcha Just Love It? \ud83d\udcd2\nIncreases this ship's FP by 5.0% (15.0%) and RLD by 1.0% (10.0%). If this ship is sortied with another Eagle Union ship, increase the AA stat by 5.0% (15.0%) for all Eagle Union ships in your fleet, decrease their damage taken by 5.0%, and increase the FP stat by 4.0% (10.0%) for all Eagle Union BBs and BCs in your fleet.",
             "    ",
@@ -2806,6 +2842,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9e/New_Jersey.png/636px-New_Jersey.png",
             "Exhilarating Steps!",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/New_JerseyBunny.png/520px-New_JerseyBunny.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3c/New_JerseyBunny.png/520px-New_JerseyBunny.png"
         ]
     },
@@ -2856,6 +2894,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/54/Long_Island.png/435px-Long_Island.png",
             "Retrofit",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b8/Long_IslandKai.png/554px-Long_IslandKai.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b8/Long_IslandKai.png/554px-Long_IslandKai.png",
             "Long Island - Indoor Slacker",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c1/Long_IslandBilibili.png/482px-Long_IslandBilibili.png",
@@ -3073,6 +3113,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/a/ad/SaratogaChristmas.png/557px-SaratogaChristmas.png",
             "Spring's Opening Act!",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a3/SaratogaSpring.png/589px-SaratogaSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a3/SaratogaSpring.png/589px-SaratogaSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4c/SaratogaSpringWithoutBG.png/489px-SaratogaSpringWithoutBG.png",
             "The Sweetest Picnic!",
             "https://azurlane.koumakan.jp/w/images/thumb/1/19/SaratogaCasual.png/684px-SaratogaCasual.png"
         ]
@@ -3223,7 +3267,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/40/Enterprise.png/404px-Enterprise.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/0/07/EnterpriseWedding.png/365px-EnterpriseWedding.png",
             "Reindeer Master",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b1/EnterpriseChristmas.png/525px-EnterpriseChristmas.png",
@@ -3234,7 +3278,11 @@
             "Soaring Wings of Freedom",
             "https://azurlane.koumakan.jp/w/images/thumb/d/de/EnterpriseBluray.png/506px-EnterpriseBluray.png",
             "Heroic Finery",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/EnterpriseParty.png/604px-EnterpriseParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/EnterpriseParty.png/604px-EnterpriseParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/EnterpriseParty.png/604px-EnterpriseParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/75/EnterprisePartyWithoutBG.png/671px-EnterprisePartyWithoutBG.png"
         ]
     },
     "hornet": {
@@ -3476,9 +3524,9 @@
             " "
         ],
         "skill": [
-            "Death Raid \ud83d\udcd5\nIf Acasta is the last ship alive in the Vanguard fleet: increase own damage dealt by 20% (50%) and increases own damage received by 8% (20%).",
-            "Smokescreen \ud83d\udcd8\nAfter battle begins and 15% (30%) chance to activate every 15 seconds after that: deploy a smokescreen for 5 seconds. Vanguard ships within the smokescreen have 20% (40%) additional Evasion Rate. Does not stack with the same skill effect.",
-            "(Retrofit) Flagship Cover \ud83d\udcd2\nReduce the damage taken by the Flagship by 15% (25%).",
+            "Death Raid \ud83d\udcd5\nWhen another ship in your fleet sinks in combat, if this ship is the only ship remaining in your vanguard, increase this ship's damage dealt by 20.0% (50.0%) and increaseat level 10 only, changes to decrease, possible bug this ship's damage received by 8.0% (20.0%) until the end of the battle. (This skill cannot trigger more than once per battle.)",
+            "Smokescreen \ud83d\udcd8\nWhen the battle begins, and 15.0% (30.0%) chance every 15 seconds after that, deploy a smokescreen that lasts for 5 seconds. Allied ships inside the smokescreen gain 20.0% (40.0%) evasion rate. (This skill does not stack with any other smokescreen skill.)",
+            "(Retrofit) Flagship Cover \ud83d\udcd2\nAs long as this ship is afloat, decrease all damage your flagship takes by 15.0% (25.0%).",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - A-Class I (II).",
             "    "
         ],
@@ -3492,7 +3540,11 @@
             "Lights of the Lantern Festival",
             "https://azurlane.koumakan.jp/w/images/thumb/6/68/AcastaSpring.png/589px-AcastaSpring.png",
             "Monochromatic Marvel",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/67/AcastaBunny.png/563px-AcastaBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/67/AcastaBunny.png/563px-AcastaBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/67/AcastaBunny.png/563px-AcastaBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/AcastaBunnyWithoutBG.png/695px-AcastaBunnyWithoutBG.png"
         ]
     },
     "ardent": {
@@ -3534,7 +3586,7 @@
         "skill": [
             "Carrier Escort \ud83d\udcd8\nAs long as this ship is afloat, decrease all damage taken by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
             "Interference \ud83d\udcd2\nEvery 20 seconds: 25% chance to reduce a random enemy's Reload by 30% and damage by 15% for 5 (10) seconds. Effect prioritizes elite (human-form) enemies. Does not stack with the same skill.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - A-Class I (II)",
             "    "
         ],
@@ -3793,6 +3845,8 @@
             "https://azurlane.koumakan.jp/w/images/thumb/a/ac/CygnetKai.png/446px-CygnetKai.png",
             "Sea Star on Shore",
             "https://azurlane.koumakan.jp/w/images/thumb/9/98/CygnetSummer.png/458px-CygnetSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/98/CygnetSummer.png/458px-CygnetSummer.png",
             "Holy Night's Hymn",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d6/CygnetChristmas.png/711px-CygnetChristmas.png",
             "Winter Date",
@@ -3998,13 +4052,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/50/Glowworm.png/522px-Glowworm.png",
             "Jokey Adjudicator",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c7/GlowwormSpring.png/540px-GlowwormSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c7/GlowwormSpring.png/540px-GlowwormSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c7/GlowwormSpring.png/540px-GlowwormSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/GlowwormSpringWithoutBG.png/586px-GlowwormSpringWithoutBG.png"
         ]
     },
     "hardy": {
         "artista": "Alisa",
         "doppiatrice": "Ayaka Nanase",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Ayaka_Nanase",
         "nome_nave": "Hardy",
         "rarit\u00e0": "Elite",
         "tempo": "00:26:00",
@@ -4052,7 +4110,7 @@
     "hunter": {
         "artista": "Alisa",
         "doppiatrice": "Ayaka Nanase",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Ayaka_Nanase",
         "nome_nave": "Hunter",
         "rarit\u00e0": "Rare",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -4145,7 +4203,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Javelin.png/566px-Javelin.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6d/JavelinKai.png/340px-JavelinKai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/4/49/JavelinWedding.png/587px-JavelinWedding.png",
             "Bili Girl 22",
             "https://azurlane.koumakan.jp/w/images/thumb/d/db/JavelinBilibili.png/247px-JavelinBilibili.png",
@@ -4208,7 +4266,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4a/Juno.png/480px-Juno.png",
             "Fairly Flavourful Festival",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/bc/JunoFestival.png/548px-JunoFestival.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/b/bc/JunoFestival.png/548px-JunoFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/bc/JunoFestival.png/548px-JunoFestival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/JunoFestivalWithoutBG.png/717px-JunoFestivalWithoutBG.png"
         ]
     },
     "vampire": {
@@ -4257,7 +4319,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4e/Vampire.png/463px-Vampire.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7f/VampirePledge.png/479px-VampirePledge.png",
             "The Breath of Spring",
             "https://azurlane.koumakan.jp/w/images/thumb/0/0c/VampireSpring.png/538px-VampireSpring.png",
@@ -4475,8 +4537,8 @@
     },
     "southampton": {
         "artista": "Vilor",
-        "doppiatrice": "Ayumi Mano",
-        "link_doppiatrice": "http://stay-luck.com/ayumi-mano",
+        "doppiatrice": "Play Ayumi Mano",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/5f/Southampton_TitleScreenJP.ogg",
         "nome_nave": "Southampton",
         "rarit\u00e0": "Rare",
         "tempo": "01:25:00",
@@ -4573,6 +4635,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2b/SheffieldMisc.png/597px-SheffieldMisc.png",
             "A Moment's Respite",
             "https://azurlane.koumakan.jp/w/images/thumb/0/05/SheffieldFestival.png/619px-SheffieldFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/05/SheffieldFestival.png/619px-SheffieldFestival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4e/SheffieldFestivalWithoutBG.png/550px-SheffieldFestivalWithoutBG.png",
             "Black Crow's Finery",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6d/SheffieldParty.png/854px-SheffieldParty.png"
         ]
@@ -4624,7 +4690,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/67/Gloucester.png/776px-Gloucester.png",
             "Brilliance in Purple",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/73/GloucesterSpring.png/515px-GloucesterSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/73/GloucesterSpring.png/515px-GloucesterSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/73/GloucesterSpring.png/515px-GloucesterSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7a/GloucesterSpringWithoutBG.png/488px-GloucesterSpringWithoutBG.png"
         ]
     },
     "edinburgh": {
@@ -4725,7 +4795,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/8/86/Belfast.png/425px-Belfast.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6a/BelfastWedding.png/730px-BelfastWedding.png",
             "Iridescent Rosa",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8d/BelfastSpring.png/370px-BelfastSpring.png",
@@ -4736,6 +4806,8 @@
             "Shopping with the Head Maid",
             "https://azurlane.koumakan.jp/w/images/thumb/9/91/BelfastCasual.png/411px-BelfastCasual.png",
             "Piping-Hot Perfection",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d8/BelfastPizza.png/534px-BelfastPizza.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d8/BelfastPizza.png/534px-BelfastPizza.png",
             "EN",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a4/BelfastPizzaEN.png/534px-BelfastPizzaEN.png",
@@ -4885,7 +4957,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/8/89/Aurora.png/886px-Aurora.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1c/AuroraWedding.png/716px-AuroraWedding.png",
             "The Tale of Spring",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7e/AuroraSpring.png/447px-AuroraSpring.png",
@@ -5085,6 +5157,8 @@
             "    "
         ],
         "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e8/Suffolk.png/308px-Suffolk.png",
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e8/Suffolk.png/308px-Suffolk.png",
             "Retrofit",
@@ -5435,12 +5509,22 @@
             "https://azurlane.koumakan.jp/w/images/thumb/6/60/Hood.png/669px-Hood.png",
             "Original Art",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7d/HoodOriginal.png/669px-HoodOriginal.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a9/HoodPledge.png/515px-HoodPledge.png",
             "Lady of the Shining Sun",
             "https://azurlane.koumakan.jp/w/images/thumb/5/57/HoodSummer.png/630px-HoodSummer.png",
             "Porcelain Grace",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/HoodNew_Year.png/477px-HoodNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/HoodNew_Year.png/477px-HoodNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/HoodNew_Year.png/477px-HoodNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/HoodNew_YearWithoutBG.png/611px-HoodNew_YearWithoutBG.png",
+            "Dawnlight's Dame",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/27/HoodParty.png/679px-HoodParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/27/HoodParty.png/679px-HoodParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/HoodPartyWithoutBG.png/294px-HoodPartyWithoutBG.png"
         ]
     },
     "queen elizabeth": {
@@ -5493,10 +5577,22 @@
             "https://azurlane.koumakan.jp/w/images/thumb/7/72/Queen_ElizabethParty.png/577px-Queen_ElizabethParty.png",
             "One Night of the Queen",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9d/Queen_ElizabethIdol.png/548px-Queen_ElizabethIdol.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9d/Queen_ElizabethIdol.png/548px-Queen_ElizabethIdol.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fd/Queen_ElizabethIdolWithoutBG.png/635px-Queen_ElizabethIdolWithoutBG.png",
             "Queen of the Campus",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a8/Queen_ElizabethSchool.png/714px-Queen_ElizabethSchool.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a8/Queen_ElizabethSchool.png/714px-Queen_ElizabethSchool.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/18/Queen_ElizabethSchoolWithoutBG.png/816px-Queen_ElizabethSchoolWithoutBG.png",
             "Crown Jewel of the Royal Navy",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d1/Queen_ElizabethSpring.png/631px-Queen_ElizabethSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d1/Queen_ElizabethSpring.png/631px-Queen_ElizabethSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d1/Queen_ElizabethSpring.png/631px-Queen_ElizabethSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6f/Queen_ElizabethSpringWithoutBG.png/714px-Queen_ElizabethSpringWithoutBG.png"
         ]
     },
     "warspite": {
@@ -5649,6 +5745,8 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Rodney.png/611px-Rodney.png",
+            "Wedding",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/41/RodneyWedding.png/557px-RodneyWedding.png",
             "Future Seaside Admiral",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f9/RodneySummer.png/431px-RodneySummer.png",
             "One Day as a Trainee Clerk",
@@ -5754,6 +5852,8 @@
             "Original Art",
             "https://azurlane.koumakan.jp/w/images/thumb/3/34/Prince_of_WalesOriginal.png/617px-Prince_of_WalesOriginal.png",
             "Sun Shining Upon Windsor",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e4/Prince_of_WalesSummer.png/398px-Prince_of_WalesSummer.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e4/Prince_of_WalesSummer.png/398px-Prince_of_WalesSummer.png",
             "Sakura Elegance",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f5/Prince_of_WalesNew_Year.png/540px-Prince_of_WalesNew_Year.png",
@@ -5909,7 +6009,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Unicorn.png/446px-Unicorn.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6f/UnicornWedding.png/553px-UnicornWedding.png",
             "Little Star Songstress",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fa/UnicornEvent.png/620px-UnicornEvent.png",
@@ -6021,6 +6121,8 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6e/Ark_Royal.png/483px-Ark_Royal.png",
+            "Wedding",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/74/Ark_RoyalWedding.png/412px-Ark_RoyalWedding.png",
             "Coast Watcher",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c9/Ark_RoyalSummer.png/448px-Ark_RoyalSummer.png",
             "Guardian of the Ball",
@@ -6075,7 +6177,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/39/Illustrious.png/584px-Illustrious.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c0/IllustriousPledge.png/592px-IllustriousPledge.png",
             "Never-Ending Tea Party",
             "https://azurlane.koumakan.jp/w/images/thumb/5/50/IllustriousTea_Party.png/495px-IllustriousTea_Party.png",
@@ -6136,7 +6238,11 @@
             "The Goddess' Day Off",
             "https://azurlane.koumakan.jp/w/images/thumb/7/70/VictoriousCasual.png/465px-VictoriousCasual.png",
             "Guidance of the Spring Goddess",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/26/VictoriousSpring.png/504px-VictoriousSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/26/VictoriousSpring.png/504px-VictoriousSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/26/VictoriousSpring.png/504px-VictoriousSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/08/VictoriousSpringWithoutBG.png/561px-VictoriousSpringWithoutBG.png"
         ]
     },
     "formidable": {
@@ -6186,7 +6292,13 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/69/Formidable.png/527px-Formidable.png",
             "The Lady of the Beach",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/FormidableSummer.png/667px-FormidableSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/FormidableSummer.png/667px-FormidableSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5a/FormidableSummer.png/667px-FormidableSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3a/FormidableSummerWithoutBG.png/643px-FormidableSummerWithoutBG.png",
+            "Timeless Classics",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/be/FormidableParty.png/816px-FormidableParty.png"
         ]
     },
     "glorious": {
@@ -6238,7 +6350,11 @@
             "Glorious School Life",
             "https://azurlane.koumakan.jp/w/images/thumb/6/61/GloriousSchool.png/272px-GloriousSchool.png",
             "Pungent Plum",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/11/GloriousSpring.png/602px-GloriousSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/GloriousSpring.png/602px-GloriousSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/GloriousSpring.png/602px-GloriousSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/22/GloriousSpringWithoutBG.png/867px-GloriousSpringWithoutBG.png"
         ]
     },
     "erebus": {
@@ -6346,7 +6462,7 @@
     "fubuki": {
         "artista": "Alisa",
         "doppiatrice": "M\u30fbA\u30fbO",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Mao_Ichimichi",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/cb/Fubuki_TitleScreen.ogg",
         "nome_nave": "Fubuki",
         "rarit\u00e0": "Elite",
         "tempo": "00:23:00",
@@ -6399,8 +6515,60 @@
             "https://azurlane.koumakan.jp/w/images/thumb/f/fc/FubukiIdol.png/485px-FubukiIdol.png",
             "Stormy Waitress-in-Training!",
             "https://azurlane.koumakan.jp/w/images/thumb/2/2c/FubukiPizza.png/427px-FubukiPizza.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/FubukiPizza.png/427px-FubukiPizza.png",
             "EN",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1a/FubukiPizzaEN.png/427px-FubukiPizzaEN.png"
+        ]
+    },
+    "shirayuki": {
+        "artista": "Alisa",
+        "doppiatrice": "Wakana Kingyo",
+        "link_doppiatrice": "https://hibiki-cast.jp/hibiki_f/minami_wakana/",
+        "nome_nave": "Shirayuki",
+        "rarit\u00e0": "Elite",
+        "tempo": "00:23:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sakura Empire",
+        "abbreviazione": "__[IJN]__",
+        "classe": "Fubuki",
+        "tipo": "__[Destroyer]__",
+        "id": "152",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Swirling Cherry Blossoms Rerun\" . ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Shirayuki",
+            "https://azurlane.koumakan.jp/w/images/a/a2/ShirayukiIcon.png",
+            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a1/Shirayuki.png/600px-Shirayuki.png"
+        ],
+        "efficienza": [
+            "70% \u2192 75%: __DD Guns__",
+            "140% \u2192 160%: __Torpedoes__",
+            "70% \u2192 75%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock All Out Assault \u2160/Torpedo efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 Improve All Out Assault/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Strike Orders Received! \ud83d\udcd2\nIncreases this ship's TRP by 4.0% (10.0%). While there are other ships afloat in your Vanguard: increases your Vanguard's FP and Accuracy by 4.0% (10.0%).",
+            "Torpedo Orders Received! \ud83d\udcd5\nIncreases this ship's DMG dealt to DDs by 4.0% (10.0%). When this ship fires her Torpedoes: 15.0% (30.0%) chance to launch a second wave of torpedoes.",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault: Fubuki Class once every 15 (10) times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a1/Shirayuki.png/733px-Shirayuki.png",
+            "Bunny Breeder",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/41/ShirayukiSchool.png/604px-ShirayukiSchool.png"
         ]
     },
     "ayanami": {
@@ -6451,7 +6619,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/0/0a/Ayanami.png/340px-Ayanami.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/d/df/AyanamiKai.png/464px-AyanamiKai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f4/AyanamiWedding.png/396px-AyanamiWedding.png",
             "Witch in Ambush",
             "https://azurlane.koumakan.jp/w/images/thumb/d/dc/AyanamiHalloween.png/728px-AyanamiHalloween.png",
@@ -6465,14 +6633,26 @@
             "https://azurlane.koumakan.jp/w/images/thumb/f/f7/AyanamiCoCo.png/417px-AyanamiCoCo.png",
             "Covert Ops Cloak",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1a/AyanamiBluray.png/459px-AyanamiBluray.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1a/AyanamiBluray.png/459px-AyanamiBluray.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d9/AyanamiBlurayWithoutBG.png/489px-AyanamiBlurayWithoutBG.png",
             "Low-Key Idol @Confused",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c7/AyanamiIdol.png/527px-AyanamiIdol.png",
             "Pulse of the New Year",
             "https://azurlane.koumakan.jp/w/images/thumb/a/ab/AyanamiNew_Year.png/575px-AyanamiNew_Year.png",
             "Nightfall Raiment",
             "https://azurlane.koumakan.jp/w/images/thumb/1/16/AyanamiParty.png/662px-AyanamiParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/16/AyanamiParty.png/662px-AyanamiParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/24/AyanamiPartyWithoutBG.png/573px-AyanamiPartyWithoutBG.png",
             "Off-Duty Battle Station Gear",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/AyanamiBluray2.png/492px-AyanamiBluray2.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/AyanamiBluray2.png/492px-AyanamiBluray2.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2c/AyanamiBluray2.png/492px-AyanamiBluray2.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/72/AyanamiBluray2WithoutBG.png/573px-AyanamiBluray2WithoutBG.png"
         ]
     },
     "akatsuki": {
@@ -6628,7 +6808,11 @@
             "Thunderous Festival",
             "https://azurlane.koumakan.jp/w/images/thumb/e/ef/IkazuchiFestival.png/533px-IkazuchiFestival.png",
             "Dawn's Thunder",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/4b/IkazuchiParty.png/477px-IkazuchiParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4b/IkazuchiParty.png/477px-IkazuchiParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4b/IkazuchiParty.png/477px-IkazuchiParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d1/IkazuchiPartyWithoutBG.png/495px-IkazuchiPartyWithoutBG.png"
         ]
     },
     "inazuma": {
@@ -6682,7 +6866,11 @@
             "Flash of Fireworks",
             "https://azurlane.koumakan.jp/w/images/thumb/5/55/InazumaFestival.png/533px-InazumaFestival.png",
             "Dusk's Lightning",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/42/InazumaParty.png/489px-InazumaParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/42/InazumaParty.png/489px-InazumaParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/42/InazumaParty.png/489px-InazumaParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/40/InazumaPartyWithoutBG.png/467px-InazumaPartyWithoutBG.png"
         ]
     },
     "shiratsuyu": {
@@ -6781,7 +6969,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c7/Yuudachi.png/515px-Yuudachi.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c9/YuudachiWedding.png/502px-YuudachiWedding.png",
             "Shogun of Snowballs",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b5/YuudachiNew_Year.png/460px-YuudachiNew_Year.png",
@@ -6893,7 +7081,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/97/Yukikaze.png/490px-Yukikaze.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/64/YukikazeWedding.png/498px-YukikazeWedding.png",
             "Sovereign of the Swing",
             "https://azurlane.koumakan.jp/w/images/thumb/2/2e/YukikazeEvent.png/494px-YukikazeEvent.png",
@@ -7002,7 +7190,11 @@
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/9/94/ShiranuiKai.png/499px-ShiranuiKai.png",
             "Mooncake Merchant",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/ShiranuiEvent.png/563px-ShiranuiEvent.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/ShiranuiEvent.png/563px-ShiranuiEvent.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/ShiranuiEvent.png/563px-ShiranuiEvent.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/ShiranuiEventWithoutBG.png/568px-ShiranuiEventWithoutBG.png"
         ]
     },
     "nowaki": {
@@ -7102,7 +7294,13 @@
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7c/HatsuharuKai.png/538px-HatsuharuKai.png",
             "Snow Day Hatsuharu",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/ef/HatsuharuSnow.png/640px-HatsuharuSnow.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ef/HatsuharuSnow.png/640px-HatsuharuSnow.png",
+            "Hatsuharu in the Limelight",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/HatsuharuParty.png/568px-HatsuharuParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/HatsuharuParty.png/568px-HatsuharuParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/72/HatsuharuPartyWithoutBG.png/496px-HatsuharuPartyWithoutBG.png"
         ]
     },
     "wakaba": {
@@ -7245,7 +7443,7 @@
         ],
         "skill": [
             "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
             "    "
@@ -7256,7 +7454,11 @@
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/4/49/AriakeKai.png/606px-AriakeKai.png",
             "Unending Friendship",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/af/AriakeParty.png/450px-AriakeParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/AriakeParty.png/450px-AriakeParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/AriakeParty.png/450px-AriakeParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f9/AriakePartyWithoutBG.png/519px-AriakePartyWithoutBG.png"
         ]
     },
     "yuugure": {
@@ -7297,7 +7499,7 @@
         ],
         "skill": [
             "Carrier Escort \ud83d\udcd8\nAs long as this ship is afloat, decrease all damage taken by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Hatsuharu Class I (II)",
             "    ",
             "    "
@@ -8161,7 +8363,9 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/2/28/Takao.png/528px-Takao.png",
-            "Oath",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/28/Takao.png/528px-Takao.png",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d2/TakaoWedding.png/435px-TakaoWedding.png",
             "Beach Rhapsody",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c6/TakaoSummer.png/418px-TakaoSummer.png",
@@ -8219,7 +8423,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/65/Atago.png/595px-Atago.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/5/58/AtagoWedding.png/668px-AtagoWedding.png",
             "Summer March",
             "https://azurlane.koumakan.jp/w/images/thumb/3/36/AtagoSummer.png/352px-AtagoSummer.png",
@@ -8378,7 +8582,11 @@
             "The Beauties of Nature",
             "https://azurlane.koumakan.jp/w/images/thumb/8/81/KongouFestival.png/461px-KongouFestival.png",
             "Hospital Talent",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/KongouHospital.png/524px-KongouHospital.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/KongouHospital.png/524px-KongouHospital.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/KongouHospital.png/524px-KongouHospital.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/22/KongouHospitalWithoutBG.png/540px-KongouHospitalWithoutBG.png"
         ]
     },
     "hiei": {
@@ -8489,6 +8697,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/a/a9/HarunaSchool.png/442px-HarunaSchool.png",
             "Scarlet Innocence",
             "https://azurlane.koumakan.jp/w/images/thumb/5/53/HarunaParty.png/557px-HarunaParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/53/HarunaParty.png/557px-HarunaParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/HarunaPartyWithoutBG.png/608px-HarunaPartyWithoutBG.png",
             "The Elegant Lotus",
             "https://azurlane.koumakan.jp/w/images/thumb/8/80/HarunaNew_Year.png/573px-HarunaNew_Year.png"
         ]
@@ -8653,7 +8865,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2c/Yamashiro.png/468px-Yamashiro.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/YamashiroKai.png/505px-YamashiroKai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b1/YamashiroWedding.png/494px-YamashiroWedding.png",
             "Summer Offensive?",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6c/YamashiroSummer.png/430px-YamashiroSummer.png",
@@ -8665,6 +8877,12 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2e/YamashiroAtre.png/395px-YamashiroAtre.png",
             "Vacation Offensive!",
             "https://azurlane.koumakan.jp/w/images/thumb/4/43/YamashiroBeach.png/533px-YamashiroBeach.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/43/YamashiroBeach.png/533px-YamashiroBeach.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0c/YamashiroBeachWithoutBG.png/422px-YamashiroBeachWithoutBG.png",
+            "TW",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/85/YamashiroBeachTW.png/533px-YamashiroBeachTW.png",
             "Street Corner Offensive!",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b4/YamashiroSchool.png/499px-YamashiroSchool.png"
         ]
@@ -8772,7 +8990,7 @@
     "nagato": {
         "artista": "Alisa",
         "doppiatrice": "Misaki Kuno",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Misaki_Kuno",
         "nome_nave": "Nagato",
         "rarit\u00e0": "Super Rare",
         "tempo": "04:20:00",
@@ -8817,7 +9035,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/4/46/Nagato.png/836px-Nagato.png",
             "Original Art",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6f/NagatoOriginal.png/472px-NagatoOriginal.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/65/NagatoWedding.png/818px-NagatoWedding.png",
             "Great Fox's Respite",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e0/NagatoSleepy.png/755px-NagatoSleepy.png",
@@ -8830,7 +9048,7 @@
     "mutsu": {
         "artista": "Alisa",
         "doppiatrice": "Tomoyo Kurosawa",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Tomoyo_Kurosawa",
         "nome_nave": "Mutsu",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -9224,7 +9442,9 @@
             "Original Art",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c1/RyuujouOriginal.png/567px-RyuujouOriginal.png",
             "Slacking Samurai",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/RyuujouSleepy.png/620px-RyuujouSleepy.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/RyuujouSleepy.png/620px-RyuujouSleepy.png",
+            "Dragon Hunter: Ryuujou's Rise",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/98/RyuujouSchool.png/546px-RyuujouSchool.png"
         ]
     },
     "akagi": {
@@ -9273,7 +9493,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/0/06/Akagi.png/554px-Akagi.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/65/AkagiPledge.png/347px-AkagiPledge.png",
             "Paradise Amaryllis",
             "https://azurlane.koumakan.jp/w/images/thumb/3/39/AkagiSummer.png/508px-AkagiSummer.png",
@@ -9329,7 +9549,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9a/Kaga.png/513px-Kaga.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/c/cb/KagaWedding.png/360px-KagaWedding.png",
             "Everlasting Killing Stone",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9a/KagaSummer.png/526px-KagaSummer.png",
@@ -9338,7 +9558,11 @@
             "Exalted White Wings",
             "https://azurlane.koumakan.jp/w/images/thumb/6/61/KagaParty.png/464px-KagaParty.png",
             "Gentle Blossom's Sigh",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/94/KagaNew_Year2.png/481px-KagaNew_Year2.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/9/94/KagaNew_Year2.png/481px-KagaNew_Year2.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/94/KagaNew_Year2.png/481px-KagaNew_Year2.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7d/KagaNew_Year2WithoutBG.png/684px-KagaNew_Year2WithoutBG.png"
         ]
     },
     "souryuu": {
@@ -9551,6 +9775,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/3/34/ZuikakuOriginal.png/537px-ZuikakuOriginal.png",
             "Ceremonial Crane",
             "https://azurlane.koumakan.jp/w/images/thumb/2/29/ZuikakuFestival.png/639px-ZuikakuFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/29/ZuikakuFestival.png/639px-ZuikakuFestival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1c/ZuikakuFestivalWithoutBG.png/550px-ZuikakuFestivalWithoutBG.png",
             "The Wind's True Name",
             "https://azurlane.koumakan.jp/w/images/thumb/5/59/ZuikakuRaceQueen.png/597px-ZuikakuRaceQueen.png"
         ]
@@ -9602,6 +9830,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/44/Taihou.png/669px-Taihou.png",
             "Forbidden Fruit",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/TaihouParty.png/437px-TaihouParty.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8a/TaihouParty.png/437px-TaihouParty.png",
             "Phoenix's Spring Song",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9e/TaihouSpring.png/481px-TaihouSpring.png",
@@ -9705,7 +9935,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1f/Akashi.png/408px-Akashi.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/1/13/AkashiWedding.png/483px-AkashiWedding.png",
             "Akashi's in the Red, Nya!",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fb/AkashiNew_Year.png/449px-AkashiNew_Year.png",
@@ -9817,7 +10047,7 @@
             "https://azurlane.koumakan.jp/w/images/thumb/0/07/Z23.png/460px-Z23.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f4/Z23Kai.png/587px-Z23Kai.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Z23Wedding.png/573px-Z23Wedding.png",
             "Philosophy Sensei",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e1/Z23Bilibili.png/364px-Z23Bilibili.png",
@@ -9838,7 +10068,7 @@
     "z25": {
         "artista": "Alisa",
         "doppiatrice": "Rika Abe",
-        "link_doppiatrice": "https://www.imdb.com/name/nm11062264/",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/1/16/Z25_TitleScreen.ogg",
         "nome_nave": "Z25",
         "rarit\u00e0": "Elite",
         "tempo": "00:33:00",
@@ -10177,9 +10407,11 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/67/Prinz_Eugen.png/660px-Prinz_Eugen.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3a/Prinz_EugenWedding.png/452px-Prinz_EugenWedding.png",
             "Unfading Smile",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f9/Prinz_EugenSummer.png/573px-Prinz_EugenSummer.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f9/Prinz_EugenSummer.png/573px-Prinz_EugenSummer.png",
             "Old Version",
             "https://azurlane.koumakan.jp/w/images/thumb/8/85/Prinz_EugenSummerOld.png/573px-Prinz_EugenSummerOld.png",
@@ -10502,7 +10734,11 @@
             "Iron Blood Snowstorm",
             "https://azurlane.koumakan.jp/w/images/thumb/1/10/TirpitzParty.png/556px-TirpitzParty.png",
             "Seasonal Pine and the Frost Flower",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/TirpitzNew_Year.png/529px-TirpitzNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/TirpitzNew_Year.png/529px-TirpitzNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/TirpitzNew_Year.png/529px-TirpitzNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e8/TirpitzNew_YearWithoutBG.png/765px-TirpitzNew_YearWithoutBG.png"
         ]
     },
     "graf zeppelin": {
@@ -10799,7 +11035,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/56/Yat_Sen.png/385px-Yat_Sen.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/6/62/Yat_SenWedding.png/620px-Yat_SenWedding.png"
         ]
     },
@@ -10854,6 +11090,8 @@
             "Summer Hunger",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/Ning_HaiSummer.png/439px-Ning_HaiSummer.png",
             "Moon Palace Rabbit",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/13/Ning_HaiFestival.png/558px-Ning_HaiFestival.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/13/Ning_HaiFestival.png/558px-Ning_HaiFestival.png",
             "Dragon Sisters! -N",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b7/Ning_HaiIdol.png/448px-Ning_HaiIdol.png",
@@ -10917,6 +11155,8 @@
             "https://azurlane.koumakan.jp/w/images/thumb/7/71/Ping_HaiSummer.png/425px-Ping_HaiSummer.png",
             "Osmanthus Moon Rabbit",
             "https://azurlane.koumakan.jp/w/images/thumb/b/bf/Ping_HaiFestival.png/578px-Ping_HaiFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/bf/Ping_HaiFestival.png/578px-Ping_HaiFestival.png",
             "Dragon Sisters! -P",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Ping_HaiIdol.png/456px-Ping_HaiIdol.png",
             "Great Gourmet Expedition",
@@ -10974,7 +11214,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1f/Avrora.png/532px-Avrora.png",
             "Shackled Saule",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/09/AvroraPrison.png/396px-AvroraPrison.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/AvroraPrison.png/396px-AvroraPrison.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/AvroraPrison.png/396px-AvroraPrison.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/21/AvroraPrisonWithoutBG.png/768px-AvroraPrisonWithoutBG.png"
         ]
     },
     "bailey": {
@@ -11225,6 +11469,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/3/3e/Z46Sport.png/530px-Z46Sport.png",
             "Star-Lit\u2605Chocolate",
             "https://azurlane.koumakan.jp/w/images/thumb/8/82/Z46Idol.png/470px-Z46Idol.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/82/Z46Idol.png/470px-Z46Idol.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5e/Z46IdolWithoutBG.png/590px-Z46IdolWithoutBG.png",
             "Jianzhi Fantasia",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Z46Spring.png/467px-Z46Spring.png"
         ]
@@ -11731,7 +11979,7 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4b/Kawakaze.png/584px-Kawakaze.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/7/78/KawakazeWedding.png/476px-KawakazeWedding.png",
             "Monochromatic Interlude",
             "https://azurlane.koumakan.jp/w/images/thumb/0/07/KawakazeEvent.png/584px-KawakazeEvent.png"
@@ -11790,7 +12038,7 @@
     "niizuki": {
         "artista": "Alisa",
         "doppiatrice": "Rumi Ookubo",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Rumi_%C5%8Ckubo",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/0/08/Niizuki_TitleScreen.ogg",
         "nome_nave": "Niizuki",
         "rarit\u00e0": "Elite",
         "tempo": "Drop Only",
@@ -11882,7 +12130,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4f/Harutsuki.png/521px-Harutsuki.png",
             "A Dance for the Coming Spring",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/HarutsukiNew_Year.png/637px-HarutsukiNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/HarutsukiNew_Year.png/637px-HarutsukiNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e9/HarutsukiNew_Year.png/637px-HarutsukiNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/69/HarutsukiNew_YearWithoutBG.png/787px-HarutsukiNew_YearWithoutBG.png"
         ]
     },
     "yoizuki": {
@@ -12074,7 +12326,7 @@
         "skill": [
             "The Nick \ud83d\udcd8\nWhen firing main gun, 5% chance to increase own Evasion stat by 16% (40%) and decrease air damage taken by 16% (40%) for 8 seconds.",
             "Full Firepower \ud83d\udcd5\nEvery 20 seconds, 30% (60%) chance to increase own Firepower by 20% (40%) for 10 seconds.",
-            "(Retrofit) Battle of Kula Gulf \ud83d\udcd8\nEvery 20 seconds, 40% (70%) chance to increase own Firepower, Torpedo, and Reload by 20% (40%) for 10 seconds. Once per battle, if an escort ship's Health falls below 20%, decrease the damage it takes by 5% (15%); If the ship is Helena or Lena, additionally heal 8% of their max Health.",
+            "(Retrofit) Battle of Kula Gulf \ud83d\udcd8\nEvery 20 seconds, 40% (70%) chance to increase own Firepower, Torpedo, and Reload by 20% (40%) for 10 seconds. Once per battle, if an escort ship's Health falls below 20%, decrease the damage it takes by 5% (15%); If the ship is Helena, Lena, or Helena META, additionally heal 8% of their max Health.",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) shots from the main battery, trigger Full Barrage - Fletcher Class I (II)",
             "    "
         ],
@@ -12194,7 +12446,11 @@
             "Manjuu Mischief",
             "https://azurlane.koumakan.jp/w/images/thumb/d/de/HonoluluChristmas.png/482px-HonoluluChristmas.png",
             "Among the Stalls",
-            "https://azurlane.koumakan.jp/w/images/thumb/8/83/HonoluluFestival.png/591px-HonoluluFestival.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/8/83/HonoluluFestival.png/591px-HonoluluFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/83/HonoluluFestival.png/591px-HonoluluFestival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/24/HonoluluFestivalWithoutBG.png/633px-HonoluluFestivalWithoutBG.png"
         ]
     },
     "st. louis": {
@@ -12218,7 +12474,7 @@
             "https://azurlane.koumakan.jp/St._Louis",
             "https://azurlane.koumakan.jp/w/images/6/6e/St._LouisIcon.png",
             "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/44/St._Louis.png/410px-St._Louis.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/44/St._Louis.png/397px-St._Louis.png"
         ],
         "efficienza": [
             "105% \u2192 135%: __CL Guns__",
@@ -12242,8 +12498,10 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/44/St._Louis.png/376px-St._Louis.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/44/St._Louis.png/364px-St._Louis.png",
             "Blue and White Pottery",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/St._LouisSpring.png/434px-St._LouisSpring.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/2/2b/St._LouisSpring.png/434px-St._LouisSpring.png",
             "Spirits in the Snow",
             "https://azurlane.koumakan.jp/w/images/thumb/f/ff/St._LouisNew_Year.png/463px-St._LouisNew_Year.png",
@@ -12506,7 +12764,7 @@
     "urakaze": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Minami Tanaka",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Minami_Tanaka",
         "nome_nave": "Urakaze",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -12550,13 +12808,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/Urakaze.png/427px-Urakaze.png",
             "Seasonal Shogun",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/UrakazeChristmas.png/588px-UrakazeChristmas.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/UrakazeChristmas.png/588px-UrakazeChristmas.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/UrakazeChristmas.png/588px-UrakazeChristmas.png",
+            "Sengoku\u2606Shredder!",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/46/UrakazeSchool.png/569px-UrakazeSchool.png"
         ]
     },
     "isokaze": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Anju Inami",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Anju_Inami",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/b/b2/Isokaze_TitleScreen.ogg",
         "nome_nave": "Isokaze",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -12603,62 +12865,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2f/IsokazeNew_Year.png/568px-IsokazeNew_Year.png"
         ]
     },
-    "hamakaze": {
-        "artista": "AO\u51f9\u51f9\u51f9",
-        "doppiatrice": "Natsumi Hioka",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Natsumi_Hioka",
-        "nome_nave": "Hamakaze",
-        "rarit\u00e0": "Rare",
-        "tempo": "00:27:00",
-        "retrofit": "disponibile",
-        "nazionalit\u00e0": "Sakura Empire",
-        "abbreviazione": "__[IJN]__",
-        "classe": "Kagerou",
-        "tipo": "__[Destroyer]__",
-        "id": "318",
-        "colore_embed": 8900346,
-        "acquisizione": "Event Build: Available in Limited Construction during \"The Return of the War God\" . Build: Light | ",
-        "limited": "s\u00ec",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Hamakaze",
-            "https://azurlane.koumakan.jp/w/images/0/0e/HamakazeIcon.png",
-            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/a0/Hamakaze.png/600px-Hamakaze.png"
-        ],
-        "efficienza": [
-            "70% \u2192 75% \u2192 80%: __DD Guns__",
-            "130% \u2192 150% \u2192 165%: __Torpedoes__",
-            "70% \u2192 75% \u2192 75%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Gains Full Barrage I / Torpedo Efficiency +5%",
-            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
-            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Rescue Operations \ud83d\udcd8\nWhen an allied ship's HP falls to 0: 30.0% (60.0%) chance to heal self by 3.5% (8.0%) of own max HP and other allied ships' HP by 1.2% (3.0%) of their max HP.",
-            "(Retrofit) Emergency Maneuvers \ud83d\udcd8\nEvery 20 seconds, 15% (30%) chance to evade all incoming attacks for 6 seconds.",
-            "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Kagerou Class I (II)",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/a0/Hamakaze.png/576px-Hamakaze.png",
-            "Retrofit",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/74/HamakazeKai.png/492px-HamakazeKai.png",
-            "The Honors Student",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/75/HamakazeSchool.png/576px-HamakazeSchool.png"
-        ]
-    },
     "tanikaze": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Natsumi Hioka",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Natsumi_Hioka",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/3/3d/Tanikaze_TitleScreen.ogg",
         "nome_nave": "Tanikaze",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -12753,14 +12963,18 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/cf/Mikasa.png/629px-Mikasa.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1f/MikasaWedding.png/563px-MikasaWedding.png",
             "Style of the Sakura Capital",
             "https://azurlane.koumakan.jp/w/images/thumb/d/da/MikasaSchool.png/465px-MikasaSchool.png",
             "Blossom-Viewing Season",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1d/MikasaNew_Year.png/481px-MikasaNew_Year.png",
             "Reverence for Rest and Relaxation",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/01/MikasaCasual.png/516px-MikasaCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/01/MikasaCasual.png/516px-MikasaCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/01/MikasaCasual.png/516px-MikasaCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6e/MikasaCasualWithoutBG.png/811px-MikasaCasualWithoutBG.png"
         ]
     },
     "agano": {
@@ -12868,13 +13082,15 @@
             "Xanadu's Eventide",
             "https://azurlane.koumakan.jp/w/images/thumb/2/2d/NoshiroParty.png/753px-NoshiroParty.png",
             "Fragrance of the Eastern Snow",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/da/NoshiroSpring.png/995px-NoshiroSpring.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/da/NoshiroSpring.png/995px-NoshiroSpring.png"
         ]
     },
     "matchless": {
         "artista": "Alisa",
         "doppiatrice": "Yumiri Hanamori",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yumiri_Hanamori",
         "nome_nave": "Matchless",
         "rarit\u00e0": "Elite",
         "tempo": "00:29:00",
@@ -12924,7 +13140,7 @@
     "musketeer": {
         "artista": "Alisa",
         "doppiatrice": "Yumiri Hanamori",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yumiri_Hanamori",
         "nome_nave": "Musketeer",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -13118,7 +13334,9 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/98/Montpelier.png/492px-Montpelier.png",
             "Flower of the Snowy Night",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/39/MontpelierNew_Year.png/402px-MontpelierNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/MontpelierNew_Year.png/402px-MontpelierNew_Year.png",
+            "Persephone's Throne",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/40/MontpelierParty.png/530px-MontpelierParty.png"
         ]
     },
     "denver": {
@@ -13218,7 +13436,11 @@
             "The Transfer Student Underneath the Dancing Petals",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f4/AsashioSchool.png/368px-AsashioSchool.png",
             "Snow-Dusted Lynx Tips",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d9/AsashioNew_Year.png/608px-AsashioNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d9/AsashioNew_Year.png/608px-AsashioNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d9/AsashioNew_Year.png/608px-AsashioNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f1/AsashioNew_YearWithoutBG.png/849px-AsashioNew_YearWithoutBG.png"
         ]
     },
     "ooshio": {
@@ -13269,6 +13491,8 @@
             "https://azurlane.koumakan.jp/w/images/thumb/e/e5/Ooshio.png/466px-Ooshio.png",
             "The Reindeer's Present",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fc/OoshioChristmas.png/503px-OoshioChristmas.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fc/OoshioChristmas.png/503px-OoshioChristmas.png",
             "Woozy Party",
             "https://azurlane.koumakan.jp/w/images/thumb/4/48/OoshioParty.png/409px-OoshioParty.png",
             "Bringer of Fortunes",
@@ -13277,8 +13501,8 @@
     },
     "michishio": {
         "artista": "Alic",
-        "doppiatrice": "Tamari Hinata",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Tamari Hinata",
+        "link_doppiatrice": "https://www.imdb.com/name/nm9008630/",
         "nome_nave": "Michishio",
         "rarit\u00e0": "Rare",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -13569,10 +13793,16 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/2a/I-19.png/785px-I-19.png",
             "Departure's Gentle Breeze",
             "https://azurlane.koumakan.jp/w/images/thumb/2/20/I-19School.png/396px-I-19School.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/20/I-19School.png/396px-I-19School.png",
             "Pillowy Paradise",
             "https://azurlane.koumakan.jp/w/images/thumb/a/aa/I-19Sleepy.png/554px-I-19Sleepy.png",
             "Blossoming Bunny",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/df/I-19Bunny.png/484px-I-19Bunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/df/I-19Bunny.png/484px-I-19Bunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/df/I-19Bunny.png/484px-I-19Bunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ea/I-19BunnyWithoutBG.png/578px-I-19BunnyWithoutBG.png"
         ]
     },
     "i-26": {
@@ -13624,7 +13854,11 @@
             "Deep-Sea Rabbit",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4a/I-26School.png/626px-I-26School.png",
             "Shortly Before the Fireworks",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f3/I-26Festival.png/490px-I-26Festival.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f3/I-26Festival.png/490px-I-26Festival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f3/I-26Festival.png/490px-I-26Festival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/76/I-26FestivalWithoutBG.png/494px-I-26FestivalWithoutBG.png"
         ]
     },
     "i-58": {
@@ -13822,7 +14056,11 @@
             "Rookie Rider",
             "https://azurlane.koumakan.jp/w/images/thumb/2/28/U-47Bike.png/385px-U-47Bike.png",
             "Eigenen Raum",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/U-47Party.png/583px-U-47Party.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/U-47Party.png/583px-U-47Party.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/U-47Party.png/583px-U-47Party.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4a/U-47PartyWithoutBG.png/587px-U-47PartyWithoutBG.png"
         ]
     },
     "u-557": {
@@ -14123,6 +14361,8 @@
             "https://azurlane.koumakan.jp/w/images/thumb/5/53/%C3%89mile_Bertin.png/571px-%C3%89mile_Bertin.png",
             "Retrofit",
             "https://azurlane.koumakan.jp/w/images/thumb/8/82/%C3%89mile_BertinKai.png/623px-%C3%89mile_BertinKai.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/82/%C3%89mile_BertinKai.png/623px-%C3%89mile_BertinKai.png",
             "C\u00f4te d'Azur",
             "https://azurlane.koumakan.jp/w/images/thumb/4/4f/%C3%89mile_BertinSummer.png/722px-%C3%89mile_BertinSummer.png",
             "Maid Fantastique",
@@ -14173,6 +14413,8 @@
             "    "
         ],
         "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Surcouf.png/499px-Surcouf.png",
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Surcouf.png/499px-Surcouf.png",
             "Shopping Time!",
@@ -14543,8 +14785,16 @@
             "https://azurlane.koumakan.jp/w/images/thumb/c/c6/EssexCasual.png/550px-EssexCasual.png",
             "Craft Fairytail",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7b/EssexParty.png/332px-EssexParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7b/EssexParty.png/332px-EssexParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/44/EssexPartyWithoutBG.png/531px-EssexPartyWithoutBG.png",
             "Brush and Ink",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/79/EssexSpring.png/545px-EssexSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/79/EssexSpring.png/545px-EssexSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/79/EssexSpring.png/545px-EssexSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/68/EssexSpringWithoutBG.png/545px-EssexSpringWithoutBG.png"
         ]
     },
     "albacore": {
@@ -14594,7 +14844,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e1/Albacore.png/516px-Albacore.png",
             "Beneath the Black Dress",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/68/AlbacoreParty.png/611px-AlbacoreParty.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/68/AlbacoreParty.png/611px-AlbacoreParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/68/AlbacoreParty.png/611px-AlbacoreParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f6/AlbacorePartyWithoutBG.png/751px-AlbacorePartyWithoutBG.png"
         ]
     },
     "le t\u00e9m\u00e9raire": {
@@ -14698,7 +14952,13 @@
             "Casual Vacation",
             "https://azurlane.koumakan.jp/w/images/thumb/0/00/MemphisCasual.png/506px-MemphisCasual.png",
             "Mystical Night",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/26/MemphisHalloween.png/532px-MemphisHalloween.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/26/MemphisHalloween.png/532px-MemphisHalloween.png",
+            "A Breath of Fresh Air",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/87/MemphisSchool.png/553px-MemphisSchool.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/87/MemphisSchool.png/553px-MemphisSchool.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0c/MemphisSchoolWithoutBG.png/430px-MemphisSchoolWithoutBG.png"
         ]
     },
     "newcastle": {
@@ -14756,7 +15016,7 @@
     "hobby": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Miyuki Kobori",
-        "link_doppiatrice": "https://www.imdb.com/name/nm5842715/",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/9/9d/Hobby_TitleScreen.ogg",
         "nome_nave": "Hobby",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -14806,7 +15066,7 @@
     "kalk": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Miyuki Kobori",
-        "link_doppiatrice": "https://www.imdb.com/name/nm5842715/",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/9/9c/Kalk_TitleScreen.ogg",
         "nome_nave": "Kalk",
         "rarit\u00e0": "Rare",
         "tempo": "00:27:00",
@@ -14899,14 +15159,24 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Minneapolis.png/539px-Minneapolis.png",
-            "Oath",
+            "Wedding",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/62/MinneapolisWedding.png/500px-MinneapolisWedding.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/62/MinneapolisWedding.png/500px-MinneapolisWedding.png",
             "Wild Huntress Schoolgirl",
             "https://azurlane.koumakan.jp/w/images/thumb/e/ef/MinneapolisSchool.png/560px-MinneapolisSchool.png",
             "eXtreme Games",
             "https://azurlane.koumakan.jp/w/images/thumb/e/ee/MinneapolisSport.png/551px-MinneapolisSport.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ee/MinneapolisSport.png/551px-MinneapolisSport.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/MinneapolisSportWithoutBG.png/425px-MinneapolisSportWithoutBG.png",
             "Holy Night Ride",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MinneapolisChristmas.png/434px-MinneapolisChristmas.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MinneapolisChristmas.png/434px-MinneapolisChristmas.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MinneapolisChristmas.png/434px-MinneapolisChristmas.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/89/MinneapolisChristmasWithoutBG.png/593px-MinneapolisChristmasWithoutBG.png"
         ]
     },
     "hazelwood": {
@@ -14946,7 +15216,7 @@
             " "
         ],
         "skill": [
-            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, trigger Full Barrage - Fletcher Class I (II)",
             "    ",
             "    ",
@@ -15242,8 +15512,8 @@
             " "
         ],
         "skill": [
-            "Mark of Sirius \ud83d\udcd2\nIncreases Air Power of all CVs/CVLs in the fleet by 1% (10%) and increases their hit rate against Destroyers, Light Cruisers, Heavy Cruisers by 1% (10%). During battle, increases own Firepower, Torpedo stat and Reload by 1.5% (7%) per CV/CVL in the same fleet (maximum is 21%).",
-            "Cover Fire \ud83d\udcd5\nIncreases own Firepower by 10% (20%).",
+            "Mark of Sirius \ud83d\udcd2\nIncrease AVI by 1.0% (10.0%) for all CVs/CVLs in your fleet, and increase their hit rate against Destroyers, Light Cruisers, Heavy Cruisers by 1.0% (10.0%). Increase this ship's FP, TRP, and RLD by 1.5% (7.0%) for each CV/CVL in your fleet.",
+            "Cover Fire \ud83d\udcd5\nIncrease this ship's FP by 10.0% (20.0%).",
             "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main gun is fired, trigger Full Barrage - Sirius I (II)",
             "    ",
             "    "
@@ -15349,7 +15619,7 @@
         ],
         "skill": [
             "Aerial Support \ud83d\udcd5\nWhen enemy planes are shot down within own AA range: increases own Firepower and Anti-Air by 5% (25%) for 8 seconds. If skill is activated again during said 8 seconds, refreshes the buff duration.",
-            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "(Retrofit) Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \ud83d\udcd5\nEvery 24 (16) times the main gun is fired, triggers Full Barrage - Ceres-class I (II).",
             "    ",
             "    "
@@ -15457,6 +15727,8 @@
             "    "
         ],
         "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Mullany.png/516px-Mullany.png",
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e3/Mullany.png/516px-Mullany.png",
             "Eastern Etiquette",
@@ -15567,8 +15839,16 @@
             "https://azurlane.koumakan.jp/w/images/thumb/e/e5/IndependenceSchool.png/455px-IndependenceSchool.png",
             "The Independent Line",
             "https://azurlane.koumakan.jp/w/images/thumb/9/92/IndependenceParty.png/474px-IndependenceParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/92/IndependenceParty.png/474px-IndependenceParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/IndependencePartyWithoutBG.png/377px-IndependencePartyWithoutBG.png",
             "Liberty and Leisure",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/60/IndependenceCasual.png/612px-IndependenceCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/60/IndependenceCasual.png/612px-IndependenceCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/60/IndependenceCasual.png/612px-IndependenceCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7d/IndependenceCasualWithoutBG.png/729px-IndependenceCasualWithoutBG.png"
         ]
     },
     "shangri-la": {
@@ -15620,7 +15900,11 @@
             "Utopia's Collector",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8d/Shangri-LaCasual.png/548px-Shangri-LaCasual.png",
             "Explorer of the Lost World",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/ef/Shangri-LaMisc.png/598px-Shangri-LaMisc.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ef/Shangri-LaMisc.png/598px-Shangri-LaMisc.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ef/Shangri-LaMisc.png/598px-Shangri-LaMisc.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Shangri-LaMiscWithoutBG.png/598px-Shangri-LaMiscWithoutBG.png"
         ]
     },
     "z2": {
@@ -15720,7 +16004,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Bunker_Hill.png/776px-Bunker_Hill.png",
             "Mission Relaxation",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/11/Bunker_HillCasual.png/978px-Bunker_HillCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/Bunker_HillCasual.png/978px-Bunker_HillCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/Bunker_HillCasual.png/978px-Bunker_HillCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/57/Bunker_HillCasualWithoutBG.png/973px-Bunker_HillCasualWithoutBG.png"
         ]
     },
     "i-13": {
@@ -16114,7 +16402,7 @@
     "echo": {
         "artista": "AO\u51f9\u51f9\u51f9",
         "doppiatrice": "Mizuki Yuina",
-        "link_doppiatrice": "https://www.imdb.com/name/nm9806312/",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/2/29/Echo_TitleScreen.ogg",
         "nome_nave": "Echo",
         "rarit\u00e0": "Rare",
         "tempo": "00:28:00",
@@ -16354,7 +16642,11 @@
             "Beauty of White Jade",
             "https://azurlane.koumakan.jp/w/images/thumb/3/30/SwiftsureSpring.png/547px-SwiftsureSpring.png",
             "Midsummer Special Service",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/SwiftsureSummer.png/708px-SwiftsureSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/SwiftsureSummer.png/708px-SwiftsureSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cc/SwiftsureSummer.png/708px-SwiftsureSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/88/SwiftsureSummerWithoutBG.png/425px-SwiftsureSummerWithoutBG.png"
         ]
     },
     "le malin": {
@@ -16508,7 +16800,11 @@
             "Coral Reef Bunny",
             "https://azurlane.koumakan.jp/w/images/thumb/2/27/I-25School.png/413px-I-25School.png",
             "Sweet Wine of Celebration",
-            "https://azurlane.koumakan.jp/w/images/thumb/8/82/I-25Spring.png/563px-I-25Spring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/8/82/I-25Spring.png/563px-I-25Spring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/82/I-25Spring.png/563px-I-25Spring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f6/I-25SpringWithoutBG.png/640px-I-25SpringWithoutBG.png"
         ]
     },
     "i-56": {
@@ -16846,8 +17142,8 @@
             " "
         ],
         "skill": [
-            "Hellcat's Roar \ud83d\udcd5\nIf equipped with Grumman F6F Hellcat: increases Fighter efficiency by 10% (30%); also 45% (75%) chance to launch additional F6F planes when launching an airstrike.",
-            "One For All \ud83d\udcd2\nIf sortied as non-flagship: increases Reload for other CV/CVLs by 5% (15%), and increases Anti-Air for main fleet by 20 (50) when alive.",
+            "Hellcat's Roar \ud83d\udcd5\nIf equipped with an F6F Hellcat, increase this ship's fighter efficiency by 10.0% (30.0%).\nWhen this ship launches an airstrike, 45.0% (75.0%) to launch an aerial barrage of F6F Hellcats (barrage damage scales with skill level).",
+            "One For All \ud83d\udcd2\nWhen sortied in a non-flagship spot, if this ship is afloat:\nIncrease RLD by 5.0% (15.0%) for all other CVs and CVLs in your fleet.\nIncrease AA by 20.0 (50.0) for each main fleet ship in your fleet. (This AA buff is a flat stat increase, not a percentage buff.)",
             "    ",
             "    ",
             "    "
@@ -16956,7 +17252,11 @@
             "Rider of Red",
             "https://azurlane.koumakan.jp/w/images/thumb/a/ab/BirminghamCasual.png/448px-BirminghamCasual.png",
             "Fruitful Snow of an Auspicious Year",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/35/BirminghamSpring.png/522px-BirminghamSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/BirminghamSpring.png/522px-BirminghamSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/BirminghamSpring.png/522px-BirminghamSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/db/BirminghamSpringWithoutBG.png/604px-BirminghamSpringWithoutBG.png"
         ]
     },
     "aylwin": {
@@ -17006,6 +17306,10 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/68/Aylwin.png/379px-Aylwin.png",
             "Sunday Aquarium Visit",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/AylwinCasualWithoutBG.png/413px-AylwinCasualWithoutBG.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/AylwinCasualWithoutBG.png/413px-AylwinCasualWithoutBG.png",
+            "Without BG",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d0/AylwinCasualWithoutBG.png/413px-AylwinCasualWithoutBG.png"
         ]
     },
@@ -17110,7 +17414,9 @@
             "White Princess",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9a/Black_PrinceSummer.png/484px-Black_PrinceSummer.png",
             "Fair Maid Spring",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/53/Black_PrinceSpring.png/761px-Black_PrinceSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/53/Black_PrinceSpring.png/761px-Black_PrinceSpring.png",
+            "Pop the Cork",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/35/Black_PrinceParty.png/542px-Black_PrinceParty.png"
         ]
     },
     "stanly": {
@@ -17209,6 +17515,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/3/36/Littorio.png/641px-Littorio.png",
             "The Glory of Naples",
             "https://azurlane.koumakan.jp/w/images/thumb/3/39/LittorioSummer.png/630px-LittorioSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/LittorioSummer.png/630px-LittorioSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0d/LittorioSummerWithoutBG.png/722px-LittorioSummerWithoutBG.png",
             "Calabria Aurea",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1d/LittorioParty.png/788px-LittorioParty.png"
         ]
@@ -17216,7 +17526,7 @@
     "conte di cavour": {
         "artista": "Alisa",
         "doppiatrice": "Ayaka Shimizu",
-        "link_doppiatrice": "https://www.imdb.com/name/nm3646875/",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/8/8c/Conte_di_Cavour_TitleScreen.ogg",
         "nome_nave": "Conte di Cavour",
         "rarit\u00e0": "Rare",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -17260,7 +17570,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/58/Conte_di_Cavour.png/612px-Conte_di_Cavour.png",
             "Fierce Beachside Battle",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Conte_di_CavourSummer.png/662px-Conte_di_CavourSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Conte_di_CavourSummer.png/662px-Conte_di_CavourSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/Conte_di_CavourSummer.png/662px-Conte_di_CavourSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/38/Conte_di_CavourSummerWithoutBG.png/842px-Conte_di_CavourSummerWithoutBG.png"
         ]
     },
     "giulio cesare": {
@@ -17312,7 +17626,11 @@
             "Fitness Master",
             "https://azurlane.koumakan.jp/w/images/thumb/2/21/Giulio_CesareCasual.png/624px-Giulio_CesareCasual.png",
             "High Tide Under the Sunlight",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/da/Giulio_CesareSummer.png/658px-Giulio_CesareSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/da/Giulio_CesareSummer.png/658px-Giulio_CesareSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/da/Giulio_CesareSummer.png/658px-Giulio_CesareSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/70/Giulio_CesareSummerWithoutBG.png/733px-Giulio_CesareSummerWithoutBG.png"
         ]
     },
     "zara": {
@@ -17367,7 +17685,7 @@
     },
     "trento": {
         "artista": "",
-        "doppiatrice": "Sakura Nakamura",
+        "doppiatrice": "Play Sakura Nakamura",
         "link_doppiatrice": " ",
         "nome_nave": "Trento",
         "rarit\u00e0": "Rare",
@@ -17412,7 +17730,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/a/ae/Trento.png/667px-Trento.png",
             "Summer's Hotness?",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/TrentoSummer.png/715px-TrentoSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/TrentoSummer.png/715px-TrentoSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2b/TrentoSummer.png/715px-TrentoSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/26/TrentoSummerWithoutBG.png/838px-TrentoSummerWithoutBG.png"
         ]
     },
     "carabiniere": {
@@ -17515,10 +17837,18 @@
             "https://azurlane.koumakan.jp/w/images/thumb/1/1c/U-110School.png/482px-U-110School.png",
             "A Cute, Sharky Reverie",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c4/U-110Casual.png/461px-U-110Casual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/U-110Casual.png/461px-U-110Casual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/U-110CasualWithoutBG.png/611px-U-110CasualWithoutBG.png",
             "Garnished Supershark",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a3/U-110Idol.png/584px-U-110Idol.png",
             "New Year, Small Shark",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/U-110New_Year.png/567px-U-110New_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/U-110New_Year.png/567px-U-110New_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/dd/U-110New_Year.png/567px-U-110New_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/36/U-110New_YearWithoutBG.png/799px-U-110New_YearWithoutBG.png"
         ]
     },
     "smalley": {
@@ -17868,7 +18198,7 @@
         "nome_nave": "Kasumi",
         "rarit\u00e0": "Elite",
         "tempo": "00:28:00",
-        "retrofit": "non disponibile",
+        "retrofit": "disponibile",
         "nazionalit\u00e0": "Sakura Empire",
         "abbreviazione": "__[IJN]__",
         "classe": "Asashio",
@@ -17885,9 +18215,9 @@
             "https://azurlane.koumakan.jp/w/images/thumb/6/6b/Kasumi.png/600px-Kasumi.png"
         ],
         "efficienza": [
-            "75% \u2192 80%: __DD Guns__",
-            "130% \u2192 150%: __Torpedoes__",
-            "70% \u2192 75%: __Anti-Air Guns__"
+            "75% \u2192 80% \u2192 85%: __DD Guns__",
+            "130% \u2192 150% \u2192 155%: __Torpedoes__",
+            "70% \u2192 75% \u2192 75%: __Anti-Air Guns__"
         ],
         "rank": [
             "\u2022 Unlock All Out Assault \u2160/Torpedo efficiency +5%",
@@ -17898,17 +18228,21 @@
             " "
         ],
         "skill": [
-            "Foo and Friends \ud83d\udcd5\nAt the start of the battle, if your vanguard has three ships, increase the TRP stat for all Sakura Empire ships in your vanguard by 5.0% (15.0%).",
+            "Foo and Friends \ud83d\udcd5\nAt the start of the battle, if Kasumi is sortied with 2 or more friends in your Vanguard: increases the TRP of your Sakura Empire Vanguard ships by 5.0% (15.0%). Foo is a friend but Foo does not sortie if one of the friends is Shiranui.",
+            "(Retrofit) Foo and Friends and Kasumi Too \ud83d\udcd5\nAt the start of the battle, if Kasumi is sortied with 2 or more friends in your Vanguard: increases the TRP of your Sakura Empire Vanguard ships by 5.0% (15.0%), decreases this ship's DMG taken by 5.0%, and every 20s after the start of the battle: 40.0% (70.0%) chance to fire a special barrage. Foo is a friend who always sorties with Kasumi. (Replaces \"Foo and Friends\")",
             "Emergency Maneuvers \ud83d\udcd8\nEvery 20 seconds after the start of the battle, 15.0% (30.0%) for this ship to evade all enemy attacks for 6 seconds.",
-            "All Out Assault \ud83d\udcd5\nActivates All Out Assault \u2161: Asashio Class once every 10 times the Main Guns are fired.",
-            "    ",
+            "All Out Assault \ud83d\udcd5\nActivates All Out Assault: Asashio Class once every (15) 10 times the Main Guns are fired.",
             "    "
         ],
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6b/Kasumi.png/731px-Kasumi.png",
+            "Retrofit",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ad/KasumiKai.png/587px-KasumiKai.png",
             "New Year's Comfort",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/38/KasumiNew_Year.png/661px-KasumiNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/38/KasumiNew_Year.png/661px-KasumiNew_Year.png",
+            "At School with Foo",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/65/KasumiSchool.png/736px-KasumiSchool.png"
         ]
     },
     "suruga": {
@@ -18109,16 +18443,24 @@
             "https://azurlane.koumakan.jp/w/images/thumb/0/04/Biloxi.png/594px-Biloxi.png",
             "Dapper Gangstress",
             "https://azurlane.koumakan.jp/w/images/thumb/5/5f/BiloxiSpring.png/553px-BiloxiSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/BiloxiSpring.png/553px-BiloxiSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/ff/BiloxiSpringWithoutBG.png/574px-BiloxiSpringWithoutBG.png",
             "Empress in the Silk Seat",
             "https://azurlane.koumakan.jp/w/images/thumb/0/07/BiloxiParty.png/541px-BiloxiParty.png",
             "Night Sky's Brilliant Blue Blossoms",
-            "https://azurlane.koumakan.jp/w/images/thumb/8/83/BiloxiNew_Year.png/571px-BiloxiNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/8/83/BiloxiNew_Year.png/571px-BiloxiNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/83/BiloxiNew_Year.png/571px-BiloxiNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/31/BiloxiNew_YearWithoutBG.png/511px-BiloxiNew_YearWithoutBG.png"
         ]
     },
     "uranami": {
         "artista": "\u591c\u30ce\u307f\u3064\u304d",
-        "doppiatrice": "Kaoru Komatsu",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Kaoru Komatsu",
+        "link_doppiatrice": "http://earlywing.co.jp/talent_w/komatsukaoru.html",
         "nome_nave": "Uranami",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -18214,7 +18556,11 @@
             "Bad Bunny Behind Bars",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d8/GroznyPrison.png/584px-GroznyPrison.png",
             "Bunny Remodeling Plan?",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/06/GroznyCasual.png/517px-GroznyCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/GroznyCasual.png/517px-GroznyCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/06/GroznyCasual.png/517px-GroznyCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7e/GroznyCasualWithoutBG.png/690px-GroznyCasualWithoutBG.png"
         ]
     },
     "minsk": {
@@ -18315,8 +18661,14 @@
             "https://azurlane.koumakan.jp/w/images/thumb/8/83/Tashkent.png/644px-Tashkent.png",
             "The Bound Cruiser",
             "https://azurlane.koumakan.jp/w/images/thumb/6/66/TashkentPrison.png/710px-TashkentPrison.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/66/TashkentPrison.png/710px-TashkentPrison.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/TashkentCasual.png/554px-TashkentCasual.png",
             "The Blue Snoozer",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/09/TashkentCasual.png/554px-TashkentCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/09/TashkentCasual.png/554px-TashkentCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/23/TashkentCasualWithoutBG.png/812px-TashkentCasualWithoutBG.png"
         ]
     },
     "pamiat merkuria": {
@@ -18370,13 +18722,17 @@
             "Caged Minx",
             "https://azurlane.koumakan.jp/w/images/thumb/6/60/Pamiat_MerkuriaPrison.png/612px-Pamiat_MerkuriaPrison.png",
             "Sweet Cherry Memories",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/73/Pamiat_MerkuriaCasual.png/549px-Pamiat_MerkuriaCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/73/Pamiat_MerkuriaCasual.png/549px-Pamiat_MerkuriaCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/73/Pamiat_MerkuriaCasual.png/549px-Pamiat_MerkuriaCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/05/Pamiat_MerkuriaCasualWithoutBG.png/582px-Pamiat_MerkuriaCasualWithoutBG.png"
         ]
     },
     "kirov": {
-        "artista": "",
+        "artista": "Nagu",
         "doppiatrice": "Play Sumire Uesaka",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/50/Kirov_TitleScreenJP.ogg",
         "nome_nave": "Kirov",
         "rarit\u00e0": "Super Rare",
         "tempo": "01:32:00",
@@ -18422,7 +18778,11 @@
             "Original Art",
             "https://azurlane.koumakan.jp/w/images/thumb/1/17/KirovOriginal.png/894px-KirovOriginal.png",
             "Blend R",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/KirovCasual.png/555px-KirovCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/KirovCasual.png/555px-KirovCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c9/KirovCasual.png/555px-KirovCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1e/KirovCasualWithoutBG.png/754px-KirovCasualWithoutBG.png"
         ]
     },
     "chapayev": {
@@ -18473,8 +18833,14 @@
             "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Chapayev.png/553px-Chapayev.png",
             "The Captive Cavalier",
             "https://azurlane.koumakan.jp/w/images/thumb/5/58/ChapayevPrison.png/456px-ChapayevPrison.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/58/ChapayevPrison.png/456px-ChapayevPrison.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a6/ChapayevCasual.png/571px-ChapayevCasual.png",
             "White Cavalier's Respite",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/a6/ChapayevCasual.png/571px-ChapayevCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a6/ChapayevCasual.png/571px-ChapayevCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/13/ChapayevCasualWithoutBG.png/940px-ChapayevCasualWithoutBG.png"
         ]
     },
     "gangut": {
@@ -18526,12 +18892,16 @@
             "Imposing Warden",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9a/GangutPrison.png/504px-GangutPrison.png",
             "Keeper of the Firewater",
-            "https://azurlane.koumakan.jp/w/images/thumb/0/0e/GangutCasual.png/439px-GangutCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0e/GangutCasual.png/439px-GangutCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0e/GangutCasual.png/439px-GangutCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b9/GangutCasualWithoutBG.png/453px-GangutCasualWithoutBG.png"
         ]
     },
     "sovetskaya belorussiya": {
         "artista": "",
-        "doppiatrice": "Asami Seto",
+        "doppiatrice": "Play Asami Seto",
         "link_doppiatrice": " ",
         "nome_nave": "Sovetskaya Belorussiya",
         "rarit\u00e0": "Super Rare",
@@ -18567,7 +18937,7 @@
         ],
         "skill": [
             "Curtain of Rime \ud83d\udcd5\nWhen this ship fires its main guns, 45% (75%) chance to fire a special barrage (barrage damage scales with skill level). This barrage slows enemies it hits by 40.0% for 4 seconds. If this barrage fails to trigger, increase this ship's AA by 50.0% until the next time this ship fires its main guns.",
-            "Ingenious Tactician \ud83d\udcd8\nAs long as this ship's HP is above 60.0%, increase this ship's FP by 10.0% (20.0%), and decrease the duration of burns on self by 3 seconds. Twice per battle, when this ship's HP falls below 50.0%, heal self for 12%in-game description says 9% of its maximum HP over the next 8 seconds. During the 2ndin-game description says 3rd battle and onward of each sortie, decrease all damage your vanguard receives by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
+            "Ingenious Tactician \ud83d\udcd8\nAs long as this ship's HP is above 60.0%, increase this ship's FP by 10.0% (20.0%), and decrease the duration of burns on self by 3 seconds. Twice per battle, when this ship's HP falls below 50.0%, heal self for 9% of its maximum HP over the next 8 seconds. During the 3rd battle and onward of each sortie, decrease all damage your vanguard receives by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
             "    ",
             "    ",
             "    "
@@ -18576,7 +18946,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c2/Sovetskaya_Belorussiya.png/778px-Sovetskaya_Belorussiya.png",
             "Relaxation Stratagem",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Sovetskaya_BelorussiyaCasual.png/557px-Sovetskaya_BelorussiyaCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Sovetskaya_BelorussiyaCasual.png/557px-Sovetskaya_BelorussiyaCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Sovetskaya_BelorussiyaCasual.png/557px-Sovetskaya_BelorussiyaCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3a/Sovetskaya_BelorussiyaCasualWithoutBG.png/687px-Sovetskaya_BelorussiyaCasualWithoutBG.png"
         ]
     },
     "sovetskaya rossiya": {
@@ -18626,7 +19000,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/60/Sovetskaya_Rossiya.png/584px-Sovetskaya_Rossiya.png",
             "The Lackadaisical Lookout",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Sovetskaya_RossiyaPrison.png/505px-Sovetskaya_RossiyaPrison.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Sovetskaya_RossiyaPrison.png/505px-Sovetskaya_RossiyaPrison.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Sovetskaya_RossiyaPrison.png/505px-Sovetskaya_RossiyaPrison.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f0/Sovetskaya_RossiyaPrisonWithoutBG.png/698px-Sovetskaya_RossiyaPrisonWithoutBG.png"
         ]
     },
     "intrepid": {
@@ -18666,7 +19044,7 @@
             " "
         ],
         "skill": [
-            "Soaring Silver Wings \ud83d\udcd5\nWhen this ship finishes loading an airstrike, launch a special SB2C Helldiver barrage (barrage damage scales with skill level). This barrage inflicts Armor Break to all BBs, BCs, and BBVs hit by it. (Armor-broken enemies take 8.0% more damage from shelling. Armor Break lasts 6 seconds and does not stack with any other source of armor break.)",
+            "Soaring Silver Wings \ud83d\udcd5\nWhen this ship finishes loading an airstrike, launch a special SB2C Helldiver barrage (barrage damage scales with skill level). This barrage inflicts Standard Armor Break to all BBs, BCs, and BBVs hit by it. (Standard Armor-broken enemies take 8.0% more damage from shelling. Standard Armor Break lasts 6 seconds and does not stack with other sources of Standard Armor Break.)",
             "Formation Shift \ud83d\udcd2\nDuring the first, third, and fifth battles of each sortie that this ship participates in, increase this ship's AVI by 5.0% (15.0%). During the second, fourth, and sixth battles, decrease this ship's damage taken by 4.5% (12.0%). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
             "The Fearless Fighting I \ud83d\udcd8\nOnce per battle, when this ship's HP falls below 20.0%, activate both of the following buffs:\nThis ship takes no burn damage for 30 seconds.\nDecrease other damage this ship takes by 15.0% (25.0%) for 20 seconds.",
             "    ",
@@ -18728,7 +19106,11 @@
             "Scorching-Hot Training",
             "https://azurlane.koumakan.jp/w/images/thumb/f/fe/BremertonSport.png/607px-BremertonSport.png",
             "Kung Fu Cruiser",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/76/BremertonSpring.png/553px-BremertonSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/76/BremertonSpring.png/553px-BremertonSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/76/BremertonSpring.png/553px-BremertonSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/87/BremertonSpringWithoutBG.png/768px-BremertonSpringWithoutBG.png"
         ]
     },
     "cooper": {
@@ -19084,12 +19466,18 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d6/Naganami.png/638px-Naganami.png",
             "Long Waves of Happiness",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/75/NaganamiMaid.png/495px-NaganamiMaid.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/75/NaganamiMaid.png/495px-NaganamiMaid.png",
+            "Long-Awaited Warmth",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a2/NaganamiParty.png/886px-NaganamiParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a2/NaganamiParty.png/886px-NaganamiParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/76/NaganamiPartyWithoutBG.png/955px-NaganamiPartyWithoutBG.png"
         ]
     },
     "little renown": {
         "artista": "liyu\u9ece",
-        "doppiatrice": "Ai Kayano",
+        "doppiatrice": "Play Ai Kayano",
         "link_doppiatrice": " ",
         "nome_nave": "Little Renown",
         "rarit\u00e0": "Elite",
@@ -19182,6 +19570,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b7/Tartu.png/581px-Tartu.png",
             "Overthinking Summer",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/02/TartuSummer.png/643px-TartuSummer.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/0/02/TartuSummer.png/643px-TartuSummer.png"
         ]
     },
@@ -19336,6 +19726,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/93/Alg%C3%A9rie.png/675px-Alg%C3%A9rie.png",
             "White Sand Paradise",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Alg%C3%A9rieSummer.png/662px-Alg%C3%A9rieSummer.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Alg%C3%A9rieSummer.png/662px-Alg%C3%A9rieSummer.png"
         ]
     },
@@ -19388,7 +19780,11 @@
             "Pristine Piscene",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e6/La_Galissonni%C3%A8reSummer.png/657px-La_Galissonni%C3%A8reSummer.png",
             "Lush Spring Dreams",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/La_Galissonni%C3%A8reSpring.png/712px-La_Galissonni%C3%A8reSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/La_Galissonni%C3%A8reSpring.png/712px-La_Galissonni%C3%A8reSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/La_Galissonni%C3%A8reSpring.png/712px-La_Galissonni%C3%A8reSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a9/La_Galissonni%C3%A8reSpringWithoutBG.png/871px-La_Galissonni%C3%A8reSpringWithoutBG.png"
         ]
     },
     "vauquelin": {
@@ -19737,14 +20133,22 @@
             "https://azurlane.koumakan.jp/w/images/thumb/1/1e/Hermione.png/691px-Hermione.png",
             "Pure White Angel",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b5/HermioneHospital.png/572px-HermioneHospital.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b5/HermioneHospital.png/572px-HermioneHospital.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/HermioneHospitalWithoutBG.png/208px-HermioneHospitalWithoutBG.png",
             "Pure White Holiday",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3e/HermioneSummer.png/563px-HermioneSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3e/HermioneSummer.png/563px-HermioneSummer.png",
+            "Graceful Afternoon Tea",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1a/HermioneParty.png/603px-HermioneParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1a/HermioneParty.png/603px-HermioneParty.png"
         ]
     },
     "valiant": {
         "artista": "Alisa",
-        "doppiatrice": "Asuka Nishi",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Asuka_Nishi",
+        "doppiatrice": "Play Asuka Nishi",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/a/a3/Valiant_TitleScreenJP.ogg",
         "nome_nave": "Valiant",
         "rarit\u00e0": "Elite",
         "tempo": "04:10:00",
@@ -19778,7 +20182,7 @@
             " "
         ],
         "skill": [
-            "Leading the Way \ud83d\udcd2\n10s after this ship fires its Main Guns: fires a Lv.1 (Lv.10) special barrage that inflicts Armor Break to all enemies hit by it (barrage DMG is based on the skill's level.)",
+            "Leading the Way \ud83d\udcd2\nTen seconds after this ship fires its main guns, fire a special barrage (barrage damage scales with skill level). The barrage inflicts Armor Break to all enemies it hits. (Armor-Broken enemies take 8.0% more damage for 20.0 seconds. This Armor Break stacks with other sources of Armor Break.)",
             "Forward! \ud83d\udcd5\nWhen this ship fires its Main Guns: 20% (50%) chance to fire a special barrage (DMG is based on the skill's level.)",
             "    ",
             "    ",
@@ -19788,7 +20192,9 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/df/Valiant.png/725px-Valiant.png",
             "Mischievous Little Nurse",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/ValiantHospital.png/505px-ValiantHospital.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/ValiantHospital.png/505px-ValiantHospital.png",
+            "Queen Valiant I",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/79/ValiantParty.png/496px-ValiantParty.png"
         ]
     },
     "icarus": {
@@ -19845,7 +20251,7 @@
     },
     "z26": {
         "artista": "",
-        "doppiatrice": "Satomi Amano",
+        "doppiatrice": "Play Satomi Amano",
         "link_doppiatrice": " ",
         "nome_nave": "Z26",
         "rarit\u00e0": "Elite",
@@ -19895,8 +20301,8 @@
     },
     "u-96": {
         "artista": "\u9ed1\u732b",
-        "doppiatrice": "Mayu Mineda",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Mayu Mineda",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/ja:%E5%B3%AF%E7%94%B0%E8%8C%89%E5%84%AA",
         "nome_nave": "U-96",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:12:00",
@@ -19991,6 +20397,10 @@
             "https://azurlane.koumakan.jp/w/images/thumb/3/33/Suzutsuki.png/571px-Suzutsuki.png",
             "Suzutsuki, Beachside Attendant!",
             "https://azurlane.koumakan.jp/w/images/thumb/2/23/SuzutsukiSummer.png/572px-SuzutsukiSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/23/SuzutsukiSummer.png/572px-SuzutsukiSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/SuzutsukiSummerWithoutBG.png/561px-SuzutsukiSummerWithoutBG.png",
             "Suzutsuki, Hanetsuki Adept!",
             "https://azurlane.koumakan.jp/w/images/thumb/0/08/SuzutsukiNew_Year.png/610px-SuzutsukiNew_Year.png"
         ]
@@ -20197,7 +20607,7 @@
     },
     "princeton": {
         "artista": "\u5e15\u74e6\u6ce2",
-        "doppiatrice": "Shiomi Yukina",
+        "doppiatrice": "Play Shiomi Yukina",
         "link_doppiatrice": " ",
         "nome_nave": "Princeton",
         "rarit\u00e0": "Elite",
@@ -20244,7 +20654,11 @@
             "Seaside Training",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8c/PrincetonSummer.png/590px-PrincetonSummer.png",
             "Lolipop Paradise",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/51/PrincetonSchool.png/551px-PrincetonSchool.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/51/PrincetonSchool.png/551px-PrincetonSchool.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/51/PrincetonSchool.png/551px-PrincetonSchool.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5d/PrincetonSchoolWithoutBG.png/799px-PrincetonSchoolWithoutBG.png"
         ]
     },
     "taihou \u00b5": {
@@ -20340,7 +20754,11 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Tashkent_%C2%B5.png/524px-Tashkent_%C2%B5.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Tashkent_%C2%B5.png/524px-Tashkent_%C2%B5.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Tashkent_%C2%B5.png/524px-Tashkent_%C2%B5.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/Tashkent_%C2%B5WithoutBG.png/698px-Tashkent_%C2%B5WithoutBG.png"
         ]
     },
     "dido \u00b5": {
@@ -20388,7 +20806,11 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Dido_%C2%B5.png/536px-Dido_%C2%B5.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Dido_%C2%B5.png/536px-Dido_%C2%B5.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Dido_%C2%B5.png/536px-Dido_%C2%B5.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/af/Dido_%C2%B5WithoutBG.png/688px-Dido_%C2%B5WithoutBG.png"
         ]
     },
     "albacore \u00b5": {
@@ -20436,7 +20858,11 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/de/Albacore_%C2%B5.png/529px-Albacore_%C2%B5.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/de/Albacore_%C2%B5.png/529px-Albacore_%C2%B5.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/de/Albacore_%C2%B5.png/529px-Albacore_%C2%B5.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d8/Albacore_%C2%B5WithoutBG.png/503px-Albacore_%C2%B5WithoutBG.png"
         ]
     },
     "baltimore \u00b5": {
@@ -20484,7 +20910,11 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/55/Baltimore_%C2%B5.png/574px-Baltimore_%C2%B5.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/55/Baltimore_%C2%B5.png/574px-Baltimore_%C2%B5.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/55/Baltimore_%C2%B5.png/574px-Baltimore_%C2%B5.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f6/Baltimore_%C2%B5WithoutBG.png/550px-Baltimore_%C2%B5WithoutBG.png"
         ]
     },
     "roon \u00b5": {
@@ -20580,7 +21010,11 @@
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Illustrious_%C2%B5.png/559px-Illustrious_%C2%B5.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Illustrious_%C2%B5.png/559px-Illustrious_%C2%B5.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6a/Illustrious_%C2%B5.png/559px-Illustrious_%C2%B5.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5f/Illustrious_%C2%B5WithoutBG.png/635px-Illustrious_%C2%B5WithoutBG.png"
         ]
     },
     "le malin \u00b5": {
@@ -20633,8 +21067,8 @@
     },
     "peter strasser": {
         "artista": "\u80a1\u95f4\u5c11\u5973",
-        "doppiatrice": "Yumi Hara",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yumi_Hara",
+        "doppiatrice": "Play Yumi Hara",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/8/81/Peter_Strasser_TitleScreenJP.ogg",
         "nome_nave": "Peter Strasser",
         "rarit\u00e0": "Super Rare",
         "tempo": "04:35:00",
@@ -20683,8 +21117,8 @@
     },
     "prinz heinrich": {
         "artista": "Dishwasher1910",
-        "doppiatrice": "Hiyori Nitta",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Hiyori_Nitta",
+        "doppiatrice": "Play Hiyori Nitta",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/c/c1/Prinz_Heinrich_TitleScreenJP.ogg",
         "nome_nave": "Prinz Heinrich",
         "rarit\u00e0": "Super Rare",
         "tempo": "02:05:00",
@@ -20728,13 +21162,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6c/Prinz_Heinrich.png/624px-Prinz_Heinrich.png",
             "Fireworks and Tapestries",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/Prinz_HeinrichNew_Year.png/826px-Prinz_HeinrichNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/Prinz_HeinrichNew_Year.png/826px-Prinz_HeinrichNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/Prinz_HeinrichNew_Year.png/826px-Prinz_HeinrichNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7b/Prinz_HeinrichNew_YearWithoutBG.png/972px-Prinz_HeinrichNew_YearWithoutBG.png"
         ]
     },
     "u-37": {
         "artista": "\u9ed1\u732b",
-        "doppiatrice": "Ayaka Nanase",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Ayaka Nanase",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Ayaka_Nanase",
         "nome_nave": "U-37",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:11:00",
@@ -20828,13 +21266,23 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/90/Weser.png/700px-Weser.png",
             "Obsidian Elegance",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/48/WeserNew_Year.png/671px-WeserNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/48/WeserNew_Year.png/671px-WeserNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/48/WeserNew_Year.png/671px-WeserNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/WeserNew_YearWithoutBG.png/930px-WeserNew_YearWithoutBG.png",
+            "Urbane Onyx",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/WeserParty.png/545px-WeserParty.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d0/WeserParty.png/545px-WeserParty.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fd/WeserPartyWithoutBG.png/346px-WeserPartyWithoutBG.png"
         ]
     },
     "n\u00fcrnberg": {
         "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
-        "doppiatrice": "Hikaru Toono",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Hikaru Toono",
+        "link_doppiatrice": "https://www.imdb.com/name/nm11804657/",
         "nome_nave": "N\u00fcrnberg",
         "rarit\u00e0": "Elite",
         "tempo": "01:20:00",
@@ -20878,13 +21326,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/36/N%C3%BCrnberg.png/486px-N%C3%BCrnberg.png",
             "Spring Wanderer",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/N%C3%BCrnbergNew_Year.png/483px-N%C3%BCrnbergNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/N%C3%BCrnbergNew_Year.png/483px-N%C3%BCrnbergNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d4/N%C3%BCrnbergNew_Year.png/483px-N%C3%BCrnbergNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/91/N%C3%BCrnbergNew_YearWithoutBG.png/623px-N%C3%BCrnbergNew_YearWithoutBG.png"
         ]
     },
     "z24": {
         "artista": "Vilor",
-        "doppiatrice": "Yukina Shuto",
-        "link_doppiatrice": "https://www.imdb.com/name/nm10655146/",
+        "doppiatrice": "Play Yukina Shuto",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/2/27/Z24_TitleScreenJP.ogg",
         "nome_nave": "Z24",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -20933,8 +21385,8 @@
     },
     "z28": {
         "artista": "\u30ab\u30f3\u30b6\u30ea\u30f3",
-        "doppiatrice": "Chisa Kimura",
-        "link_doppiatrice": "https://www.imdb.com/name/nm9806287/",
+        "doppiatrice": "Play Chisa Kimura",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/f/fd/Z28_TitleScreenJP.ogg",
         "nome_nave": "Z28",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21081,8 +21533,8 @@
     },
     "stremitelny": {
         "artista": "\u6216\u4e00",
-        "doppiatrice": "Momoki Kakimura",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Momoki Kakimura",
+        "link_doppiatrice": "http://earlywing.co.jp/pretalent_w/kakimuramomoki.html",
         "nome_nave": "Stremitelny",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21126,13 +21578,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Stremitelny.png/634px-Stremitelny.png",
             "No Snow No Life",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/78/StremitelnyCasual.png/741px-StremitelnyCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/78/StremitelnyCasual.png/741px-StremitelnyCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/78/StremitelnyCasual.png/741px-StremitelnyCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9d/StremitelnyCasualWithoutBG.png/838px-StremitelnyCasualWithoutBG.png"
         ]
     },
     "u-410": {
         "artista": "Alic",
-        "doppiatrice": "Ayaka Fujimoto",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Ayaka Fujimoto",
+        "link_doppiatrice": "http://earlywing.co.jp/pretalent_w/fujimotoayaka.html",
         "nome_nave": "U-410",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21176,13 +21632,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/c3/U-410.png/563px-U-410.png",
             "Spring Festival Scheme",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1c/U-410Spring.png/549px-U-410Spring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1c/U-410Spring.png/549px-U-410Spring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1c/U-410Spring.png/549px-U-410Spring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/8a/U-410SpringWithoutBG.png/588px-U-410SpringWithoutBG.png"
         ]
     },
     "ying swei": {
         "artista": "\u5168\u73ed\u6700\u83dc\u5624\u5624\u5624",
-        "doppiatrice": "Yuuka Morishima",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Yuuka Morishima",
+        "link_doppiatrice": "https://www.81produce.co.jp/actor_search/index.php/item?id=320",
         "nome_nave": "Ying Swei",
         "rarit\u00e0": "Elite",
         "tempo": "00:38:00",
@@ -21226,7 +21686,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/cb/Ying_Swei.png/557px-Ying_Swei.png",
             "Snowy Pine's Warmth",
-            "https://azurlane.koumakan.jp/w/images/thumb/7/79/Ying_SweiSpring.png/502px-Ying_SweiSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/7/79/Ying_SweiSpring.png/502px-Ying_SweiSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/79/Ying_SweiSpring.png/502px-Ying_SweiSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/db/Ying_SweiSpringWithoutBG.png/634px-Ying_SweiSpringWithoutBG.png"
         ]
     },
     "chao ho": {
@@ -21276,13 +21740,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/ee/Chao_Ho.png/651px-Chao_Ho.png",
             "Plum Blossom's Illumination",
-            "https://azurlane.koumakan.jp/w/images/thumb/6/6c/Chao_HoSpring.png/520px-Chao_HoSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6c/Chao_HoSpring.png/520px-Chao_HoSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6c/Chao_HoSpring.png/520px-Chao_HoSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Chao_HoSpringWithoutBG.png/529px-Chao_HoSpringWithoutBG.png"
         ]
     },
     "penelope": {
         "artista": "\u6c34\u4e4c\u9f9fXD",
-        "doppiatrice": "Kazusa Aranami",
-        "link_doppiatrice": "https://www.imdb.com/name/nm5877942/",
+        "doppiatrice": "Play Kazusa Aranami",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/d/de/Penelope_TitleScreenJP.ogg",
         "nome_nave": "Penelope",
         "rarit\u00e0": "Elite",
         "tempo": "01:20:00",
@@ -21326,12 +21794,16 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/8/8d/Penelope.png/631px-Penelope.png",
             "Ruby-Red Boudoir",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/PenelopeSpring.png/576px-PenelopeSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/PenelopeSpring.png/576px-PenelopeSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/PenelopeSpring.png/576px-PenelopeSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b0/PenelopeSpringWithoutBG.png/911px-PenelopeSpringWithoutBG.png"
         ]
     },
     "tallinn": {
         "artista": "\u5e15\u74e6\u6ce2",
-        "doppiatrice": "Noriko Shitaya",
+        "doppiatrice": "Play Noriko Shitaya",
         "link_doppiatrice": " ",
         "nome_nave": "Tallinn",
         "rarit\u00e0": "Super Rare",
@@ -21376,7 +21848,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/a/a1/Tallinn.png/587px-Tallinn.png",
             "Nostalgic Pilsner",
-            "https://azurlane.koumakan.jp/w/images/thumb/a/ab/TallinnCasual.png/599px-TallinnCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ab/TallinnCasual.png/599px-TallinnCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/ab/TallinnCasual.png/599px-TallinnCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b2/TallinnCasualWithoutBG.png/726px-TallinnCasualWithoutBG.png"
         ]
     },
     "gremyashchy": {
@@ -21426,7 +21902,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/ce/Gremyashchy.png/495px-Gremyashchy.png",
             "A Daytime Delight is in a Book",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/GremyashchyCasual.png/625px-GremyashchyCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/GremyashchyCasual.png/625px-GremyashchyCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/GremyashchyCasual.png/625px-GremyashchyCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/55/GremyashchyCasualWithoutBG.png/619px-GremyashchyCasualWithoutBG.png"
         ]
     },
     "murmansk": {
@@ -21476,7 +21956,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3a/Murmansk.png/568px-Murmansk.png",
             "Sceneries of Pure Snow",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MurmanskCasual.png/447px-MurmanskCasual.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MurmanskCasual.png/447px-MurmanskCasual.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/ca/MurmanskCasual.png/447px-MurmanskCasual.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/91/MurmanskCasualWithoutBG.png/449px-MurmanskCasualWithoutBG.png"
         ]
     },
     "gromky": {
@@ -21575,8 +22059,16 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/632px-Vittorio_Veneto.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e0/Vittorio_Veneto.png/632px-Vittorio_Veneto.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/56/Vittorio_VenetoWithoutBG.png/698px-Vittorio_VenetoWithoutBG.png",
             "The Flower of La Spezia",
-            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Vittorio_VenetoSummer.png/597px-Vittorio_VenetoSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Vittorio_VenetoSummer.png/597px-Vittorio_VenetoSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/d5/Vittorio_VenetoSummer.png/597px-Vittorio_VenetoSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cd/Vittorio_VenetoSummerWithoutBG.png/725px-Vittorio_VenetoSummerWithoutBG.png"
         ]
     },
     "duca degli abruzzi": {
@@ -21625,8 +22117,16 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/97/Duca_degli_Abruzzi.png/569px-Duca_degli_Abruzzi.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/97/Duca_degli_Abruzzi.png/569px-Duca_degli_Abruzzi.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1e/Duca_degli_AbruzziWithoutBG.png/528px-Duca_degli_AbruzziWithoutBG.png",
             "Lustrous Onyx Sirenetta",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Duca_degli_AbruzziSummer.png/627px-Duca_degli_AbruzziSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Duca_degli_AbruzziSummer.png/627px-Duca_degli_AbruzziSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c4/Duca_degli_AbruzziSummer.png/627px-Duca_degli_AbruzziSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c8/Duca_degli_AbruzziSummerWithoutBG.png/675px-Duca_degli_AbruzziSummerWithoutBG.png"
         ]
     },
     "aquila": {
@@ -21675,14 +22175,22 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Aquila.png/501px-Aquila.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1d/Aquila.png/501px-Aquila.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9e/AquilaWithoutBG.png/572px-AquilaWithoutBG.png",
             "Sardegnian Shallows and Sunshine",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/4d/AquilaSummer.png/594px-AquilaSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4d/AquilaSummer.png/594px-AquilaSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/4d/AquilaSummer.png/594px-AquilaSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/76/AquilaSummerWithoutBG.png/499px-AquilaSummerWithoutBG.png"
         ]
     },
     "torricelli": {
         "artista": "Byulzzi",
-        "doppiatrice": "Kaede Hondo",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Kaede Hondo",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Kaede_Hondo",
         "nome_nave": "Torricelli",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21725,8 +22233,16 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/0/02/Torricelli.png/592px-Torricelli.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/02/Torricelli.png/592px-Torricelli.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/TorricelliWithoutBG.png/672px-TorricelliWithoutBG.png",
             "Shady Seaside",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/TorricelliSummer.png/600px-TorricelliSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/TorricelliSummer.png/600px-TorricelliSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f7/TorricelliSummer.png/600px-TorricelliSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/24/TorricelliSummerWithoutBG.png/990px-TorricelliSummerWithoutBG.png"
         ]
     },
     "maestrale": {
@@ -21775,8 +22291,16 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/0/0a/Maestrale.png/582px-Maestrale.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/0a/Maestrale.png/582px-Maestrale.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e6/MaestraleWithoutBG.png/623px-MaestraleWithoutBG.png",
             "Lonesome Beachfarer",
-            "https://azurlane.koumakan.jp/w/images/thumb/4/47/MaestraleSummer.png/551px-MaestraleSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/4/47/MaestraleSummer.png/551px-MaestraleSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/47/MaestraleSummer.png/551px-MaestraleSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/de/MaestraleSummerWithoutBG.png/628px-MaestraleSummerWithoutBG.png"
         ]
     },
     "libeccio": {
@@ -21825,8 +22349,16 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/32/Libeccio.png/571px-Libeccio.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/32/Libeccio.png/571px-Libeccio.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fa/LibeccioWithoutBG.png/720px-LibeccioWithoutBG.png",
             "Beachbound Southwestern Wind!",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/LibeccioSummer.png/613px-LibeccioSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/LibeccioSummer.png/613px-LibeccioSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/eb/LibeccioSummer.png/613px-LibeccioSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/LibeccioSummerWithoutBG.png/687px-LibeccioSummerWithoutBG.png"
         ]
     },
     "nicoloso da recco": {
@@ -21875,14 +22407,22 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Nicoloso_da_Recco.png/548px-Nicoloso_da_Recco.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b1/Nicoloso_da_Recco.png/548px-Nicoloso_da_Recco.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/92/Nicoloso_da_ReccoWithoutBG.png/595px-Nicoloso_da_ReccoWithoutBG.png",
             "To a Smashing Voyage!",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Nicoloso_da_ReccoSummer.png/647px-Nicoloso_da_ReccoSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Nicoloso_da_ReccoSummer.png/647px-Nicoloso_da_ReccoSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c0/Nicoloso_da_ReccoSummer.png/647px-Nicoloso_da_ReccoSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/4/41/Nicoloso_da_ReccoSummerWithoutBG.png/800px-Nicoloso_da_ReccoSummerWithoutBG.png"
         ]
     },
     "oite": {
         "artista": "Vilor",
-        "doppiatrice": "Takako Tanaka",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Takako_Tanaka",
+        "doppiatrice": "Play Takako Tanaka",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/53/Oite_TitleScreenJP.ogg",
         "nome_nave": "Oite",
         "rarit\u00e0": "Rare",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -21926,7 +22466,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f4/Oite.png/667px-Oite.png",
             "Summer Dedication",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c1/OiteSummer.png/552px-OiteSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c1/OiteSummer.png/552px-OiteSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c1/OiteSummer.png/552px-OiteSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/0/08/OiteSummerWithoutBG.png/561px-OiteSummerWithoutBG.png"
         ]
     },
     "allen m. sumner": {
@@ -21966,7 +22510,7 @@
             " "
         ],
         "skill": [
-            "Shooting Gun-Star \ud83d\udcd5\nDecrease the duration of burns inflicted on this ship by 3 seconds. Increase damage this ship deals dealt to Light Armor enemies by 5.0% (15.0%). Every 20 seconds after the battle begins, 70.0% chance to fire a special barrage (damage scales with skill level) and increase your entire fleet's AA stat by 10.0% (20.0%) for 8 seconds.",
+            "Shooting Gun-Star \ud83d\udcd5\nDecrease the duration of burns inflicted on this ship by 3 seconds. Increase the damage this ship deals to Light Armor enemies by 5.0% (15.0%). Every 20 seconds after the battle begins, 70.0% chance to fire a special barrage (damage scales with skill level) and increase your entire fleet's AA stat by 10.0% (20.0%) for 8 seconds.",
             "Bang for Your Buck \ud83d\udcd2\nIf this ship is sortied with another Eagle Union ship, or when this ship sinks its second enemy this battle, increase this ship's TRP and AA stats by 5.0% (15.0%) until the end of the battle.  If this ship is equipped with any Eagle Union gear, this ship gains an extra ghost AA gun. The extra AA gun has 30 range, 1.038-second cooldown, and deals 65 (142) damage per shot.",
             "All Out Assault \ud83d\udcd5\nActivates All-Out Assault: Allen M. Sumner-class every 10 times the Main Guns are fired.",
             "    ",
@@ -22017,7 +22561,7 @@
         ],
         "skill": [
             "Whimsical Protector \ud83d\udcd2\nAt the start of the battle: increases this ship's AA and EVA by 5.0% (15.0%) for 60s. While there are 3 ships in your Vanguard and this ship is in the middle position: decreases DMG taken by your Vanguard's frontmost ship by 4.0% (10.0%) for 50s, and increases DMG dealt by your Vanguard's backmost ship by 4.0% (10.0%) for 50s.",
-            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with the same skill.)",
+            "Air Raid Assistance \ud83d\udcd2\nAs long as this ship is afloat, increase all damage dealt by all CVs and CVLs in your fleet by 5.0% (15.0%). (This skill does not stack with itself or other Air Raid Assistance buffs.)",
             "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault \u2161: Fletcher Class once every 10 times the Main Guns are fired.",
             "    ",
             "    "
@@ -22026,7 +22570,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/5/55/Stephen_Potter.png/511px-Stephen_Potter.png",
             "Chillaxation Station",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Stephen_PotterBunny.png/507px-Stephen_PotterBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Stephen_PotterBunny.png/507px-Stephen_PotterBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3d/Stephen_PotterBunny.png/507px-Stephen_PotterBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/39/Stephen_PotterBunnyWithoutBG.png/508px-Stephen_PotterBunnyWithoutBG.png"
         ]
     },
     "amagi-chan": {
@@ -22079,8 +22627,8 @@
     },
     "ticonderoga": {
         "artista": "\u667a\u5f18\u30ab\u30a4",
-        "doppiatrice": "Kana Ichinose",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Kana Ichinose",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Kana_Ichinose",
         "nome_nave": "Ticonderoga",
         "rarit\u00e0": "Super Rare",
         "tempo": "04:25:00",
@@ -22114,9 +22662,9 @@
             " "
         ],
         "skill": [
-            "Wings of Soaring Flames \ud83d\udcd5\nWhen this ship launches an Airstrike: launches an additional Lv.1 (Lv.10) special airstrike that has a chance to Burn enemies hit by it (Airstrike DMG is based on the skill's level; Burn DMG is based on this ship's AVI stat).",
-            "Shielded Advance \ud83d\udcd8\nDecreases this ship's first 2 (4) instances of DMG taken by 30.0% (60.0%) every battle. At the start of the battle and every 20s after that: targets the ship in the frontmost position of your Vanguard and gives that ship a shield that blocks up to 6 shots, lasting for up to 8 seconds.",
-            "Advanced Support Formation \ud83d\udcd2\nIncreases this ship's AVI by 4.0% (10.0%). When sortied in a fleet with at least 2 CVs/CVLs: decreases your Flagship's DMG taken by 5.0% (15.0%).",
+            "Wings of Soaring Flames \ud83d\udcd5\nWhen this ship launches an airstrike, launch an aerial barrage. The barrage planes fire rockets that inflict Burn to enemies hit. (Barrage damage and burn damage scale with skill level and this ship's AVI stat. This burn stacks with other sources of burn.)",
+            "Shielded Advance \ud83d\udcd8\nDecrease the first 2 (4) instances of damage taken by 30.0% (60.0%) each battle. At the start of the battle and every 20 seconds after that, the lead ship in your vanguard gains a shield. The shield blocks up to six shells and lasts up to 8 seconds.",
+            "Advanced Support Formation \ud83d\udcd2\nIncreases this ship's AVI by 4.0% (10.0%). When sortied with another CV or CVL, decrease all damage your flagship takes by 5.0% (15.0%).",
             "    ",
             "    "
         ],
@@ -22128,9 +22676,9 @@
         ]
     },
     "san francisco": {
-        "artista": "",
-        "doppiatrice": "Tomomi Mineuchi",
-        "link_doppiatrice": " ",
+        "artista": "Nagu",
+        "doppiatrice": "Play Tomomi Mineuchi",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/9/96/San_Francisco_TitleScreenJP.ogg",
         "nome_nave": "San Francisco",
         "rarit\u00e0": "Super Rare",
         "tempo": "01:56:00",
@@ -22174,13 +22722,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/36/San_Francisco.png/537px-San_Francisco.png",
             "Funny Bunny!",
-            "https://azurlane.koumakan.jp/w/images/thumb/9/90/San_FranciscoBunny.png/571px-San_FranciscoBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/9/90/San_FranciscoBunny.png/571px-San_FranciscoBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/90/San_FranciscoBunny.png/571px-San_FranciscoBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/11/San_FranciscoBunnyWithoutBG.png/762px-San_FranciscoBunnyWithoutBG.png"
         ]
     },
     "archerfish": {
         "artista": "\u304b\u306b\u30d3\u30fc\u30e0",
-        "doppiatrice": "Hikaru Akao",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Hikaru_Akao",
+        "doppiatrice": "Play Hikaru Akao",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/5d/Archerfish_TitleScreenJP.ogg",
         "nome_nave": "Archerfish",
         "rarit\u00e0": "Super Rare",
         "tempo": "00:25:00",
@@ -22224,13 +22776,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/c/cc/Archerfish.png/515px-Archerfish.png",
             "Coquettish Bunny",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/ArcherfishBunny.png/502px-ArcherfishBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/ArcherfishBunny.png/502px-ArcherfishBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/3c/ArcherfishBunny.png/502px-ArcherfishBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/d/db/ArcherfishBunnyWithoutBG.png/344px-ArcherfishBunnyWithoutBG.png"
         ]
     },
     "boise": {
         "artista": "\u7fbd\u7e54\u30a4\u30aa",
-        "doppiatrice": "Yuu Sasahara",
-        "link_doppiatrice": " ",
+        "doppiatrice": "Play Yuu Sasahara",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Y%C5%AB_Sasahara",
         "nome_nave": "Boise",
         "rarit\u00e0": "Elite",
         "tempo": "01:15:00",
@@ -22274,16 +22830,20 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/ba/Boise.png/618px-Boise.png",
             "Sheepish Sapphire",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/BoiseBunny.png/608px-BoiseBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/BoiseBunny.png/608px-BoiseBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fe/BoiseBunny.png/608px-BoiseBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/89/BoiseBunnyWithoutBG.png/440px-BoiseBunnyWithoutBG.png"
         ]
     },
     "morrison": {
         "artista": "\u6c34\u4e4c\u9f9fXD",
-        "doppiatrice": "Sakura Namiki",
-        "link_doppiatrice": "https://sigma7.co.jp/actors/namiki_sakura",
+        "doppiatrice": "Play Sakura Namiki",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/d/d8/Morrison_TitleScreenJP.ogg",
         "nome_nave": "Morrison",
         "rarit\u00e0": "Elite",
-        "tempo": "Elite",
+        "tempo": "Non pu\u00f2 essere costruita",
         "retrofit": "non disponibile",
         "nazionalit\u00e0": "Eagle Union",
         "abbreviazione": "__[USS]__",
@@ -22314,7 +22874,7 @@
             " "
         ],
         "skill": [
-            "Emergency Beardrop \ud83d\udcd8\nDecreases the duration of Burns inflicted on this ship by 1.0% (4.0%). When this ship sinks an enemy: until the end of the battle, increases this ship's AA by 1.5% (6.0%) and FP by 1.0% (5.0%), and also increases the ASW of your fleet by 1.0% (4.0%). This buff can be stacked up to 5 times.",
+            "Emergency Beardrop \ud83d\udcd8\nDecreases the duration of Burns inflicted on this ship by 3s. When this ship sinks an enemy: until the end of the battle, increases this ship's AA by 1.5% (6.0%) and FP by 1.0% (5.0%), and also increases the ASW of your fleet by 1.0% (4.0%). This buff can be stacked up to 5 times.",
             "Flagship Cover \ud83d\udcd2\nWhile this ship is afloat: decreases the DMG your Flagship takes by 15.0% (25.0%).",
             "All Out Assault \u2161 \ud83d\udcd5\nActivates All Out Assault \u2161: Fletcher Class once every 10 times the Main Guns are fired.",
             "    ",
@@ -22324,13 +22884,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/d4/Morrison.png/564px-Morrison.png",
             "Sleeping Bunny",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/cb/MorrisonBunny.png/571px-MorrisonBunny.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cb/MorrisonBunny.png/571px-MorrisonBunny.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/cb/MorrisonBunny.png/571px-MorrisonBunny.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6b/MorrisonBunnyWithoutBG.png/572px-MorrisonBunnyWithoutBG.png"
         ]
     },
     "little enterprise": {
         "artista": "\u8c46\u82bd\u83dc",
-        "doppiatrice": "Yui Ishikawa",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Yui_Ishikawa",
+        "doppiatrice": "Play Yui Ishikawa",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/9/97/Little_Enterprise_TitleScreenJP.ogg",
         "nome_nave": "Little Enterprise",
         "rarit\u00e0": "Elite",
         "tempo": "Non pu\u00f2 essere costruita",
@@ -22373,6 +22937,56 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/3/3e/Little_Enterprise.png/499px-Little_Enterprise.png"
+        ]
+    },
+    "kazagumo": {
+        "artista": "Nagu",
+        "doppiatrice": "Ayasa Itou",
+        "link_doppiatrice": "https://hibiki-cast.jp/hibiki_f/ito_ayasa/",
+        "nome_nave": "Kazagumo",
+        "rarit\u00e0": "Super Rare",
+        "tempo": "00:27:00",
+        "retrofit": "non disponibile",
+        "nazionalit\u00e0": "Sakura Empire",
+        "abbreviazione": "__[IJN]__",
+        "classe": "Yuugumo",
+        "tipo": "__[Destroyer]__",
+        "id": "517",
+        "colore_embed": 8900346,
+        "acquisizione": "Event Build: Available in Limited Construction during \"Swirling Cherry Blossoms Rerun\" . ",
+        "limited": "s\u00ec",
+        "collab": "no",
+        "wiki_nave": [
+            "https://azurlane.koumakan.jp/Kazagumo",
+            "https://azurlane.koumakan.jp/w/images/6/65/KazagumoIcon.png",
+            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/Kazagumo.png/600px-Kazagumo.png"
+        ],
+        "efficienza": [
+            "80% \u2192 85%: __DD Guns__",
+            "140% \u2192 160%: __Torpedoes__",
+            "75% \u2192 80%: __Anti-Air Guns__"
+        ],
+        "rank": [
+            "\u2022 Unlock EX Barrage \u2160/Torpedo efficiency +5%",
+            "\u2022 Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+            "\u2022 Improve EX Barrage/All weapons' efficiency +5%",
+            " ",
+            " ",
+            " "
+        ],
+        "skill": [
+            "Gales and Thunder \ud83d\udcd5\nIncreases this ship's TRP by 1.0% (5.0%) and RLD by 5.0% (15.0%). Whenever this ship's All-Out Assault skill activates: decreases the loading time of this ship's next Torpedo wave by 1.0 (3.0)s.",
+            "Kazagumo's Air Raid Assistance \ud83d\udcd2\nWhile this ship is afloat: increases DMG dealt by your CVs and CVLs by 5.0% (15.0%) (does not stack with \"Air Raid Assistance\"). When this ship fires her 4th wave of Torpedoes: restores 1.0% (10.0%) HP for the lowest HP percentage CV/CVL currently afloat in your fleet; if your Flagship is a CV: additionally restores 1.0% (5.0%) HP for that ship.",
+            "All-Out Assault: Kazagumo \ud83d\udcd5\nActivates All Out Assault: Kazagumo once every (15) 10 times the Main Guns are fired.",
+            "    ",
+            "    "
+        ],
+        "skin": [
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/5b/Kazagumo.png/648px-Kazagumo.png",
+            "After-School Melody",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/be/KazagumoSchool.png/618px-KazagumoSchool.png"
         ]
     },
     "hms neptune": {
@@ -22422,7 +23036,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/ba/HMS_Neptune.png/621px-HMS_Neptune.png",
             "Princess of the Reindeers",
-            "https://azurlane.koumakan.jp/w/images/thumb/2/25/HMS_NeptuneChristmas.png/550px-HMS_NeptuneChristmas.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/2/25/HMS_NeptuneChristmas.png/550px-HMS_NeptuneChristmas.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/25/HMS_NeptuneChristmas.png/550px-HMS_NeptuneChristmas.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/a/a0/HMS_NeptuneChristmasWithoutBG.png/556px-HMS_NeptuneChristmasWithoutBG.png"
         ]
     },
     "monarch": {
@@ -22534,7 +23152,7 @@
     "izumo": {
         "artista": "Alisa",
         "doppiatrice": "Reina Ueda",
-        "link_doppiatrice": " ",
+        "link_doppiatrice": "https://en.wikipedia.org/wiki/Reina_Ueda",
         "nome_nave": "Izumo",
         "rarit\u00e0": "Priority",
         "tempo": "Research",
@@ -22680,7 +23298,11 @@
             "Holy Knight's Resplendence",
             "https://azurlane.koumakan.jp/w/images/thumb/4/49/Saint_LouisParty.png/454px-Saint_LouisParty.png",
             "Alluring Administrator",
-            "https://azurlane.koumakan.jp/w/images/thumb/e/e7/Saint_LouisSpring.png/623px-Saint_LouisSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e7/Saint_LouisSpring.png/623px-Saint_LouisSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/e7/Saint_LouisSpring.png/623px-Saint_LouisSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b6/Saint_LouisSpringWithoutBG.png/753px-Saint_LouisSpringWithoutBG.png"
         ]
     },
     "seattle": {
@@ -22838,7 +23460,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/b/bd/Kitakaze.png/550px-Kitakaze.png",
             "Celebration Conquest!",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/KitakazeFestival.png/533px-KitakazeFestival.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/KitakazeFestival.png/533px-KitakazeFestival.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f8/KitakazeFestival.png/533px-KitakazeFestival.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/15/KitakazeFestivalWithoutBG.png/533px-KitakazeFestivalWithoutBG.png"
         ]
     },
     "azuma": {
@@ -22887,6 +23513,8 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/42/Azuma.png/978px-Azuma.png",
+            "Wedding",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/20/AzumaWedding.png/666px-AzumaWedding.png",
             "Soft Voice of Spring",
             "https://azurlane.koumakan.jp/w/images/thumb/5/5c/AzumaSpring.png/649px-AzumaSpring.png"
         ]
@@ -22937,10 +23565,14 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/1/12/Friedrich_der_Gro%C3%9Fe.png/767px-Friedrich_der_Gro%C3%9Fe.png",
-            "Oath",
+            "Wedding",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f3/Friedrich_der_Gro%C3%9FeWedding.png/751px-Friedrich_der_Gro%C3%9FeWedding.png",
             "Dark Raiments of Gagaku",
-            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/Friedrich_der_Gro%C3%9FeNew_Year.png/705px-Friedrich_der_Gro%C3%9FeNew_Year.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/Friedrich_der_Gro%C3%9FeNew_Year.png/705px-Friedrich_der_Gro%C3%9FeNew_Year.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/c/c3/Friedrich_der_Gro%C3%9FeNew_Year.png/705px-Friedrich_der_Gro%C3%9FeNew_Year.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Friedrich_der_Gro%C3%9FeNew_YearWithoutBG.png/800px-Friedrich_der_Gro%C3%9FeNew_YearWithoutBG.png"
         ]
     },
     "gascogne": {
@@ -22990,7 +23622,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/f/f4/Gascogne.png/576px-Gascogne.png",
             "Tropical Environs Acclimation Service Equipment",
-            "https://azurlane.koumakan.jp/w/images/thumb/f/f9/GascogneSummer.png/516px-GascogneSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f9/GascogneSummer.png/516px-GascogneSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/f9/GascogneSummer.png/516px-GascogneSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6b/GascogneSummerWithoutBG.png/537px-GascogneSummerWithoutBG.png"
         ]
     },
     "cheshire": {
@@ -23041,8 +23677,16 @@
             "https://azurlane.koumakan.jp/w/images/thumb/2/28/Cheshire.png/702px-Cheshire.png",
             "Summery Date!",
             "https://azurlane.koumakan.jp/w/images/thumb/e/ed/CheshireSummer.png/649px-CheshireSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/e/ed/CheshireSummer.png/649px-CheshireSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7f/CheshireSummerWithoutBG.png/699px-CheshireSummerWithoutBG.png",
             "Cait Sith Crooner",
-            "https://azurlane.koumakan.jp/w/images/thumb/5/59/CheshireSpring.png/503px-CheshireSpring.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/5/59/CheshireSpring.png/503px-CheshireSpring.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/5/59/CheshireSpring.png/503px-CheshireSpring.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/f/fa/CheshireSpringWithoutBG.png/550px-CheshireSpringWithoutBG.png"
         ]
     },
     "drake": {
@@ -23082,8 +23726,8 @@
             "\u2022 Upgrades Siren Killer II\u2192III, Upgrades All Out Assault I\u2192II, Main Gun efficiency +15%, Ship Rarity increases to \u2605\u2605\u2605\u2605\u2605\u2605"
         ],
         "skill": [
-            "The Fearless Privateer \ud83d\udcd5\nIncrease this ship's built-in Secondary Gun Crit Rate by 20% (50.0%) and gives a Lv.1 (Lv.10) ammo buff to it. When this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to special HE with 115/115/95 (125/125/105) modifiers.",
-            "Flintlock Burst \ud83d\udcd2\nEvery 30s (20s): fires a special barrage that ignores shields and heals this ship for 15.0% of the DMG dealt (barrage DMG is based on the skill's level).  When sortied as lead ship\u00a0: increase this ship's FP and EVA by 3% (15.0%) and RLD by 4.5% (21.0%).  When not sortied as lead ship: When this ship sinks an enemy: increase this ship's FP and EVA by 1% (5.0%) and RLD by 1.5% (7.0%) until the end of the battle. Can be stacked up to 3 times.",
+            "The Fearless Privateer \ud83d\udcd5\nIncrease this ship's built-in secondary gun's critical rate by 20.0% (50.0%) and change its modifiers to 100/100/100. When this ship uses a main gun that fires Normal or High Explosive ammo, change this ship's main gun ammo type to High Explosive, with 115/115/95 (125/125/105) modifiers.",
+            "Flintlock Burst \ud83d\udcd2\nEvery 30.0 (20.0) seconds, fire a special barrage that ignores shields and heals this ship for 15.0% of the damage dealt (barrage damage scales with skill level). Additionally,\nIf sortied as the lead vanguard ship, increase this ship's FP and EVA by 3.0% (15.0%) and RLD by 4.5% (21.0%).\nIf not sortied as the lead vanguard ship, when this ship sinks an enemy ship, increase this ship's FP and EVA by 1.0% (5.0%) and RLD by 1.5% (7.0%) until the end of the battle. This buff can be stacked up to three times.",
             "Siren Killer \ud83d\udcd5\nIncrease this ship's DMG to Sirens by 5.0% (15.0%).",
             "All Out AssaultJP:\u00a0\u7279\u6b8a\u5f3e\u5e55-\u30c9\u30ec\u30a4\u30af \ud83d\udcd5\nActivates All Out Assault I (II): Drake once every 12 (8) times the Main Guns are fired.",
             "    "
@@ -23230,8 +23874,8 @@
             "\u2022 Upgrades Siren Killer II\u2192III, Main Gun efficiency +15%, Ship Rarity increases to \u2605\u2605\u2605\u2605\u2605\u2605"
         ],
         "skill": [
-            "Augmenting Mechanism: Setzer Principle \ud83d\udcd5\nDecreases the loading time of this ship's Main Guns by 20% (40.0%) and fires an additional LV.1 (LV.10) barrage along with its primary Salvoes. Every 20s: fires a LV.1 (LV.10) special barrage (DMG is based on the skill's level).",
-            "Substitute Mechanism: Holy Thurible \ud83d\udcd2\nWhen this ship uses a Main Gun that fires HE ammo: increases its FP by 1% (5.0%), AA by 5% (15.0%), and increases its armor modifier against Heavy Armor enemies by 5% (15%); when using one that fires AP: increase this ship's FP by 1% (5.0%), RLD by 5% (15.0%), and increase its Main Gun Crit Rate by 5% (20.0%). While this ship is above 75.0% HP: absorbs 50.0% of the DMG your Flagship takes (does nothing if this ship is the Flagship); when this ship's HP falls below 75.0% increase this ship's EVA and Accuracy by 5% (15.0%).",
+            "Augmenting Mechanism: Setzer Principle \ud83d\udcd5\nDecrease the loading time for this ship's main guns by 20.0% (40.0%). When this ship fires its main guns, fire a special barrage (barrage damage scales with skill level). Every 20 seconds after the battle starts, fire a special barrage (barrage damage scales with skill level).\n[These two barrages are different.]",
+            "Substitute Mechanism: Holy Thurible \ud83d\udcd2\nIf this ship's main gun fires HE ammo:\nIncrease this ship's FP by 1.0% (5.0%) and AA by 5.0% (15.0%).\nIncrease the main gun's modifier against heavy armor by +5.0% (+15.0%).\nIf this ship's main gun fires AP ammo:\n\nIncrease this ship's FP by 1.0% (5.0%) and RLD by 5.0% (15.0%).\nIncrease the main gun's critical rate by 5.0% (20.0%).\nAs long as this ship is afloat:\n\nIf this ship has at least 75.0% HP remaining, then 50.0% of the damage the flagship receives will be  dealt to this ship instead. (If this ship is the flagship, then nothing happens.)\nIf this ship has less than 75.0% HP remaining, increase this ship's EVA and Accuracy by 5.0% (15.0%).",
             "Siren Killer \ud83d\udcd5\nIncrease this ship's DMG to Sirens by 5.0% (15%).",
             "    ",
             "    "
@@ -23390,7 +24034,11 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/0/0d/Kasumi_%28DOA%29.png/433px-Kasumi_%28DOA%29.png",
             "Springside Mist",
-            "https://azurlane.koumakan.jp/w/images/thumb/3/37/Kasumi_%28DOA%29Summer.png/687px-Kasumi_%28DOA%29Summer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/3/37/Kasumi_%28DOA%29Summer.png/687px-Kasumi_%28DOA%29Summer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/3/37/Kasumi_%28DOA%29Summer.png/687px-Kasumi_%28DOA%29Summer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/8/89/Kasumi_%28DOA%29SummerWithoutBG.png/687px-Kasumi_%28DOA%29SummerWithoutBG.png"
         ]
     },
     "misaki": {
@@ -23445,8 +24093,8 @@
     },
     "nagisa": {
         "artista": "\u6d3b\u65ad\u5c64",
-        "doppiatrice": "Maaya Uchida",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Maaya_Uchida",
+        "doppiatrice": "Play Maaya Uchida",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/9/97/Nagisa_TitleScreenJP.ogg",
         "nome_nave": "Nagisa",
         "rarit\u00e0": "Nagisa",
         "tempo": "Nagisa",
@@ -23495,8 +24143,8 @@
     },
     "nyotengu": {
         "artista": "kurumi\u666e\u62c9\u65af",
-        "doppiatrice": "Akemi Satou",
-        "link_doppiatrice": "https://en.wikipedia.org/wiki/Akemi_Sat%C5%8D_(singer)",
+        "doppiatrice": "Play Akemi Satou",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/52/Nyotengu_TitleScreenJP.ogg",
         "nome_nave": "Nyotengu",
         "rarit\u00e0": "Nyotengu",
         "tempo": "Nyotengu",
@@ -23540,13 +24188,17 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/d/dd/Nyotengu.png/607px-Nyotengu.png",
             "Scarlet-Tinged Hot Spring Vacation",
-            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/NyotenguSummer.png/622px-NyotenguSummer.png"
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/NyotenguSummer.png/622px-NyotenguSummer.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/1/1b/NyotenguSummer.png/622px-NyotenguSummer.png",
+            "Without BG",
+            "https://azurlane.koumakan.jp/w/images/thumb/b/b9/NyotenguSummerWithoutBG.png/622px-NyotenguSummerWithoutBG.png"
         ]
     },
     "monica": {
         "artista": "\u80a1\u95f4\u5c11\u5973",
-        "doppiatrice": "Eri Yukimura",
-        "link_doppiatrice": "https://www.imdb.com/name/nm9806307/",
+        "doppiatrice": "Play Eri Yukimura",
+        "link_doppiatrice": "https://azurlane.koumakan.jp/w/images/5/5a/Monica_TitleScreenJP.ogg",
         "nome_nave": "Monica",
         "rarit\u00e0": "Monica",
         "tempo": "Monica",
@@ -23782,6 +24434,8 @@
         ],
         "skin": [
             "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Vert.png/605px-Vert.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/6/6d/Vert.png/605px-Vert.png"
         ]
     },
@@ -23882,6 +24536,8 @@
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/4/46/Black_Heart.png/550px-Black_Heart.png",
             "Goddesses' Smile",
+            "https://azurlane.koumakan.jp/w/images/thumb/9/9d/Black_HeartCollab.png/454px-Black_HeartCollab.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/9/9d/Black_HeartCollab.png/454px-Black_HeartCollab.png"
         ]
     },
@@ -23981,7 +24637,11 @@
         "skin": [
             "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/2/2f/Green_Heart.png/589px-Green_Heart.png",
+            "Default",
+            "https://azurlane.koumakan.jp/w/images/thumb/2/2f/Green_Heart.png/589px-Green_Heart.png",
             "Goddesses' Moment",
+            "https://azurlane.koumakan.jp/w/images/thumb/7/7a/Green_HeartCollab.png/550px-Green_HeartCollab.png",
+            "Default",
             "https://azurlane.koumakan.jp/w/images/thumb/7/7a/Green_HeartCollab.png/550px-Green_HeartCollab.png"
         ]
     },
