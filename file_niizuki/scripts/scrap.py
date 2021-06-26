@@ -92,7 +92,7 @@ def aggiorna_database():
                 nome_nave = h1_ship_name.get_text()
                 nome_nave_lower = nome_nave.lower()
                 nome_nave_url = "/"+nome_nave.replace(" ", "_")
-            print(nome_nave, nome_nave_lower, nome_nave_url, sep="---")
+            # print(nome_nave, nome_nave_lower, nome_nave_url, sep="---")
 
     #-------------------------------------------------------------------------------------------------s---
             # Tabella parte 1
