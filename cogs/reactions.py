@@ -200,14 +200,9 @@ class Reaction(commands.Cog):
 
                             #Return to "main page"
                             new_embed = discord.Embed(title = database[NAVE]["tempo"],
-                                description = "Artista: " + database[NAVE]["artista"] + '\n' +
-                                "Doppiatrice: " + database[NAVE]["doppiatrice"] + '\n' +
-                                "_ _" + '\n' +
-                                "**Nazionalità:** " + database[NAVE]["nazionalità"] + " " +
+                                description = "**Nazionalità:** " + database[NAVE]["nazionalità"] + " " +
                                 database[NAVE]["abbreviazione"] + '\n' +
-                                "**Classe:** " + database[NAVE]["classe"] + " " +
-                                database[NAVE]["tipo"] +'\n' +
-                                "**Numero ID:** " + database[NAVE]["id"] + '\n' +
+                                "**Tipo:** " + database[NAVE]["tipo"] +'\n' +
                                 "_ _" + '\n' +
                                 "**Skin: ** " + "\n".join(skin_list),
                                 colour = discord.Colour(database[NAVE]["colore_embed"]))
