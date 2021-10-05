@@ -572,8 +572,7 @@ def aggiorna_database():
                     #print(img_list)
             url_skin = []
             for img in img_list:
-                url = wiki+img
-                url_skin.append(url)
+                url_skin.append(img)
             
             skin_list = [i for x in zip(nome_skin, url_skin) for i in x]
             #print(skin_list)
