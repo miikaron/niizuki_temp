@@ -85,10 +85,10 @@ class Nave:
         #Icona nave e nome
         embed.set_author(name = database[nave]["nome_nave"],
             url = database[nave]["wiki_nave"][0],
-            icon_url = database[nave]["wiki_nave"][1])
+            icon_url = database[nave]["wiki_nave"][2])
         #Immagini e footer
-        embed.set_thumbnail(url = database[nave]["wiki_nave"][2])
-        embed.set_image(url = database[nave]["wiki_nave"][3])
+        embed.set_thumbnail(url = database[nave]["wiki_nave"][1])
+        embed.set_image(url = database[nave]["wiki_nave"][2])
         embed.set_footer(text = "Clicca 📖 per vedere le skill")
         #Efficienza armamento
         embed.add_field(name = "Efficienza armamento:",
@@ -226,9 +226,9 @@ class Ships(commands.Cog):
                     embed_skin.set_author(name = database[nave]["nome_nave"] +
                         " (" + database[nave]["rarità"]+")",
                         url = database[nave]["wiki_nave"][0],
-                        icon_url = database[nave]["wiki_nave"][1])
+                        icon_url = database[nave]["wiki_nave"][2])
                     #Immagini
-                    embed_skin.set_thumbnail(url = database[nave]["wiki_nave"][2])
+                    embed_skin.set_thumbnail(url = database[nave]["wiki_nave"][1])
                     embed_skin.set_image(url = database[nave]["skin"][1])
                     embed_skin.set_footer(text = "Retrofit " + database[nave]["retrofit"])
 
