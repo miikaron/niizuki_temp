@@ -138,12 +138,11 @@ class Reaction(commands.Cog):
                                 new_embed = discord.Embed(description = skin_name,
                                     colour = discord.Colour(database[NAVE]["colore_embed"]))
                                 #Icona nave e nome
-                                new_embed.set_author(name = database[NAVE]["nome_nave"] +
-                                    " (" + database[NAVE]["rarità"]+")",
+                                new_embed.set_author(name = database[NAVE]["nome_nave"],
                                     url = database[NAVE]["wiki_nave"][0],
-                                    icon_url = database[NAVE]["wiki_nave"][1])
+                                    icon_url = database[NAVE]["wiki_nave"][2])
                                 #Immagini
-                                new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][2])
+                                new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][1])
                                 new_embed.set_image(url = url_skin)
                                 new_embed.set_footer(text = "Retrofit " + database[NAVE]["retrofit"])
                                 
@@ -164,13 +163,12 @@ class Reaction(commands.Cog):
                             new_embed = discord.Embed(description = TEMPO,
                                 colour = discord.Colour(database[NAVE]["colore_embed"]))
                             #Icona nave e nome
-                            new_embed.set_author(name = database[NAVE]["nome_nave"] +
-                                " (" + database[NAVE]["rarità"]+")",
+                            new_embed.set_author(name = database[NAVE]["nome_nave"],
                                 url = database[NAVE]["wiki_nave"][0],
-                                icon_url = database[NAVE]["wiki_nave"][1])
+                                icon_url = database[NAVE]["wiki_nave"][2])
                             #Immagini e footer
-                            new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][2])
-                            new_embed.set_image(url = database[NAVE]["wiki_nave"][3])
+                            new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][1])
+                            new_embed.set_image(url = database[NAVE]["wiki_nave"][2])
                             new_embed.set_footer(text = "Clicca 📖 per tornare indietro")
                             #Skill 1 -> database[NAVE]["skill"][0].split("\n") [0]=title [1]=descritpion
                             new_embed.add_field(name = database[NAVE]["skill"][0].split("\n")[0],
@@ -214,13 +212,12 @@ class Reaction(commands.Cog):
                                 "**Skin: ** " + "\n".join(skin_list),
                                 colour = discord.Colour(database[NAVE]["colore_embed"]))
                             #Icona nave e nome
-                            new_embed.set_author(name = database[NAVE]["nome_nave"] +
-                                " (" + database[NAVE]["rarità"]+")",
+                            new_embed.set_author(name = database[NAVE]["nome_nave"],
                                 url = database[NAVE]["wiki_nave"][0],
-                                icon_url = database[NAVE]["wiki_nave"][1])
+                                icon_url = database[NAVE]["wiki_nave"][2])
                             #Immagini e footer
-                            new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][2])
-                            new_embed.set_image(url = database[NAVE]["wiki_nave"][3])
+                            new_embed.set_thumbnail(url = database[NAVE]["wiki_nave"][1])
+                            new_embed.set_image(url = database[NAVE]["wiki_nave"][2])
                             new_embed.set_footer(text = "Clicca 📖 per vedere le skill")
                             #Efficienza armamento
                             new_embed.add_field(name = "Efficienza armamento:",

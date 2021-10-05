@@ -223,8 +223,7 @@ class Ships(commands.Cog):
                     embed_skin = discord.Embed(description = database[nave]["skin"][0],
                         colour = discord.Colour(database[nave]["colore_embed"]))
                     #Icona nave e nome
-                    embed_skin.set_author(name = database[nave]["nome_nave"] +
-                        " (" + database[nave]["rarità"]+")",
+                    embed_skin.set_author(name = database[nave]["nome_nave"],
                         url = database[nave]["wiki_nave"][0],
                         icon_url = database[nave]["wiki_nave"][2])
                     #Immagini
