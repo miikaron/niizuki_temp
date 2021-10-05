@@ -1,12 +1,10 @@
 {
     "ookami mio": {
         "nome_nave": "Ookami Mio",
-        "rarit\u00e0": "Artists",
         "tempo": "Non pu\u00f2 essere costruita",
         "retrofit": "non disponibile",
         "nazionalit\u00e0": "Hololive",
         "abbreviazione": " ",
-        "classe": "Hololive",
         "tipo": "__[Aircraft Carrier]__",
         "colore_embed": 11949300,
         "acquisizione": "Reward for obtaining 1,000 Friendship Points during \"Looking Glass of Fact and Fiction\" event.",
@@ -14,9 +12,8 @@
         "collab": "s\u00ec",
         "wiki_nave": [
             "https://azurlane.koumakan.jp/Ookami_Mio",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/5/5e/Ookami_MioShipyardIcon.png/161px-Ookami_MioShipyardIcon.png",
             "https://azurlane.koumakan.jp/w/images/0/0d/Um_1.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/8/8f/Ookami_Mio.png/511px-Ookami_Mio.png"
+            "https://azurlane.netojuu.com/w/images/thumb/5/5e/Ookami_MioShipyardIcon.png/161px-Ookami_MioShipyardIcon.png"
         ],
         "efficienza": [
             "120% \u2192 140%: __Fighters__",
@@ -47,12 +44,10 @@
     },
     "z23": {
         "nome_nave": "Z23",
-        "rarit\u00e0": "Artists",
         "tempo": "00:33:00",
         "retrofit": "disponibile",
         "nazionalit\u00e0": "Iron Blood",
         "abbreviazione": "__[KMS]__",
-        "classe": "Iron Blood",
         "tipo": "__[Destroyer]__",
         "colore_embed": 8900346,
         "acquisizione": "Disponibile come *starter ship.*\nDrop: \u2022 Cap 2 \u2022 Cap 3 \u2022 Cap 4 \u2022 Cap 5 \u2022 Cap 6 \u2022 Cap 7 \u2022 Cap 8 \u2022 Cap 9 \u2022 Cap 10 \u2022 Cap 11 \u2022 Cap 12 \u2022 Cap 13",
@@ -60,9 +55,8 @@
         "collab": "no",
         "wiki_nave": [
             "https://azurlane.koumakan.jp/Z23",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/7/7a/Z23ShipyardIcon.png/161px-Z23ShipyardIcon.png",
             "https://azurlane.koumakan.jp/w/images/f/f5/Ironblood_edited.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/0/07/Z23.png/502px-Z23.png"
+            "https://azurlane.netojuu.com/w/images/thumb/7/7a/Z23ShipyardIcon.png/161px-Z23ShipyardIcon.png"
         ],
         "efficienza": [
             "140% \u2192 160% \u2192 175%: __CL/DD Guns__",
@@ -109,279 +103,58 @@
             "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/6/63/Z23Bluray2Chibi.png"
         ]
     },
-    "akashi": {
-        "nome_nave": "Akashi",
-        "rarit\u00e0": "Artists",
-        "tempo": "01:35:00",
+    "kaga": {
+        "nome_nave": "Kaga",
+        "tempo": "Drop Only",
         "retrofit": "non disponibile",
         "nazionalit\u00e0": "Sakura Empire",
         "abbreviazione": "__[IJN]__",
-        "classe": "Sakura Empire",
-        "tipo": "__[Repair Ship]__",
-        "colore_embed": 2215311,
-        "acquisizione": "Ricompensa per aver completato la Questline di Akashi.\nIn seguito sar\u00e0 disponibile in Build: Light | Special | ",
+        "tipo": "__[Aircraft Carrier]__",
+        "colore_embed": 11949300,
+        "acquisizione": "\nDrop: \u2022 3-4 (Boss node)",
         "limited": "no",
         "collab": "no",
         "wiki_nave": [
-            "https://azurlane.koumakan.jp/Akashi",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/a/aa/AkashiShipyardIcon.png/161px-AkashiShipyardIcon.png",
+            "https://azurlane.koumakan.jp/Kaga",
             "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/1/1f/Akashi.png/445px-Akashi.png"
+            "https://azurlane.netojuu.com/w/images/thumb/1/18/KagaShipyardIcon.png/161px-KagaShipyardIcon.png"
         ],
         "efficienza": [
-            "None: __Auxiliaries__",
-            "85% \u2192 100%: __Anti-Air Guns__",
-            "85% \u2192 100%: __Anti-Air Guns__"
+            "110% \u2192 110%: __Fighters__",
+            "110% \u2192 110%: __Dive Bombers__",
+            "120% \u2192 150%: __Torpedo Bombers__"
         ],
         "rank": [
-            "\u2022 Number of Emergency Repairs +1 / Anti-Air Efficiency +3%",
-            "\u2022 Initial Fleet Ammo and Capacity +1 / Anti-Air Gun +1 / Anti-Air Efficiency +5%",
-            "\u2022 Number of Emergency Repairs +1 / Anti-Air Efficiency +7%",
+            "\u2022 Number of Torpedo Bombers +1 / Torpedo Bombers Efficiency +5%",
+            "\u2022 Hangar Capacity +1 / Number of Fighters +1 / Torpedo Bombers Efficiency +10%",
+            "\u2022 Number of All Planes +1 / Torpedo Bombers Efficiency +15%",
             " ",
             " ",
             " "
         ],
         "skill": [
-            "Logistics Repair \ud83d\udcd8\nEvery 35s, recovers HP of entire fleet equal to 1% (3%) of Akashi's max HP.",
-            "Reload Command: Vanguard \ud83d\udcd2\nIncreases Reload of the Vanguard Fleet by 5% (15%). Does not stack with other command skills that have similar effect.",
-            "Regular Maintenance \ud83d\udcd8\nBegins each Sortie with 1 (3) Emergency Repair.",
+            "Preemptive Strike \ud83d\udcd5\nAt the beginning of combat, reduces Reload time of own first airstrike by 20% (50%).",
+            "First Carrier Division \ud83d\udcd2\nWhen paired with Akagi, Akagi-chan, or Akagi (Muse) in the same fleet: increases own Aviation stat by 15% (35%).",
+            "    ",
             "    ",
             "    "
         ],
         "skin": [
             "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/7/70/AkashiChibi.png",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/d/dc/KagaChibi.png",
             "Wedding",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/9/9e/AkashiWeddingChibi.png",
-            "Akashi's in the Red, Nya!",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/3/31/AkashiNew_YearChibi.png",
-            "The Black Cat Cometh!",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/6/6d/AkashiPartyChibi.png/135px-AkashiPartyChibi.png",
-            "Welcome to AzurCon!",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/4/4f/AkashiEventChibi.png",
-            "Welcome to Sofmap!",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/0/0e/AkashiSofmapChibi.png"
-        ]
-    },
-    "maury": {
-        "nome_nave": "Maury",
-        "rarit\u00e0": "Artists",
-        "tempo": "00:25:00",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Eagle Union",
-        "abbreviazione": "__[USS]__",
-        "classe": "Eagle Union",
-        "tipo": "__[Destroyer]__",
-        "colore_embed": 8900346,
-        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n10\u2605 ottenute facendo il limit-break alle Gridley Class: Gridley, Craven, McCall.\nIn seguito sar\u00e0 disponibile in Build: Light | ",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Maury",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/3/39/MauryShipyardIcon.png/161px-MauryShipyardIcon.png",
-            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/c/ce/Maury.png/431px-Maury.png"
-        ],
-        "efficienza": [
-            "110% \u2192 115%: __DD Guns__",
-            "120% \u2192 140%: __Torpedoes__",
-            "120% \u2192 125%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Gains Full Barrage I / Torpedo Efficiency +5%",
-            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Torpedo Efficiency +10%",
-            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Aquatic Vortex \ud83d\udcd8\nEvery 10s, 20% (40%) chance to increase own Evasion by 30% (60%) for 8s.",
-            "Double Torpedo \ud83d\udcd5\nWhen this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes. (10s cooldown, starts on cooldown)",
-            "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Gridley Class I (II)",
-            "    ",
-            "    "
-        ],
-        "skin": [
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/d/d6/KagaWeddingChibi.png/136px-KagaWeddingChibi.png",
+            "Everlasting Killing Stone",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/0/0d/KagaSummerChibi.png",
+            "White Fox's New Year",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/c/cf/KagaNew_YearChibi.png",
+            "Exalted White Wings",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/1/10/KagaPartyChibi.png",
+            "Gentle Blossom's Sigh",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/e/e7/KagaNew_Year2Chibi.png",
             "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/3/37/MauryChibi.png"
-        ]
-    },
-    "wichita": {
-        "nome_nave": "Wichita",
-        "rarit\u00e0": "Artists",
-        "tempo": "02:30:00",
-        "retrofit": "non disponibile",
-        "nazionalit\u00e0": "Eagle Union",
-        "abbreviazione": "__[USS]__",
-        "classe": "Eagle Union",
-        "tipo": "__[Heavy Cruiser]__",
-        "colore_embed": 16768685,
-        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n12\u2605 ottenute facendo il limit-break alle Brooklyn class: Brooklyn, Phoenix, HelenaNot available in CN server.\nIn seguito sar\u00e0 disponibile in Build: Heavy | Special | ",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Wichita",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/b/b7/WichitaShipyardIcon.png/161px-WichitaShipyardIcon.png",
-            "https://azurlane.koumakan.jp/w/images/2/21/Eagleunion_orig.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/6/65/Wichita.png/600px-Wichita.png"
-        ],
-        "efficienza": [
-            "110% \u2192 130%: __CA Guns__",
-            "50% \u2192 55%: __DD Guns__",
-            "100% \u2192 105%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Gains Full Barrage I  / Main Gun Efficiency +5%",
-            "\u2022 Main Gun Mount +1 / Main Gun Efficiency +10%",
-            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Artillery Command: Cruisers \ud83d\udcd2\nIncreases Firepower of Cruisers in the fleet by 5% (15%). Does not stack with any other Artillery Command skill.",
-            "Double Gun \ud83d\udcd5\nWhen firing main gun: 15% (25%) chance to fire an extra round.",
-            "All Out Assault \ud83d\udcd5\nEvery 12 (8) times the main gun is fired, trigger Full Barrage - Wichita I (II)",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/7/7b/WichitaChibi.png",
-            "The General's Banquet",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/7/77/WichitaPartyChibi.png",
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/2/20/WichitaParty.png/596px-WichitaParty.png",
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/9/94/KagaNew_Year2.png/481px-KagaNew_Year2.png",
             "Without BG",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/6/6c/WichitaPartyWithoutBG.png/529px-WichitaPartyWithoutBG.png",
-            "Domineering Witchita",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/a/a1/WichitaHalloweenChibi.png"
-        ]
-    },
-    "ayanami": {
-        "nome_nave": "Ayanami",
-        "rarit\u00e0": "wikipedia:Y\u014d Taichi",
-        "tempo": "00:23:00",
-        "retrofit": "disponibile",
-        "nazionalit\u00e0": "Sakura Empire",
-        "abbreviazione": "__[IJN]__",
-        "classe": "Destroyer",
-        "tipo": "__[Destroyer]__",
-        "colore_embed": 8900346,
-        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\nmax limit-break di Javelin, Laffey, Z23.\nIn seguito sar\u00e0 disponibile in Build: Light | ",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Ayanami",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/9/93/AyanamiShipyardIcon.png/161px-AyanamiShipyardIcon.png",
-            "https://azurlane.koumakan.jp/w/images/9/93/Sakuraempire_orig.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/0/0a/Ayanami.png/371px-Ayanami.png"
-        ],
-        "efficienza": [
-            "75% \u2192 80% \u2192 85%: __DD Guns__",
-            "140% \u2192 160% \u2192 165%: __Torpedoes__",
-            "70% \u2192 75% \u2192 75%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Gains Full Barrage I / Torpedo Efficiency +5%",
-            "\u2022 Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
-            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "The Demon \ud83d\udcd5\nWhen firing main gun, 5% chance to increase own Torpedo stat by 30% (60%) for 12s.",
-            "(Retrofit) Demon Dance \ud83d\udcd8\nEvery 20s, 40% (70%) chance to increase own Evasion by 30% for 5s and release a powerful barrage while launching fast torpedoes in a helical pattern.",
-            "All Out Assault \ud83d\udcd5\nEvery 15 (10) times the main battery is fired, triggers Full Barrage - Ayanami I (II)",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/0/08/AyanamiChibi.png",
-            "Retrofit",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/8/8b/AyanamiKaiChibi.png",
-            "Wedding",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/4/46/AyanamiWeddingChibi.png/150px-AyanamiWeddingChibi.png",
-            "Witch in Ambush",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/f/f2/AyanamiHalloweenChibi.png",
-            "NicoNico",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/f/f4/AyanamiNicoNicoChibi.png",
-            "Rock 'n' Demon",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/e/ea/AyanamiRockChibi.png/150px-AyanamiRockChibi.png",
-            "Lunar Demon",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/f/fa/AyanamiSpringChibi.png/143px-AyanamiSpringChibi.png",
-            "Grade A Sailor Uniform",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/b/bc/AyanamiCoCoChibi.png/111px-AyanamiCoCoChibi.png",
-            "Covert Ops Cloak",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/8/80/AyanamiBlurayChibi.png",
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/1/1a/AyanamiBluray.png/459px-AyanamiBluray.png",
-            "Without BG",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/d/d9/AyanamiBlurayWithoutBG.png/489px-AyanamiBlurayWithoutBG.png",
-            "Low-Key Idol @Confused",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/4/43/AyanamiIdolChibi.png",
-            "Pulse of the New Year",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/7/7b/AyanamiNew_YearChibi.png",
-            "Nightfall Raiment",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/1/17/AyanamiPartyChibi.png",
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/1/16/AyanamiParty.png/662px-AyanamiParty.png",
-            "Without BG",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/2/24/AyanamiPartyWithoutBG.png/387px-AyanamiPartyWithoutBG.png",
-            "Off-Duty Battle Station Gear",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/9/92/AyanamiBluray2Chibi.png",
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/2/2c/AyanamiBluray2.png/492px-AyanamiBluray2.png",
-            "Without BG",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/7/72/AyanamiBluray2WithoutBG.png/573px-AyanamiBluray2WithoutBG.png"
-        ]
-    },
-    "leipzig": {
-        "nome_nave": "Leipzig",
-        "rarit\u00e0": "Artists",
-        "tempo": "01:20:00",
-        "retrofit": "disponibile",
-        "nazionalit\u00e0": "Iron Blood",
-        "abbreviazione": "__[KMS]__",
-        "classe": "Iron Blood",
-        "tipo": "__[Light Cruiser]__",
-        "colore_embed": 16774061,
-        "acquisizione": "Ricompensa per aver raggiunto l'obiettivo in Colletion:\n9\u2605 ottenute facendo il limit-break alle K\u00f6nigsberg Class: K\u00f6nigsberg, Karlsruhe, K\u00f6ln.\nIn seguito sar\u00e0 disponibile in Build: Light | Heavy | Special | ",
-        "limited": "no",
-        "collab": "no",
-        "wiki_nave": [
-            "https://azurlane.koumakan.jp/Leipzig",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/7/77/LeipzigShipyardIcon.png/161px-LeipzigShipyardIcon.png",
-            "https://azurlane.koumakan.jp/w/images/f/f5/Ironblood_edited.png",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/2/26/Leipzig.png/600px-Leipzig.png"
-        ],
-        "efficienza": [
-            "115% \u2192 125% \u2192 125%: __CL Guns__",
-            "150% \u2192 160% \u2192 175%: __Torpedoes__",
-            "120% \u2192 130% \u2192 135%: __Anti-Air Guns__"
-        ],
-        "rank": [
-            "\u2022 Gains Full Barrage I / All Weapon Efficiency +2%",
-            "\u2022 Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / All Weapon Efficiency +3%",
-            "\u2022 Upgrades Full Barrage I\u2192II / All Weapon Efficiency +5%",
-            " ",
-            " ",
-            " "
-        ],
-        "skill": [
-            "Tactical Command: Cruisers \ud83d\udcd2\nIncreases Firepower, Torpedo stat, and Reload of all Cruisers by 1% (10%). Does not stack with other command skills that have similar effect.",
-            "(Retrofit) Safety First! \ud83d\udcd8\nWhile alive in fleet, increases Speed of all ships in Escort Fleet by 3, and reduces damage taken from ramming by 15% (25%). Once per battle, when taking damage while own Health is below 30%: evades all incoming attack for 2s (5s), and increases own damage dealt by 5% (15%) for the rest of the battle.",
-            "All Out Assault \ud83d\udcd5\nEvery 12 (8) shots from the main guns, triggers Full Barrage - Leipzig Class I (II)",
-            "    ",
-            "    "
-        ],
-        "skin": [
-            "Default",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/1/11/LeipzigChibi.png",
-            "Retrofit",
-            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/d/d6/LeipzigKaiChibi.png"
+            "https://azurlane.koumakan.jphttps://azurlane.netojuu.com/w/images/thumb/7/7d/KagaNew_Year2WithoutBG.png/684px-KagaNew_Year2WithoutBG.png"
         ]
     }}

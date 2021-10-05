@@ -71,7 +71,7 @@ def aggiorna_database():
         except Exception:
             print(traceback.format_exc())
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Ookami_Mio", "/Z23", "/Akashi", "/Maury", "/Wichita", "/Ayanami", "/Leipzig"] # (lista_navi2 -- debug)
+    #lista_navi = ["/Ookami_Mio", "/Z23", "/Kaga"] # (lista_navi2 -- debug)
 
     for nave in lista_navi:
         nome = nave
@@ -265,19 +265,15 @@ def aggiorna_database():
             #print(retrofit)
 
     #----------------------------------------------------------------------------------------------------
-            # Icona.png
-            ship_icon = body.find("img")
-            icona_nave = wiki+ship_icon["src"]
-
             try:
                 # Immagine.png
-                div = body.find("div", {"class": "adaptiveratioimg"})
+                div = body.find("div", {"style": "box-shadow:3px 0 10px 3px rgba(0,0,0,0.4)"})
                 ship_img = div.find("img")
-                img_nave = wiki+ship_img["src"]
+                img_nave = ship_img["src"]
             except TypeError:
                 img_nave = "https://azurlane.koumakan.jp/w/images/3/36/UnknownT1BP.png"
             
-            #print(icona_nave, img_nave, sep="\n")
+            #print(img_nave, sep="\n")
 
     #----------------------------------------------------------------------------------------------------
             # #Remove "Play" button from data cell: | Voice Actor | <Play (Actor's name)> |
@@ -857,7 +853,6 @@ def aggiorna_database():
                     "collab": collab,
                     "wiki_nave": [
                         wiki + nome_nave_url, #wiki
-                        icona_nave, #icona
                         img_nazione, #nazione
                         img_nave, #immagine
                     ],
