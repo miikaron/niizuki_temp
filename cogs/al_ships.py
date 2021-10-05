@@ -76,18 +76,14 @@ class Nave:
 
         embed = discord.Embed(
             title = database[nave]["tempo"],
-            description = f'Artista: {database[nave]["artista"]}\n' +
-            f'Doppiatrice: {database[nave]["doppiatrice"]}\n\n' +
-            #Info
+            description = #Info
             f'**Nazionalità:** {database[nave]["nazionalità"]} {database[nave]["abbreviazione"]}\n' +
-            f'**Classe:** {database[nave]["classe"]} {database[nave]["tipo"]}\n' +
-            f'**Numero ID:** {database[nave]["id"]}\n\n' +
+            f'**Tipo:** {database[nave]["tipo"]}\n' +
             #Lista skin
             f'**Skin: **'+"\n".join(skin_list),
             colour = discord.Colour(database[nave]["colore_embed"]))
         #Icona nave e nome
-        embed.set_author(name = database[nave]["nome_nave"] +
-            " (" + database[nave]["rarità"]+")",
+        embed.set_author(name = database[nave]["nome_nave"],
             url = database[nave]["wiki_nave"][0],
             icon_url = database[nave]["wiki_nave"][1])
         #Immagini e footer

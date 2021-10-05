@@ -71,7 +71,7 @@ def aggiorna_database():
         except Exception:
             print(traceback.format_exc())
     #----------------------------------------------------------------------------------------------------
-    #lista_navi = ["/Hanazuki", "/Z23", "/Akashi", "/Maury", "/Wichita", "/Ayanami", "/Leipzig"] # (lista_navi2 -- debug)
+    #lista_navi = ["/Ookami_Mio", "/Z23", "/Akashi", "/Maury", "/Wichita", "/Ayanami", "/Leipzig"] # (lista_navi2 -- debug)
 
     for nave in lista_navi:
         nome = nave
@@ -100,7 +100,7 @@ def aggiorna_database():
             table_content_p1 = []
             href_title = []
 
-            tables = body.find_all("table", {"style": "border-left:0; height:130px; margin:0; width:100%"})
+            tables = body.find_all("table", {"style": "text-align:left; border-spacing:0"})
             a_href = tables[0].find_all("a", href=True)
             for href in a_href:
                 anchor_with_title = href.get("title")
@@ -112,20 +112,16 @@ def aggiorna_database():
 
             try:
                 tempo = table_content_p1[0] if table_content_p1[0] != "Cannot Be Constructed" else "Non può essere costruita"
-                classe = table_content_p1[1]
-                rarità = href_title[1]
             except IndexError:
                 tempo = href_title[0]
-                classe = table_content_p1[0]
-                rarità = href_title[0]
-            #print(tempo, rarità, classe, sep="---")
+            #print(tempo)
 
     #----------------------------------------------------------------------------------------------------
             # Tabella parte 2
     #----------------------------------------------------------------------------------------------------
             table_content_p2 = []
 
-            tab_p2_td = tables[1].find_all("td")
+            tab_p2_td = tables[0].find_all("td")
             for td in tab_p2_td:
                 raw_info = td.text[:-1]
                 info = raw_info.strip("\n  ")
@@ -137,17 +133,15 @@ def aggiorna_database():
                     info = "Light Cruiser → Heavy Cruiser"
 
                 table_content_p2.append(info)
-            #print(table_content_p2)
+            #print(table_content_p2, "PROVA", sep="------")
 
             try:
-                id_nave = table_content_p2[0]
-                nazionalità = table_content_p2[1]
-                tipo = table_content_p2[2]
+                nazionalità = table_content_p2[5]
+                tipo = table_content_p2[4]
             except IndexError:
-                id_nave = table_content_p2[0]
-                nazionalità = table_content_p2[1]
-                tipo = table_content_p2[2]
-    #----------------------------------------------------------------------------------------------------
+                nazionalità = table_content_p2[5]
+                tipo = table_content_p2[4]
+                #----------------------------------------------------------------------------------------------------
             # Factions
     #----------------------------------------------------------------------------------------------------
             if nazionalità == "Universal":
@@ -286,59 +280,12 @@ def aggiorna_database():
             #print(icona_nave, img_nave, sep="\n")
 
     #----------------------------------------------------------------------------------------------------
-            # Tabella: Miscellaneous Info
-    #----------------------------------------------------------------------------------------------------
-            info = []
-            info_link_list = []
-
-            info_table = body.find("table", {"class": "wikitable", "style": "margin:0; width:100%"})
-            for a in info_table.find_all("a", href=True):
-                info_link = a["href"]
-                info_link_list.append(info_link)
-
-            cell = info_table.find_all("td")
-            for td in cell:
-                raw_info = td.text.split("\n")
-                for raw_x in raw_info[:-1]:
-                    info.append(raw_x)
-
-            #Remove "Play" button from data cell: | Voice Actor | <Play (Actor's name)> |
-            remove_play = info[9].split(" ")
-            #print(remove_play)
-            if "Play" in remove_play:
-                info[9] = " ".join(remove_play[1:])
-            #print(info, info_link_list)
-
-    #----------------------------------------------------------------------------------------------------        
-            try:
-                artista = info[1]
-            except IndexError:
-                artista = " "
-            try:
-                doppiatrice = info[9].strip()
-            except IndexError:
-                doppiatrice = " "
-            """
-            try:
-                web = info_link_list[1]
-            except IndexError:
-                web = " "
-            try:
-                pixiv = info_link_list[2]
-            except IndexError:
-                pixiv = " "
-            try:
-                twitter = info_link_list[3]
-            except IndexError:
-                twitter = " "
-            """
-            try:
-                link_doppiatrice = info_link_list[4]
-            except IndexError:
-                link_doppiatrice = " "
-
-            #print(artista, doppiatrice, web, pixiv, twitter, link_doppiatrice, sep="\n")
-
+            # #Remove "Play" button from data cell: | Voice Actor | <Play (Actor's name)> |
+            # remove_play = info[9].split(" ")
+            # #print(remove_play)
+            # if "Play" in remove_play:
+            #     info[9] = " ".join(remove_play[1:])
+            # #print(info, info_link_list)
     #----------------------------------------------------------------------------------------------------
             # Tabella: Equipment
     #----------------------------------------------------------------------------------------------------
@@ -898,18 +845,12 @@ def aggiorna_database():
     #----------------------------------------------------------------------------------------------------
             ship = {
                 nome_nave_lower: {
-                    "artista": artista,
-                    "doppiatrice": doppiatrice,
-                    "link_doppiatrice": link_doppiatrice,
                     "nome_nave": nome_nave,
-                    "rarità": rarità,
                     "tempo": tempo,
                     "retrofit": retrofit,
                     "nazionalità": nazionalità,
                     "abbreviazione": abbreviazione,
-                    "classe": classe,
                     "tipo": "__[%s]__"%tipo,
-                    "id": id_nave,
                     "colore_embed": colore_embed,
                     "acquisizione": acquisizione,
                     "limited": limited,
@@ -985,4 +926,4 @@ if __name__ == '__main__':
     wiki = "https://azurlane.koumakan.jp"
     crea_lista(wiki)
     # print(collab_ships, lista_navi, sep="---")
-    # aggiorna_database()
+    aggiorna_database()
