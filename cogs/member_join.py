@@ -46,10 +46,10 @@ class Join(commands.Cog):
             #Azur Lane IT
             "Ricordati di consultare il canale **regolamento**.\n__ __\nPer ulteriori chiarimenti, tagga uno degli amministratori/moderatori",
             #C.I.I. ITA
-            "Dai un'occhiata al canale **"+ROLE_CHANNEL+"** per scegliere un ruolo e vedere gli altri canali del server ^^ \
+            "Dai un'occhiata al canale {ROLE_CHANNEL} per scegliere un ruolo e vedere gli altri canali del server ^^ \
             \n\nPer ulteriori chiarimenti, tagga uno degli admin/moderatori\n\n Ti auguro una buona permanenza nel server!",
             #C.I.I. EN
-            "Choose a role from the channel **"+ROLE_CHANNEL+"** to gain access to the rest of the server ^^ \
+            "Choose a role from the channel {ROLE_CHANNEL} to gain access to the rest of the server ^^" \
             \n\nFor further clarification, tag an admin or a moderator.",
             ]
 
