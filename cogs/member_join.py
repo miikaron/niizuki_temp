@@ -15,9 +15,9 @@ class Join(commands.Cog):
     async def on_member_join(self, member):
         fetch = self.client.get_channel(710166892475842663)
         if fetch:
-            ROLE_CHANNEL = fetch
+            ROLES_CHANNEL = fetch.mention
         else:
-            ROLE_CHANNEL = "<Error>"
+            ROLES_CHANNEL = "<Error>"
 
         EMBED_DESCRIPTION = [
             #ITA
@@ -46,10 +46,10 @@ class Join(commands.Cog):
             #Azur Lane IT
             "Ricordati di consultare il canale **regolamento**.\n__ __\nPer ulteriori chiarimenti, tagga uno degli amministratori/moderatori",
             #C.I.I. ITA
-            "Dai un'occhiata al canale {ROLE_CHANNEL} per scegliere un ruolo e vedere gli altri canali del server ^^ \
+            f"Dai un'occhiata al canale {ROLES_CHANNEL} per scegliere un ruolo e vedere gli altri canali del server ^^ \
             \n\nPer ulteriori chiarimenti, tagga uno degli admin/moderatori\n\n Ti auguro una buona permanenza nel server!",
             #C.I.I. EN
-            "Choose a role from the channel {ROLE_CHANNEL} to gain access to the rest of the server ^^ \
+            f"Choose a role from the channel {ROLES_CHANNEL} to gain access to the rest of the server ^^ \
             \n\nFor further clarification, tag an admin or a moderator.",
             ]
 
