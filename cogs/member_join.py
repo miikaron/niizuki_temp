@@ -15,7 +15,7 @@ class Join(commands.Cog):
     async def on_member_join(self, member):
         fetch = self.client.get_channel(710166892475842663)
         if fetch:
-            ROLE_CHANNEL = fetch.name
+            ROLE_CHANNEL = fetch
         else:
             ROLE_CHANNEL = "<Error>"
 
