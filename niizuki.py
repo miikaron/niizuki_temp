@@ -78,6 +78,13 @@ async def status_task():
         await client.change_presence(status=_status, activity=discord.Activity(name=_name, type=_type))
         await asyncio.sleep(420)    #7 minutes
 
+async def utc_time(main_server):  
+    while True:
+      if main_server:
+        channel = client.get_channel(920076324243140638) #Voice channel
+        await channel.edit(name=f"UTC-7 {time_utc}")
+        await asyncio.sleep(60) #1 minute
+
 # Mountain Time Zone (UTC-7)
 MTZ = pytz.timezone("America/Phoenix")
 datetime_utc = datetime.now(MTZ)
@@ -92,13 +99,9 @@ async def on_ready():
     print("------------------------------")
     main_server = client.get_guild(int(os.getenv("SERV_ID")))
     print(f"• Main server name: {main_server}")
-    while True:
-      if main_server:
-        # Voice channel
-        channel = client.get_channel(920076324243140638)
-        await channel.edit(name=f"UTC-7 {time_utc}")
-        await asyncio.sleep(60)
-        await channel.edit(name=f"UTC-7 {time_utc}")
+    # Tasks
+    await client.loop.create_task(status_task())
+    await client.loop.create_task(utc_time(main_server))
 
 @client.event
 async def on_command_error(ctx, error):
