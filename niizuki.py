@@ -96,9 +96,9 @@ async def on_ready():
       if main_server:
         # Voice channel
         channel = client.get_channel(920076324243140638)
-        await channel.edit(name=f"UTC-7: {time_utc}")
+        await channel.edit(name=f"UTC-7 {time_utc}")
         await asyncio.sleep(60)
-        await channel.edit(name=f"UTC-7: {time_utc}")
+        await channel.edit(name=f"UTC-7 {time_utc}")
 
 @client.event
 async def on_command_error(ctx, error):
