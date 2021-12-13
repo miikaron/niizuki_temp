@@ -90,7 +90,7 @@ async def on_ready():
     print(f"• Running on: {platform.system()} {platform.release()} ({os.name})")
     print(f"• Python version: {platform.python_version()}")
     print("------------------------------")
-    main_server = client.get_guild(os.getenv("SERV_ID"))
+    main_server = client.get_guild(int(os.getenv("SERV_ID")))
     print(f"• Main server name: {main_server}")
     while True:
       if main_server:
