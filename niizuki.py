@@ -81,7 +81,7 @@ async def status_task():
 # Mountain Time Zone (UTC-7)
 MTZ = pytz.timezone("America/Phoenix")
 datetime_utc = datetime.now(MTZ)
-time_utc = datetime_utc.strftime('%H:%M:%S')
+time_utc = datetime_utc.strftime('%H:%M')
 
 @client.event
 async def on_ready():
@@ -90,13 +90,15 @@ async def on_ready():
     print(f"• Running on: {platform.system()} {platform.release()} ({os.name})")
     print(f"• Python version: {platform.python_version()}")
     print("------------------------------")
-    server = await client.get_guild(os.getenv("SERV_ID"))
-    await client.loop.create_task(status_task())
+    main_server = client.get_guild(os.getenv("SERV_ID"))
+    print(f"• Main server name: {main_server}")
     while True:
-      channel = discord.utils.get(server.voice_channels, id=920076324243140638)
-      await channel.edit(name=f"UTC-7: {time_utc}")
-      await asyncio.sleep(60)
-      await channel.edit(name=f"UTC-7: {time_utc}")
+      if main_server:
+        # Voice channel
+        channel = client.get_channel(920076324243140638)
+        await channel.edit(name=f"UTC-7: {time_utc}")
+        await asyncio.sleep(60)
+        await channel.edit(name=f"UTC-7: {time_utc}")
 
 @client.event
 async def on_command_error(ctx, error):
