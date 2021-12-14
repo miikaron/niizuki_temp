@@ -76,16 +76,15 @@ async def status_task():
         _status = discord.Status.idle
 
     await client.change_presence(status=_status, activity=discord.Activity(name=_name, type=_type))
-    print("Status updated")
-
-# Mountain Time Zone (UTC-7)
-MTZ = pytz.timezone("America/Phoenix")
-datetime_utc = datetime.now(MTZ)
-time_utc = datetime_utc.strftime('%H:%M')
+    print("User status updated")
 
 @tasks.loop(seconds=60)
 async def change_time_utc():
     channel = client.get_channel(920076324243140638) #Voice channel
+    # Mountain Time Zone (UTC-7)
+    MTZ = pytz.timezone("America/Phoenix")
+    datetime_utc = datetime.now(MTZ)
+    time_utc = datetime_utc.strftime('%H:%M')
     await channel.edit(name=f"UTC-7 {time_utc}")
     print(channel)
 
@@ -96,11 +95,11 @@ async def on_ready():
     print(f"• Running on: {platform.system()} {platform.release()} ({os.name})")
     print(f"• Python version: {platform.python_version()}")
     print("------------------------------")
-    # Change bot status
-    status_task.start()
     # Change time
     if client.get_guild(int(os.getenv("SERV_ID"))):
       change_time_utc.start()
+    # Change bot status
+    status_task.start()
 
 @client.event
 async def on_command_error(ctx, error):
