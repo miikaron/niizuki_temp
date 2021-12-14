@@ -1,6 +1,6 @@
 import discord, os
 from discord import Game
-from discord.ext import commands
+from discord.ext import commands, tasks
 import platform, sys, asyncio, random
 from datetime import datetime
 import pytz
@@ -31,64 +31,63 @@ def task_list():
         ]
     return random.choice(tasks)
 
+@tasks.loop(seconds=420) #7 minutes
 async def status_task():  
-    while True:
-        _play = [
-            'Azur Lane',
-            'Genshin Impact',
-            'VLC Media Player',
-            ]
+    _play = [
+        'Azur Lane',
+        'Genshin Impact',
+        'VLC Media Player',
+        ]
 
-        _watch = [
-            'Azur Lane: Bisoku Zenshin! - PV',
-            'Azur Lane Universe in Unison Animation PV',
-            'Assault Lily BOUQUET – Opening Theme – Sacred world',
-            'Assault Lily: Bouquet ED 1 - Edel Lilie',
-            'TONIKAWA: Over The Moon For You - Opening (HD)',
-            "I'm Standing on a Million Lives - Ending (HD)",
-            'Majo no Tabitabi Opening Full - 『Literature』by Reina Ueda',
-            ]
+    _watch = [
+        'Azur Lane: Bisoku Zenshin! - PV',
+        'Azur Lane Universe in Unison Animation PV',
+        'Assault Lily BOUQUET - Opening Theme - Sacred world',
+        'Assault Lily: Bouquet ED 1 - Edel Lilie',
+        'TONIKAWA: Over The Moon For You - Opening (HD)',
+        "I'm Standing on a Million Lives - Ending (HD)",
+        'Majo no Tabitabi Opening Full - 『Literature』by Reina Ueda',
+        ]
 
-        _listen = [
-            'Genshin Impact - The Wind and The Star Traveler',
-            'Jade Moon Upon a Sea of Clouds - Disc 1: Glazed Moon Over the Tides｜Genshin Impact',
-            'Jade Moon Upon a Sea of Clouds - Disc 2: Shimmering Sea of Clouds and Moonlight｜Genshin Impact',
-            'Jade Moon Upon a Sea of Clouds - Disc 3: Battles of Liyue｜Genshin Impact',
-            'City of Winds and Idylls - Disc 1: City of Winds and Idylls｜Genshin Impact',
-            'City of Winds and Idylls - Disc 2: The Horizon of Dandelion｜Genshin Impact',
-            'City of Winds and Idylls - Disc 3: Saga of the West Wind｜Genshin Impact',
-            ]
+    _listen = [
+        'Genshin Impact - The Wind and The Star Traveler',
+        'Jade Moon Upon a Sea of Clouds - Disc 1: Glazed Moon Over the Tides｜Genshin Impact',
+        'Jade Moon Upon a Sea of Clouds - Disc 2: Shimmering Sea of Clouds and Moonlight｜Genshin Impact',
+        'Jade Moon Upon a Sea of Clouds - Disc 3: Battles of Liyue｜Genshin Impact',
+        'City of Winds and Idylls - Disc 1: City of Winds and Idylls｜Genshin Impact',
+        'City of Winds and Idylls - Disc 2: The Horizon of Dandelion｜Genshin Impact',
+        'City of Winds and Idylls - Disc 3: Saga of the West Wind｜Genshin Impact',
+        ]
 
-        status = task_list()
-        if status == 'playing':
-            _name = random.choice(_play)
-            _type = 0
-            _status = discord.Status.dnd    #do_not_disturb
+    status = task_list()
+    if status == 'playing':
+        _name = random.choice(_play)
+        _type = 0
+        _status = discord.Status.dnd    #do_not_disturb
 
-        elif status == 'listening':
-            _name = random.choice(_listen)
-            _type = 2
-            _status = None
+    elif status == 'listening':
+        _name = random.choice(_listen)
+        _type = 2
+        _status = None
 
-        elif status == 'watching':
-            _name = random.choice(_watch)
-            _type = 3
-            _status = discord.Status.idle
+    elif status == 'watching':
+        _name = random.choice(_watch)
+        _type = 3
+        _status = discord.Status.idle
 
-        await client.change_presence(status=_status, activity=discord.Activity(name=_name, type=_type))
-        await asyncio.sleep(420)    #7 minutes
-
-async def utc_time(main_server):  
-    while True:
-      if main_server:
-        channel = client.get_channel(920076324243140638) #Voice channel
-        await channel.edit(name=f"UTC-7 {time_utc}")
-        await asyncio.sleep(60) #1 minute
+    await client.change_presence(status=_status, activity=discord.Activity(name=_name, type=_type))
+    print("Status updated")
 
 # Mountain Time Zone (UTC-7)
 MTZ = pytz.timezone("America/Phoenix")
 datetime_utc = datetime.now(MTZ)
 time_utc = datetime_utc.strftime('%H:%M')
+
+@tasks.loop(seconds=60)
+async def change_time_utc():
+    channel = client.get_channel(920076324243140638) #Voice channel
+    await channel.edit(name=f"UTC-7 {time_utc}")
+    print(channel)
 
 @client.event
 async def on_ready():
@@ -97,11 +96,11 @@ async def on_ready():
     print(f"• Running on: {platform.system()} {platform.release()} ({os.name})")
     print(f"• Python version: {platform.python_version()}")
     print("------------------------------")
-    main_server = client.get_guild(int(os.getenv("SERV_ID")))
-    print(f"• Main server name: {main_server}")
-    # Tasks
-    await client.loop.create_task(status_task())
-    await client.loop.create_task(utc_time(main_server))
+    # Change bot status
+    status_task.start()
+    # Change time
+    if client.get_guild(int(os.getenv("SERV_ID"))):
+      change_time_utc.start()
 
 @client.event
 async def on_command_error(ctx, error):
