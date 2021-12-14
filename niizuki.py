@@ -31,7 +31,7 @@ def task_list():
         ]
     return random.choice(tasks)
 
-@tasks.loop(seconds=420) #7 minutes
+@tasks.loop(minutes=7)
 async def status_task():  
     _play = [
         'Azur Lane',
@@ -78,7 +78,7 @@ async def status_task():
     await client.change_presence(status=_status, activity=discord.Activity(name=_name, type=_type))
     print("User status updated")
 
-@tasks.loop(seconds=60)
+@tasks.loop(minutes=7)
 async def change_time_utc():
     channel = client.get_channel(920076324243140638) #Voice channel
     # Mountain Time Zone (UTC-7)
