@@ -85,7 +85,7 @@ async def change_time_utc():
     MTZ = pytz.timezone("America/Phoenix")
     datetime_utc = datetime.now(MTZ)
     time_utc = datetime_utc.strftime('%H:%M')
-    await channel.edit(name=f"UTC-7 {time_utc}")
+    await channel.edit(name=f"🕘 {time_utc} | UTC-7")
     print(channel)
 
 @client.event
