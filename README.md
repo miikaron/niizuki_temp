@@ -8,6 +8,7 @@
 ###### Discord tag: **Minakami Meron#6926**  
   
 ###### Data di inizio progetto: 31 dicembre 2018
+###### Data di abbandono: 28 novembre 2022 - Causa rimozione free tier Heroku
 ###### Bot responsabile: Niizuki#3761 (dal giorno 07/07/2019)
 ###### Bot precedente: Kaga#1416  
 
