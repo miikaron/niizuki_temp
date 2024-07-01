@@ -1,11 +1,11 @@
-![Community banner](https://cdn.discordapp.com/attachments/648862706258149396/723233824405979196/al_banner.png)
+![Community banner](https://github.com/miikaron/niizuki_temp/assets/46284578/41e10a86-2daa-4e80-b4d0-96d7f768001b)
 
 #### Server Discord: [link invito](https://discord.gg/DUQNWdu)  
 
 ## < Repository Github pubblica >  
 
 #### Progetto a cura di __watermelonTm__
-###### Discord tag: **Minakami Meron#6926**  
+###### Discord tag: **Minakami Meron#6926**  (account inattivo)
   
 ###### Data di inizio progetto: 31 dicembre 2018
 ###### Data di abbandono: 28 novembre 2022 - Causa rimozione free tier Heroku
